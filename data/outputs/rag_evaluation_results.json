@@ -1,0 +1,1510 @@
+[
+  {
+    "query_id": "SEM01",
+    "category": "semantic_factual",
+    "query": "What developments have enabled the rise of quantitative investors (quants), and how do they differ from traditional discretionary investors?",
+    "retrieved_chunks": [
+      "chunk_e9dbc9860c200c4a",
+      "chunk_f0d41995c19a42f8",
+      "chunk_005af18671e7dab4",
+      "chunk_a449942ec7fbfc65",
+      "chunk_fa626fbec884d89e",
+      "chunk_09712835319a6dd6",
+      "chunk_424b6cfa3bb0365e",
+      "chunk_8b24fd6f214db44c"
+    ],
+    "answer": "Based on the provided research context, the rise of quantitative investors (quants) has been enabled by advances in artificial intelligence (AI), along with the availability of big data and computing power [S1]. \n\nQuants differ from traditional discretionary investors in several key ways:\n* **Information Processing and Signals:** Quants possess superior information-processing capabilities and can extract and process richer or higher-dimensional data sources, such as non-traditional data (news feeds, social media, satellite imagery, etc.) and additional signals [S2, S4, S5, S6]. In contrast, traditional discretionary investors rely on human judgment [S2] and observe only public signals like $v_1$ [S6].\n* **Strategic Awareness and Myopia:** Quants tend to trade based on systematic strategies or signal-driven patterns [S2, S4] but are strategically weaker or myopic [S2, S6]. They have limited awareness or fail to internalize how their trades influence other investors and lack second-order strategic feedback [S2, S4, S5, S6]. Conversely, discretionary investors possess greater strategic sophistication and flexibility to adapt to changing market conditions [S2, S4, S7].",
+    "status": "success",
+    "citations": [
+      "S1",
+      "S2",
+      "S6"
+    ],
+    "traceability": [
+      {
+        "citation": "S1",
+        "chunk_id": "chunk_e9dbc9860c200c4a",
+        "source_file": "ssrn-5231379.pdf",
+        "pages": [
+          2
+        ],
+        "section_path": [
+          "1. Introduction"
+        ],
+        "element_ids": [
+          "elem_70cbfd2a20c7",
+          "elem_f5e945bfafb3"
+        ],
+        "figure_ids": [],
+        "table_ids": [],
+        "formula_ids": []
+      },
+      {
+        "citation": "S2",
+        "chunk_id": "chunk_f0d41995c19a42f8",
+        "source_file": "ssrn-5231379.pdf",
+        "pages": [
+          2,
+          3
+        ],
+        "section_path": [
+          "1. Introduction"
+        ],
+        "element_ids": [
+          "elem_27667c4fd9be",
+          "elem_1a8991ca2785",
+          "elem_8045e86b8f03",
+          "elem_a50754dca5c7"
+        ],
+        "figure_ids": [],
+        "table_ids": [],
+        "formula_ids": []
+      },
+      {
+        "citation": "S6",
+        "chunk_id": "chunk_09712835319a6dd6",
+        "source_file": "ssrn-5231379.pdf",
+        "pages": [
+          3,
+          4
+        ],
+        "section_path": [
+          "1. Introduction"
+        ],
+        "element_ids": [
+          "elem_fad0647a4c01",
+          "elem_a8a6b63dc22d",
+          "elem_7c235b17d797"
+        ],
+        "figure_ids": [],
+        "table_ids": [],
+        "formula_ids": []
+      }
+    ],
+    "guardrail": {
+      "allowed": true,
+      "blocked": false,
+      "reason": null,
+      "matched_patterns": [],
+      "sensitive_patterns": []
+    },
+    "llm_model": "gemini-3.5-flash-lite",
+    "timestamp": "2026-10-04T02:46:10.784821"
+  },
+  {
+    "query_id": "SEM02",
+    "category": "semantic_factual",
+    "query": "What additional information does the quant department observe compared with the discretionary departments, and what strategic weakness does the model assume for the quant department?",
+    "retrieved_chunks": [
+      "chunk_09712835319a6dd6",
+      "chunk_71a297291e0e40cb",
+      "chunk_5915ea8b2e4be8b1",
+      "chunk_6c2274b5d17be98e",
+      "chunk_f0d41995c19a42f8",
+      "chunk_d3fc5cd080f40f46",
+      "chunk_04f1f4faf8f98e4b",
+      "chunk_0b2bc0798ea175d1"
+    ],
+    "answer": "Compared to the discretionary departments (which observe only the public signal $v_1$), the quant department observes both the public signal $v_1$ and a noisy signal $\\theta_2$ (where $\\theta_2 = v_2 + \\epsilon$) about a second component of the asset's value, $v = v_1 + v_2$ [S1, S2, S7]. \n\nThe model assumes that the quant department is strategically weaker—specifically, it is strategically myopic [S1, S5]. In the baseline model, the quant department completely ignores the impact of its trading on the opponent's (firm A's) behavior and fails to account for how its trades reduce firm A's aggressiveness [S3, S4, S5].",
+    "status": "success",
+    "citations": [],
+    "traceability": [],
+    "guardrail": {
+      "allowed": true,
+      "blocked": false,
+      "reason": null,
+      "matched_patterns": [],
+      "sensitive_patterns": []
+    },
+    "llm_model": "gemini-3.5-flash-lite",
+    "timestamp": "2026-10-04T02:46:18.035991"
+  },
+  {
+    "query_id": "SEM03",
+    "category": "semantic_factual",
+    "query": "What two opposing effects arise when the level of quantitative investing increases, and how does each affect the firm's trading behavior?",
+    "retrieved_chunks": [
+      "chunk_dcdf81ef54fd467b",
+      "chunk_d9600aaaec5dcae2",
+      "chunk_89113ba0b1e1206a",
+      "chunk_f33702e73a268ec7",
+      "chunk_53c67217c9f61858",
+      "chunk_4bad4600eec35abb",
+      "chunk_8b24fd6f214db44c",
+      "chunk_1bbe3882afa639da"
+    ],
+    "answer": "Based on the provided research context, an increase in the level of quantitative investing ($\\gamma$ or $\\gamma_2$) gives rise to two primary opposing effects related to firm B (along with other effects depending on the model extension):\n\n1. **Processing capacity effect:** Higher quantitative investing increases firm B's information processing capacity, which improves access to the additional signal $\\theta_2$ and gives the firm a stronger informational advantage [S4]. This leads to firm B trading more aggressively on $\\theta_2$ [S1, S4].\n2. **Strategic myopia effect:** Greater quantitative investing increases firm B's strategic inflexibility, making it more likely to overestimate the opponent's (firm A's) trading aggressiveness [S1, S4]. This leads to firm B trading less aggressively on $v_1$ [S1, S4]. \n\n*(Note: When both firms have quant departments, an additional \"competition effect\" and \"internalising effect\" also arise [S1, S2, S4]).*",
+    "status": "success",
+    "citations": [
+      "S4"
+    ],
+    "traceability": [
+      {
+        "citation": "S4",
+        "chunk_id": "chunk_f33702e73a268ec7",
+        "source_file": "ssrn-5231379.pdf",
+        "pages": [
+          11,
+          12
+        ],
+        "section_path": [
+          "[Figure 1 here]"
+        ],
+        "element_ids": [
+          "elem_c620838387be",
+          "elem_d3130c6547e4"
+        ],
+        "figure_ids": [],
+        "table_ids": [],
+        "formula_ids": []
+      }
+    ],
+    "guardrail": {
+      "allowed": true,
+      "blocked": false,
+      "reason": null,
+      "matched_patterns": [],
+      "sensitive_patterns": []
+    },
+    "llm_model": "gemini-3.5-flash-lite",
+    "timestamp": "2026-10-04T02:46:25.921293"
+  },
+  {
+    "query_id": "SEM04",
+    "category": "semantic_factual",
+    "query": "When both firms have quant departments, how does an increase in firm B's quantitative investing level affect the trading behavior of firms A and B?",
+    "retrieved_chunks": [
+      "chunk_063dd6f2f3ba08b5",
+      "chunk_dcdf81ef54fd467b",
+      "chunk_53c67217c9f61858",
+      "chunk_4cabd736d1495ca9",
+      "chunk_c9d753d76688b512",
+      "chunk_d9600aaaec5dcae2",
+      "chunk_04f1f4faf8f98e4b",
+      "chunk_3a61830a8459dfa3"
+    ],
+    "answer": "When both firms have quant departments, an increase in firm B's quantitative investing level $\\gamma_2$ affects the trading behavior of firms A and B in the following ways [S2]:\n\n* **Firm B's trading behavior:** \n  1. Firm B trades more aggressively on $\\theta_2$ because it benefits from an improved capacity to process this signal (the processing capacity effect) [S2].\n  2. Firm B trades less aggressively on $v_1$ due to greater strategic inflexibility and a higher likelihood of overestimating the opponent's aggressiveness [S2].\n\n* **Firm A's trading behavior:**\n  1. Firm A's discretionary department trades more aggressively on $v_1$ as it internalizes firm B's reduced trading aggressiveness (the internalising effect) [S2].\n  2. Firm A's quant department trades less aggressively on $\\theta_2$ due to reduced information advantage resulting from increased competition from firm B (the competition effect) [S2].",
+    "status": "success",
+    "citations": [
+      "S2"
+    ],
+    "traceability": [
+      {
+        "citation": "S2",
+        "chunk_id": "chunk_dcdf81ef54fd467b",
+        "source_file": "ssrn-5231379.pdf",
+        "pages": [
+          17,
+          18
+        ],
+        "section_path": [
+          "3. Model with two quant firms"
+        ],
+        "element_ids": [
+          "elem_66963a0a42f2",
+          "elem_c7615764f556",
+          "elem_7a0b0981dd10",
+          "elem_3935206e6183"
+        ],
+        "figure_ids": [],
+        "table_ids": [],
+        "formula_ids": []
+      }
+    ],
+    "guardrail": {
+      "allowed": true,
+      "blocked": false,
+      "reason": null,
+      "matched_patterns": [],
+      "sensitive_patterns": []
+    },
+    "llm_model": "gemini-3.5-flash-lite",
+    "timestamp": "2026-10-04T02:46:33.191862"
+  },
+  {
+    "query_id": "SEM05",
+    "category": "semantic_factual",
+    "query": "What are the four key effects identified by the paper from the interaction between quantitative and discretionary investors?",
+    "retrieved_chunks": [
+      "chunk_fa626fbec884d89e",
+      "chunk_424b6cfa3bb0365e",
+      "chunk_09712835319a6dd6",
+      "chunk_f0d41995c19a42f8",
+      "chunk_005af18671e7dab4",
+      "chunk_53c67217c9f61858",
+      "chunk_a449942ec7fbfc65",
+      "chunk_04f1f4faf8f98e4b"
+    ],
+    "answer": "Based on the provided research evidence, the four key effects identified from the strategic interaction between quantitative and discretionary investors are:\n\n1. **The processing capacity effect**: This reflects quants' superior ability to extract and process information (or access additional signals), leading them to trade more aggressively on the additional signal they observe [S1, S2, S3].\n2. **The strategic myopia effect**: This captures quants' limited awareness (or incorrect perception) of how their trades influence other traders/firm A's behavior, causing them to trade less aggressively on the public signal [S1, S3].\n3. **The internalising effect**: This describes how discretionary investors respond strategically by increasing their trading aggressiveness on the public signal (in part to exploit the quants' strategic weakness) [S1, S3].\n4. **The competition effect**: This emerges when multiple quants trade on similar signals, diluting their informational advantage and leading them to trade less aggressively on the additional signal [S1, S2].",
+    "status": "success",
+    "citations": [],
+    "traceability": [],
+    "guardrail": {
+      "allowed": true,
+      "blocked": false,
+      "reason": null,
+      "matched_patterns": [],
+      "sensitive_patterns": []
+    },
+    "llm_model": "gemini-3.5-flash-lite",
+    "timestamp": "2026-10-04T02:46:40.769402"
+  },
+  {
+    "query_id": "SEM06",
+    "category": "semantic_factual",
+    "query": "How does Figure 3 examine the relationship between quantitative investing by firm B and price efficiency, and what signal quality levels are considered?",
+    "retrieved_chunks": [
+      "chunk_fc5ea3eb883909f7",
+      "chunk_4cabd736d1495ca9",
+      "chunk_5012b5ffe256fb49",
+      "chunk_59531984ed9802f5",
+      "chunk_1bbe3882afa639da",
+      "chunk_063dd6f2f3ba08b5",
+      "chunk_7f434aac78d0f8b9",
+      "chunk_d43c521781ebc012"
+    ],
+    "answer": "Figure 3 illustrates the impact of firm B's quantitative investing level ($\\gamma$) on price efficiency in the baseline model where firm A is fully discretionary [S1]. The figure considers three different levels of signal quality $q$:\n1. Low: $q = 0.04$ (represented by the black dashed line) [S1]\n2. Moderate: $q = 0.09$ (represented by the blue solid line) [S1]\n3. High: $q = 0.12$ (represented by the grey dashed line) [S1]\n\nThe other parameter value used in this figure is $\\Sigma_0 = 1$ [S1].",
+    "status": "success",
+    "citations": [
+      "S1"
+    ],
+    "traceability": [
+      {
+        "citation": "S1",
+        "chunk_id": "chunk_fc5ea3eb883909f7",
+        "source_file": "ssrn-5231379.pdf",
+        "pages": [
+          28
+        ],
+        "section_path": [
+          "Figure 1 Model timeline"
+        ],
+        "element_ids": [
+          "elem_bc2210d2db11",
+          "elem_512ef1eeb362"
+        ],
+        "figure_ids": [],
+        "table_ids": [],
+        "formula_ids": []
+      }
+    ],
+    "guardrail": {
+      "allowed": true,
+      "blocked": false,
+      "reason": null,
+      "matched_patterns": [],
+      "sensitive_patterns": []
+    },
+    "llm_model": "gemini-3.5-flash-lite",
+    "timestamp": "2026-10-04T02:46:48.243487"
+  },
+  {
+    "query_id": "SEM07",
+    "category": "semantic_factual",
+    "query": "What does the market maker observe when making the pricing decision, and how is the price determined?",
+    "retrieved_chunks": [
+      "chunk_d999f7a55de8e7df",
+      "chunk_a20c918f4b7c02b0",
+      "chunk_08917f4534c7ebc7",
+      "chunk_5915ea8b2e4be8b1",
+      "chunk_9e233bc65e220340",
+      "chunk_f0d41995c19a42f8",
+      "chunk_bd02703ecc4e9fcc",
+      "chunk_57206e1ea4b1a136"
+    ],
+    "answer": "Based on the provided research evidence, the market maker observes the aggregate order flow [S1], [S3]. Market makers follow weak-form efficiency defined as $p = E[v \\mid \\omega]$ and set prices that allow them to break even in expectation [S2]. In the extended model with two quant firms, the equilibrium price is given by $p = \\lambda'\\omega$ [S2].",
+    "status": "success",
+    "citations": [
+      "S1",
+      "S2",
+      "S3"
+    ],
+    "traceability": [
+      {
+        "citation": "S1",
+        "chunk_id": "chunk_d999f7a55de8e7df",
+        "source_file": "ssrn-5231379.pdf",
+        "pages": [
+          33
+        ],
+        "section_path": [
+          "Appendix A: Proofs"
+        ],
+        "element_ids": [
+          "elem_b39417d3cf40"
+        ],
+        "figure_ids": [],
+        "table_ids": [],
+        "formula_ids": []
+      },
+      {
+        "citation": "S2",
+        "chunk_id": "chunk_a20c918f4b7c02b0",
+        "source_file": "ssrn-5231379.pdf",
+        "pages": [
+          15
+        ],
+        "section_path": [
+          "3. Model with two quant firms"
+        ],
+        "element_ids": [
+          "elem_dbbe9c913bf3",
+          "elem_7144fe5072b2"
+        ],
+        "figure_ids": [],
+        "table_ids": [],
+        "formula_ids": []
+      },
+      {
+        "citation": "S3",
+        "chunk_id": "chunk_08917f4534c7ebc7",
+        "source_file": "ssrn-5231379.pdf",
+        "pages": [
+          25
+        ],
+        "section_path": [
+          "Figure 1 Model timeline"
+        ],
+        "element_ids": [
+          "elem_5f965d60c54c",
+          "elem_2584af95ce4d"
+        ],
+        "figure_ids": [],
+        "table_ids": [],
+        "formula_ids": []
+      }
+    ],
+    "guardrail": {
+      "allowed": true,
+      "blocked": false,
+      "reason": null,
+      "matched_patterns": [],
+      "sensitive_patterns": []
+    },
+    "llm_model": "gemini-3.5-flash-lite",
+    "timestamp": "2026-10-04T02:46:55.316580"
+  },
+  {
+    "query_id": "SEM08",
+    "category": "semantic_factual",
+    "query": "What are the effects of an increase in firm B's quantitative investing level on the trading aggressiveness of firms A and B?",
+    "retrieved_chunks": [
+      "chunk_f33702e73a268ec7",
+      "chunk_dcdf81ef54fd467b",
+      "chunk_1bbe3882afa639da",
+      "chunk_c9d753d76688b512",
+      "chunk_53c67217c9f61858",
+      "chunk_4cabd736d1495ca9",
+      "chunk_063dd6f2f3ba08b5",
+      "chunk_4bad4600eec35abb"
+    ],
+    "answer": "Based on the provided research context, an increase in firm B's quantitative investing level ($\\gamma$ or $\\gamma_2$) affects the trading aggressiveness of firms A and B through the following mechanisms:\n\n* **Firm B's trading aggressiveness on $\\theta_2$ (Processing capacity effect):** Firm B trades more aggressively on signal $\\theta_2$ because it benefits from an improved information processing capacity to access and estimate this signal [S1, S2].\n* **Firm B's trading aggressiveness on $v_1$ (Strategic myopia effect):** Firm B trades less aggressively on $v_1$ due to greater strategic inflexibility and a higher likelihood of overestimating its opponent's (firm A's) aggressiveness [S1, S2].\n* **Firm A's trading aggressiveness on $v_1$ (Internalising effect):** Firm A's discretionary department trades more aggressively on $v_1$ to exploit firm B's reduced strategic sensitivity and reduced trading aggressiveness [S1, S2].\n* **Firm A's quant department trading aggressiveness on $\\theta_2$ (Competition effect):** When both firms have quant departments, an increase in firm B's quantitative investing level reduces firm A's information advantage on $\\theta_2$ due to increased competition, causing firm A's quant department to trade less aggressively on $\\theta_2$ [S2].",
+    "status": "success",
+    "citations": [
+      "S2"
+    ],
+    "traceability": [
+      {
+        "citation": "S2",
+        "chunk_id": "chunk_dcdf81ef54fd467b",
+        "source_file": "ssrn-5231379.pdf",
+        "pages": [
+          17,
+          18
+        ],
+        "section_path": [
+          "3. Model with two quant firms"
+        ],
+        "element_ids": [
+          "elem_66963a0a42f2",
+          "elem_c7615764f556",
+          "elem_7a0b0981dd10",
+          "elem_3935206e6183"
+        ],
+        "figure_ids": [],
+        "table_ids": [],
+        "formula_ids": []
+      }
+    ],
+    "guardrail": {
+      "allowed": true,
+      "blocked": false,
+      "reason": null,
+      "matched_patterns": [],
+      "sensitive_patterns": []
+    },
+    "llm_model": "gemini-3.5-flash-lite",
+    "timestamp": "2026-10-04T02:47:03.195820"
+  },
+  {
+    "query_id": "SEM09",
+    "category": "semantic_factual",
+    "query": "When firm A is fully quantitative, how does price efficiency change as firm B's quantitative investing level increases?",
+    "retrieved_chunks": [
+      "chunk_f1c8dbdb6d16fb1b",
+      "chunk_1bbe3882afa639da",
+      "chunk_4cabd736d1495ca9",
+      "chunk_d43c521781ebc012",
+      "chunk_063dd6f2f3ba08b5",
+      "chunk_fc5ea3eb883909f7",
+      "chunk_3a61830a8459dfa3",
+      "chunk_59531984ed9802f5"
+    ],
+    "answer": "When firm A is fully quantitative, an increase in firm B's quantitative investing level harms price efficiency, regardless of whether the signal quality is low, moderate, or high [S1, S2]. The downward-sloping curves in the model's figures illustrate that price efficiency is always harmed by increases in firm B's quantitative investing level when firm A is fully quant [S2].",
+    "status": "success",
+    "citations": [
+      "S2"
+    ],
+    "traceability": [
+      {
+        "citation": "S2",
+        "chunk_id": "chunk_1bbe3882afa639da",
+        "source_file": "ssrn-5231379.pdf",
+        "pages": [
+          20
+        ],
+        "section_path": [
+          "[Figure 5 here]"
+        ],
+        "element_ids": [
+          "elem_d365df67bc42",
+          "elem_c7511969084d"
+        ],
+        "figure_ids": [],
+        "table_ids": [],
+        "formula_ids": []
+      }
+    ],
+    "guardrail": {
+      "allowed": true,
+      "blocked": false,
+      "reason": null,
+      "matched_patterns": [],
+      "sensitive_patterns": []
+    },
+    "llm_model": "gemini-3.5-flash-lite",
+    "timestamp": "2026-10-04T02:47:10.157353"
+  },
+  {
+    "query_id": "SEM10",
+    "category": "semantic_factual",
+    "query": "What is the sign of the second-order cross partial derivative of price efficiency with respect to the quantitative investing levels of firms A and B?",
+    "retrieved_chunks": [
+      "chunk_eb09f9460cb45dca",
+      "chunk_c84e2c84aa4247b8",
+      "chunk_4cabd736d1495ca9",
+      "chunk_0d5de1ab0af4d08e",
+      "chunk_16a08d503fa8a01e",
+      "chunk_59531984ed9802f5",
+      "chunk_64235aefea9e8332",
+      "chunk_5edcc82498f03d3f"
+    ],
+    "answer": "Based on the provided research context, the exact sign of the second-order cross partial derivative of price efficiency with respect to $\\gamma_1$ and $\\gamma_2$ is not explicitly stated as a single universal sign. Instead, the text notes that to determine the sign, the analysis considers five specific scenarios case by case [S2], and the marginal effect of $\\gamma_2$ on price efficiency decreases as $\\gamma_1$ increases [S3]. The research also illustrates this via second-order partial derivatives and cross-partial derivatives plotted in figures [S1, S5, S8], but does not state a blanket sign for the entire domain.\n\nThe retrieved research context is insufficient to answer this reliably with a single overarching sign.",
+    "status": "success",
+    "citations": [
+      "S2",
+      "S3"
+    ],
+    "traceability": [
+      {
+        "citation": "S2",
+        "chunk_id": "chunk_c84e2c84aa4247b8",
+        "source_file": "ssrn-5231379.pdf",
+        "pages": [
+          39
+        ],
+        "section_path": [
+          "Appendix A: Proofs"
+        ],
+        "element_ids": [
+          "elem_ef10dd683b8b"
+        ],
+        "figure_ids": [],
+        "table_ids": [],
+        "formula_ids": []
+      },
+      {
+        "citation": "S3",
+        "chunk_id": "chunk_4cabd736d1495ca9",
+        "source_file": "ssrn-5231379.pdf",
+        "pages": [
+          19
+        ],
+        "section_path": [
+          "[Figure 4 here]"
+        ],
+        "element_ids": [
+          "elem_d32076ef813a",
+          "elem_c8c648833e35",
+          "elem_7f058c0adeb1"
+        ],
+        "figure_ids": [],
+        "table_ids": [],
+        "formula_ids": []
+      }
+    ],
+    "guardrail": {
+      "allowed": true,
+      "blocked": false,
+      "reason": null,
+      "matched_patterns": [],
+      "sensitive_patterns": []
+    },
+    "llm_model": "gemini-3.5-flash-lite",
+    "timestamp": "2026-10-04T02:47:17.351534"
+  },
+  {
+    "query_id": "FOR01",
+    "category": "formula_quantitative",
+    "query": "In the Fama-French five-factor model, what are the five factors used to explain the expected excess return of a portfolio?",
+    "retrieved_chunks": [
+      "chunk_8942dfade273c92c",
+      "chunk_f23c5eac31620d91",
+      "chunk_5c5948571e8acf37",
+      "chunk_1ad2a3d80c65ce8e",
+      "chunk_d262ea689bb06018",
+      "chunk_da8bb856135d3782",
+      "chunk_54c52f69d1c407fb",
+      "chunk_3bef52a61ad0fd5b"
+    ],
+    "answer": "Based on the provided research context, the five factors in the Fama-French five-factor model are:\n\n1. **Market risk premium** (or market factor / Mkt-RF) [S1, S2, S7]\n2. **Size factor** (SMB, Small Minus Big) [S2, S7]\n3. **Value factor** (HML, High Minus Low) [S2, S7]\n4. **Profitability factor** (RMW, Robust Minus Weak) [S2, S7]\n5. **Investment factor** (CMA, Conservative Minus Aggressive) [S2, S7]",
+    "status": "success",
+    "citations": [],
+    "traceability": [],
+    "guardrail": {
+      "allowed": true,
+      "blocked": false,
+      "reason": null,
+      "matched_patterns": [],
+      "sensitive_patterns": []
+    },
+    "llm_model": "gemini-3.5-flash-lite",
+    "timestamp": "2026-10-04T02:47:25.110810"
+  },
+  {
+    "query_id": "FOR02",
+    "category": "formula_quantitative",
+    "query": "What stochastic differential equations define the Heston model for the asset price and its variance process, and how are the two Brownian motions related?",
+    "retrieved_chunks": [
+      "chunk_417712ad5503b98d",
+      "chunk_ade1fc3ccee16e9d",
+      "chunk_5e5b39f2de038c8c",
+      "chunk_3168afc1522bc2ce",
+      "chunk_4e28df6a38465974",
+      "chunk_9e233bc65e220340",
+      "chunk_e48da7897da713a5",
+      "chunk_15020f10723829ba"
+    ],
+    "answer": "The retrieved research context is insufficient to answer this reliably. (The context mentions the Heston model [S3, S4, S6] and states that the Bates model extends the Heston stochastic volatility framework [S2], but it does not provide the specific stochastic differential equations defining the Heston model for the asset price and its variance process, nor how their two Brownian motions are related.)",
+    "status": "success",
+    "citations": [
+      "S2"
+    ],
+    "traceability": [
+      {
+        "citation": "S2",
+        "chunk_id": "chunk_ade1fc3ccee16e9d",
+        "source_file": "2605.27945v1.pdf",
+        "pages": [
+          2
+        ],
+        "section_path": [
+          "3.2 Bates (1996) Model with Jumps-Diffusion Extension"
+        ],
+        "element_ids": [
+          "elem_9bbcf44ea7a8"
+        ],
+        "figure_ids": [],
+        "table_ids": [],
+        "formula_ids": []
+      }
+    ],
+    "guardrail": {
+      "allowed": true,
+      "blocked": false,
+      "reason": null,
+      "matched_patterns": [],
+      "sensitive_patterns": []
+    },
+    "llm_model": "gemini-3.5-flash-lite",
+    "timestamp": "2026-10-04T02:47:33.096461"
+  },
+  {
+    "query_id": "FOR03",
+    "category": "formula_quantitative",
+    "query": "How is the annualized Sharpe ratio defined in the paper, and what do the numerator and denominator represent?",
+    "retrieved_chunks": [
+      "chunk_24c2a8a4ef69d7fb",
+      "chunk_2d5a665d32df22df",
+      "chunk_0e48806e8f3fe390",
+      "chunk_534b082d53aa8480",
+      "chunk_d90dbe43c9aa8270",
+      "chunk_3110ac39e91f90f6",
+      "chunk_7f9c9f7f66597303",
+      "chunk_e113f6becc19d311"
+    ],
+    "answer": "Based on the provided research context:\n\n* The Sharpe ratio of the market portfolio is calculated as the annualized excess return divided by the annualized volatility [S1].\n* For evaluations where the dataset consists solely of stocks (with no risk-free assets), the effective risk-free rate used for the calculation is zero [S6].\n* For the benchmarks, the Sharpe ratio (along with the Sortino and Calmar ratios) is annualized directly from the returns [S2]. \n\nIn summary, the numerator represents the annualized excess return (or annualized return when the risk-free rate is zero), and the denominator represents the annualized volatility.",
+    "status": "success",
+    "citations": [
+      "S1",
+      "S2",
+      "S6"
+    ],
+    "traceability": [
+      {
+        "citation": "S1",
+        "chunk_id": "chunk_24c2a8a4ef69d7fb",
+        "source_file": "2605.29413v1.pdf",
+        "pages": [
+          24
+        ],
+        "section_path": [
+          "7.1 Market Portfolio Construction and Sharpe Ratio"
+        ],
+        "element_ids": [
+          "elem_543dfd995744"
+        ],
+        "figure_ids": [],
+        "table_ids": [],
+        "formula_ids": []
+      },
+      {
+        "citation": "S2",
+        "chunk_id": "chunk_2d5a665d32df22df",
+        "source_file": "2605.28853v1.pdf",
+        "pages": [
+          6
+        ],
+        "section_path": [
+          "D. Evaluation Settings"
+        ],
+        "element_ids": [
+          "elem_fd0eaee02097"
+        ],
+        "figure_ids": [],
+        "table_ids": [],
+        "formula_ids": []
+      },
+      {
+        "citation": "S6",
+        "chunk_id": "chunk_3110ac39e91f90f6",
+        "source_file": "2605.28853v1.pdf",
+        "pages": [
+          3
+        ],
+        "section_path": [
+          "C. Loss Function Construction"
+        ],
+        "element_ids": [
+          "elem_7cad49356707"
+        ],
+        "figure_ids": [],
+        "table_ids": [],
+        "formula_ids": []
+      }
+    ],
+    "guardrail": {
+      "allowed": true,
+      "blocked": false,
+      "reason": null,
+      "matched_patterns": [],
+      "sensitive_patterns": []
+    },
+    "llm_model": "gemini-3.5-flash-lite",
+    "timestamp": "2026-10-04T02:47:41.083664"
+  },
+  {
+    "query_id": "FOR04",
+    "category": "formula_quantitative",
+    "query": "How is the Sharpe ratio defined in the paper's out-of-sample performance evaluation, and what do its numerator and denominator represent?",
+    "retrieved_chunks": [
+      "chunk_0e48806e8f3fe390",
+      "chunk_3b1452efc65b7612",
+      "chunk_7d744f2dd09bd5f8",
+      "chunk_e113f6becc19d311",
+      "chunk_24c2a8a4ef69d7fb",
+      "chunk_bd8ceca09fb0aa31",
+      "chunk_66ab7bd70eb1b74c",
+      "chunk_3110ac39e91f90f6"
+    ],
+    "answer": "Based on the provided research context, the formula or exact definitions of the numerator and denominator for the Sharpe ratio used specifically in the out-of-sample performance evaluation (October to December 2025) are not fully detailed; the text only states that the Sharpe ratio was computed, without providing its specific numerator and denominator components for that evaluation [S1]. \n\nHowever, elsewhere in the context, the Sharpe ratio of the market portfolio is calculated as the annualized excess return divided by the annualized volatility [S5], and for datasets consisting of only stocks with no risk-free asset, the effective risk-free rate for calculating the Sharpe ratio is zero [S8]. \n\nThe retrieved research context is otherwise insufficient to answer this reliably regarding the out-of-sample performance evaluation section.",
+    "status": "success",
+    "citations": [
+      "S1",
+      "S5",
+      "S8"
+    ],
+    "traceability": [
+      {
+        "citation": "S1",
+        "chunk_id": "chunk_0e48806e8f3fe390",
+        "source_file": "2605.29413v1.pdf",
+        "pages": [
+          11
+        ],
+        "section_path": [
+          "4.3 Out-of-Sample Performance Evaluation"
+        ],
+        "element_ids": [
+          "elem_9f9c0b2cf0e7",
+          "elem_133a6726963c"
+        ],
+        "figure_ids": [],
+        "table_ids": [],
+        "formula_ids": []
+      },
+      {
+        "citation": "S5",
+        "chunk_id": "chunk_24c2a8a4ef69d7fb",
+        "source_file": "2605.29413v1.pdf",
+        "pages": [
+          24
+        ],
+        "section_path": [
+          "7.1 Market Portfolio Construction and Sharpe Ratio"
+        ],
+        "element_ids": [
+          "elem_543dfd995744"
+        ],
+        "figure_ids": [],
+        "table_ids": [],
+        "formula_ids": []
+      },
+      {
+        "citation": "S8",
+        "chunk_id": "chunk_3110ac39e91f90f6",
+        "source_file": "2605.28853v1.pdf",
+        "pages": [
+          3
+        ],
+        "section_path": [
+          "C. Loss Function Construction"
+        ],
+        "element_ids": [
+          "elem_7cad49356707"
+        ],
+        "figure_ids": [],
+        "table_ids": [],
+        "formula_ids": []
+      }
+    ],
+    "guardrail": {
+      "allowed": true,
+      "blocked": false,
+      "reason": null,
+      "matched_patterns": [],
+      "sensitive_patterns": []
+    },
+    "llm_model": "gemini-3.5-flash-lite",
+    "timestamp": "2026-10-04T02:47:48.686877"
+  },
+  {
+    "query_id": "FOR05",
+    "category": "formula_quantitative",
+    "query": "How are the weights used in fractional differencing defined, and what role does the differencing parameter d play in the formula?",
+    "retrieved_chunks": [
+      "chunk_a34ccbf43687aa1d",
+      "chunk_386ccbad8070b386",
+      "chunk_4a3c9cbc96eb6d66",
+      "chunk_aba4c735738203f2",
+      "chunk_fcebef5d5cb4e3a0",
+      "chunk_d09ea721970c48a7",
+      "chunk_7b3385d62ad1b7c1",
+      "chunk_f3bc6dc015457f7d"
+    ],
+    "answer": "Based on the provided research context, the fractional differencing operator $(1-L)^d$ produces weights $w_k$ that are defined using the binomial expansion as follows [S1, S8]:\n- $w_0 = 1$ [S5]\n- $w_1 = -d$ [S5]\n- $w_2 = \\frac{d(d - 1)}{2}$ [S5], and so on.\n\nThe differencing parameter $d$ plays the following roles in the formula and its properties:\n- **Weight magnitude and decay:** For large $k$, the weights decay hyperbolically at the rate $|w_k| \\sim k^{-(1+d)}$ [S2, S5]. This slow, hyperbolic decay generates long-memory dependence [S2, S5].\n- **Relationship to integer differencing:** When $d = 1$, the operator collapses to a finite-memory operator (the standard first-difference operator) where all weights beyond $k = 1$ are exactly zero [S2, S5]. \n- **Fractional values:** For $d \\in (0, 1)$, the parameter allows the operator to act as a low-pass filter that attenuates stochastic trends while preserving long-memory dependence (the \"stationary but maximally persistent\" transformation) [S5].",
+    "status": "success",
+    "citations": [
+      "S5"
+    ],
+    "traceability": [
+      {
+        "citation": "S5",
+        "chunk_id": "chunk_fcebef5d5cb4e3a0",
+        "source_file": "2605.27977v1.pdf",
+        "pages": [
+          22
+        ],
+        "section_path": [
+          "A. Appendix: Fractional Differencing - Weights and Implementation"
+        ],
+        "element_ids": [
+          "elem_ade8f00bd70c"
+        ],
+        "figure_ids": [],
+        "table_ids": [],
+        "formula_ids": []
+      }
+    ],
+    "guardrail": {
+      "allowed": true,
+      "blocked": false,
+      "reason": null,
+      "matched_patterns": [],
+      "sensitive_patterns": []
+    },
+    "llm_model": "gemini-3.5-flash-lite",
+    "timestamp": "2026-10-04T02:47:56.862533"
+  },
+  {
+    "query_id": "FOR06",
+    "category": "formula_quantitative",
+    "query": "How does the Heterogeneous Graph Convolutional Network (HGCN) update the representation of a node at layer l+1?",
+    "retrieved_chunks": [
+      "chunk_92b01b6d3a54e92d",
+      "chunk_9535045d5f3ea0b1",
+      "chunk_b7311dbef456f1e3",
+      "chunk_85b289232a5e07ab",
+      "chunk_c180ab6eb2fcbf2e",
+      "chunk_4846e9f1fa42c625",
+      "chunk_83fc37074d937673",
+      "chunk_9945c18efe9c204e"
+    ],
+    "answer": "Based on the provided research context, the model employs two heterogeneous graph convolutions (RGCNConv($\\cdot$)) with an ELU activation between the first and second layer, making final predictions based on the updated node representations of stock nodes following the convolutional layers [S1]. The propagation model for calculating the forward-pass update of a node $v_i$ in a multi-relational heterogeneous graph is motivated by the R-GCN architecture (Schlichtkrull et al., 2018) [S3]. \n\nHowever, the specific mathematical formula or exact layer-wise update equation for $l+1$ is not explicitly detailed beyond these references in the provided text.",
+    "status": "success",
+    "citations": [
+      "S1",
+      "S3"
+    ],
+    "traceability": [
+      {
+        "citation": "S1",
+        "chunk_id": "chunk_92b01b6d3a54e92d",
+        "source_file": "2605.23953v1.pdf",
+        "pages": [
+          7
+        ],
+        "section_path": [
+          "4.4 Loss Function"
+        ],
+        "element_ids": [
+          "elem_4010b4ae9401"
+        ],
+        "figure_ids": [],
+        "table_ids": [],
+        "formula_ids": []
+      },
+      {
+        "citation": "S3",
+        "chunk_id": "chunk_b7311dbef456f1e3",
+        "source_file": "2605.23953v1.pdf",
+        "pages": [
+          6
+        ],
+        "section_path": [
+          "4.2 Heterogeneous graph convolutional networkModule (HGCN)"
+        ],
+        "element_ids": [
+          "elem_a51a0e03fe7a"
+        ],
+        "figure_ids": [],
+        "table_ids": [],
+        "formula_ids": []
+      }
+    ],
+    "guardrail": {
+      "allowed": true,
+      "blocked": false,
+      "reason": null,
+      "matched_patterns": [],
+      "sensitive_patterns": []
+    },
+    "llm_model": "gemini-3.5-flash-lite",
+    "timestamp": "2026-10-04T02:48:04.432008"
+  },
+  {
+    "query_id": "TAB01",
+    "category": "table_based",
+    "query": "Among Rotation (Top-1), Rotation (60/40), Equal-Weight (Monthly), and Buy & Hold SPY, which strategy has the highest Sharpe ratio, and what are its volatility and maximum drawdown?",
+    "retrieved_chunks": [
+      "chunk_06ea599aa8431264",
+      "chunk_deafa9b7c7df2926",
+      "chunk_1c4c2e0a4c014fd6",
+      "chunk_e7a1ed3ee6f42ca4",
+      "chunk_1becde9540ad41bd",
+      "chunk_24c2a8a4ef69d7fb",
+      "chunk_0e48806e8f3fe390",
+      "chunk_3b1452efc65b7612"
+    ],
+    "answer": "Based on the provided research context, the performance metrics are split between the full sample (Table 6) and the out-of-sample test window (Table 7) [S3, S4]. \n\n**Out-of-Sample Test Window (Table 7):**\n* **Equal-Weight (Monthly)** and **Rotation (60/40)** tie for the highest Sharpe ratio among the four listed strategies, both achieving a Sharpe ratio of **0.83** [S3].\n* For **Equal-Weight (Monthly)**: Volatility is **11.0%** and maximum drawdown is **-24.0%** [S3].\n* For **Rotation (60/40)**: Volatility is **12.8%** and maximum drawdown is **-29.3%** [S3].\n\n**Full Sample (Table 6):**\n* **Equal-Weight (Monthly)** has the highest Sharpe ratio among the four strategies, with a value of **0.80** [S4].\n* Its volatility is **9.7%** and its maximum drawdown is **-24.0%** [S4].",
+    "status": "success",
+    "citations": [
+      "S3",
+      "S4"
+    ],
+    "traceability": [
+      {
+        "citation": "S3",
+        "chunk_id": "chunk_1c4c2e0a4c014fd6",
+        "source_file": "2605.27848v1.pdf",
+        "pages": [
+          6
+        ],
+        "section_path": [
+          "7. Performance Evaluation"
+        ],
+        "element_ids": [
+          "elem_7f190ed09160"
+        ],
+        "figure_ids": [],
+        "table_ids": [
+          "elem_7f190ed09160"
+        ],
+        "formula_ids": []
+      },
+      {
+        "citation": "S4",
+        "chunk_id": "chunk_e7a1ed3ee6f42ca4",
+        "source_file": "2605.27848v1.pdf",
+        "pages": [
+          6
+        ],
+        "section_path": [
+          "7. Performance Evaluation"
+        ],
+        "element_ids": [
+          "elem_33fd10c33a27"
+        ],
+        "figure_ids": [],
+        "table_ids": [
+          "elem_33fd10c33a27"
+        ],
+        "formula_ids": []
+      }
+    ],
+    "guardrail": {
+      "allowed": true,
+      "blocked": false,
+      "reason": null,
+      "matched_patterns": [],
+      "sensitive_patterns": []
+    },
+    "llm_model": "gemini-3.5-flash-lite",
+    "timestamp": "2026-10-04T02:48:12.622693"
+  },
+  {
+    "query_id": "TAB02",
+    "category": "table_based",
+    "query": "According to the pricing metrics table, how do the Lewis and Carr-Madan methods compare in terms of MSE and MAE?",
+    "retrieved_chunks": [
+      "chunk_3c3dd89c78646243",
+      "chunk_2c9de89da17dd9c8",
+      "chunk_e3c8cbd3869ed518",
+      "chunk_ef60cf07692add7d",
+      "chunk_328dab770d2bfb26",
+      "chunk_29913b6776bfa0dd",
+      "chunk_294a43ac039d3da3",
+      "chunk_fdd2758559601f57"
+    ],
+    "answer": "According to the pricing metrics table (Table 3), the Lewis and Carr-Madan methods compare as follows:\n\n* **MSE (Mean Squared Error):** Lewis has an MSE of 2.226, while Carr-Madan has an MSE of 2.262 [S1].\n* **MAE (Mean Absolute Error):** Lewis has an MAE of 1.23, while Carr-Madan has an MAE of 1.22 [S1].",
+    "status": "success",
+    "citations": [
+      "S1"
+    ],
+    "traceability": [
+      {
+        "citation": "S1",
+        "chunk_id": "chunk_3c3dd89c78646243",
+        "source_file": "2605.27945v1.pdf",
+        "pages": [
+          3
+        ],
+        "section_path": [
+          "4.1.2 Calibration via Carr-Madan (1999) FFT Approach"
+        ],
+        "element_ids": [
+          "elem_f89abac5e052"
+        ],
+        "figure_ids": [],
+        "table_ids": [
+          "elem_f89abac5e052"
+        ],
+        "formula_ids": []
+      }
+    ],
+    "guardrail": {
+      "allowed": true,
+      "blocked": false,
+      "reason": null,
+      "matched_patterns": [],
+      "sensitive_patterns": []
+    },
+    "llm_model": "gemini-3.5-flash-lite",
+    "timestamp": "2026-10-04T02:48:19.688318"
+  },
+  {
+    "query_id": "TAB03",
+    "category": "table_based",
+    "query": "In the 30% out-of-sample test window, how does the RL optimal policy compare with the rotation benchmarks and Buy & Hold SPY in terms of annualized return and Sharpe ratio?",
+    "retrieved_chunks": [
+      "chunk_1c4c2e0a4c014fd6",
+      "chunk_5153bbd1fd7af67d",
+      "chunk_06ea599aa8431264",
+      "chunk_da74bbb8b63a0d77",
+      "chunk_3b1452efc65b7612",
+      "chunk_deafa9b7c7df2926",
+      "chunk_e113f6becc19d311",
+      "chunk_7f14b4a18d1da213"
+    ],
+    "answer": "Based on Table 7 (Performance Comparison - RL vs. Rotation Benchmarks in the 30% out-of-sample test window), the annualized return and Sharpe ratio for each strategy are as follows:\n\n* **RL $\\pi^*$ (net):** Annualized Return of **14.3%** and a Sharpe ratio of **0.83** [S1].\n* **Rotation (Top-1):** Annualized Return of **12.6%** and a Sharpe ratio of **0.79** [S1].\n* **Rotation (60/40):** Annualized Return of **10.5%** and a Sharpe ratio of **0.82** [S1].\n* **Equal-Weight (Monthly):** Annualized Return of **9.1%** and a Sharpe ratio of **0.83** [S1].\n* **Buy & Hold SPY:** Annualized Return of **13.2%** and a Sharpe ratio of **0.65** [S1].",
+    "status": "success",
+    "citations": [
+      "S1"
+    ],
+    "traceability": [
+      {
+        "citation": "S1",
+        "chunk_id": "chunk_1c4c2e0a4c014fd6",
+        "source_file": "2605.27848v1.pdf",
+        "pages": [
+          6
+        ],
+        "section_path": [
+          "7. Performance Evaluation"
+        ],
+        "element_ids": [
+          "elem_7f190ed09160"
+        ],
+        "figure_ids": [],
+        "table_ids": [
+          "elem_7f190ed09160"
+        ],
+        "formula_ids": []
+      }
+    ],
+    "guardrail": {
+      "allowed": true,
+      "blocked": false,
+      "reason": null,
+      "matched_patterns": [],
+      "sensitive_patterns": []
+    },
+    "llm_model": "gemini-3.5-flash-lite",
+    "timestamp": "2026-10-04T02:48:27.203260"
+  },
+  {
+    "query_id": "TAB04",
+    "category": "table_based",
+    "query": "For the fractionally differenced level series at d = 0.4, how do the ADF test results differ between the constant specification and the constant-plus-trend specification at the 5% significance level?",
+    "retrieved_chunks": [
+      "chunk_4fe6f147f98899be",
+      "chunk_193c182ea80c08d3",
+      "chunk_d09ea721970c48a7",
+      "chunk_7b0c39d297cb84cc",
+      "chunk_6cdb5ec276cea28e",
+      "chunk_aba4c735738203f2",
+      "chunk_e2f972bf5cce51f4",
+      "chunk_f3bc6dc015457f7d"
+    ],
+    "answer": "For the fractionally differenced level series at $d = 0.4$, the ADF test results at the 5% significance level differ as follows:\n\n* **Constant (c) specification:** The test statistic is $-3.338$ with a $p$-value of $0.013$ (compared to a 5% critical value of $-2.863$), which leads to the **rejection** of the null hypothesis ($H_0$) of a unit root [S2].\n* **Constant + Trend (ct) specification:** The test statistic is $-3.327$ with a $p$-value of $0.062$ (compared to a 5% critical value of $-3.413$), which leads to a **failure to reject** the null hypothesis ($H_0$) [S2].",
+    "status": "success",
+    "citations": [
+      "S2"
+    ],
+    "traceability": [
+      {
+        "citation": "S2",
+        "chunk_id": "chunk_193c182ea80c08d3",
+        "source_file": "2605.27977v1.pdf",
+        "pages": [
+          11
+        ],
+        "section_path": [
+          "4.3 The Fractionally Differenced Level Series at d = 0.4"
+        ],
+        "element_ids": [
+          "elem_47c69e307b74"
+        ],
+        "figure_ids": [],
+        "table_ids": [
+          "elem_47c69e307b74"
+        ],
+        "formula_ids": []
+      }
+    ],
+    "guardrail": {
+      "allowed": true,
+      "blocked": false,
+      "reason": null,
+      "matched_patterns": [],
+      "sensitive_patterns": []
+    },
+    "llm_model": "gemini-3.5-flash-lite",
+    "timestamp": "2026-10-04T02:48:34.637880"
+  },
+  {
+    "query_id": "TAB05",
+    "category": "table_based",
+    "query": "According to the main stock-price forecasting results, how does the Ours model compare with MASTER on the CSI300 and CSI500 datasets in terms of IC and RankIC?",
+    "retrieved_chunks": [
+      "chunk_9d8485730f733161",
+      "chunk_abcf75b7b97b5243",
+      "chunk_f8f49ad056b7939a",
+      "chunk_25551282d509c397",
+      "chunk_c3b28d4681221c5b",
+      "chunk_6ec68b6dff41e095",
+      "chunk_716a9ce747ba22b4",
+      "chunk_3b1452efc65b7612"
+    ],
+    "answer": "Based on Table 2 (\"Main results of GTHGAT and baselines for stock price forecasting task on different datasets\") [S1]:\n\n- **CSI300 Dataset:**\n  - **IC:** The \"Ours\" model achieves 0.0325, which outperforms MASTER at 0.0312 [S1].\n  - **RankIC:** MASTER achieves 0.0275, which outperforms the \"Ours\" model at 0.0251 [S1].\n\n- **CSI500 Dataset:**\n  - **IC:** The \"Ours\" model achieves 0.0345, which outperforms MASTER at 0.0334 [S1].\n  - **RankIC:** MASTER achieves 0.0280, which outperforms the \"Ours\" model at 0.0276 [S1].",
+    "status": "success",
+    "citations": [
+      "S1"
+    ],
+    "traceability": [
+      {
+        "citation": "S1",
+        "chunk_id": "chunk_9d8485730f733161",
+        "source_file": "2605.23953v1.pdf",
+        "pages": [
+          9
+        ],
+        "section_path": [
+          "5.1 Experimental setup"
+        ],
+        "element_ids": [
+          "elem_03738e39a310"
+        ],
+        "figure_ids": [],
+        "table_ids": [
+          "elem_03738e39a310"
+        ],
+        "formula_ids": []
+      }
+    ],
+    "guardrail": {
+      "allowed": true,
+      "blocked": false,
+      "reason": null,
+      "matched_patterns": [],
+      "sensitive_patterns": []
+    },
+    "llm_model": "gemini-3.5-flash-lite",
+    "timestamp": "2026-10-04T02:48:42.011135"
+  },
+  {
+    "query_id": "TAB06",
+    "category": "table_based",
+    "query": "For the OU and mGBM volatility processes, how do the approximation errors change as the truncation level increases from N = 1 to N = 5, particularly for the ITM SDE results?",
+    "retrieved_chunks": [
+      "chunk_205cf36a150856b0",
+      "chunk_3bcb6c4d4ee6b6c5",
+      "chunk_1cbaabd50217e75b",
+      "chunk_18cbb35911ff53f8",
+      "chunk_3a656448c2d370a7",
+      "chunk_954de259ba85528e",
+      "chunk_8d7fb2e2abd3088e",
+      "chunk_a1a6586ef29949af"
+    ],
+    "answer": "Based on the provided research context, both numerical schemes show monotonically decreasing errors as the truncation levels become higher [S1]. \n\nSpecifically for the ITM (in-the-money) SDE results in Table 3 [S3]:\n* **For the OU process:** The ITM SDE errors decrease from $3.78 \\times 10^{-1}$ at $N = 1$ to $9.44 \\times 10^{-4}$ at $N = 5$ (with intermediate values of $5.30 \\times 10^{-2}$ for $N = 2$, $1.20 \\times 10^{-2}$ for $N = 3$, and $3.26 \\times 10^{-3}$ for $N = 4$) [S3].\n* **For the mGBM process:** The ITM SDE errors decrease from $2.00 \\times 10^{-3}$ at $N = 1$ to $1.40 \\times 10^{-5}$ at $N = 5$ (with intermediate values of $9.14 \\times 10^{-4}$ for $N = 2$, $3.73 \\times 10^{-4}$ for $N = 3$, and $9.20 \\times 10^{-5}$ for $N = 4$) [S3].",
+    "status": "success",
+    "citations": [
+      "S1",
+      "S3"
+    ],
+    "traceability": [
+      {
+        "citation": "S1",
+        "chunk_id": "chunk_205cf36a150856b0",
+        "source_file": "2508.15237v2 (1).pdf",
+        "pages": [
+          19
+        ],
+        "section_path": [
+          "3.1 Finite-difference schemes for the SDE and PDE with linear signature representations"
+        ],
+        "element_ids": [
+          "elem_97580f8890ed",
+          "elem_f6c82983318a"
+        ],
+        "figure_ids": [],
+        "table_ids": [],
+        "formula_ids": []
+      },
+      {
+        "citation": "S3",
+        "chunk_id": "chunk_1cbaabd50217e75b",
+        "source_file": "2508.15237v2 (1).pdf",
+        "pages": [
+          19
+        ],
+        "section_path": [
+          "3.1 Finite-difference schemes for the SDE and PDE with linear signature representations"
+        ],
+        "element_ids": [
+          "elem_fa0b1020b43f"
+        ],
+        "figure_ids": [],
+        "table_ids": [
+          "elem_fa0b1020b43f"
+        ],
+        "formula_ids": []
+      }
+    ],
+    "guardrail": {
+      "allowed": true,
+      "blocked": false,
+      "reason": null,
+      "matched_patterns": [],
+      "sensitive_patterns": []
+    },
+    "llm_model": "gemini-3.5-flash-lite",
+    "timestamp": "2026-10-04T02:48:49.796099"
+  },
+  {
+    "query_id": "FIG01",
+    "category": "figure_based",
+    "query": "For the plot showing trading aggressiveness as a function of firm B's quantitative investing level, how do the two plotted measures change as γ increases, and how does their relationship differ between q = 0.04 and q = 0.09?",
+    "retrieved_chunks": [
+      "chunk_2072dd9b89b35143",
+      "chunk_77ce35a659ce0c21",
+      "chunk_f33702e73a268ec7",
+      "chunk_d9600aaaec5dcae2",
+      "chunk_4cabd736d1495ca9",
+      "chunk_59531984ed9802f5",
+      "chunk_fc5ea3eb883909f7",
+      "chunk_53c67217c9f61858"
+    ],
+    "answer": "The retrieved research context is insufficient to answer this reliably. While the context mentions that Figure 2 illustrates the derivatives of trading aggressiveness measures with respect to $\\gamma$ for different values of $q$ ($q = 0.04$, $0.09$, and $0.12$) [S2] and identifies the plotted lines (the blue dashed line as the absolute value of the strategic myopia effect and the purple line as the sum of the processing capacity and internalising effects) [S2], it does not describe the specific directional changes or differences in the relationship between these two measures as $\\gamma$ increases for $q = 0.04$ versus $q = 0.09$.",
+    "status": "success",
+    "citations": [
+      "S2"
+    ],
+    "traceability": [
+      {
+        "citation": "S2",
+        "chunk_id": "chunk_77ce35a659ce0c21",
+        "source_file": "ssrn-5231379.pdf",
+        "pages": [
+          26
+        ],
+        "section_path": [
+          "Figure 1 Model timeline"
+        ],
+        "element_ids": [
+          "elem_e03ed745dfa0",
+          "elem_a5fb94f0fa7e"
+        ],
+        "figure_ids": [],
+        "table_ids": [],
+        "formula_ids": []
+      }
+    ],
+    "guardrail": {
+      "allowed": true,
+      "blocked": false,
+      "reason": null,
+      "matched_patterns": [],
+      "sensitive_patterns": []
+    },
+    "llm_model": "gemini-3.5-flash-lite",
+    "timestamp": "2026-10-04T02:48:57.063385"
+  },
+  {
+    "query_id": "FIG02",
+    "category": "figure_based",
+    "query": "In the market-versus-model pricing comparison between the Lewis and Carr-Madan methods, what does the distribution of pricing errors indicate about the typical error, spread, and outliers, and how do these observations compare with the reported MSE and MAE values?",
+    "retrieved_chunks": [
+      "chunk_2c9de89da17dd9c8",
+      "chunk_ef60cf07692add7d",
+      "chunk_9e233bc65e220340",
+      "chunk_c1ee0c570bdcc101",
+      "chunk_57206e1ea4b1a136",
+      "chunk_9e9a306cfd12690e",
+      "chunk_3c3dd89c78646243",
+      "chunk_8752d95242472f3a"
+    ],
+    "answer": "Based on the provided research context, the distribution of pricing errors and its comparison to metrics show the following:\n\n* **High Fidelity / Low Errors:** The pricing error boxplots and tight clustering around the 45° line demonstrate high fidelity between model and market prices, indicating that model-market price errors remain low [S3, S4]. \n* **Outliers:** Outliers are rare and occur primarily at deep out-of-the-money (OTM) strikes where bid-ask spreads widen [S4].\n* **MSE and MAE Values:** The pricing metrics for the two Fourier-based methods (Lewis vs. Carr-Madan) report a Mean Squared Error (MSE) of 2.226 for Lewis and 2.262 for Carr-Madan, and a Mean Absolute Error (MAE) of 1.23 for Lewis and 1.22 for Carr-Madan [S7]. \n\nThe retrieved research context does not provide further details regarding the specific \"spread\" of the pricing error distribution beyond these points.",
+    "status": "success",
+    "citations": [
+      "S4",
+      "S7"
+    ],
+    "traceability": [
+      {
+        "citation": "S4",
+        "chunk_id": "chunk_c1ee0c570bdcc101",
+        "source_file": "2605.27945v1.pdf",
+        "pages": [
+          4
+        ],
+        "section_path": [
+          "4.1.2 Calibration via Carr-Madan (1999) FFT Approach"
+        ],
+        "element_ids": [
+          "elem_88d516c4c592",
+          "elem_5e86fab51e16"
+        ],
+        "figure_ids": [],
+        "table_ids": [],
+        "formula_ids": []
+      },
+      {
+        "citation": "S7",
+        "chunk_id": "chunk_3c3dd89c78646243",
+        "source_file": "2605.27945v1.pdf",
+        "pages": [
+          3
+        ],
+        "section_path": [
+          "4.1.2 Calibration via Carr-Madan (1999) FFT Approach"
+        ],
+        "element_ids": [
+          "elem_f89abac5e052"
+        ],
+        "figure_ids": [],
+        "table_ids": [
+          "elem_f89abac5e052"
+        ],
+        "formula_ids": []
+      }
+    ],
+    "guardrail": {
+      "allowed": true,
+      "blocked": false,
+      "reason": null,
+      "matched_patterns": [],
+      "sensitive_patterns": []
+    },
+    "llm_model": "gemini-3.5-flash-lite",
+    "timestamp": "2026-10-04T02:49:04.539117"
+  },
+  {
+    "query_id": "MULTI01",
+    "category": "multi_chunk_reasoning",
+    "query": "How do the processing capacity, strategic myopia, and internalising effects interact as quantitative investing increases, and why does this produce different patterns of overall trading aggressiveness for low, intermediate, and high values of q?",
+    "retrieved_chunks": [
+      "chunk_086684db2dad937a",
+      "chunk_f33702e73a268ec7",
+      "chunk_06075e7ed7858256",
+      "chunk_09712835319a6dd6",
+      "chunk_f1c8dbdb6d16fb1b",
+      "chunk_e9ba649e3ae79be5",
+      "chunk_7f434aac78d0f8b9",
+      "chunk_dcdf81ef54fd467b"
+    ],
+    "answer": "Based on the provided research context, increasing the level of quantitative investing ($\\gamma$) generates three main effects:\n\n1. **Processing Capacity Effect:** Firm B becomes better at extracting information from an additional noisy signal ($\\theta_2$), leading to increased trading aggressiveness on $\\theta_2$ [S2, S4]. The magnitude of this effect increases with signal quality $q$ [S1, S4].\n2. **Strategic Myopia Effect:** Greater strategic inflexibility causes firm B to overestimate its opponent's trading aggressiveness, resulting in reduced trading aggressiveness on the public signal $v_1$ [S2, S4]. \n3. **Internalising Effect:** The fully discretionary firm A responds by trading more aggressively on $v_1$ to exploit firm B's strategic weakness [S2, S4].\n\n**Interaction and Impact on Overall Trading Aggressiveness:**\nAs quantitative investing ($\\gamma$) increases, the strategic myopia effect decreases at a faster rate than the internalising effect [S1, S4]. The net impact on overall trading aggressiveness depends on the relative strength of these effects, which varies with signal quality $q$ [S4]:\n\n* **Low Signal Quality ($q$ is low, e.g., $q = 0.04$):** The negative strategic myopia effect dominates the sum of the positive processing capacity and internalising effects [S1]. Consequently, increasing $\\gamma$ decreases overall trading aggressiveness for all values of $\\gamma$ [S1].\n* **High Signal Quality ($q$ is high, e.g., $q = 0.12$):** The positive effects (processing capacity and internalising) dominate the negative strategic myopia effect [S1]. As a result, overall trading aggressiveness increases with $\\gamma$ [S1].\n* **Intermediate Values of $q$:** The net impact depends on the balance of these interacting effects across different levels of $\\gamma$ (as illustrated across panels in Figure 2 for varying $q$) [S2, S4].",
+    "status": "success",
+    "citations": [
+      "S1",
+      "S4"
+    ],
+    "traceability": [
+      {
+        "citation": "S1",
+        "chunk_id": "chunk_086684db2dad937a",
+        "source_file": "ssrn-5231379.pdf",
+        "pages": [
+          12
+        ],
+        "section_path": [
+          "[Figure 2 here]"
+        ],
+        "element_ids": [
+          "elem_2e10f9c33fee",
+          "elem_11873002b348",
+          "elem_eb57cb5a5985"
+        ],
+        "figure_ids": [],
+        "table_ids": [],
+        "formula_ids": []
+      },
+      {
+        "citation": "S4",
+        "chunk_id": "chunk_09712835319a6dd6",
+        "source_file": "ssrn-5231379.pdf",
+        "pages": [
+          3,
+          4
+        ],
+        "section_path": [
+          "1. Introduction"
+        ],
+        "element_ids": [
+          "elem_fad0647a4c01",
+          "elem_a8a6b63dc22d",
+          "elem_7c235b17d797"
+        ],
+        "figure_ids": [],
+        "table_ids": [],
+        "formula_ids": []
+      }
+    ],
+    "guardrail": {
+      "allowed": true,
+      "blocked": false,
+      "reason": null,
+      "matched_patterns": [],
+      "sensitive_patterns": []
+    },
+    "llm_model": "gemini-3.5-flash-lite",
+    "timestamp": "2026-10-04T02:49:12.759665"
+  },
+  {
+    "query_id": "MULTIDOC01",
+    "category": "cross_document",
+    "query": "How is risk-adjusted performance treated differently in the two studies: how does the first study use the Sharpe ratio during model selection, and how does the second study use Sharpe ratio to characterize the performance of its RL-based portfolio allocation strategy?",
+    "retrieved_chunks": [
+      "chunk_3adaa213317c460b",
+      "chunk_e1d74bb73b0157c9",
+      "chunk_69d2e9e33793dbb3",
+      "chunk_7f9c9f7f66597303",
+      "chunk_24c2a8a4ef69d7fb",
+      "chunk_3b1452efc65b7612",
+      "chunk_e113f6becc19d311",
+      "chunk_0e48806e8f3fe390"
+    ],
+    "answer": "Based on the provided research evidence, the two studies treat the Sharpe ratio as follows:\n\n* **First study (Model Selection):** The study uses the Sharpe ratio as the primary measure of risk-adjusted return (alongside CVaR as the primary measure of tail risk) because risk-adjusted metrics (Sharpe, Sortino, Calmar, Omega) were found to be highly correlated [S1]. It applied Pareto dominance on validation-set performance using the Sharpe ratio and CVaR to yield a frontier of non-dominated model-loss combinations [S1]. Additionally, a Principal Component Analysis (PCA) was performed where PC1 captured risk-adjusted metrics (including Sharpe), and the resulting Pareto frontier in this space helped identify candidate models for final test-set evaluation [S1].\n* **Second study (RL-based Portfolio Allocation Performance):** The study uses the Sharpe ratio to evaluate and characterize the performance of its reinforcement learning (RL)-driven strategy, noting that the RL policy achieves the highest risk-adjusted performance by delivering the strongest Sharpe ratio alongside materially lower drawdowns compared to alternative rule-based rotation and passive benchmarks [S2].",
+    "status": "success",
+    "citations": [
+      "S1",
+      "S2"
+    ],
+    "traceability": [
+      {
+        "citation": "S1",
+        "chunk_id": "chunk_3adaa213317c460b",
+        "source_file": "2605.28853v1.pdf",
+        "pages": [
+          5
+        ],
+        "section_path": [
+          "F. Candidate Model Selection"
+        ],
+        "element_ids": [
+          "elem_45637a72e07b"
+        ],
+        "figure_ids": [],
+        "table_ids": [],
+        "formula_ids": []
+      },
+      {
+        "citation": "S2",
+        "chunk_id": "chunk_e1d74bb73b0157c9",
+        "source_file": "2605.27848v1.pdf",
+        "pages": [
+          1
+        ],
+        "section_path": [
+          "Abstract"
+        ],
+        "element_ids": [
+          "elem_3e6b995d64bd",
+          "elem_fdf0d40af1b3"
+        ],
+        "figure_ids": [],
+        "table_ids": [],
+        "formula_ids": []
+      }
+    ],
+    "guardrail": {
+      "allowed": true,
+      "blocked": false,
+      "reason": null,
+      "matched_patterns": [],
+      "sensitive_patterns": []
+    },
+    "llm_model": "gemini-3.5-flash-lite",
+    "timestamp": "2026-10-04T02:49:20.639823"
+  }
+]

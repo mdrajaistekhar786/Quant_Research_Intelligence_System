@@ -1,0 +1,274 @@
+query_id,category,query,semantic_similarity,lexical_f1,reference_token_count,generated_token_count,length_ratio,reference_answer,generated_answer
+SEM01,semantic_factual,"What developments have enabled the rise of quantitative investors (quants), and how do they differ from traditional discretionary investors?",0.9345070123672485,0.40540540540540543,129,167,1.2945736434108528,"**Developments enabling the rise of quants:**
+The rise of quantitative investors (quants) has been enabled by advances in artificial intelligence (AI), alongside the availability of big data and computing power. These developments allow quants to use quantitative models and algorithms to identify trading opportunities, construct portfolios, and execute trades at scale.
+
+**How quants differ from traditional discretionary investors:**
+While the provided text does not explicitly detail the traits of traditional discretionary investors, it notes that quants use quantitative models and algorithms rather than human discretion, and they are praised for their discipline and ability to eliminate behavioral biases. In contrast, when quants trade on similar signals and models, they may react simultaneously to the same events, leading to crowded trades, fire sales, and feedback loops that can destabilize markets.","Based on the provided research context, the rise of quantitative investors (quants) has been enabled by advances in artificial intelligence (AI), along with the availability of big data and computing power [S1]. 
+
+Quants differ from traditional discretionary investors in several key ways:
+* **Information Processing and Signals:** Quants possess superior information-processing capabilities and can extract and process richer or higher-dimensional data sources, such as non-traditional data (news feeds, social media, satellite imagery, etc.) and additional signals [S2, S4, S5, S6]. In contrast, traditional discretionary investors rely on human judgment [S2] and observe only public signals like $v_1$ [S6].
+* **Strategic Awareness and Myopia:** Quants tend to trade based on systematic strategies or signal-driven patterns [S2, S4] but are strategically weaker or myopic [S2, S6]. They have limited awareness or fail to internalize how their trades influence other investors and lack second-order strategic feedback [S2, S4, S5, S6]. Conversely, discretionary investors possess greater strategic sophistication and flexibility to adapt to changing market conditions [S2, S4, S7]."
+SEM02,semantic_factual,"What additional information does the quant department observe compared with the discretionary departments, and what strategic weakness does the model assume for the quant department?",0.9272651076316833,0.49367088607594933,65,93,1.4307692307692308,"Compared with the discretionary departments (which have the information set $\phi_A = \phi_D = v_1$), the quant department observes an additional signal, $\theta_2$, resulting in the information set $\phi_Q = {v_1, \theta_2}$. This additional signal captures the quant department's greater information processing capacity, with a quality of $q = \Sigma_0 / (\Sigma_0 + \sigma^2_\epsilon)$.
+
+The strategic weakness assumed for the quant department is that it ignores the fact that its trading can reduce the aggressiveness of firm A.","Compared to the discretionary departments (which observe only the public signal $v_1$), the quant department observes both the public signal $v_1$ and a noisy signal $\theta_2$ (where $\theta_2 = v_2 + \epsilon$) about a second component of the asset's value, $v = v_1 + v_2$ [S1, S2, S7]. 
+
+The model assumes that the quant department is strategically weaker—specifically, it is strategically myopic [S1, S5]. In the baseline model, the quant department completely ignores the impact of its trading on the opponent's (firm A's) behavior and fails to account for how its trades reduce firm A's aggressiveness [S3, S4, S5]."
+SEM03,semantic_factual,"What two opposing effects arise when the level of quantitative investing increases, and how does each affect the firm's trading behavior?",0.9619447588920593,0.6551724137931034,96,136,1.4166666666666667,"Based on the provided context, an increase in the level of quantitative investing ($\gamma$) gives rise to two opposing effects:
+
+1. **The Processing Capacity Effect:** This effect increases the firm's information processing capacity, which improves its access to the additional signal $\theta_2$ and provides a stronger informational advantage in estimating $v_2$. As a result, the firm's trading aggressiveness on $\theta_2$ increases.
+2. **The Strategic Myopia Effect:** This effect increases the firm's strategic inflexibility, making it more likely to overestimate the trading aggressiveness of the competing firm. As a result, this leads to reduced trading aggressiveness on $v_1$.","Based on the provided research context, an increase in the level of quantitative investing ($\gamma$ or $\gamma_2$) gives rise to two primary opposing effects related to firm B (along with other effects depending on the model extension):
+
+1. **Processing capacity effect:** Higher quantitative investing increases firm B's information processing capacity, which improves access to the additional signal $\theta_2$ and gives the firm a stronger informational advantage [S4]. This leads to firm B trading more aggressively on $\theta_2$ [S1, S4].
+2. **Strategic myopia effect:** Greater quantitative investing increases firm B's strategic inflexibility, making it more likely to overestimate the opponent's (firm A's) trading aggressiveness [S1, S4]. This leads to firm B trading less aggressively on $v_1$ [S1, S4]. 
+
+*(Note: When both firms have quant departments, an additional ""competition effect"" and ""internalising effect"" also arise [S1, S2, S4]).*"
+SEM04,semantic_factual,"When both firms have quant departments, how does an increase in firm B's quantitative investing level affect the trading behavior of firms A and B?",0.9632995128631592,0.6936416184971098,212,134,0.6320754716981132,"When both firms have quant departments, an increase in firm B's quantitative investing level ($\gamma_2$) affects the trading behavior of firms A and B through the following effects:
+
+1. **Firm B's trading behavior:**
+   - **On signal $\theta_2$:** Firm B trades more aggressively on $\theta_2$ because it benefits from an improved capacity to process this signal (processing capacity effect). 
+   - **On signal $v_1$:** Firm B trades less aggressively on $v_1$ due to greater strategic inflexibility and a higher likelihood of overestimating the opponent's aggressiveness (strategic myopia effect).
+
+2. **Firm A's trading behavior:**
+   - **On signal $v_1$:** Firm A trades more aggressively on $v_1$ because its discretionary department internalizes firm B's reduced trading aggressiveness (internalizing effect).
+   - **On signal $\theta_2$:** Firm A's quant department trades less aggressively on $\theta_2$ due to increased competition from firm B, which reduces firm A's information advantage on $\theta_2$ (competition effect).
+
+**Additional dynamics:**
+- The magnitude of the processing capacity effect increases in signal quality $q$ at a faster rate than the magnitude of the competition effect.
+- The magnitude of the strategic myopia effect decreases in the quantitative investing level $\gamma_2$ at a faster rate than the magnitude of the internalizing effect.
+- When $q$ is high, the processing capacity effect is more likely to dominate, making the net impact of an increase in $\gamma_2$ on overall trading aggressiveness positive.","When both firms have quant departments, an increase in firm B's quantitative investing level $\gamma_2$ affects the trading behavior of firms A and B in the following ways [S2]:
+
+* **Firm B's trading behavior:** 
+  1. Firm B trades more aggressively on $\theta_2$ because it benefits from an improved capacity to process this signal (the processing capacity effect) [S2].
+  2. Firm B trades less aggressively on $v_1$ due to greater strategic inflexibility and a higher likelihood of overestimating the opponent's aggressiveness [S2].
+
+* **Firm A's trading behavior:**
+  1. Firm A's discretionary department trades more aggressively on $v_1$ as it internalizes firm B's reduced trading aggressiveness (the internalising effect) [S2].
+  2. Firm A's quant department trades less aggressively on $\theta_2$ due to reduced information advantage resulting from increased competition from firm B (the competition effect) [S2]."
+SEM05,semantic_factual,What are the four key effects identified by the paper from the interaction between quantitative and discretionary investors?,0.9909585118293762,0.8421052631578948,115,151,1.3130434782608695,"Based on the provided context, the four key effects identified from the interaction between quantitative and discretionary investors are:
+
+1. **The processing capacity effect**: Reflects quants' superior ability to extract and process information, leading them to trade more aggressively on the additional signal they observe.
+2. **The strategic myopia effect**: Captures quants' limited awareness of how their trades influence other traders, causing them to trade less aggressively on the public signal.
+3. **The internalising effect**: Discretionary investors responding strategically by increasing their trading aggressiveness on the public signal.
+4. **The competition effect**: Occurs when multiple quants trade on similar signals, diluting their informational advantage and leading them to trade less aggressively on the additional signal.","Based on the provided research evidence, the four key effects identified from the strategic interaction between quantitative and discretionary investors are:
+
+1. **The processing capacity effect**: This reflects quants' superior ability to extract and process information (or access additional signals), leading them to trade more aggressively on the additional signal they observe [S1, S2, S3].
+2. **The strategic myopia effect**: This captures quants' limited awareness (or incorrect perception) of how their trades influence other traders/firm A's behavior, causing them to trade less aggressively on the public signal [S1, S3].
+3. **The internalising effect**: This describes how discretionary investors respond strategically by increasing their trading aggressiveness on the public signal (in part to exploit the quants' strategic weakness) [S1, S3].
+4. **The competition effect**: This emerges when multiple quants trade on similar signals, diluting their informational advantage and leading them to trade less aggressively on the additional signal [S1, S2]."
+SEM06,semantic_factual,"How does Figure 3 examine the relationship between quantitative investing by firm B and price efficiency, and what signal quality levels are considered?",0.9872984886169434,0.7692307692307692,88,81,0.9204545454545454,"Figure 3 illustrates the impact of the quantitative investing level $\gamma$ of firm B (while firm A is fully discretionary) on price efficiency within the baseline model. 
+
+It examines this relationship by plotting price efficiency as a function of $\gamma$ across three distinct signal quality $q$ levels:
+1. Low: $q = 0.04$ (plotted by the black dashed line)
+2. Moderate: $q = 0.09$ (plotted by the blue solid line)
+3. High: $q = 0.12$ (plotted by the grey dashed line)
+
+The other parameter value held constant in this evaluation is $\Sigma_0 = 1$.","Figure 3 illustrates the impact of firm B's quantitative investing level ($\gamma$) on price efficiency in the baseline model where firm A is fully discretionary [S1]. The figure considers three different levels of signal quality $q$:
+1. Low: $q = 0.04$ (represented by the black dashed line) [S1]
+2. Moderate: $q = 0.09$ (represented by the blue solid line) [S1]
+3. High: $q = 0.12$ (represented by the grey dashed line) [S1]
+
+The other parameter value used in this figure is $\Sigma_0 = 1$ [S1]."
+SEM07,semantic_factual,"What does the market maker observe when making the pricing decision, and how is the price determined?",0.754287838935852,0.33766233766233766,18,59,3.2777777777777777,"Based on the provided source, the market maker observes the aggregate order flow when making the pricing decision.","Based on the provided research evidence, the market maker observes the aggregate order flow [S1], [S3]. Market makers follow weak-form efficiency defined as $p = E[v \mid \omega]$ and set prices that allow them to break even in expectation [S2]. In the extended model with two quant firms, the equilibrium price is given by $p = \lambda'\omega$ [S2]."
+SEM08,semantic_factual,What are the effects of an increase in firm B's quantitative investing level on the trading aggressiveness of firms A and B?,0.9224635362625122,0.24031007751937983,81,177,2.185185185185185,"Based on the provided context, an increase in firm B's quantitative investing level ($\gamma_2$) has the following effects on the trading aggressiveness of firms A and B:
+
+* **Firm B:** 
+  * $\frac{\partial \tilde{\beta}'_B}{\partial \gamma_2} > 0$ (increases)
+  * $\frac{\partial \tilde{\alpha}'_B}{\partial \gamma_2} < 0$ (decreases)
+
+* **Firm A:** 
+  * $\frac{\partial \tilde{\beta}'_A}{\partial \gamma_2} \leq 0$ (decreases or remains unchanged; the equal sign holds only when $\gamma_1 = 0$)
+  * $\frac{\partial \tilde{\alpha}'_A}{\partial \gamma_2} \geq 0$ (increases or remains unchanged; the equal sign holds only when $\gamma_1 = 1$)","Based on the provided research context, an increase in firm B's quantitative investing level ($\gamma$ or $\gamma_2$) affects the trading aggressiveness of firms A and B through the following mechanisms:
+
+* **Firm B's trading aggressiveness on $\theta_2$ (Processing capacity effect):** Firm B trades more aggressively on signal $\theta_2$ because it benefits from an improved information processing capacity to access and estimate this signal [S1, S2].
+* **Firm B's trading aggressiveness on $v_1$ (Strategic myopia effect):** Firm B trades less aggressively on $v_1$ due to greater strategic inflexibility and a higher likelihood of overestimating its opponent's (firm A's) aggressiveness [S1, S2].
+* **Firm A's trading aggressiveness on $v_1$ (Internalising effect):** Firm A's discretionary department trades more aggressively on $v_1$ to exploit firm B's reduced strategic sensitivity and reduced trading aggressiveness [S1, S2].
+* **Firm A's quant department trading aggressiveness on $\theta_2$ (Competition effect):** When both firms have quant departments, an increase in firm B's quantitative investing level reduces firm A's information advantage on $\theta_2$ due to increased competition, causing firm A's quant department to trade less aggressively on $\theta_2$ [S2]."
+SEM09,semantic_factual,"When firm A is fully quantitative, how does price efficiency change as firm B's quantitative investing level increases?",0.8983340859413147,0.32989690721649484,34,63,1.8529411764705883,"When firm A is fully quantitative ($\gamma_1 = 1$), price efficiency ($\text{PE}_{\text{both quants}}$) always decreases as firm B's quantitative investing level ($\gamma_2$) increases ($\partial \text{PE}_{\text{both quants}} / \partial \gamma_2 < 0$ for any $\gamma_2$).","When firm A is fully quantitative, an increase in firm B's quantitative investing level harms price efficiency, regardless of whether the signal quality is low, moderate, or high [S1, S2]. The downward-sloping curves in the model's figures illustrate that price efficiency is always harmed by increases in firm B's quantitative investing level when firm A is fully quant [S2]."
+SEM10,semantic_factual,What is the sign of the second-order cross partial derivative of price efficiency with respect to the quantitative investing levels of firms A and B?,0.905038058757782,0.38961038961038963,45,109,2.422222222222222,"Based on the provided context, the sign of the second-order cross partial derivative of price efficiency with respect to the quantitative investing levels of firms A and B ($\frac{\partial PE_{\text{both quants}}}{\partial \gamma_2 \partial \gamma_1}$) is negative ($< 0$) for all combinations of $\gamma_1$, $\gamma_2$, and $q$.","Based on the provided research context, the exact sign of the second-order cross partial derivative of price efficiency with respect to $\gamma_1$ and $\gamma_2$ is not explicitly stated as a single universal sign. Instead, the text notes that to determine the sign, the analysis considers five specific scenarios case by case [S2], and the marginal effect of $\gamma_2$ on price efficiency decreases as $\gamma_1$ increases [S3]. The research also illustrates this via second-order partial derivatives and cross-partial derivatives plotted in figures [S1, S5, S8], but does not state a blanket sign for the entire domain.
+
+The retrieved research context is insufficient to answer this reliably with a single overarching sign."
+FOR01,formula_quantitative,"In the Fama-French five-factor model, what are the five factors used to explain the expected excess return of a portfolio?",0.8833727836608887,0.65,55,65,1.1818181818181819,"Based on the provided context, the five factors used in the Fama-French five-factor model to explain the expected excess return of a portfolio are:
+
+1. $Rm - Rf$ (the excess return of the market)
+2. $SMB$ (Small Minus Big)
+3. $HML$ (High Minus Low)
+4. $RMW$ (Robust Minus Weak)
+5. $CMA$ (Conservative Minus Aggressive)","Based on the provided research context, the five factors in the Fama-French five-factor model are:
+
+1. **Market risk premium** (or market factor / Mkt-RF) [S1, S2, S7]
+2. **Size factor** (SMB, Small Minus Big) [S2, S7]
+3. **Value factor** (HML, High Minus Low) [S2, S7]
+4. **Profitability factor** (RMW, Robust Minus Weak) [S2, S7]
+5. **Investment factor** (CMA, Conservative Minus Aggressive) [S2, S7]"
+FOR02,formula_quantitative,"What stochastic differential equations define the Heston model for the asset price and its variance process, and how are the two Brownian motions related?",0.8819015622138977,0.4444444444444444,55,62,1.1272727272727272,"Based on the provided context, the Heston model is defined by the following stochastic differential equations for the asset price ($S_t$) and its variance process ($v_t$):
+
+* Asset price process:
+  $$dS_t = rS_t dt + \sqrt{v_t} S_t dW_t^S$$
+
+* Variance process:
+  $$dv_t = \kappa(\theta - v_t) dt + \sigma \sqrt{v_t} dW_t^v$$
+
+The two Brownian motions ($W_t^S$ and $W_t^v$) are related by the correlation equation:
+$$dW_t^S dW_t^v = \rho dt$$","The retrieved research context is insufficient to answer this reliably. (The context mentions the Heston model [S3, S4, S6] and states that the Bates model extends the Heston stochastic volatility framework [S2], but it does not provide the specific stochastic differential equations defining the Heston model for the asset price and its variance process, nor how their two Brownian motions are related.)"
+FOR03,formula_quantitative,"How is the annualized Sharpe ratio defined in the paper, and what do the numerator and denominator represent?",0.8534592390060425,0.25668449197860954,89,98,1.101123595505618,"Based on the provided text, the annualized Sharpe ratio is defined as:
+
+$$\text{SR@cbps}(v; m, a, h) = \sqrt{252} \frac{E[R^{\text{net}}_t (v; m, a, h, c)]}{\text{Std}[R^{\text{net}}_t (v; m, a, h, c)]}$$
+
+Where:
+* **The numerator** ($E[R^{\text{net}}_t (v; m, a, h, c)]$): Represents the expected net return.
+* **The denominator** ($\text{Std}[R^{\text{net}}_t (v; m, a, h, c)]$): Represents the standard deviation of the net return.
+* $\sqrt{252}$ represents the annualization factor (based on 252 trading days).","Based on the provided research context:
+
+* The Sharpe ratio of the market portfolio is calculated as the annualized excess return divided by the annualized volatility [S1].
+* For evaluations where the dataset consists solely of stocks (with no risk-free assets), the effective risk-free rate used for the calculation is zero [S6].
+* For the benchmarks, the Sharpe ratio (along with the Sortino and Calmar ratios) is annualized directly from the returns [S2]. 
+
+In summary, the numerator represents the annualized excess return (or annualized return when the risk-free rate is zero), and the denominator represents the annualized volatility."
+FOR04,formula_quantitative,"How is the Sharpe ratio defined in the paper's out-of-sample performance evaluation, and what do its numerator and denominator represent?",0.9094641208648682,0.3508771929824562,43,128,2.9767441860465116,"Based on the provided context, the Sharpe ratio ($SR$) is defined by the formula:
+
+$$SR = \frac{R_p - R_f}{\sigma_p}$$
+
+Where:
+* **Numerator ($R_p - R_f$)**: Represents the portfolio excess return, where $R_p$ is the portfolio return and $R_f$ is the risk-free rate.
+* **Denominator ($\sigma_p$)**: Represents the volatility (standard deviation) of the portfolio.","Based on the provided research context, the formula or exact definitions of the numerator and denominator for the Sharpe ratio used specifically in the out-of-sample performance evaluation (October to December 2025) are not fully detailed; the text only states that the Sharpe ratio was computed, without providing its specific numerator and denominator components for that evaluation [S1]. 
+
+However, elsewhere in the context, the Sharpe ratio of the market portfolio is calculated as the annualized excess return divided by the annualized volatility [S5], and for datasets consisting of only stocks with no risk-free asset, the effective risk-free rate for calculating the Sharpe ratio is zero [S8]. 
+
+The retrieved research context is otherwise insufficient to answer this reliably regarding the out-of-sample performance evaluation section."
+FOR05,formula_quantitative,"How are the weights used in fractional differencing defined, and what role does the differencing parameter d play in the formula?",0.8792397975921631,0.4201680672268908,89,149,1.6741573033707866,"Based on the provided context, the weights $w_k$ used in fractional differencing are defined by the formula:
+
+$$w_k = (-1)^k \binom{d}{k} = (-1)^k \frac{d(d - 1) \cdots (d - k + 1)}{k!}$$
+
+The differencing parameter $d$ plays a central role in the formula by determining the sequence of weights through the product terms in the numerator ($d(d - 1) \cdots (d - k + 1)$), which are evaluated across each term index $k$ starting from $k=0$ in the binomial coefficient expansion of $(1 - L)^d = \sum_{k=0}^{\infty} w_k L^k$.","Based on the provided research context, the fractional differencing operator $(1-L)^d$ produces weights $w_k$ that are defined using the binomial expansion as follows [S1, S8]:
+- $w_0 = 1$ [S5]
+- $w_1 = -d$ [S5]
+- $w_2 = \frac{d(d - 1)}{2}$ [S5], and so on.
+
+The differencing parameter $d$ plays the following roles in the formula and its properties:
+- **Weight magnitude and decay:** For large $k$, the weights decay hyperbolically at the rate $|w_k| \sim k^{-(1+d)}$ [S2, S5]. This slow, hyperbolic decay generates long-memory dependence [S2, S5].
+- **Relationship to integer differencing:** When $d = 1$, the operator collapses to a finite-memory operator (the standard first-difference operator) where all weights beyond $k = 1$ are exactly zero [S2, S5]. 
+- **Fractional values:** For $d \in (0, 1)$, the parameter allows the operator to act as a low-pass filter that attenuates stochastic trends while preserving long-memory dependence (the ""stationary but maximally persistent"" transformation) [S5]."
+FOR06,formula_quantitative,How does the Heterogeneous Graph Convolutional Network (HGCN) update the representation of a node at layer l+1?,0.9184954166412354,0.23703703703703707,38,97,2.5526315789473686,"The Heterogeneous Graph Convolutional Network (HGCN) updates the representation of a node $v_i$ at layer $l+1$ using the following equation:
+
+$$h_i^{(l+1)} = \sigma \left( \sum_{e \in E} \sum_{v_j \in \mathcal{N}_e(v_i)} \frac{1}{c_{v_i, e}} W_r^{(l)} h_j^{(l)} + W_0^{(l)} h_i^{(l)} \right)$$","Based on the provided research context, the model employs two heterogeneous graph convolutions (RGCNConv($\cdot$)) with an ELU activation between the first and second layer, making final predictions based on the updated node representations of stock nodes following the convolutional layers [S1]. The propagation model for calculating the forward-pass update of a node $v_i$ in a multi-relational heterogeneous graph is motivated by the R-GCN architecture (Schlichtkrull et al., 2018) [S3]. 
+
+However, the specific mathematical formula or exact layer-wise update equation for $l+1$ is not explicitly detailed beyond these references in the provided text."
+TAB01,table_based,"Among Rotation (Top-1), Rotation (60/40), Equal-Weight (Monthly), and Buy & Hold SPY, which strategy has the highest Sharpe ratio, and what are its volatility and maximum drawdown?",0.8838777542114258,0.32876712328767127,26,120,4.615384615384615,"Among the strategies listed, the Equal-Weight (Monthly) strategy has the highest Sharpe ratio at 0.80. Its volatility is 9.7% and its maximum drawdown is -24.0%.","Based on the provided research context, the performance metrics are split between the full sample (Table 6) and the out-of-sample test window (Table 7) [S3, S4]. 
+
+**Out-of-Sample Test Window (Table 7):**
+* **Equal-Weight (Monthly)** and **Rotation (60/40)** tie for the highest Sharpe ratio among the four listed strategies, both achieving a Sharpe ratio of **0.83** [S3].
+* For **Equal-Weight (Monthly)**: Volatility is **11.0%** and maximum drawdown is **-24.0%** [S3].
+* For **Rotation (60/40)**: Volatility is **12.8%** and maximum drawdown is **-29.3%** [S3].
+
+**Full Sample (Table 6):**
+* **Equal-Weight (Monthly)** has the highest Sharpe ratio among the four strategies, with a value of **0.80** [S4].
+* Its volatility is **9.7%** and its maximum drawdown is **-24.0%** [S4]."
+TAB02,table_based,"According to the pricing metrics table, how do the Lewis and Carr-Madan methods compare in terms of MSE and MAE?",0.9773949384689331,0.7522935779816514,54,55,1.0185185185185186,"According to the pricing metrics table:
+
+* **MSE (Mean Squared Error):** The Lewis method has an MSE of 2.226, while the Carr-Madan method has a slightly higher MSE of 2.262.
+* **MAE (Mean Absolute Error):** The Lewis method has an MAE of 1.23, while the Carr-Madan method has a slightly lower MAE of 1.22.","According to the pricing metrics table (Table 3), the Lewis and Carr-Madan methods compare as follows:
+
+* **MSE (Mean Squared Error):** Lewis has an MSE of 2.226, while Carr-Madan has an MSE of 2.262 [S1].
+* **MAE (Mean Absolute Error):** Lewis has an MAE of 1.23, while Carr-Madan has an MAE of 1.22 [S1]."
+TAB03,table_based,"In the 30% out-of-sample test window, how does the RL optimal policy compare with the rotation benchmarks and Buy & Hold SPY in terms of annualized return and Sharpe ratio?",0.9224711656570435,0.5690376569037657,139,100,0.7194244604316546,"Based on Table 7 (Performance Comparison - RL vs. Rotation Benchmarks in the 30% OOS Test Window), the RL optimal policy ($\text{RL } \pi^* \text{ (net)}$) compares to the rotation benchmarks and Buy & Hold SPY as follows:
+
+*   **RL $\pi^*$ (net):** Annualized Return = 14.3%, Sharpe = 0.83
+*   **Rotation (Top-1):** Annualized Return = 12.6%, Sharpe = 0.79
+*   **Rotation (60/40):** Annualized Return = 10.5%, Sharpe = 0.82
+*   **Equal-Weight (Monthly):** Annualized Return = 9.1%, Sharpe = 0.83
+*   **Buy & Hold SPY:** Annualized Return = 13.2%, Sharpe = 0.65
+
+In summary, the RL optimal policy achieves the highest annualized return (14.3%) among all strategies listed, outperforming Buy & Hold SPY (13.2%) and all rotation/equal-weight benchmarks. In terms of the Sharpe ratio, the RL policy achieves 0.83, which matches the Equal-Weight (Monthly) strategy, outperforms Rotation (Top-1) at 0.79 and Rotation (60/40) at 0.82, and exceeds Buy & Hold SPY (0.65).","Based on Table 7 (Performance Comparison - RL vs. Rotation Benchmarks in the 30% out-of-sample test window), the annualized return and Sharpe ratio for each strategy are as follows:
+
+* **RL $\pi^*$ (net):** Annualized Return of **14.3%** and a Sharpe ratio of **0.83** [S1].
+* **Rotation (Top-1):** Annualized Return of **12.6%** and a Sharpe ratio of **0.79** [S1].
+* **Rotation (60/40):** Annualized Return of **10.5%** and a Sharpe ratio of **0.82** [S1].
+* **Equal-Weight (Monthly):** Annualized Return of **9.1%** and a Sharpe ratio of **0.83** [S1].
+* **Buy & Hold SPY:** Annualized Return of **13.2%** and a Sharpe ratio of **0.65** [S1]."
+TAB04,table_based,"For the fractionally differenced level series at d = 0.4, how do the ADF test results differ between the constant specification and the constant-plus-trend specification at the 5% significance level?",0.9747438430786133,0.7836257309941521,80,91,1.1375,"For the fractionally differenced level series at $d = 0.4$, the ADF test results at the 5% significance level differ as follows between the two specifications:
+
+* **Constant (c) specification:** The ADF statistic is $-3.338$ with a $p$-value of $0.013$ and a 5% critical value of $-2.863$. The decision is to **reject $H_0$**.
+* **Constant + Trend (ct) specification:** The ADF statistic is $-3.327$ with a $p$-value of $0.062$ and a 5% critical value of $-3.413$. The decision is to **fail to reject $H_0$**.","For the fractionally differenced level series at $d = 0.4$, the ADF test results at the 5% significance level differ as follows:
+
+* **Constant (c) specification:** The test statistic is $-3.338$ with a $p$-value of $0.013$ (compared to a 5% critical value of $-2.863$), which leads to the **rejection** of the null hypothesis ($H_0$) of a unit root [S2].
+* **Constant + Trend (ct) specification:** The test statistic is $-3.327$ with a $p$-value of $0.062$ (compared to a 5% critical value of $-3.413$), which leads to a **failure to reject** the null hypothesis ($H_0$) [S2]."
+TAB05,table_based,"According to the main stock-price forecasting results, how does the Ours model compare with MASTER on the CSI300 and CSI500 datasets in terms of IC and RankIC?",0.9524664878845215,0.6493506493506493,83,71,0.8554216867469879,"Based on the main stock-price forecasting results in Table 2, the comparison between the **Ours** model and **MASTER** in terms of IC and RankIC on the CSI300 and CSI500 datasets is as follows:
+
+- **CSI300 Dataset:**
+  - **IC:** Ours achieves 0.0325, which is higher than MASTER's 0.0312.
+  - **RankIC:** Ours achieves 0.0251, which is lower than MASTER's 0.0275.
+
+- **CSI500 Dataset:**
+  - **IC:** Ours achieves 0.0345, which is higher than MASTER's 0.0334.
+  - **RankIC:** Ours achieves 0.0276, which is slightly lower than MASTER's 0.0280.","Based on Table 2 (""Main results of GTHGAT and baselines for stock price forecasting task on different datasets"") [S1]:
+
+- **CSI300 Dataset:**
+  - **IC:** The ""Ours"" model achieves 0.0325, which outperforms MASTER at 0.0312 [S1].
+  - **RankIC:** MASTER achieves 0.0275, which outperforms the ""Ours"" model at 0.0251 [S1].
+
+- **CSI500 Dataset:**
+  - **IC:** The ""Ours"" model achieves 0.0345, which outperforms MASTER at 0.0334 [S1].
+  - **RankIC:** MASTER achieves 0.0280, which outperforms the ""Ours"" model at 0.0276 [S1]."
+TAB06,table_based,"For the OU and mGBM volatility processes, how do the approximation errors change as the truncation level increases from N = 1 to N = 5, particularly for the ITM SDE results?",0.9217085242271423,0.4848484848484849,160,137,0.85625,"For both the OU and mGBM volatility processes, as the truncation level increases from $N = 1$ to $N = 5$, the approximation errors for the ITM SDE results consistently decrease. 
+
+Specifically, the errors change as follows:
+
+* **OU Process (ITM SDE results):**
+  * $N = 1$: $3.78\text{e}-1$ (and $6.06\text{e}-1$ in the second ITM column)
+  * $N = 2$: $5.30\text{e}-2$ (and $1.37\text{e}-1$)
+  * $N = 3$: $1.20\text{e}-2$ (and $2.76\text{e}-2$)
+  * $N = 4$: $3.26\text{e}-3$ (and $7.25\text{e}-3$)
+  * $N = 5$: $9.44\text{e}-4$ (and $1.76\text{e}-3$)
+
+* **mGBM Process (ITM SDE results):**
+  * $N = 1$: $2.00\text{e}-3$ (and $6.49\text{e}-4$)
+  * $N = 2$: $9.14\text{e}-4$ (and $1.17\text{e}-4$)
+  * $N = 3$: $3.73\text{e}-4$ (and $2.20\text{e}-5$)
+  * $N = 4$: $9.20\text{e}-5$ (and $2.90\text{e}-5$)
+  * $N = 5$: $1.40\text{e}-5$ (and $4.00\text{e}-6$)","Based on the provided research context, both numerical schemes show monotonically decreasing errors as the truncation levels become higher [S1]. 
+
+Specifically for the ITM (in-the-money) SDE results in Table 3 [S3]:
+* **For the OU process:** The ITM SDE errors decrease from $3.78 \times 10^{-1}$ at $N = 1$ to $9.44 \times 10^{-4}$ at $N = 5$ (with intermediate values of $5.30 \times 10^{-2}$ for $N = 2$, $1.20 \times 10^{-2}$ for $N = 3$, and $3.26 \times 10^{-3}$ for $N = 4$) [S3].
+* **For the mGBM process:** The ITM SDE errors decrease from $2.00 \times 10^{-3}$ at $N = 1$ to $1.40 \times 10^{-5}$ at $N = 5$ (with intermediate values of $9.14 \times 10^{-4}$ for $N = 2$, $3.73 \times 10^{-4}$ for $N = 3$, and $9.20 \times 10^{-5}$ for $N = 4$) [S3]."
+FIG01,figure_based,"For the plot showing trading aggressiveness as a function of firm B's quantitative investing level, how do the two plotted measures change as γ increases, and how does their relationship differ between q = 0.04 and q = 0.09?",0.8901740908622742,0.4117647058823529,72,98,1.3611111111111112,"Based on the provided context, the text only mentions the title of Figure 2 (""Trading aggressiveness as a function of quantitative investing by firm B (firm A is fully discretionary)""). The context does not contain the actual plot, the two plotted measures, how they change as $\gamma$ increases, or how their relationship differs between $q = 0.04$ and $q = 0.09$. Therefore, the requested details cannot be provided using only the gold source context.","The retrieved research context is insufficient to answer this reliably. While the context mentions that Figure 2 illustrates the derivatives of trading aggressiveness measures with respect to $\gamma$ for different values of $q$ ($q = 0.04$, $0.09$, and $0.12$) [S2] and identifies the plotted lines (the blue dashed line as the absolute value of the strategic myopia effect and the purple line as the sum of the processing capacity and internalising effects) [S2], it does not describe the specific directional changes or differences in the relationship between these two measures as $\gamma$ increases for $q = 0.04$ versus $q = 0.09$."
+FIG02,figure_based,"In the market-versus-model pricing comparison between the Lewis and Carr-Madan methods, what does the distribution of pricing errors indicate about the typical error, spread, and outliers, and how do these observations compare with the reported MSE and MAE values?",0.8434784412384033,0.5289256198347108,100,142,1.42,"Based on the provided sources, the text and figures mention a comparison between the Lewis and Carr-Madan methods via Figure 5 (""Market vs Model (Lewis vs FFT)"") and Table 3 (""Pricing metrics""). However, the provided context does not contain any text describing the distribution of pricing errors regarding the typical error, spread, and outliers, nor does it provide a qualitative comparison between those observations and the reported MSE and MAE values. 
+
+The reported MSE and MAE values from Table 3 are:
+- **MSE:** 2.226 for Lewis and 2.262 for Carr-Madan
+- **MAE:** 1.23 for Lewis and 1.22 for Carr-Madan","Based on the provided research context, the distribution of pricing errors and its comparison to metrics show the following:
+
+* **High Fidelity / Low Errors:** The pricing error boxplots and tight clustering around the 45° line demonstrate high fidelity between model and market prices, indicating that model-market price errors remain low [S3, S4]. 
+* **Outliers:** Outliers are rare and occur primarily at deep out-of-the-money (OTM) strikes where bid-ask spreads widen [S4].
+* **MSE and MAE Values:** The pricing metrics for the two Fourier-based methods (Lewis vs. Carr-Madan) report a Mean Squared Error (MSE) of 2.226 for Lewis and 2.262 for Carr-Madan, and a Mean Absolute Error (MAE) of 1.23 for Lewis and 1.22 for Carr-Madan [S7]. 
+
+The retrieved research context does not provide further details regarding the specific ""spread"" of the pricing error distribution beyond these points."
+MULTI01,multi_chunk_reasoning,"How do the processing capacity, strategic myopia, and internalising effects interact as quantitative investing increases, and why does this produce different patterns of overall trading aggressiveness for low, intermediate, and high values of q?",0.9780198931694031,0.692144373673036,212,259,1.221698113207547,"As quantitative investing increases, three key effects interact:
+
+1. **Processing capacity effect:** As the quantitative investing level ($\gamma$) increases, firm B becomes more effective at extracting information from the additional signal $\theta_2$ and increases its trading aggressiveness on it. This effect increases linearly with the quants' additional signal quality ($q$).
+2. **Strategic myopia effect:** Firm B reduces its aggressiveness on the public signal $v_1$ because of its inability to account for how its trades influence firm A's behavior. 
+3. **Internalising effect:** The fully discretionary firm A responds by trading more aggressively on the public signal $v_1$ to exploit firm B's strategic weakness.
+
+The strategic myopia and internalising effects are both independent of $q$ but vary with $\gamma$. As $\gamma$ increases, the myopia effect decays faster than the internalising effect, implying the greatest reduction in trading aggressiveness at low levels of $\gamma$. 
+
+Depending on the relative strength of these effects, the overall trading aggressiveness varies with $q$ in different patterns:
+* **Low values of $q$:** The strategic myopia effect dominates at all levels of $\gamma$, leading to an overall decrease in trading aggressiveness.
+* **High values of $q$:** The positive effects dominate, and overall trading aggressiveness increases with $\gamma$.
+* **Intermediate values of $q$:** The relationship is U-shaped, meaning overall aggressiveness first decreases, and then increases.","Based on the provided research context, increasing the level of quantitative investing ($\gamma$) generates three main effects:
+
+1. **Processing Capacity Effect:** Firm B becomes better at extracting information from an additional noisy signal ($\theta_2$), leading to increased trading aggressiveness on $\theta_2$ [S2, S4]. The magnitude of this effect increases with signal quality $q$ [S1, S4].
+2. **Strategic Myopia Effect:** Greater strategic inflexibility causes firm B to overestimate its opponent's trading aggressiveness, resulting in reduced trading aggressiveness on the public signal $v_1$ [S2, S4]. 
+3. **Internalising Effect:** The fully discretionary firm A responds by trading more aggressively on $v_1$ to exploit firm B's strategic weakness [S2, S4].
+
+**Interaction and Impact on Overall Trading Aggressiveness:**
+As quantitative investing ($\gamma$) increases, the strategic myopia effect decreases at a faster rate than the internalising effect [S1, S4]. The net impact on overall trading aggressiveness depends on the relative strength of these effects, which varies with signal quality $q$ [S4]:
+
+* **Low Signal Quality ($q$ is low, e.g., $q = 0.04$):** The negative strategic myopia effect dominates the sum of the positive processing capacity and internalising effects [S1]. Consequently, increasing $\gamma$ decreases overall trading aggressiveness for all values of $\gamma$ [S1].
+* **High Signal Quality ($q$ is high, e.g., $q = 0.12$):** The positive effects (processing capacity and internalising) dominate the negative strategic myopia effect [S1]. As a result, overall trading aggressiveness increases with $\gamma$ [S1].
+* **Intermediate Values of $q$:** The net impact depends on the balance of these interacting effects across different levels of $\gamma$ (as illustrated across panels in Figure 2 for varying $q$) [S2, S4]."
+MULTIDOC01,cross_document,"How is risk-adjusted performance treated differently in the two studies: how does the first study use the Sharpe ratio during model selection, and how does the second study use Sharpe ratio to characterize the performance of its RL-based portfolio allocation strategy?",0.9832354187965393,0.775623268698061,188,173,0.9202127659574468,"Based on the provided context, the two studies treat the Sharpe ratio differently as follows:
+
+* **First Study (Candidate Model Selection):** The Sharpe ratio is used as the primary measure of risk-adjusted return (alongside CVaR as the primary measure of tail risk) because risk-adjusted metrics were found to be highly correlated. The study applied Pareto dominance on validation-set performance using the Sharpe ratio and CVaR to yield a frontier of non-dominated model-loss combinations. Additionally, as a secondary check, PCA was performed on seven metrics, where PC1 captured risk-adjusted metrics (such as the Sharpe ratio), which was used alongside inverted PC2 to find additional models for the final test-set evaluation.
+* **Second Study (RL-based Portfolio Allocation Strategy):** The Sharpe ratio is used to characterize the performance of the RL-based portfolio allocation strategy. Specifically, the study evaluates rule-based rotation and RL-driven strategies using an out-of-sample test window, finding that the RL policy achieves the highest risk-adjusted performance by delivering the strongest Sharpe ratio and materially lower drawdowns compared to a passive SPY benchmark and other rules-based allocations.","Based on the provided research evidence, the two studies treat the Sharpe ratio as follows:
+
+* **First study (Model Selection):** The study uses the Sharpe ratio as the primary measure of risk-adjusted return (alongside CVaR as the primary measure of tail risk) because risk-adjusted metrics (Sharpe, Sortino, Calmar, Omega) were found to be highly correlated [S1]. It applied Pareto dominance on validation-set performance using the Sharpe ratio and CVaR to yield a frontier of non-dominated model-loss combinations [S1]. Additionally, a Principal Component Analysis (PCA) was performed where PC1 captured risk-adjusted metrics (including Sharpe), and the resulting Pareto frontier in this space helped identify candidate models for final test-set evaluation [S1].
+* **Second study (RL-based Portfolio Allocation Performance):** The study uses the Sharpe ratio to evaluate and characterize the performance of its reinforcement learning (RL)-driven strategy, noting that the RL policy achieves the highest risk-adjusted performance by delivering the strongest Sharpe ratio alongside materially lower drawdowns compared to alternative rule-based rotation and passive benchmarks [S2]."

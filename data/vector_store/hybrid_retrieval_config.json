@@ -1,0 +1,8 @@
+{
+  "embedding_model": "BAAI/bge-small-en-v1.5",
+  "dense_top_k": 20,
+  "bm25_top_k": 20,
+  "final_top_k": 10,
+  "rrf_k": 60,
+  "bm25_tokenizer": "lowercase_word_regex"
+}

@@ -1,0 +1,3530 @@
+{
+  "document_id": "doc_d34c8b40ce9b",
+  "chunks": [
+    {
+      "chunk_id": "chunk_b8a95179098902af",
+      "document_id": "doc_d34c8b40ce9b",
+      "source_file": "2605.23953v1.pdf",
+      "chunk_index": 0,
+      "chunk_type": "semantic",
+      "text": "Yong Zhang 1 XinxiaoWu 1 Yunde Jia 2 Che Sun 2 † 1 School of Computer Science, Beijing Institute of Technology 2 Faculty of Engineering, Shenzhen MSU-BIT University {zhangy01, wuxinxiao}@bit.edu.cn {jiayunde,sunche}@smbu.edu.cn",
+      "retrieval_text": "Yong Zhang 1 XinxiaoWu 1 Yunde Jia 2 Che Sun 2 † 1 School of Computer Science, Beijing Institute of Technology 2 Faculty of Engineering, Shenzhen MSU-BIT University {zhangy01, wuxinxiao}@bit.edu.cn {jiayunde,sunche}@smbu.edu.cn",
+      "token_count": 73,
+      "char_count": 227,
+      "section_path": [
+        "Game-Theoretic Modeling of Heterogeneous Investor Interactions for Stock Price Forecasting"
+      ],
+      "pages": [
+        1
+      ],
+      "element_ids": [
+        "elem_8bec4e60241a",
+        "elem_01a74f452893",
+        "elem_8a9e209ea3c1",
+        "elem_29b4d2325ad7"
+      ],
+      "content_types": [
+        "text"
+      ],
+      "figure_ids": [],
+      "table_ids": [],
+      "formula_ids": [],
+      "image_paths": [],
+      "evidence": [
+        {
+          "element_id": "elem_8bec4e60241a",
+          "type": "text",
+          "page": 1,
+          "bbox": {
+            "l": 186.22,
+            "t": 611.694922,
+            "r": 425.78030000000007,
+            "b": 601.1848166000001
+          },
+          "section_path": [
+            "Game-Theoretic Modeling of Heterogeneous Investor Interactions for Stock Price Forecasting"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": null,
+          "figure_id": null
+        },
+        {
+          "element_id": "elem_01a74f452893",
+          "type": "text",
+          "page": 1,
+          "bbox": {
+            "l": 182.0460000000001,
+            "t": 599.8059438,
+            "r": 429.9552983999997,
+            "b": 589.5847743929204
+          },
+          "section_path": [
+            "Game-Theoretic Modeling of Heterogeneous Investor Interactions for Stock Price Forecasting"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": null,
+          "figure_id": null
+        },
+        {
+          "element_id": "elem_8a9e209ea3c1",
+          "type": "text",
+          "page": 1,
+          "bbox": {
+            "l": 192.49200000000013,
+            "t": 588.1899438,
+            "r": 419.50972619999993,
+            "b": 566.9143028000001
+          },
+          "section_path": [
+            "Game-Theoretic Modeling of Heterogeneous Investor Interactions for Stock Price Forecasting"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": null,
+          "figure_id": null
+        },
+        {
+          "element_id": "elem_29b4d2325ad7",
+          "type": "text",
+          "page": 1,
+          "bbox": {
+            "l": 230.17800000000014,
+            "t": 564.3041486000001,
+            "r": 381.8197308599998,
+            "b": 556.0053028000001
+          },
+          "section_path": [
+            "Game-Theoretic Modeling of Heterogeneous Investor Interactions for Stock Price Forecasting"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": null,
+          "figure_id": null
+        }
+      ],
+      "previous_chunk_id": null,
+      "next_chunk_id": "chunk_716a9ce747ba22b4"
+    },
+    {
+      "chunk_id": "chunk_716a9ce747ba22b4",
+      "document_id": "doc_d34c8b40ce9b",
+      "source_file": "2605.23953v1.pdf",
+      "chunk_index": 1,
+      "chunk_type": "semantic",
+      "text": "Accurate stock price forecasting has consistently remained a pivotal yet challenging FinTech task that underpins quantitative trading and investment decision making. Recent efforts have been dedicated to modeling various complex relationships among stocks in the stock market toward more reliable stock price forecasting. These methods depend heavily on strong static prior assumptions by modeling either temporal dependencies within individual stocks or spatial dependencies across different stocks based on predefined structures, while the complex market dynamics that drive stock price movements remain unexplored. To alleviate this issue, we propose a novel game-theoretic modeling method that captures heterogeneous investor interactions for stock price forecasting. The core idea is to embed game-theoretic mechanisms into the heterogeneous graph structure to finely model the dynamic strategic interactions among heterogeneous investors with respect to target stocks. Additionally, temporal positional encoding is adopted to reflect the differentiated influences of each game event at different time steps within the time window on future stock price movements. Leveraging heterogeneous graph networks, we proxy the intricate dynamics of the stock market through investor games and enable real-time information propagation and node updates among all nodes. Extensive experiments conducted on two real-world benchmark datasets demonstrate that our method effectively outperforms state-of-the-art stock price forecasting methods.",
+      "retrieval_text": "Accurate stock price forecasting has consistently remained a pivotal yet challenging FinTech task that underpins quantitative trading and investment decision making. Recent efforts have been dedicated to modeling various complex relationships among stocks in the stock market toward more reliable stock price forecasting. These methods depend heavily on strong static prior assumptions by modeling either temporal dependencies within individual stocks or spatial dependencies across different stocks based on predefined structures, while the complex market dynamics that drive stock price movements remain unexplored. To alleviate this issue, we propose a novel game-theoretic modeling method that captures heterogeneous investor interactions for stock price forecasting. The core idea is to embed game-theoretic mechanisms into the heterogeneous graph structure to finely model the dynamic strategic interactions among heterogeneous investors with respect to target stocks. Additionally, temporal positional encoding is adopted to reflect the differentiated influences of each game event at different time steps within the time window on future stock price movements. Leveraging heterogeneous graph networks, we proxy the intricate dynamics of the stock market through investor games and enable real-time information propagation and node updates among all nodes. Extensive experiments conducted on two real-world benchmark datasets demonstrate that our method effectively outperforms state-of-the-art stock price forecasting methods.",
+      "token_count": 270,
+      "char_count": 1534,
+      "section_path": [
+        "Abstract"
+      ],
+      "pages": [
+        1
+      ],
+      "element_ids": [
+        "elem_6d8c727692bf"
+      ],
+      "content_types": [
+        "text"
+      ],
+      "figure_ids": [],
+      "table_ids": [],
+      "formula_ids": [],
+      "image_paths": [],
+      "evidence": [
+        {
+          "element_id": "elem_6d8c727692bf",
+          "type": "text",
+          "page": 1,
+          "bbox": {
+            "l": 143.557,
+            "t": 499.5456526,
+            "r": 469.88100658880023,
+            "b": 283.72177439292034
+          },
+          "section_path": [
+            "Abstract"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": null,
+          "figure_id": null
+        }
+      ],
+      "previous_chunk_id": "chunk_b8a95179098902af",
+      "next_chunk_id": "chunk_88d76738a34b394d"
+    },
+    {
+      "chunk_id": "chunk_88d76738a34b394d",
+      "document_id": "doc_d34c8b40ce9b",
+      "source_file": "2605.23953v1.pdf",
+      "chunk_index": 2,
+      "chunk_type": "semantic",
+      "text": "In the stock market, stock selection and stock timing are the most concerned decision-making focuses of investors, all of which rely on the accurate prediction of the future stock prices of individual stocks, by which investors can maximize investment returns. The emergence of data science methods has provided researchers with new insights into stock price prediction. Methods such as autoregressive integrated moving average (ARIMA) (Ariyo et al., 2014), principal component analysis (PCA)(Kelly et al., 2019), random forest (Khaidem et al., 2016), and kalman filter (Yan and Guosheng, 2015), as well as their applications and integrations, have demonstrated remarkable success. These methods typically model the stock price prediction task as a time-series regression paradigm.",
+      "retrieval_text": "In the stock market, stock selection and stock timing are the most concerned decision-making focuses of investors, all of which rely on the accurate prediction of the future stock prices of individual stocks, by which investors can maximize investment returns. The emergence of data science methods has provided researchers with new insights into stock price prediction. Methods such as autoregressive integrated moving average (ARIMA) (Ariyo et al., 2014), principal component analysis (PCA)(Kelly et al., 2019), random forest (Khaidem et al., 2016), and kalman filter (Yan and Guosheng, 2015), as well as their applications and integrations, have demonstrated remarkable success. These methods typically model the stock price prediction task as a time-series regression paradigm.",
+      "token_count": 165,
+      "char_count": 781,
+      "section_path": [
+        "1 Introduction"
+      ],
+      "pages": [
+        1
+      ],
+      "element_ids": [
+        "elem_81f66070078c"
+      ],
+      "content_types": [
+        "text"
+      ],
+      "figure_ids": [],
+      "table_ids": [],
+      "formula_ids": [],
+      "image_paths": [],
+      "evidence": [
+        {
+          "element_id": "elem_81f66070078c",
+          "type": "text",
+          "page": 1,
+          "bbox": {
+            "l": 107.641,
+            "t": 234.5516526,
+            "r": 505.24134007599974,
+            "b": 149.63577439292033
+          },
+          "section_path": [
+            "1 Introduction"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": null,
+          "figure_id": null
+        }
+      ],
+      "previous_chunk_id": "chunk_716a9ce747ba22b4",
+      "next_chunk_id": "chunk_0dfce9677aaf4f74"
+    },
+    {
+      "chunk_id": "chunk_0dfce9677aaf4f74",
+      "document_id": "doc_d34c8b40ce9b",
+      "source_file": "2605.23953v1.pdf",
+      "chunk_index": 3,
+      "chunk_type": "semantic",
+      "text": "Early deep learning methods commonly treat stock-related volume-price indicator sequences as ordinary time series and adopt conventional sequential deep learning models (Chen et al., 2019) to model internal dynamics within stocks and predict stock prices, as exemplified by RNN (Li et al., 2019), LSTM (Wang et al., 2019), and Transformer (Xu et al., 2021a). Although such time series modeling methods have achieved promising progress in stock forecasting, they suffer from limited generalization ability on out-of-sample data. Modern approaches, in contrast, combine stock correlations beyond volume-price sequences to capture cross-stock influences (Cui et al., 2023; Qian et al., 2024).The relationships between stocks are inherently graph-like, making graphs the most intuitive and scientifically appropriate choice as an information carrier. The most typical relation graphs are pre-defined static graphs (Qian et al., 2024), data-driven correlation graphs (Yin et al., 2021) and temporally-aware hypergraphs (Feng et al., 2019).These methods have substantially boosted stock prediction performance by exploiting graph structures to model cross-stock interdependencies. Despite these advances, two critical issues remain underexplored. First, the stock market is a complex chaotic system, where the driving forces of stock prices often stem not only from other related individual stocks but also from close interactions with diverse entities in the market. However, existing methods tend to confine themselves to modeling stock-to-stock relationships while neglecting the simultaneous modeling of multi-entity relationships, rendering them incapable of explaining extreme price fluctuations of individual stocks. Second, the structure of the stock market evolves dynamically over time, and predefined domain knowledge can hardly cover this dynamic evolution process, preventing relational modeling from achieving true real-time alignment with stock market dynamics.",
+      "retrieval_text": "Early deep learning methods commonly treat stock-related volume-price indicator sequences as ordinary time series and adopt conventional sequential deep learning models (Chen et al., 2019) to model internal dynamics within stocks and predict stock prices, as exemplified by RNN (Li et al., 2019), LSTM (Wang et al., 2019), and Transformer (Xu et al., 2021a). Although such time series modeling methods have achieved promising progress in stock forecasting, they suffer from limited generalization ability on out-of-sample data. Modern approaches, in contrast, combine stock correlations beyond volume-price sequences to capture cross-stock influences (Cui et al., 2023; Qian et al., 2024).The relationships between stocks are inherently graph-like, making graphs the most intuitive and scientifically appropriate choice as an information carrier. The most typical relation graphs are pre-defined static graphs (Qian et al., 2024), data-driven correlation graphs (Yin et al., 2021) and temporally-aware hypergraphs (Feng et al., 2019).These methods have substantially boosted stock prediction performance by exploiting graph structures to model cross-stock interdependencies. Despite these advances, two critical issues remain underexplored. First, the stock market is a complex chaotic system, where the driving forces of stock prices often stem not only from other related individual stocks but also from close interactions with diverse entities in the market. However, existing methods tend to confine themselves to modeling stock-to-stock relationships while neglecting the simultaneous modeling of multi-entity relationships, rendering them incapable of explaining extreme price fluctuations of individual stocks. Second, the structure of the stock market evolves dynamically over time, and predefined domain knowledge can hardly cover this dynamic evolution process, preventing relational modeling from achieving true real-time alignment with stock market dynamics.",
+      "token_count": 394,
+      "char_count": 1970,
+      "section_path": [
+        "1 Introduction"
+      ],
+      "pages": [
+        1,
+        2
+      ],
+      "element_ids": [
+        "elem_9d29a9c76257",
+        "elem_cbacbd9b8314"
+      ],
+      "content_types": [
+        "text"
+      ],
+      "figure_ids": [],
+      "table_ids": [],
+      "formula_ids": [],
+      "image_paths": [],
+      "evidence": [
+        {
+          "element_id": "elem_9d29a9c76257",
+          "type": "text",
+          "page": 1,
+          "bbox": {
+            "l": 108.0,
+            "t": 141.79965259999994,
+            "r": 504.66789281999905,
+            "b": 78.70177439292036
+          },
+          "section_path": [
+            "1 Introduction"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": null,
+          "figure_id": null
+        },
+        {
+          "element_id": "elem_cbacbd9b8314",
+          "type": "text",
+          "page": 2,
+          "bbox": {
+            "l": 108.0,
+            "t": 645.5886525999999,
+            "r": 505.24134007599974,
+            "b": 549.7647743929203
+          },
+          "section_path": [
+            "1 Introduction"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": null,
+          "figure_id": null
+        }
+      ],
+      "previous_chunk_id": "chunk_88d76738a34b394d",
+      "next_chunk_id": "chunk_2198303688f63399"
+    },
+    {
+      "chunk_id": "chunk_2198303688f63399",
+      "document_id": "doc_d34c8b40ce9b",
+      "source_file": "2605.23953v1.pdf",
+      "chunk_index": 4,
+      "chunk_type": "semantic",
+      "text": "In this paper, we propose a novel stock price forecasting model that effectively addresses both issues. Our method demonstrates effectively enhancements by integrating temporal dynamics learning and heterogeneous graph modeling in an end-to-end manner. We employ a heterogeneous graph structure to fully model the multi-entity relationships in the stock market that drive price fluctuations, going beyond mere stock-to-stock correlations. Furthermore, we innovatively introduce game theory to conduct fine-grained modeling of capital flows and strategic interactions among market participants, so as to faithfully reflect the inherent dynamics of the stock market. Finally, the stock node representations updated via graph convolution are adopted for the final stock price prediction task. The main contributions of this paper are summarized as follows:",
+      "retrieval_text": "In this paper, we propose a novel stock price forecasting model that effectively addresses both issues. Our method demonstrates effectively enhancements by integrating temporal dynamics learning and heterogeneous graph modeling in an end-to-end manner. We employ a heterogeneous graph structure to fully model the multi-entity relationships in the stock market that drive price fluctuations, going beyond mere stock-to-stock correlations. Furthermore, we innovatively introduce game theory to conduct fine-grained modeling of capital flows and strategic interactions among market participants, so as to faithfully reflect the inherent dynamics of the stock market. Finally, the stock node representations updated via graph convolution are adopted for the final stock price prediction task. The main contributions of this paper are summarized as follows:",
+      "token_count": 158,
+      "char_count": 853,
+      "section_path": [
+        "1 Introduction"
+      ],
+      "pages": [
+        2
+      ],
+      "element_ids": [
+        "elem_d6fd0f3cde73"
+      ],
+      "content_types": [
+        "text"
+      ],
+      "figure_ids": [],
+      "table_ids": [],
+      "formula_ids": [],
+      "image_paths": [],
+      "evidence": [
+        {
+          "element_id": "elem_d6fd0f3cde73",
+          "type": "text",
+          "page": 2,
+          "bbox": {
+            "l": 108.0,
+            "t": 541.9276526,
+            "r": 505.73827456399977,
+            "b": 446.1027743929203
+          },
+          "section_path": [
+            "1 Introduction"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": null,
+          "figure_id": null
+        }
+      ],
+      "previous_chunk_id": "chunk_0dfce9677aaf4f74",
+      "next_chunk_id": "chunk_5a5c916351c8b407"
+    },
+    {
+      "chunk_id": "chunk_5a5c916351c8b407",
+      "document_id": "doc_d34c8b40ce9b",
+      "source_file": "2605.23953v1.pdf",
+      "chunk_index": 5,
+      "chunk_type": "semantic",
+      "text": "In the field of financial time series analysis, stock price prediction has consistently been a focal point of research. Traditional methods primarily rely on statistical and econometric models, such as Autoregressive Integrated Moving Average (ARIMA) (Adebiyi et al., 2014; Wang et al., 2012) and the Vector Autoregressive (VAR) Model (Zivot and Wang, 2006), focusing on numerical features (Piccolo, 1990; Wang and Leu, 1996; Tseng et al., 2002) and performing technical analysis based on volume-price indicator data. However, these methods exhibit limitations in feature extraction and poor performance in dealing with nonlinear and non-stationary time series data (Cui et al., 2023). The rapid advancement of deep learning has greatly facilitated stock price prediction, parts of the works following previous paradigm employ recurrent neural networks (Nelson et al., 2017; Qin et al., 2017) or convolutional neural networks (Jiang et al., 2023) to model a single stock price and predict its short-term trend. To capture richer and more fine-grained feature patterns to enhance prediction performance, some works have explored other techniques, such as the adversarial training (Feng et al., 2018), self-attention mechanism (Li et al., 2018), gated causal convolutions (Wang et al., 2021), and neural networks pre-training (Wang et al., 2025). Meanwhile, to mitigate the adverse impact of noise interference from single data sources on stock price forecasting, some efforts have turned to multimodal learning. In particular, financial text data has been extensively incorporated into stock price prediction modeling, thereby elucidating intricate market insights that extend well beyond mere considerations of price dynamics, trading volumes, or financial indicators (Schumaker and Chen, 2009; Si et al., 2013; Du et al., 2024; Li et al., 2024; Dong et al., 2024). Given the inherently complex nature of stock sequences and their intrinsic multi-pattern characteristics, a number of studies have attempted to extract more sophisticated and diversified feature patterns.",
+      "retrieval_text": "In the field of financial time series analysis, stock price prediction has consistently been a focal point of research. Traditional methods primarily rely on statistical and econometric models, such as Autoregressive Integrated Moving Average (ARIMA) (Adebiyi et al., 2014; Wang et al., 2012) and the Vector Autoregressive (VAR) Model (Zivot and Wang, 2006), focusing on numerical features (Piccolo, 1990; Wang and Leu, 1996; Tseng et al., 2002) and performing technical analysis based on volume-price indicator data. However, these methods exhibit limitations in feature extraction and poor performance in dealing with nonlinear and non-stationary time series data (Cui et al., 2023). The rapid advancement of deep learning has greatly facilitated stock price prediction, parts of the works following previous paradigm employ recurrent neural networks (Nelson et al., 2017; Qin et al., 2017) or convolutional neural networks (Jiang et al., 2023) to model a single stock price and predict its short-term trend. To capture richer and more fine-grained feature patterns to enhance prediction performance, some works have explored other techniques, such as the adversarial training (Feng et al., 2018), self-attention mechanism (Li et al., 2018), gated causal convolutions (Wang et al., 2021), and neural networks pre-training (Wang et al., 2025). Meanwhile, to mitigate the adverse impact of noise interference from single data sources on stock price forecasting, some efforts have turned to multimodal learning. In particular, financial text data has been extensively incorporated into stock price prediction modeling, thereby elucidating intricate market insights that extend well beyond mere considerations of price dynamics, trading volumes, or financial indicators (Schumaker and Chen, 2009; Si et al., 2013; Du et al., 2024; Li et al., 2024; Dong et al., 2024). Given the inherently complex nature of stock sequences and their intrinsic multi-pattern characteristics, a number of studies have attempted to extract more sophisticated and diversified feature patterns.",
+      "token_count": 458,
+      "char_count": 2070,
+      "section_path": [
+        "2.1 Stock prices prediction"
+      ],
+      "pages": [
+        2
+      ],
+      "element_ids": [
+        "elem_61946f6395fb"
+      ],
+      "content_types": [
+        "text"
+      ],
+      "figure_ids": [],
+      "table_ids": [],
+      "formula_ids": [],
+      "image_paths": [],
+      "evidence": [
+        {
+          "element_id": "elem_61946f6395fb",
+          "type": "text",
+          "page": 2,
+          "bbox": {
+            "l": 107.641,
+            "t": 198.48565259999998,
+            "r": 505.7450491319989,
+            "b": 69.93377439292033
+          },
+          "section_path": [
+            "2.1 Stock prices prediction"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": null,
+          "figure_id": null
+        }
+      ],
+      "previous_chunk_id": "chunk_2198303688f63399",
+      "next_chunk_id": "chunk_bec2d9ccce3b6dfa"
+    },
+    {
+      "chunk_id": "chunk_bec2d9ccce3b6dfa",
+      "document_id": "doc_d34c8b40ce9b",
+      "source_file": "2605.23953v1.pdf",
+      "chunk_index": 6,
+      "chunk_type": "semantic",
+      "text": "Techniques such as multi-scale temporal modeling (Liu et al., 2021; Song et al., 2025; Li et al., 2025), multi-level learning (Zhang et al., 2025), and mixture-of-experts systems (Liu et al., 2025) have been employed to capture the richest possible temporal information for improving stock price prediction.",
+      "retrieval_text": "Techniques such as multi-scale temporal modeling (Liu et al., 2021; Song et al., 2025; Li et al., 2025), multi-level learning (Zhang et al., 2025), and mixture-of-experts systems (Liu et al., 2025) have been employed to capture the richest possible temporal information for improving stock price prediction.",
+      "token_count": 81,
+      "char_count": 307,
+      "section_path": [
+        "2.1 Stock prices prediction"
+      ],
+      "pages": [
+        2
+      ],
+      "element_ids": [
+        "elem_61946f6395fb"
+      ],
+      "content_types": [
+        "text"
+      ],
+      "figure_ids": [],
+      "table_ids": [],
+      "formula_ids": [],
+      "image_paths": [],
+      "evidence": [
+        {
+          "element_id": "elem_61946f6395fb",
+          "type": "text",
+          "page": 2,
+          "bbox": {
+            "l": 107.641,
+            "t": 198.48565259999998,
+            "r": 505.7450491319989,
+            "b": 69.93377439292033
+          },
+          "section_path": [
+            "2.1 Stock prices prediction"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": null,
+          "figure_id": null
+        }
+      ],
+      "previous_chunk_id": "chunk_5a5c916351c8b407",
+      "next_chunk_id": "chunk_4da9504614f88ba2"
+    },
+    {
+      "chunk_id": "chunk_4da9504614f88ba2",
+      "document_id": "doc_d34c8b40ce9b",
+      "source_file": "2605.23953v1.pdf",
+      "chunk_index": 7,
+      "chunk_type": "semantic",
+      "text": "In addition to studies on individual stock dynamics, effectively modeling the correlation relationships among different stocks is regarded as another vital way to enhance stock price forecasting performance. The most prevalent strategy is to construct graph structures to characterize such interstock correlations, leverage graph neural networks (GNNs) to embed relational information, and subsequently feed these learned embeddings into downstream prediction modules for stock trend forecasting (Wang et al., 2021). Specifically, the relation graphs could be constructed based on existing concepts or predefined relationships such as stockholders (Chen et al., 2018), industry-sector (Feng et al., 2019; Kim et al., 2019; Sawhney et al., 2020), and concepts (Xu et al., 2021b). Nevertheless, predefined relationships and static graph structures severely constrain the effectiveness of relational modeling and fail to align with the highly volatile nature of the stock market. Accordingly, a number of studies have shifted toward diversified stock relational modeling to alleviate this limitation, such as hidden conceptual relationships (Xu et al., 2021a), potential correlations between stocks and market sectors (Hsu et al., 2021), similarity-based dynamic latent relationships (Wang et al., 2022), and implicit relevance hypergraph relations (Huynh et al., 2023), etc. Despite the considerable progress achieved in previous works, the underlying market dynamics that fundamentally drive stock price fluctuations remain insufficiently explored.",
+      "retrieval_text": "In addition to studies on individual stock dynamics, effectively modeling the correlation relationships among different stocks is regarded as another vital way to enhance stock price forecasting performance. The most prevalent strategy is to construct graph structures to characterize such interstock correlations, leverage graph neural networks (GNNs) to embed relational information, and subsequently feed these learned embeddings into downstream prediction modules for stock trend forecasting (Wang et al., 2021). Specifically, the relation graphs could be constructed based on existing concepts or predefined relationships such as stockholders (Chen et al., 2018), industry-sector (Feng et al., 2019; Kim et al., 2019; Sawhney et al., 2020), and concepts (Xu et al., 2021b). Nevertheless, predefined relationships and static graph structures severely constrain the effectiveness of relational modeling and fail to align with the highly volatile nature of the stock market. Accordingly, a number of studies have shifted toward diversified stock relational modeling to alleviate this limitation, such as hidden conceptual relationships (Xu et al., 2021a), potential correlations between stocks and market sectors (Hsu et al., 2021), similarity-based dynamic latent relationships (Wang et al., 2022), and implicit relevance hypergraph relations (Huynh et al., 2023), etc. Despite the considerable progress achieved in previous works, the underlying market dynamics that fundamentally drive stock price fluctuations remain insufficiently explored.",
+      "token_count": 310,
+      "char_count": 1547,
+      "section_path": [
+        "2.2 Graph Construction in Stock Prediction"
+      ],
+      "pages": [
+        3
+      ],
+      "element_ids": [
+        "elem_937b867d4bde"
+      ],
+      "content_types": [
+        "text"
+      ],
+      "figure_ids": [],
+      "table_ids": [],
+      "formula_ids": [],
+      "image_paths": [],
+      "evidence": [
+        {
+          "element_id": "elem_937b867d4bde",
+          "type": "text",
+          "page": 3,
+          "bbox": {
+            "l": 108.0,
+            "t": 550.3266526,
+            "r": 505.65359246399896,
+            "b": 378.1387743929203
+          },
+          "section_path": [
+            "2.2 Graph Construction in Stock Prediction"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": null,
+          "figure_id": null
+        }
+      ],
+      "previous_chunk_id": "chunk_bec2d9ccce3b6dfa",
+      "next_chunk_id": "chunk_b2bc212ea472d5de"
+    },
+    {
+      "chunk_id": "chunk_b2bc212ea472d5de",
+      "document_id": "doc_d34c8b40ce9b",
+      "source_file": "2605.23953v1.pdf",
+      "chunk_index": 8,
+      "chunk_type": "semantic",
+      "text": "Game theory, as a classic branch of applied mathematics, aims to investigate how individuals interact with one another in competitive or cooperative scenarios, and has been widely applied in economics, biology, computer science and many other disciplines (Baltz, 2004; Camerer et al., 2004; Crawford, 1995). Stylized games such as the Prisoner's Dilemma, Rock-Paper-Scissors, Stag Hunt Game, and Ultimatum Game have been extensively analyzed in the context of multi-agent systems (Sreedhar and Chilton, 2024; Akata et al., 2025; Fan et al., 2024; Lorè and Heydari, 2023). Although theoretical research based on game theory has become fairly mature, the integration of game theory and deep learning for stock price forecasting still remains largely unexplored. In this paper, we innovatively adopt game-theoretic principles to model the strategic interactions among multiple agents in the stock market, so as to characterize the underlying market dynamics that fundamentally drive stock price fluctuations, and further enhance stock price forecasting performance via real-time information gain.",
+      "retrieval_text": "Game theory, as a classic branch of applied mathematics, aims to investigate how individuals interact with one another in competitive or cooperative scenarios, and has been widely applied in economics, biology, computer science and many other disciplines (Baltz, 2004; Camerer et al., 2004; Crawford, 1995). Stylized games such as the Prisoner's Dilemma, Rock-Paper-Scissors, Stag Hunt Game, and Ultimatum Game have been extensively analyzed in the context of multi-agent systems (Sreedhar and Chilton, 2024; Akata et al., 2025; Fan et al., 2024; Lorè and Heydari, 2023). Although theoretical research based on game theory has become fairly mature, the integration of game theory and deep learning for stock price forecasting still remains largely unexplored. In this paper, we innovatively adopt game-theoretic principles to model the strategic interactions among multiple agents in the stock market, so as to characterize the underlying market dynamics that fundamentally drive stock price fluctuations, and further enhance stock price forecasting performance via real-time information gain.",
+      "token_count": 228,
+      "char_count": 1093,
+      "section_path": [
+        "2.3 Game Theory-basedMethods"
+      ],
+      "pages": [
+        3
+      ],
+      "element_ids": [
+        "elem_de5a175d3727"
+      ],
+      "content_types": [
+        "text"
+      ],
+      "figure_ids": [],
+      "table_ids": [],
+      "formula_ids": [],
+      "image_paths": [],
+      "evidence": [
+        {
+          "element_id": "elem_de5a175d3727",
+          "type": "text",
+          "page": 3,
+          "bbox": {
+            "l": 107.253,
+            "t": 340.4946526,
+            "r": 505.7471612032003,
+            "b": 222.85177439292033
+          },
+          "section_path": [
+            "2.3 Game Theory-basedMethods"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": null,
+          "figure_id": null
+        }
+      ],
+      "previous_chunk_id": "chunk_4da9504614f88ba2",
+      "next_chunk_id": "chunk_85b289232a5e07ab"
+    },
+    {
+      "chunk_id": "chunk_85b289232a5e07ab",
+      "document_id": "doc_d34c8b40ce9b",
+      "source_file": "2605.23953v1.pdf",
+      "chunk_index": 9,
+      "chunk_type": "semantic",
+      "text": "In our framework, we integrate game-theoretic strategies and heterogeneous graph networks for stock prices prediction. In this section, we introduce the fundamental concepts of game theory and the notations for heterogeneous graphs. Heterogeneous Graph Considering the complex entity relationships in the stock market, which go beyond the interactions among individual stocks, we adopt a heterogeneous graph architecture to model such intricate relations. Specifically, we incorporate three distinct types of entities as nodes to construct the heterogeneous graph, namely stocks, industries, and investors, which can be denoted as G = (V, E,A,R), where each node v ∈ V is associated with a node type ϕ(v) ∈ A, and each heterogeneous edge e ∈ E corresponds to a relation type ψ(e) ∈ R.",
+      "retrieval_text": "In our framework, we integrate game-theoretic strategies and heterogeneous graph networks for stock prices prediction. In this section, we introduce the fundamental concepts of game theory and the notations for heterogeneous graphs. Heterogeneous Graph Considering the complex entity relationships in the stock market, which go beyond the interactions among individual stocks, we adopt a heterogeneous graph architecture to model such intricate relations. Specifically, we incorporate three distinct types of entities as nodes to construct the heterogeneous graph, namely stocks, industries, and investors, which can be denoted as G = (V, E,A,R), where each node v ∈ V is associated with a node type ϕ(v) ∈ A, and each heterogeneous edge e ∈ E corresponds to a relation type ψ(e) ∈ R.",
+      "token_count": 174,
+      "char_count": 784,
+      "section_path": [
+        "3.1 Preliminary"
+      ],
+      "pages": [
+        3
+      ],
+      "element_ids": [
+        "elem_3069c2ad5c8d",
+        "elem_f3da53843824"
+      ],
+      "content_types": [
+        "text"
+      ],
+      "figure_ids": [],
+      "table_ids": [],
+      "formula_ids": [],
+      "image_paths": [],
+      "evidence": [
+        {
+          "element_id": "elem_3069c2ad5c8d",
+          "type": "text",
+          "page": 3,
+          "bbox": {
+            "l": 108.0,
+            "t": 157.4036526,
+            "r": 504.2454785799995,
+            "b": 127.03377439292035
+          },
+          "section_path": [
+            "3.1 Preliminary"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": null,
+          "figure_id": null
+        },
+        {
+          "element_id": "elem_f3da53843824",
+          "type": "text",
+          "page": 3,
+          "bbox": {
+            "l": 108.0,
+            "t": 111.60119399999996,
+            "r": 504.0040449315997,
+            "b": 69.93377439292033
+          },
+          "section_path": [
+            "3.1 Preliminary"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": null,
+          "figure_id": null
+        }
+      ],
+      "previous_chunk_id": "chunk_b2bc212ea472d5de",
+      "next_chunk_id": "chunk_76bfcbadf750b05f"
+    },
+    {
+      "chunk_id": "chunk_76bfcbadf750b05f",
+      "document_id": "doc_d34c8b40ce9b",
+      "source_file": "2605.23953v1.pdf",
+      "chunk_index": 10,
+      "chunk_type": "semantic",
+      "text": "Figure 1: Overview of our GameStock architecture. Game Theory In our framework, all investors in the stock market are categorized into three types, namely institutions, hot money, and retail investors. The strategic and capital games surrounding the target stock are conducted among these three types of investors, which are regarded as players. The set of strategic actions available to them is denoted as Action = {Buy, Sell , Hold or Bear position},",
+      "retrieval_text": "Figure 1: Overview of our GameStock architecture. Game Theory In our framework, all investors in the stock market are categorized into three types, namely institutions, hot money, and retail investors. The strategic and capital games surrounding the target stock are conducted among these three types of investors, which are regarded as players. The set of strategic actions available to them is denoted as Action = {Buy, Sell , Hold or Bear position},",
+      "token_count": 88,
+      "char_count": 452,
+      "section_path": [
+        "3.1 Preliminary"
+      ],
+      "pages": [
+        4
+      ],
+      "element_ids": [
+        "elem_3e20f5c3d506",
+        "elem_0dcd5d5ac400"
+      ],
+      "content_types": [
+        "text"
+      ],
+      "figure_ids": [],
+      "table_ids": [],
+      "formula_ids": [],
+      "image_paths": [],
+      "evidence": [
+        {
+          "element_id": "elem_3e20f5c3d506",
+          "type": "text",
+          "page": 4,
+          "bbox": {
+            "l": 203.117,
+            "t": 537.8296526,
+            "r": 408.8845403999998,
+            "b": 529.2777743929204
+          },
+          "section_path": [
+            "3.1 Preliminary"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": null,
+          "figure_id": null
+        },
+        {
+          "element_id": "elem_0dcd5d5ac400",
+          "type": "text",
+          "page": 4,
+          "bbox": {
+            "l": 108.0,
+            "t": 465.40419399999996,
+            "r": 505.2418979815998,
+            "b": 423.7367743929203
+          },
+          "section_path": [
+            "3.1 Preliminary"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": null,
+          "figure_id": null
+        }
+      ],
+      "previous_chunk_id": "chunk_85b289232a5e07ab",
+      "next_chunk_id": "chunk_0f9cd22dece2868f"
+    },
+    {
+      "chunk_id": "chunk_0f9cd22dece2868f",
+      "document_id": "doc_d34c8b40ce9b",
+      "source_file": "2605.23953v1.pdf",
+      "chunk_index": 11,
+      "chunk_type": "semantic",
+      "text": "Following the setup of existing works [Xia et al., 2024; Fan and Shen, 2024; Huynh et al., 2023], we formulate the stock price prediction problem into a stock relative price change prediction problem. Given set of stocks S = {s1 , s2 , · · · , sN}, each si ⊆ S has historical trading data on trading day t represented as the vector X t Si . Additionally, Given a graph G = (V, E, A, R) , where V denotes the set of entity vertices of all distinct types in the graph, and E represents the interactive relationships among different entities. We set a looking back windows L, our task in to use the relation graph G and the historical data of S during day T - (L - 1) to T , donated as X T-(L-1):T S = {X T-k si |i = 1, 2, . . . , N; k = L - 1, L - 2, . . . , 0} , to predict the relative price change of all stocks in the stock pool S on the next trading day T + 1, donated as y T+1 S . Mathematically, this can be formalized as",
+      "retrieval_text": "Following the setup of existing works [Xia et al., 2024; Fan and Shen, 2024; Huynh et al., 2023], we formulate the stock price prediction problem into a stock relative price change prediction problem. Given set of stocks S = {s1 , s2 , · · · , sN}, each si ⊆ S has historical trading data on trading day t represented as the vector X t Si . Additionally, Given a graph G = (V, E, A, R) , where V denotes the set of entity vertices of all distinct types in the graph, and E represents the interactive relationships among different entities. We set a looking back windows L, our task in to use the relation graph G and the historical data of S during day T - (L - 1) to T , donated as X T-(L-1):T S = {X T-k si |i = 1, 2, . . . , N; k = L - 1, L - 2, . . . , 0} , to predict the relative price change of all stocks in the stock pool S on the next trading day T + 1, donated as y T+1 S . Mathematically, this can be formalized as",
+      "token_count": 262,
+      "char_count": 926,
+      "section_path": [
+        "3.2 Problem formulation"
+      ],
+      "pages": [
+        4
+      ],
+      "element_ids": [
+        "elem_b646aa292499",
+        "elem_c73618846caa"
+      ],
+      "content_types": [
+        "text"
+      ],
+      "figure_ids": [],
+      "table_ids": [],
+      "formula_ids": [],
+      "image_paths": [],
+      "evidence": [
+        {
+          "element_id": "elem_b646aa292499",
+          "type": "text",
+          "page": 4,
+          "bbox": {
+            "l": 108.0,
+            "t": 382.8546526,
+            "r": 503.99804744640096,
+            "b": 363.3937743929203
+          },
+          "section_path": [
+            "3.2 Problem formulation"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": null,
+          "figure_id": null
+        },
+        {
+          "element_id": "elem_c73618846caa",
+          "type": "text",
+          "page": 4,
+          "bbox": {
+            "l": 107.50200000000001,
+            "t": 355.87645580000003,
+            "r": 504.25105966959956,
+            "b": 274.16927397463974
+          },
+          "section_path": [
+            "3.2 Problem formulation"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": null,
+          "figure_id": null
+        }
+      ],
+      "previous_chunk_id": "chunk_76bfcbadf750b05f",
+      "next_chunk_id": "chunk_1dbb24076941e08d"
+    },
+    {
+      "chunk_id": "chunk_1dbb24076941e08d",
+      "document_id": "doc_d34c8b40ce9b",
+      "source_file": "2605.23953v1.pdf",
+      "chunk_index": 12,
+      "chunk_type": "semantic",
+      "text": "where f is our prediction approach and Θ represents the model parameters.",
+      "retrieval_text": "where f is our prediction approach and Θ represents the model parameters.",
+      "token_count": 15,
+      "char_count": 73,
+      "section_path": [
+        "3.2 Problem formulation"
+      ],
+      "pages": [
+        4
+      ],
+      "element_ids": [
+        "elem_239fe2793c9a"
+      ],
+      "content_types": [
+        "text"
+      ],
+      "figure_ids": [],
+      "table_ids": [],
+      "formula_ids": [],
+      "image_paths": [],
+      "evidence": [
+        {
+          "element_id": "elem_239fe2793c9a",
+          "type": "text",
+          "page": 4,
+          "bbox": {
+            "l": 107.64100000000005,
+            "t": 239.68745579999995,
+            "r": 407.1815128999999,
+            "b": 230.81677439292037
+          },
+          "section_path": [
+            "3.2 Problem formulation"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": null,
+          "figure_id": null
+        }
+      ],
+      "previous_chunk_id": "chunk_0f9cd22dece2868f",
+      "next_chunk_id": "chunk_9535045d5f3ea0b1"
+    },
+    {
+      "chunk_id": "chunk_9535045d5f3ea0b1",
+      "document_id": "doc_d34c8b40ce9b",
+      "source_file": "2605.23953v1.pdf",
+      "chunk_index": 13,
+      "chunk_type": "semantic",
+      "text": "As illustrated in Figure 1, our model is primarily composed of three key components: the multi-level discrete wavelet transform Module (M-DWT) , the heterogeneous graph convolutional network Module (HGCN) and the game-theoretic relation enhancement Module (GRE). Our model initially applies M-DWT to identify periodic temporal trends. This method allows for the detection of inherent daily, weekly, and monthly patterns within stock sequences data. By utilizing the inherent downsampling property of wavelet filters, it can recognize temporal patterns across multiple frequency scales. HGCN is subsequently employed to model the diverse and complex entity relationships in the stock market, whereas GRE dynamically augments these edge relations based on game-theoretic principles. The stock node representations, updated through the graph network, are then used for final stock price prediction.",
+      "retrieval_text": "As illustrated in Figure 1, our model is primarily composed of three key components: the multi-level discrete wavelet transform Module (M-DWT) , the heterogeneous graph convolutional network Module (HGCN) and the game-theoretic relation enhancement Module (GRE). Our model initially applies M-DWT to identify periodic temporal trends. This method allows for the detection of inherent daily, weekly, and monthly patterns within stock sequences data. By utilizing the inherent downsampling property of wavelet filters, it can recognize temporal patterns across multiple frequency scales. HGCN is subsequently employed to model the diverse and complex entity relationships in the stock market, whereas GRE dynamically augments these edge relations based on game-theoretic principles. The stock node representations, updated through the graph network, are then used for final stock price prediction.",
+      "token_count": 182,
+      "char_count": 895,
+      "section_path": [
+        "4 Methodology"
+      ],
+      "pages": [
+        4
+      ],
+      "element_ids": [
+        "elem_5259ae6eed1e",
+        "elem_54bfc67899f7"
+      ],
+      "content_types": [
+        "text"
+      ],
+      "figure_ids": [],
+      "table_ids": [],
+      "formula_ids": [],
+      "image_paths": [],
+      "evidence": [
+        {
+          "element_id": "elem_5259ae6eed1e",
+          "type": "text",
+          "page": 4,
+          "bbox": {
+            "l": 107.641,
+            "t": 182.14665260000004,
+            "r": 504.2512568879991,
+            "b": 151.7767743929203
+          },
+          "section_path": [
+            "4 Methodology"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": null,
+          "figure_id": null
+        },
+        {
+          "element_id": "elem_54bfc67899f7",
+          "type": "text",
+          "page": 4,
+          "bbox": {
+            "l": 108.0,
+            "t": 143.94065260000002,
+            "r": 504.3518392976006,
+            "b": 69.93377439292033
+          },
+          "section_path": [
+            "4 Methodology"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": null,
+          "figure_id": null
+        }
+      ],
+      "previous_chunk_id": "chunk_1dbb24076941e08d",
+      "next_chunk_id": "chunk_06a4f24d32cceb56"
+    },
+    {
+      "chunk_id": "chunk_06a4f24d32cceb56",
+      "document_id": "doc_d34c8b40ce9b",
+      "source_file": "2605.23953v1.pdf",
+      "chunk_index": 14,
+      "chunk_type": "semantic",
+      "text": "As demonstrated in Figure 1, this part is dedicated to recognizing the periodic temporal patterns in stock indicator sequences, encompassing the intrinsic daily, weekly, and monthly patterns in stock prices. These patterns are respectively regarded as representing short-term speculation, medium-term swing movements, and long-term trends that drive stock price fluctuations. For each stock si , the historical daily indicator data over the preceding L time steps (i.e., from T -(L-1) to T) is donated as X T -(L-1):T si ∈ RL×D , where each indicator sequence is treated as an independent feature channel. After standardizing these indicator sequences separately, the whole set is fed into the DWT module to obtain the coefficients of different frequency temporal patterns for each indicator sequence as follows:",
+      "retrieval_text": "As demonstrated in Figure 1, this part is dedicated to recognizing the periodic temporal patterns in stock indicator sequences, encompassing the intrinsic daily, weekly, and monthly patterns in stock prices. These patterns are respectively regarded as representing short-term speculation, medium-term swing movements, and long-term trends that drive stock price fluctuations. For each stock si , the historical daily indicator data over the preceding L time steps (i.e., from T -(L-1) to T) is donated as X T -(L-1):T si ∈ RL×D , where each indicator sequence is treated as an independent feature channel. After standardizing these indicator sequences separately, the whole set is fed into the DWT module to obtain the coefficients of different frequency temporal patterns for each indicator sequence as follows:",
+      "token_count": 165,
+      "char_count": 812,
+      "section_path": [
+        "4.1 Multi-level DiscreteWavelet TransformModule (M-DWT)"
+      ],
+      "pages": [
+        5
+      ],
+      "element_ids": [
+        "elem_f7239805cf36"
+      ],
+      "content_types": [
+        "text"
+      ],
+      "figure_ids": [],
+      "table_ids": [],
+      "formula_ids": [],
+      "image_paths": [],
+      "evidence": [
+        {
+          "element_id": "elem_f7239805cf36",
+          "type": "text",
+          "page": 5,
+          "bbox": {
+            "l": 107.641,
+            "t": 696.2906525999999,
+            "r": 505.74602166399933,
+            "b": 608.3917743929203
+          },
+          "section_path": [
+            "4.1 Multi-level DiscreteWavelet TransformModule (M-DWT)"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": null,
+          "figure_id": null
+        }
+      ],
+      "previous_chunk_id": "chunk_9535045d5f3ea0b1",
+      "next_chunk_id": "chunk_4a0c59180a8ba82e"
+    },
+    {
+      "chunk_id": "chunk_4a0c59180a8ba82e",
+      "document_id": "doc_d34c8b40ce9b",
+      "source_file": "2605.23953v1.pdf",
+      "chunk_index": 15,
+      "chunk_type": "semantic",
+      "text": "where, l denotes the decomposition level of the discrete wavelet transform, cAj,l represents the final approximation coefficient sequence of the j-th indicator sequence after l-level wavelet decomposition, and cDj,k(with k=1,2,. . . ,l) represents the l detail coefficient sequences obtained from the same decomposition. In the subsequent experiments of this paper, we employ the standard orthogonal Daubechies (db) wavelet basis to perform the wavelet decomposition and treat the decomposition level l as an adjustable model parameter. Temporal Attention Studies have shown that feature patterns at different frequencies exert distinct impacts on future stock prices. To this end, we employ a temporal attention mechanism ζ(·) which learns to weigh critical frequency pattern that impact future prices. This mechanism aggregates temporal hidden states hk from different frequency ranges into an overall representation using learnt attention weights αk for each decomposition level k . We formulate this mechanism as:",
+      "retrieval_text": "where, l denotes the decomposition level of the discrete wavelet transform, cAj,l represents the final approximation coefficient sequence of the j-th indicator sequence after l-level wavelet decomposition, and cDj,k(with k=1,2,. . . ,l) represents the l detail coefficient sequences obtained from the same decomposition. In the subsequent experiments of this paper, we employ the standard orthogonal Daubechies (db) wavelet basis to perform the wavelet decomposition and treat the decomposition level l as an adjustable model parameter. Temporal Attention Studies have shown that feature patterns at different frequencies exert distinct impacts on future stock prices. To this end, we employ a temporal attention mechanism ζ(·) which learns to weigh critical frequency pattern that impact future prices. This mechanism aggregates temporal hidden states hk from different frequency ranges into an overall representation using learnt attention weights αk for each decomposition level k . We formulate this mechanism as:",
+      "token_count": 194,
+      "char_count": 1017,
+      "section_path": [
+        "4.1 Multi-level DiscreteWavelet TransformModule (M-DWT)"
+      ],
+      "pages": [
+        5
+      ],
+      "element_ids": [
+        "elem_8c39d355be7b",
+        "elem_a3f91b545817"
+      ],
+      "content_types": [
+        "text"
+      ],
+      "figure_ids": [],
+      "table_ids": [],
+      "formula_ids": [],
+      "image_paths": [],
+      "evidence": [
+        {
+          "element_id": "elem_8c39d355be7b",
+          "type": "text",
+          "page": 5,
+          "bbox": {
+            "l": 107.641,
+            "t": 578.7644558000001,
+            "r": 505.2478411999997,
+            "b": 515.3477743929203
+          },
+          "section_path": [
+            "4.1 Multi-level DiscreteWavelet TransformModule (M-DWT)"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": null,
+          "figure_id": null
+        },
+        {
+          "element_id": "elem_a3f91b545817",
+          "type": "text",
+          "page": 5,
+          "bbox": {
+            "l": 108.0,
+            "t": 500.53119399999997,
+            "r": 504.00072539440004,
+            "b": 447.19452673256484
+          },
+          "section_path": [
+            "4.1 Multi-level DiscreteWavelet TransformModule (M-DWT)"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": null,
+          "figure_id": null
+        }
+      ],
+      "previous_chunk_id": "chunk_06a4f24d32cceb56",
+      "next_chunk_id": "chunk_cb95b25d0e3c1933"
+    },
+    {
+      "chunk_id": "chunk_cb95b25d0e3c1933",
+      "document_id": "doc_d34c8b40ce9b",
+      "source_file": "2605.23953v1.pdf",
+      "chunk_index": 16,
+      "chunk_type": "semantic",
+      "text": "where, W1 and W2 are learnable linear transform matrices, b1 and b2 are bias terms. σ denotes a non-linear activation function. αk represents the learnt attention weights used to aggregate all temporal features across different levels while assigning higher weights to important hierarchical patterns. Trend-Fluctuation Fusion In the stock market, stock price movements are mainly governed by both low-frequency long-term trends and high-frequency short-term fluctuations. Economic environment shifts, sector-specific policy incentives, and unforeseen news events all significantly influence future stock prices, yet their impacts differ across individual stocks. To address this, we propose a trend-fluctuation fusion mechanism that adaptively integrates the long-term trends and short-term fluctuations of different stocks, thereby generating the final representation for each individual stock.",
+      "retrieval_text": "where, W1 and W2 are learnable linear transform matrices, b1 and b2 are bias terms. σ denotes a non-linear activation function. αk represents the learnt attention weights used to aggregate all temporal features across different levels while assigning higher weights to important hierarchical patterns. Trend-Fluctuation Fusion In the stock market, stock price movements are mainly governed by both low-frequency long-term trends and high-frequency short-term fluctuations. Economic environment shifts, sector-specific policy incentives, and unforeseen news events all significantly influence future stock prices, yet their impacts differ across individual stocks. To address this, we propose a trend-fluctuation fusion mechanism that adaptively integrates the long-term trends and short-term fluctuations of different stocks, thereby generating the final representation for each individual stock.",
+      "token_count": 169,
+      "char_count": 896,
+      "section_path": [
+        "4.1 Multi-level DiscreteWavelet TransformModule (M-DWT)"
+      ],
+      "pages": [
+        5
+      ],
+      "element_ids": [
+        "elem_a39fbf05cd14",
+        "elem_f1e1ad3b3673"
+      ],
+      "content_types": [
+        "text"
+      ],
+      "figure_ids": [],
+      "table_ids": [],
+      "formula_ids": [],
+      "image_paths": [],
+      "evidence": [
+        {
+          "element_id": "elem_a39fbf05cd14",
+          "type": "text",
+          "page": 5,
+          "bbox": {
+            "l": 107.641,
+            "t": 374.75345580000004,
+            "r": 504.0034424599991,
+            "b": 333.1557743929203
+          },
+          "section_path": [
+            "4.1 Multi-level DiscreteWavelet TransformModule (M-DWT)"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": null,
+          "figure_id": null
+        },
+        {
+          "element_id": "elem_f1e1ad3b3673",
+          "type": "text",
+          "page": 5,
+          "bbox": {
+            "l": 107.641,
+            "t": 318.33919399999996,
+            "r": 505.24711838399895,
+            "b": 243.94377439292032
+          },
+          "section_path": [
+            "4.1 Multi-level DiscreteWavelet TransformModule (M-DWT)"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": null,
+          "figure_id": null
+        }
+      ],
+      "previous_chunk_id": "chunk_4a0c59180a8ba82e",
+      "next_chunk_id": "chunk_f34ddfc232f46b5e"
+    },
+    {
+      "chunk_id": "chunk_f34ddfc232f46b5e",
+      "document_id": "doc_d34c8b40ce9b",
+      "source_file": "2605.23953v1.pdf",
+      "chunk_index": 17,
+      "chunk_type": "semantic",
+      "text": "where λ denotes a learnable parameter used to adaptively balance the influence of short-term fluctuations. We concatenate representations of all stocks to form Z ∈ RN×M .",
+      "retrieval_text": "where λ denotes a learnable parameter used to adaptively balance the influence of short-term fluctuations. We concatenate representations of all stocks to form Z ∈ RN×M .",
+      "token_count": 38,
+      "char_count": 170,
+      "section_path": [
+        "4.1 Multi-level DiscreteWavelet TransformModule (M-DWT)"
+      ],
+      "pages": [
+        5
+      ],
+      "element_ids": [
+        "elem_924c1cac76f6"
+      ],
+      "content_types": [
+        "text"
+      ],
+      "figure_ids": [],
+      "table_ids": [],
+      "formula_ids": [],
+      "image_paths": [],
+      "evidence": [
+        {
+          "element_id": "elem_924c1cac76f6",
+          "type": "text",
+          "page": 5,
+          "bbox": {
+            "l": 107.641,
+            "t": 190.6954558,
+            "r": 505.6548718832006,
+            "b": 170.9157743929204
+          },
+          "section_path": [
+            "4.1 Multi-level DiscreteWavelet TransformModule (M-DWT)"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": null,
+          "figure_id": null
+        }
+      ],
+      "previous_chunk_id": "chunk_cb95b25d0e3c1933",
+      "next_chunk_id": "chunk_c180ab6eb2fcbf2e"
+    },
+    {
+      "chunk_id": "chunk_c180ab6eb2fcbf2e",
+      "document_id": "doc_d34c8b40ce9b",
+      "source_file": "2605.23953v1.pdf",
+      "chunk_index": 18,
+      "chunk_type": "semantic",
+      "text": "Heterogeneous graph Construction We capture the interplay among stocks, sectors, and investors via a heterogeneous graph, modeling three entity types within the stock market. Specifically, we denote directed and labeled multi-graphs as G = (V, E, A, R) with nodes (entities) v ∈ V and labeled edges (relations) e ∈ E, where ψ(e) ∈ R is a specific relationship type. For convenience, we denote the three different types of nodes as stock node set Ns = {s1, s2, . . . , s|Ns|} , industry node set Ni = {i1, i2, . . . , i|Ni|}, and investor node set Np = {p1, p2, . . . , p|Np|}, respectively. Furthermore, we inject domain knowledge by constructing heterogeneous edge between entities based on two types of relations: industry and investor holding relations. Industry heterogeneous edges: Stocks belonging to same industries, collectively experience similar price trends based on the industry's performance (Livingston, 1977). To leverage this signal, we define relations between stocks as per the CSIINDEX standard. Formally, we construct heterogeneous edges e that connects stocks that belong to the same industry. In addition, heterogeneous edges are similarly established to connect stock nodes with their corresponding sector nodes, thereby modeling the relationships between stocks and their respective industries.",
+      "retrieval_text": "Heterogeneous graph Construction We capture the interplay among stocks, sectors, and investors via a heterogeneous graph, modeling three entity types within the stock market. Specifically, we denote directed and labeled multi-graphs as G = (V, E, A, R) with nodes (entities) v ∈ V and labeled edges (relations) e ∈ E, where ψ(e) ∈ R is a specific relationship type. For convenience, we denote the three different types of nodes as stock node set Ns = {s1, s2, . . . , s|Ns|} , industry node set Ni = {i1, i2, . . . , i|Ni|}, and investor node set Np = {p1, p2, . . . , p|Np|}, respectively. Furthermore, we inject domain knowledge by constructing heterogeneous edge between entities based on two types of relations: industry and investor holding relations. Industry heterogeneous edges: Stocks belonging to same industries, collectively experience similar price trends based on the industry's performance (Livingston, 1977). To leverage this signal, we define relations between stocks as per the CSIINDEX standard. Formally, we construct heterogeneous edges e that connects stocks that belong to the same industry. In addition, heterogeneous edges are similarly established to connect stock nodes with their corresponding sector nodes, thereby modeling the relationships between stocks and their respective industries.",
+      "token_count": 301,
+      "char_count": 1318,
+      "section_path": [
+        "4.2 Heterogeneous graph convolutional networkModule (HGCN)"
+      ],
+      "pages": [
+        5,
+        6
+      ],
+      "element_ids": [
+        "elem_955af61e7e5f",
+        "elem_d84f36402c44"
+      ],
+      "content_types": [
+        "text"
+      ],
+      "figure_ids": [],
+      "table_ids": [],
+      "formula_ids": [],
+      "image_paths": [],
+      "evidence": [
+        {
+          "element_id": "elem_955af61e7e5f",
+          "type": "text",
+          "page": 5,
+          "bbox": {
+            "l": 107.751,
+            "t": 134.52119400000004,
+            "r": 505.24208713380006,
+            "b": 68.25394493861677
+          },
+          "section_path": [
+            "4.2 Heterogeneous graph convolutional networkModule (HGCN)"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": null,
+          "figure_id": null
+        },
+        {
+          "element_id": "elem_d84f36402c44",
+          "type": "text",
+          "page": 6,
+          "bbox": {
+            "l": 107.831,
+            "t": 689.4049794,
+            "r": 504.1658431020006,
+            "b": 626.1277743929203
+          },
+          "section_path": [
+            "4.2 Heterogeneous graph convolutional networkModule (HGCN)"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": null,
+          "figure_id": null
+        }
+      ],
+      "previous_chunk_id": "chunk_f34ddfc232f46b5e",
+      "next_chunk_id": "chunk_57e408592f22e125"
+    },
+    {
+      "chunk_id": "chunk_57e408592f22e125",
+      "document_id": "doc_d34c8b40ce9b",
+      "source_file": "2605.23953v1.pdf",
+      "chunk_index": 19,
+      "chunk_type": "semantic",
+      "text": "Investor holding heterogeneous edges: Distinct holding preferences are observed among different investor types. Specifically, institutional investors exhibit a preference for blue-chip and highquality growth stocks, whereas speculative hot money tends to concentrate on short-term speculative opportunities and technology-focused themes. Meanwhile, retail investors often follow the momentum of speculative capital, directing their attention to the same short-term trends and market narratives. Such heterogeneity in holding preferences serves as a critical factor driving the long-term divergence of stock price trends. For instance, large-cap bellwether stocks such as the Industrial and Commercial Bank of China (ICBC) and Kweichow Moutai, which are favored by institutional investors, are represented by heterogeneous edges. We combine these relations to construct the heterogeneous graph G with all edges stored in a adjacency matrix M ∈ R|V|×|V| , with entries m(vi, vj ) defined as",
+      "retrieval_text": "Investor holding heterogeneous edges: Distinct holding preferences are observed among different investor types. Specifically, institutional investors exhibit a preference for blue-chip and highquality growth stocks, whereas speculative hot money tends to concentrate on short-term speculative opportunities and technology-focused themes. Meanwhile, retail investors often follow the momentum of speculative capital, directing their attention to the same short-term trends and market narratives. Such heterogeneity in holding preferences serves as a critical factor driving the long-term divergence of stock price trends. For instance, large-cap bellwether stocks such as the Industrial and Commercial Bank of China (ICBC) and Kweichow Moutai, which are favored by institutional investors, are represented by heterogeneous edges. We combine these relations to construct the heterogeneous graph G with all edges stored in a adjacency matrix M ∈ R|V|×|V| , with entries m(vi, vj ) defined as",
+      "token_count": 203,
+      "char_count": 988,
+      "section_path": [
+        "4.2 Heterogeneous graph convolutional networkModule (HGCN)"
+      ],
+      "pages": [
+        6
+      ],
+      "element_ids": [
+        "elem_34a477e16dd1",
+        "elem_77df1318377a"
+      ],
+      "content_types": [
+        "text"
+      ],
+      "figure_ids": [],
+      "table_ids": [],
+      "formula_ids": [],
+      "image_paths": [],
+      "evidence": [
+        {
+          "element_id": "elem_34a477e16dd1",
+          "type": "text",
+          "page": 6,
+          "bbox": {
+            "l": 107.831,
+            "t": 618.4709794,
+            "r": 505.746942026,
+            "b": 522.4667743929203
+          },
+          "section_path": [
+            "4.2 Heterogeneous graph convolutional networkModule (HGCN)"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": null,
+          "figure_id": null
+        },
+        {
+          "element_id": "elem_77df1318377a",
+          "type": "text",
+          "page": 6,
+          "bbox": {
+            "l": 107.532,
+            "t": 514.9494558,
+            "r": 504.3513611639998,
+            "b": 493.31952673256484
+          },
+          "section_path": [
+            "4.2 Heterogeneous graph convolutional networkModule (HGCN)"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": null,
+          "figure_id": null
+        }
+      ],
+      "previous_chunk_id": "chunk_c180ab6eb2fcbf2e",
+      "next_chunk_id": "chunk_b7311dbef456f1e3"
+    },
+    {
+      "chunk_id": "chunk_b7311dbef456f1e3",
+      "document_id": "doc_d34c8b40ce9b",
+      "source_file": "2605.23953v1.pdf",
+      "chunk_index": 20,
+      "chunk_type": "semantic",
+      "text": "Motivated by the architectures of R-GCN (Schlichtkrull et al., 2018), we employ the following simple propagation model for calculating the forward-pass update of an entity or node denoted by vi in a multi-relational heterogeneous graph:",
+      "retrieval_text": "Motivated by the architectures of R-GCN (Schlichtkrull et al., 2018), we employ the following simple propagation model for calculating the forward-pass update of an entity or node denoted by vi in a multi-relational heterogeneous graph:",
+      "token_count": 59,
+      "char_count": 236,
+      "section_path": [
+        "4.2 Heterogeneous graph convolutional networkModule (HGCN)"
+      ],
+      "pages": [
+        6
+      ],
+      "element_ids": [
+        "elem_a51a0e03fe7a"
+      ],
+      "content_types": [
+        "text"
+      ],
+      "figure_ids": [],
+      "table_ids": [],
+      "formula_ids": [],
+      "image_paths": [],
+      "evidence": [
+        {
+          "element_id": "elem_a51a0e03fe7a",
+          "type": "text",
+          "page": 6,
+          "bbox": {
+            "l": 108.0,
+            "t": 454.14765259999996,
+            "r": 504.00139487999985,
+            "b": 423.7777743929203
+          },
+          "section_path": [
+            "4.2 Heterogeneous graph convolutional networkModule (HGCN)"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": null,
+          "figure_id": null
+        }
+      ],
+      "previous_chunk_id": "chunk_57e408592f22e125",
+      "next_chunk_id": "chunk_2266ab22342c4896"
+    },
+    {
+      "chunk_id": "chunk_2266ab22342c4896",
+      "document_id": "doc_d34c8b40ce9b",
+      "source_file": "2605.23953v1.pdf",
+      "chunk_index": 21,
+      "chunk_type": "semantic",
+      "text": "where N e vi denotes set of neighbor indices of node vi under relation e ∈ E . cvi,e is problem-specific normalization constant that can either be learned or chosen in advance (such as cvi,e = |N e vi | ).",
+      "retrieval_text": "where N e vi denotes set of neighbor indices of node vi under relation e ∈ E . cvi,e is problem-specific normalization constant that can either be learned or chosen in advance (such as cvi,e = |N e vi | ).",
+      "token_count": 55,
+      "char_count": 205,
+      "section_path": [
+        "4.2 Heterogeneous graph convolutional networkModule (HGCN)"
+      ],
+      "pages": [
+        6
+      ],
+      "element_ids": [
+        "elem_7d3c5397e32e"
+      ],
+      "content_types": [
+        "text"
+      ],
+      "figure_ids": [],
+      "table_ids": [],
+      "formula_ids": [],
+      "image_paths": [],
+      "evidence": [
+        {
+          "element_id": "elem_7d3c5397e32e",
+          "type": "text",
+          "page": 6,
+          "bbox": {
+            "l": 107.641,
+            "t": 364.5831054,
+            "r": 503.99561165420016,
+            "b": 339.86694493861677
+          },
+          "section_path": [
+            "4.2 Heterogeneous graph convolutional networkModule (HGCN)"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": null,
+          "figure_id": null
+        }
+      ],
+      "previous_chunk_id": "chunk_b7311dbef456f1e3",
+      "next_chunk_id": "chunk_8453865b11ff490d"
+    },
+    {
+      "chunk_id": "chunk_8453865b11ff490d",
+      "document_id": "doc_d34c8b40ce9b",
+      "source_file": "2605.23953v1.pdf",
+      "chunk_index": 22,
+      "chunk_type": "semantic",
+      "text": "As a critical source of information reflecting intraday capital flows, the post-market \"Dragon and Tiger List\" of A-shares captures the concentrated manifestation of capital gaming among different investors around individual stocks. The event of a stock being listed on the Dragon and Tiger List reflects short-term capital enthusiasm and speculation on that stock, which exerts either a positive or negative impact on its price over a subsequent period. However, this impact gradually diminishes over time until it eventually decays to zero. Motivated by this, we incorporate a game-theoretic mechanism to model the capital gaming among different investors around individual stocks, where investors act as players whose feasible strategies comprise buying, selling, holding, or remaining in a short position. In the subsequent experiments, these strategies are encoded as -1, 1, and 0, representing selling, buying, and holding (or remaining in a short position), respectively. For a given stock si, we formally define the set of Dragon and Tiger List events occurring within the window period as Esi = {(dj , sdj ,si )}, where dj ∈ [t - W + 1, t] denotes the specific date on which the Dragon and Tiger List event occurs for stock si, and sdj,si represents the gaming triple associated with stock si on that date, and j counts the occurrences of stock si on the Dragon and Tiger List. We attempt to encode each Dragon and Tiger List event to generate the corresponding game signal. Considering the considerable randomness of individual stocks appearing on the Top List, we introduce temporal positional encoding to reflect the differentiated impact of Top List events at different time steps on future predictions. The complete process can be expressed as:",
+      "retrieval_text": "As a critical source of information reflecting intraday capital flows, the post-market \"Dragon and Tiger List\" of A-shares captures the concentrated manifestation of capital gaming among different investors around individual stocks. The event of a stock being listed on the Dragon and Tiger List reflects short-term capital enthusiasm and speculation on that stock, which exerts either a positive or negative impact on its price over a subsequent period. However, this impact gradually diminishes over time until it eventually decays to zero. Motivated by this, we incorporate a game-theoretic mechanism to model the capital gaming among different investors around individual stocks, where investors act as players whose feasible strategies comprise buying, selling, holding, or remaining in a short position. In the subsequent experiments, these strategies are encoded as -1, 1, and 0, representing selling, buying, and holding (or remaining in a short position), respectively. For a given stock si, we formally define the set of Dragon and Tiger List events occurring within the window period as Esi = {(dj , sdj ,si )}, where dj ∈ [t - W + 1, t] denotes the specific date on which the Dragon and Tiger List event occurs for stock si, and sdj,si represents the gaming triple associated with stock si on that date, and j counts the occurrences of stock si on the Dragon and Tiger List. We attempt to encode each Dragon and Tiger List event to generate the corresponding game signal. Considering the considerable randomness of individual stocks appearing on the Top List, we introduce temporal positional encoding to reflect the differentiated impact of Top List events at different time steps on future predictions. The complete process can be expressed as:",
+      "token_count": 348,
+      "char_count": 1758,
+      "section_path": [
+        "4.3 Game-theoretic relation enhancement Module (GRE)"
+      ],
+      "pages": [
+        6
+      ],
+      "element_ids": [
+        "elem_58275ccacb8d",
+        "elem_339438ccefe1"
+      ],
+      "content_types": [
+        "text"
+      ],
+      "figure_ids": [],
+      "table_ids": [],
+      "formula_ids": [],
+      "image_paths": [],
+      "evidence": [
+        {
+          "element_id": "elem_58275ccacb8d",
+          "type": "text",
+          "page": 6,
+          "bbox": {
+            "l": 107.641,
+            "t": 306.90965259999996,
+            "r": 504.16737179599966,
+            "b": 200.1757743929204
+          },
+          "section_path": [
+            "4.3 Game-theoretic relation enhancement Module (GRE)"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": null,
+          "figure_id": null
+        },
+        {
+          "element_id": "elem_339438ccefe1",
+          "type": "text",
+          "page": 6,
+          "bbox": {
+            "l": 107.641,
+            "t": 192.65845579999996,
+            "r": 504.0032279999992,
+            "b": 107.42377439292034
+          },
+          "section_path": [
+            "4.3 Game-theoretic relation enhancement Module (GRE)"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": null,
+          "figure_id": null
+        }
+      ],
+      "previous_chunk_id": "chunk_2266ab22342c4896",
+      "next_chunk_id": "chunk_f250d817e4943ad1"
+    },
+    {
+      "chunk_id": "chunk_f250d817e4943ad1",
+      "document_id": "doc_d34c8b40ce9b",
+      "source_file": "2605.23953v1.pdf",
+      "chunk_index": 23,
+      "chunk_type": "semantic",
+      "text": "where ωdj denotes the exponentially decaying weight over time, characterizing the fact that earlier Dragon and Tiger List game events exert weaker impacts on future stock price prediction, which is consistent with our general intuition. Considering that an individual stock may appear on the Dragon and Tiger List multiple times within the window, we subsequently perform normalization on the weights. We employ temporal positional encoding to encode the listing dates, and integrate the information of game triples to generate the representation vsi for each game event. Finally, based on the normalized weights above, we generate the game signal gsi for each stock within the lookback window. In our setting, gaming occurs exclusively among three types of heterogeneous investors i.e., the set of game players is defined as Nplayer = {pins , phot , pret }, which respectively represent institutional investors, hot money (or speculative funds), and retail investors. We reasonably assume that investors of the same type exhibit convergent behavior in the stock market and therefore treat each player type as a cohesive whole for representation. The strategies available to each player are drawn from the action set π = {-1, 0, 1}, corresponding to net selling, holding, and net buying behaviors, respectively. The equilibrium state is then given by :",
+      "retrieval_text": "where ωdj denotes the exponentially decaying weight over time, characterizing the fact that earlier Dragon and Tiger List game events exert weaker impacts on future stock price prediction, which is consistent with our general intuition. Considering that an individual stock may appear on the Dragon and Tiger List multiple times within the window, we subsequently perform normalization on the weights. We employ temporal positional encoding to encode the listing dates, and integrate the information of game triples to generate the representation vsi for each game event. Finally, based on the normalized weights above, we generate the game signal gsi for each stock within the lookback window. In our setting, gaming occurs exclusively among three types of heterogeneous investors i.e., the set of game players is defined as Nplayer = {pins , phot , pret }, which respectively represent institutional investors, hot money (or speculative funds), and retail investors. We reasonably assume that investors of the same type exhibit convergent behavior in the stock market and therefore treat each player type as a cohesive whole for representation. The strategies available to each player are drawn from the action set π = {-1, 0, 1}, corresponding to net selling, holding, and net buying behaviors, respectively. The equilibrium state is then given by :",
+      "token_count": 268,
+      "char_count": 1352,
+      "section_path": [
+        "4.3 Game-theoretic relation enhancement Module (GRE)"
+      ],
+      "pages": [
+        7
+      ],
+      "element_ids": [
+        "elem_7066bc8edd30",
+        "elem_f991a086097c"
+      ],
+      "content_types": [
+        "text"
+      ],
+      "figure_ids": [],
+      "table_ids": [],
+      "formula_ids": [],
+      "image_paths": [],
+      "evidence": [
+        {
+          "element_id": "elem_7066bc8edd30",
+          "type": "text",
+          "page": 7,
+          "bbox": {
+            "l": 107.641,
+            "t": 641.1344558000001,
+            "r": 504.2503273268002,
+            "b": 555.9007743929203
+          },
+          "section_path": [
+            "4.3 Game-theoretic relation enhancement Module (GRE)"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": null,
+          "figure_id": null
+        },
+        {
+          "element_id": "elem_f991a086097c",
+          "type": "text",
+          "page": 7,
+          "bbox": {
+            "l": 108.0,
+            "t": 548.0636526,
+            "r": 505.247217691999,
+            "b": 474.05777439292035
+          },
+          "section_path": [
+            "4.3 Game-theoretic relation enhancement Module (GRE)"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": null,
+          "figure_id": null
+        }
+      ],
+      "previous_chunk_id": "chunk_8453865b11ff490d",
+      "next_chunk_id": "chunk_2fff1e0dd1c152af"
+    },
+    {
+      "chunk_id": "chunk_2fff1e0dd1c152af",
+      "document_id": "doc_d34c8b40ce9b",
+      "source_file": "2605.23953v1.pdf",
+      "chunk_index": 24,
+      "chunk_type": "semantic",
+      "text": "Here, up(·) denotes the payoff of each type of investor p when selecting a specific strategy ap, r represents the 1-day return of the stock under gaming, βp,q is a coefficient measuring the degree of follow-up among different investors, and (x∗ , y∗ , z∗ ) are the strategies chosen by the three types of investors in the equilibrium state.",
+      "retrieval_text": "Here, up(·) denotes the payoff of each type of investor p when selecting a specific strategy ap, r represents the 1-day return of the stock under gaming, βp,q is a coefficient measuring the degree of follow-up among different investors, and (x∗ , y∗ , z∗ ) are the strategies chosen by the three types of investors in the equilibrium state.",
+      "token_count": 82,
+      "char_count": 340,
+      "section_path": [
+        "4.3 Game-theoretic relation enhancement Module (GRE)"
+      ],
+      "pages": [
+        7
+      ],
+      "element_ids": [
+        "elem_75d5d05ebd88"
+      ],
+      "content_types": [
+        "text"
+      ],
+      "figure_ids": [],
+      "table_ids": [],
+      "formula_ids": [],
+      "image_paths": [],
+      "evidence": [
+        {
+          "element_id": "elem_75d5d05ebd88",
+          "type": "text",
+          "page": 7,
+          "bbox": {
+            "l": 108.0,
+            "t": 288.55645580000004,
+            "r": 504.164371984,
+            "b": 246.9587743929203
+          },
+          "section_path": [
+            "4.3 Game-theoretic relation enhancement Module (GRE)"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": null,
+          "figure_id": null
+        }
+      ],
+      "previous_chunk_id": "chunk_f250d817e4943ad1",
+      "next_chunk_id": "chunk_92b01b6d3a54e92d"
+    },
+    {
+      "chunk_id": "chunk_92b01b6d3a54e92d",
+      "document_id": "doc_d34c8b40ce9b",
+      "source_file": "2605.23953v1.pdf",
+      "chunk_index": 25,
+      "chunk_type": "semantic",
+      "text": "We employ two heterogeneous graph convolutions (RGCNConv(·)) with an ELU activation between the first and second layer. Then we make the final prediction based on the updated node representations of stock nodes following the L-th convolutional layers.",
+      "retrieval_text": "We employ two heterogeneous graph convolutions (RGCNConv(·)) with an ELU activation between the first and second layer. Then we make the final prediction based on the updated node representations of stock nodes following the L-th convolutional layers.",
+      "token_count": 63,
+      "char_count": 251,
+      "section_path": [
+        "4.4 Loss Function"
+      ],
+      "pages": [
+        7
+      ],
+      "element_ids": [
+        "elem_4010b4ae9401"
+      ],
+      "content_types": [
+        "text"
+      ],
+      "figure_ids": [],
+      "table_ids": [],
+      "formula_ids": [],
+      "image_paths": [],
+      "evidence": [
+        {
+          "element_id": "elem_4010b4ae9401",
+          "type": "text",
+          "page": 7,
+          "bbox": {
+            "l": 107.532,
+            "t": 210.32845580000003,
+            "r": 504.0014866496001,
+            "b": 179.63977439292034
+          },
+          "section_path": [
+            "4.4 Loss Function"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": null,
+          "figure_id": null
+        }
+      ],
+      "previous_chunk_id": "chunk_2fff1e0dd1c152af",
+      "next_chunk_id": "chunk_91d81d7ae33bc017"
+    },
+    {
+      "chunk_id": "chunk_91d81d7ae33bc017",
+      "document_id": "doc_d34c8b40ce9b",
+      "source_file": "2605.23953v1.pdf",
+      "chunk_index": 26,
+      "chunk_type": "semantic",
+      "text": "We optimize our model using a combination of a pointwise regression and equilibrium consistency loss to minimize the difference between the predicted and actual return ratios while preserving a dynamic equilibrium state as:",
+      "retrieval_text": "We optimize our model using a combination of a pointwise regression and equilibrium consistency loss to minimize the difference between the predicted and actual return ratios while preserving a dynamic equilibrium state as:",
+      "token_count": 39,
+      "char_count": 223,
+      "section_path": [
+        "4.4 Loss Function"
+      ],
+      "pages": [
+        7
+      ],
+      "element_ids": [
+        "elem_c7355f0fad85"
+      ],
+      "content_types": [
+        "text"
+      ],
+      "figure_ids": [],
+      "table_ids": [],
+      "formula_ids": [],
+      "image_paths": [],
+      "evidence": [
+        {
+          "element_id": "elem_c7355f0fad85",
+          "type": "text",
+          "page": 7,
+          "bbox": {
+            "l": 107.532,
+            "t": 149.48265260000005,
+            "r": 504.34347381120017,
+            "b": 119.1127743929203
+          },
+          "section_path": [
+            "4.4 Loss Function"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": null,
+          "figure_id": null
+        }
+      ],
+      "previous_chunk_id": "chunk_92b01b6d3a54e92d",
+      "next_chunk_id": "chunk_cc7baa4b748e52d9"
+    },
+    {
+      "chunk_id": "chunk_cc7baa4b748e52d9",
+      "document_id": "doc_d34c8b40ce9b",
+      "source_file": "2605.23953v1.pdf",
+      "chunk_index": 27,
+      "chunk_type": "semantic",
+      "text": "In this section, we study our approach with comprehensive experiments, aiming to answer the research questions:",
+      "retrieval_text": "In this section, we study our approach with comprehensive experiments, aiming to answer the research questions:",
+      "token_count": 21,
+      "char_count": 111,
+      "section_path": [
+        "5 Experiments"
+      ],
+      "pages": [
+        8
+      ],
+      "element_ids": [
+        "elem_5a6689eacd4e"
+      ],
+      "content_types": [
+        "text"
+      ],
+      "figure_ids": [],
+      "table_ids": [],
+      "formula_ids": [],
+      "image_paths": [],
+      "evidence": [
+        {
+          "element_id": "elem_5a6689eacd4e",
+          "type": "text",
+          "page": 8,
+          "bbox": {
+            "l": 108.0,
+            "t": 693.9526526,
+            "r": 504.00139487999974,
+            "b": 674.4917743929203
+          },
+          "section_path": [
+            "5 Experiments"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": null,
+          "figure_id": null
+        }
+      ],
+      "previous_chunk_id": "chunk_91d81d7ae33bc017",
+      "next_chunk_id": "chunk_f8f49ad056b7939a"
+    },
+    {
+      "chunk_id": "chunk_f8f49ad056b7939a",
+      "document_id": "doc_d34c8b40ce9b",
+      "source_file": "2605.23953v1.pdf",
+      "chunk_index": 28,
+      "chunk_type": "semantic",
+      "text": "Datasets: We evaluate our approach based on three real world datasets from the Chinese stock market. The statistics of the datasets are in Table 1. The CSI300 Index tracks the 300 largest and most liquid A-shares, reflecting overall market trends, while the CSI500 Index covers the next 500 largest stocks (excluding CSI300), representing small and mid-cap performance. Our dataset includes common volume-price indicators and technical indicators for each individual stock, covering opening price, closing price, highest price, lowest price, trading volume (OHLCV), as well as 5-day, 10-day, 20-day, and 30-day moving average prices, all spanning from January 2017 to December 2024. We partition this dataset chronologically into three segments: a training period spanning from 2017 to 2022, a validation period spanning from 2022 to 2024, and a testing period spanning from 2024 to 2024. Stocks included in the dataset were screened to ensure that those retained were present for at least 95% of trading days over the entire sample period. The model that performs best on the validation set is used for final testing.",
+      "retrieval_text": "Datasets: We evaluate our approach based on three real world datasets from the Chinese stock market. The statistics of the datasets are in Table 1. The CSI300 Index tracks the 300 largest and most liquid A-shares, reflecting overall market trends, while the CSI500 Index covers the next 500 largest stocks (excluding CSI300), representing small and mid-cap performance. Our dataset includes common volume-price indicators and technical indicators for each individual stock, covering opening price, closing price, highest price, lowest price, trading volume (OHLCV), as well as 5-day, 10-day, 20-day, and 30-day moving average prices, all spanning from January 2017 to December 2024. We partition this dataset chronologically into three segments: a training period spanning from 2017 to 2022, a validation period spanning from 2022 to 2024, and a testing period spanning from 2024 to 2024. Stocks included in the dataset were screened to ensure that those retained were present for at least 95% of trading days over the entire sample period. The model that performs best on the validation set is used for final testing.",
+      "token_count": 242,
+      "char_count": 1118,
+      "section_path": [
+        "5.1 Experimental setup"
+      ],
+      "pages": [
+        8
+      ],
+      "element_ids": [
+        "elem_7911863bec47"
+      ],
+      "content_types": [
+        "text"
+      ],
+      "figure_ids": [],
+      "table_ids": [],
+      "formula_ids": [],
+      "image_paths": [],
+      "evidence": [
+        {
+          "element_id": "elem_7911863bec47",
+          "type": "text",
+          "page": 8,
+          "bbox": {
+            "l": 107.751,
+            "t": 569.279194,
+            "r": 505.2470586083994,
+            "b": 440.3387743929203
+          },
+          "section_path": [
+            "5.1 Experimental setup"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": null,
+          "figure_id": null
+        }
+      ],
+      "previous_chunk_id": "chunk_cc7baa4b748e52d9",
+      "next_chunk_id": "chunk_328ff9632c8aeefb"
+    },
+    {
+      "chunk_id": "chunk_328ff9632c8aeefb",
+      "document_id": "doc_d34c8b40ce9b",
+      "source_file": "2605.23953v1.pdf",
+      "chunk_index": 29,
+      "chunk_type": "semantic",
+      "text": "Table 1: Statistics of datasets. Implementation Details: Experiments are based on PyTorch and PyG. All models were implemented using PyTorch 1.12.1 and trained and evaluated on a single NVIDIA GeForce RTX 3090 GPU for 300 epochs, with an early stopping mechanism of 20 epochs introduced to prevent overfitting. The lookback window was set to 20, the learning rate was set to 0.001, and an L2 regularization of 0.001 was applied. During the training process, the ReduceLROnPlateau strategy was used to dynamically adjust the learning rate. In our proposed model, the standard orthogonal Daubechies wavelet is adopted as the wavelet basis, the number of wavelet decomposition levels is set to 3, and the embedding dimension is 48. The number of layers of the GAT was set to 2 layer and the number of hidden units was 64. In addition, each model was repeated 5 times to verify its stability, and the average performance was reported.",
+      "retrieval_text": "Table 1: Statistics of datasets. Implementation Details: Experiments are based on PyTorch and PyG. All models were implemented using PyTorch 1.12.1 and trained and evaluated on a single NVIDIA GeForce RTX 3090 GPU for 300 epochs, with an early stopping mechanism of 20 epochs introduced to prevent overfitting. The lookback window was set to 20, the learning rate was set to 0.001, and an L2 regularization of 0.001 was applied. During the training process, the ReduceLROnPlateau strategy was used to dynamically adjust the learning rate. In our proposed model, the standard orthogonal Daubechies wavelet is adopted as the wavelet basis, the number of wavelet decomposition levels is set to 3, and the embedding dimension is 48. The number of layers of the GAT was set to 2 layer and the number of hidden units was 64. In addition, each model was repeated 5 times to verify its stability, and the average performance was reported.",
+      "token_count": 220,
+      "char_count": 930,
+      "section_path": [
+        "5.1 Experimental setup"
+      ],
+      "pages": [
+        8
+      ],
+      "element_ids": [
+        "elem_5a341282b76e",
+        "elem_1ee1f98b04a0"
+      ],
+      "content_types": [
+        "text"
+      ],
+      "figure_ids": [],
+      "table_ids": [],
+      "formula_ids": [],
+      "image_paths": [],
+      "evidence": [
+        {
+          "element_id": "elem_5a341282b76e",
+          "type": "text",
+          "page": 8,
+          "bbox": {
+            "l": 246.743,
+            "t": 429.22965259999995,
+            "r": 365.25808959999966,
+            "b": 420.6777743929203
+          },
+          "section_path": [
+            "5.1 Experimental setup"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": null,
+          "figure_id": null
+        },
+        {
+          "element_id": "elem_1ee1f98b04a0",
+          "type": "text",
+          "page": 8,
+          "bbox": {
+            "l": 107.641,
+            "t": 341.444194,
+            "r": 505.74504913199934,
+            "b": 234.32277439292034
+          },
+          "section_path": [
+            "5.1 Experimental setup"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": null,
+          "figure_id": null
+        }
+      ],
+      "previous_chunk_id": "chunk_f8f49ad056b7939a",
+      "next_chunk_id": "chunk_25551282d509c397"
+    },
+    {
+      "chunk_id": "chunk_25551282d509c397",
+      "document_id": "doc_d34c8b40ce9b",
+      "source_file": "2605.23953v1.pdf",
+      "chunk_index": 30,
+      "chunk_type": "semantic",
+      "text": "Baselines: We compared the performance of our method with several stock price prediction models: (1) LSTM [Hochreiter and Schmidhuber, 1997]: Specialized recurrent neural network that can capture long-term dependencies. (2) DA-RNN [Qin et al., 2017]: Attention-based LSTMmodel that enhances predictive power by integrating attention mechanisms. (3)Adv-ALSTM [Feng et al.,2019] Tries to improve ALSTM through adversarial training to capture the stochastic nature of stock price and ameliorate the over-fitting. (4) FEDformer[Zhou et al.,2022] Transformer-based model that leverages frequency-domain attention and mixture of experts for seasonal-trend decomposition to better capture the global properties of time series. (5) HIST [Xu et al., 2021] Focus on the relevance between stocks and concepts, while utilizing both the stock's shared information and individual information to improve the stock forecasting performance. (6) SFM [Zhang et al.,2017]: Decomposes the hidden states of LSTM memory units into multiple frequency components to simulate the various underlying trading patterns behind stock price fluctuations. (7) MASTER [Li et al.,2024]: By alternately performing intra-stock and inter-stock information aggregation to model the momentary and cross-time stock correlations, and leveraging market information for automatic feature selection.",
+      "retrieval_text": "Baselines: We compared the performance of our method with several stock price prediction models: (1) LSTM [Hochreiter and Schmidhuber, 1997]: Specialized recurrent neural network that can capture long-term dependencies. (2) DA-RNN [Qin et al., 2017]: Attention-based LSTMmodel that enhances predictive power by integrating attention mechanisms. (3)Adv-ALSTM [Feng et al.,2019] Tries to improve ALSTM through adversarial training to capture the stochastic nature of stock price and ameliorate the over-fitting. (4) FEDformer[Zhou et al.,2022] Transformer-based model that leverages frequency-domain attention and mixture of experts for seasonal-trend decomposition to better capture the global properties of time series. (5) HIST [Xu et al., 2021] Focus on the relevance between stocks and concepts, while utilizing both the stock's shared information and individual information to improve the stock forecasting performance. (6) SFM [Zhang et al.,2017]: Decomposes the hidden states of LSTM memory units into multiple frequency components to simulate the various underlying trading patterns behind stock price fluctuations. (7) MASTER [Li et al.,2024]: By alternately performing intra-stock and inter-stock information aggregation to model the momentary and cross-time stock correlations, and leveraging market information for automatic feature selection.",
+      "token_count": 312,
+      "char_count": 1354,
+      "section_path": [
+        "5.1 Experimental setup"
+      ],
+      "pages": [
+        8
+      ],
+      "element_ids": [
+        "elem_d83f44b973a8"
+      ],
+      "content_types": [
+        "text"
+      ],
+      "figure_ids": [],
+      "table_ids": [],
+      "formula_ids": [],
+      "image_paths": [],
+      "evidence": [
+        {
+          "element_id": "elem_d83f44b973a8",
+          "type": "text",
+          "page": 8,
+          "bbox": {
+            "l": 107.671,
+            "t": 220.69219399999997,
+            "r": 505.59302981860014,
+            "b": 69.93377439292033
+          },
+          "section_path": [
+            "5.1 Experimental setup"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": null,
+          "figure_id": null
+        }
+      ],
+      "previous_chunk_id": "chunk_328ff9632c8aeefb",
+      "next_chunk_id": "chunk_c3b28d4681221c5b"
+    },
+    {
+      "chunk_id": "chunk_c3b28d4681221c5b",
+      "document_id": "doc_d34c8b40ce9b",
+      "source_file": "2605.23953v1.pdf",
+      "chunk_index": 31,
+      "chunk_type": "semantic",
+      "text": "Table 2: Main results of GTHGAT and baselines for stock price forecasting task on different datasets. The best results are in bold and the second-best results are underlined (p<0.01). Metrics: Following [Li et al., 2024], we employ four IC and its variants metrics which are widely accepted in stock price prediction research [Lin et al., 2021]: IC, RankIC, ICIR, and RankICIR. IC represents the Pearson correlation coefficient and is calculated daily to assess the linear relationship between predicted and actual values. RankIC uses the Spearman rank correlation coefficient to evaluate the monotonic relationship between predictions and actual outcomes. ICIR normalizes the IC by dividing it by its standard deviation, providing a measure of the consistency and reliability of the IC. RankICIR Enhances the RankIC by normalizing it against its standard deviation, thereby offering an assessment of the RankIC's consistency and reliability over time.",
+      "retrieval_text": "Table 2: Main results of GTHGAT and baselines for stock price forecasting task on different datasets. The best results are in bold and the second-best results are underlined (p<0.01). Metrics: Following [Li et al., 2024], we employ four IC and its variants metrics which are widely accepted in stock price prediction research [Lin et al., 2021]: IC, RankIC, ICIR, and RankICIR. IC represents the Pearson correlation coefficient and is calculated daily to assess the linear relationship between predicted and actual values. RankIC uses the Spearman rank correlation coefficient to evaluate the monotonic relationship between predictions and actual outcomes. ICIR normalizes the IC by dividing it by its standard deviation, providing a measure of the consistency and reliability of the IC. RankICIR Enhances the RankIC by normalizing it against its standard deviation, thereby offering an assessment of the RankIC's consistency and reliability over time.",
+      "token_count": 204,
+      "char_count": 952,
+      "section_path": [
+        "5.1 Experimental setup"
+      ],
+      "pages": [
+        9
+      ],
+      "element_ids": [
+        "elem_4fcc1875344a",
+        "elem_3846e564f6af"
+      ],
+      "content_types": [
+        "text"
+      ],
+      "figure_ids": [],
+      "table_ids": [],
+      "formula_ids": [],
+      "image_paths": [],
+      "evidence": [
+        {
+          "element_id": "elem_4fcc1875344a",
+          "type": "text",
+          "page": 9,
+          "bbox": {
+            "l": 107.691,
+            "t": 719.7306526,
+            "r": 505.7430366884002,
+            "b": 700.2697743929203
+          },
+          "section_path": [
+            "5.1 Experimental setup"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": null,
+          "figure_id": null
+        },
+        {
+          "element_id": "elem_3846e564f6af",
+          "type": "text",
+          "page": 9,
+          "bbox": {
+            "l": 108.0,
+            "t": 554.976194,
+            "r": 504.3448654776005,
+            "b": 469.6717743929203
+          },
+          "section_path": [
+            "5.1 Experimental setup"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": null,
+          "figure_id": null
+        }
+      ],
+      "previous_chunk_id": "chunk_25551282d509c397",
+      "next_chunk_id": "chunk_abcf75b7b97b5243"
+    },
+    {
+      "chunk_id": "chunk_abcf75b7b97b5243",
+      "document_id": "doc_d34c8b40ce9b",
+      "source_file": "2605.23953v1.pdf",
+      "chunk_index": 32,
+      "chunk_type": "semantic",
+      "text": "In Table 2, we compare ours model with the baseline methods, where ours model consistently surpasses the vast majority of baselines across all evaluation metrics. Most baselines were evaluated using their original configurations and the same loss function for fairness. We discover that StockMixer demonstrates its superiority over LSTM, ALSTM, and FEDformer by time mixing to better capture multi-scale temporal information, suggesting that leveraging different patterns information from historical stock data can significantly enhance stock price prediction capabilities. Furthermore, while HIST aim to improve predictive accuracy by analyzing inter-stock relations, they rely on pre-defined and fixed graph structures, which may not effectively represent the complex interrelations among stocks in the market, leading to their underperformance compared to our method. The exceptional effectiveness of our method primarily stems from two key factors: 1) Our method fully considers the fluctuation patterns at different frequencies in the stock price-volume time series and achieves their effective fusion, ensuring that the model can capture multi-scale information to enhance prediction performance. 2) Our method innovatively models the relationships among diverse and complex entities in the stock market, rather than merely the simple correlation between stocks, which ensures that our method can integrate richer multi-source information for future stock price prediction. 3) By introducing game theory, our method realizes the dynamic enhancement of relationship modeling, which greatly improves the effectiveness of relationship modeling.",
+      "retrieval_text": "In Table 2, we compare ours model with the baseline methods, where ours model consistently surpasses the vast majority of baselines across all evaluation metrics. Most baselines were evaluated using their original configurations and the same loss function for fairness. We discover that StockMixer demonstrates its superiority over LSTM, ALSTM, and FEDformer by time mixing to better capture multi-scale temporal information, suggesting that leveraging different patterns information from historical stock data can significantly enhance stock price prediction capabilities. Furthermore, while HIST aim to improve predictive accuracy by analyzing inter-stock relations, they rely on pre-defined and fixed graph structures, which may not effectively represent the complex interrelations among stocks in the market, leading to their underperformance compared to our method. The exceptional effectiveness of our method primarily stems from two key factors: 1) Our method fully considers the fluctuation patterns at different frequencies in the stock price-volume time series and achieves their effective fusion, ensuring that the model can capture multi-scale information to enhance prediction performance. 2) Our method innovatively models the relationships among diverse and complex entities in the stock market, rather than merely the simple correlation between stocks, which ensures that our method can integrate richer multi-source information for future stock price prediction. 3) By introducing game theory, our method realizes the dynamic enhancement of relationship modeling, which greatly improves the effectiveness of relationship modeling.",
+      "token_count": 290,
+      "char_count": 1647,
+      "section_path": [
+        "5.2 Performance Comparison"
+      ],
+      "pages": [
+        9
+      ],
+      "element_ids": [
+        "elem_ab175b65e3bc"
+      ],
+      "content_types": [
+        "text"
+      ],
+      "figure_ids": [],
+      "table_ids": [],
+      "formula_ids": [],
+      "image_paths": [],
+      "evidence": [
+        {
+          "element_id": "elem_ab175b65e3bc",
+          "type": "text",
+          "page": 9,
+          "bbox": {
+            "l": 107.691,
+            "t": 434.0766526,
+            "r": 505.7408648399995,
+            "b": 250.97977439292038
+          },
+          "section_path": [
+            "5.2 Performance Comparison"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": null,
+          "figure_id": null
+        }
+      ],
+      "previous_chunk_id": "chunk_c3b28d4681221c5b",
+      "next_chunk_id": "chunk_5f8ff0455e24b22d"
+    },
+    {
+      "chunk_id": "chunk_5f8ff0455e24b22d",
+      "document_id": "doc_d34c8b40ce9b",
+      "source_file": "2605.23953v1.pdf",
+      "chunk_index": 33,
+      "chunk_type": "semantic",
+      "text": "To validate the effectiveness of each component, we conducted ablation experiments, we have the following three variants. 1) w/o M-DWT: A single LSTM is used to replace the M-DWT module for processing time series data, while keeping all other components unchanged; 2) w/o GRE: Removing the GRE module from the original model, with all other modules kept unchanged; 3) w/o HGCN+GRE: The prediction is made solely based on the M-DWT module. We observed that as the number of components included in each variant increased, the performance of the variants progressively improved, providing evidence for the positive impact of each component.",
+      "retrieval_text": "To validate the effectiveness of each component, we conducted ablation experiments, we have the following three variants. 1) w/o M-DWT: A single LSTM is used to replace the M-DWT module for processing time series data, while keeping all other components unchanged; 2) w/o GRE: Removing the GRE module from the original model, with all other modules kept unchanged; 3) w/o HGCN+GRE: The prediction is made solely based on the M-DWT module. We observed that as the number of components included in each variant increased, the performance of the variants progressively improved, providing evidence for the positive impact of each component.",
+      "token_count": 145,
+      "char_count": 637,
+      "section_path": [
+        "5.3 Ablation study"
+      ],
+      "pages": [
+        9
+      ],
+      "element_ids": [
+        "elem_b746227ddd55",
+        "elem_4e279aafeca3"
+      ],
+      "content_types": [
+        "text"
+      ],
+      "figure_ids": [],
+      "table_ids": [],
+      "formula_ids": [],
+      "image_paths": [],
+      "evidence": [
+        {
+          "element_id": "elem_b746227ddd55",
+          "type": "text",
+          "page": 9,
+          "bbox": {
+            "l": 107.691,
+            "t": 215.38465259999998,
+            "r": 505.3867741108006,
+            "b": 163.18081660000007
+          },
+          "section_path": [
+            "5.3 Ablation study"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": null,
+          "figure_id": null
+        },
+        {
+          "element_id": "elem_4e279aafeca3",
+          "type": "text",
+          "page": 9,
+          "bbox": {
+            "l": 107.532,
+            "t": 155.3596526,
+            "r": 504.14286379999965,
+            "b": 135.89877439292036
+          },
+          "section_path": [
+            "5.3 Ablation study"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": null,
+          "figure_id": null
+        }
+      ],
+      "previous_chunk_id": "chunk_abcf75b7b97b5243",
+      "next_chunk_id": "chunk_4846e9f1fa42c625"
+    },
+    {
+      "chunk_id": "chunk_4846e9f1fa42c625",
+      "document_id": "doc_d34c8b40ce9b",
+      "source_file": "2605.23953v1.pdf",
+      "chunk_index": 34,
+      "chunk_type": "semantic",
+      "text": "To assess the effectiveness of our graph construction, we performed network analysis and comparative experiments. Beyond conventional graph structures, we construct a heterogeneous graph by incorporating market participants, i.e., investors, into the graph construction scope. Specifically, we obtain the holding preferences of different investor types for stocks and sectors from the East Asia Wealth Data Center. Based on this, we construct a heterogeneous graph structure, and we compared our method against the widely used industry sector graph. Compared to the industry sector graph, the heterogeneous graph contains significantly more information about stocks but is not as over-densely connected as a correlation graph, where every pair of nodes is linked. A single connected component indicates that stocks are in a giant interconnected structure, with more frequent and diverse relations between stocks. Additionally, the significantly higher closeness centrality further suggests that the heterogeneous graph more comprehensively captures the relations related to stocks within the market. In contrast, the industry sector graph's dispersed structure and lower connectivity result in a relatively limited amount of contained information while the correlation graph is over-connected reducing the reliability of the influence between stocks.",
+      "retrieval_text": "To assess the effectiveness of our graph construction, we performed network analysis and comparative experiments. Beyond conventional graph structures, we construct a heterogeneous graph by incorporating market participants, i.e., investors, into the graph construction scope. Specifically, we obtain the holding preferences of different investor types for stocks and sectors from the East Asia Wealth Data Center. Based on this, we construct a heterogeneous graph structure, and we compared our method against the widely used industry sector graph. Compared to the industry sector graph, the heterogeneous graph contains significantly more information about stocks but is not as over-densely connected as a correlation graph, where every pair of nodes is linked. A single connected component indicates that stocks are in a giant interconnected structure, with more frequent and diverse relations between stocks. Additionally, the significantly higher closeness centrality further suggests that the heterogeneous graph more comprehensively captures the relations related to stocks within the market. In contrast, the industry sector graph's dispersed structure and lower connectivity result in a relatively limited amount of contained information while the correlation graph is over-connected reducing the reliability of the influence between stocks.",
+      "token_count": 234,
+      "char_count": 1350,
+      "section_path": [
+        "5.4 Results of explainability"
+      ],
+      "pages": [
+        9
+      ],
+      "element_ids": [
+        "elem_23d799ffc832"
+      ],
+      "content_types": [
+        "text"
+      ],
+      "figure_ids": [],
+      "table_ids": [],
+      "formula_ids": [],
+      "image_paths": [],
+      "evidence": [
+        {
+          "element_id": "elem_23d799ffc832",
+          "type": "text",
+          "page": 9,
+          "bbox": {
+            "l": 107.691,
+            "t": 100.30365259999996,
+            "r": 505.6500657051994,
+            "b": 69.93377439292033
+          },
+          "section_path": [
+            "5.4 Results of explainability"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": null,
+          "figure_id": null
+        }
+      ],
+      "previous_chunk_id": "chunk_5f8ff0455e24b22d",
+      "next_chunk_id": "chunk_533e27078314c1f6"
+    },
+    {
+      "chunk_id": "chunk_533e27078314c1f6",
+      "document_id": "doc_d34c8b40ce9b",
+      "source_file": "2605.23953v1.pdf",
+      "chunk_index": 35,
+      "chunk_type": "semantic",
+      "text": "Table 3: Ablation study results on different datasets.",
+      "retrieval_text": "Table 3: Ablation study results on different datasets.",
+      "token_count": 15,
+      "char_count": 54,
+      "section_path": [
+        "5.4 Results of explainability"
+      ],
+      "pages": [
+        10
+      ],
+      "element_ids": [
+        "elem_7a59a21be3df"
+      ],
+      "content_types": [
+        "text"
+      ],
+      "figure_ids": [],
+      "table_ids": [],
+      "formula_ids": [],
+      "image_paths": [],
+      "evidence": [
+        {
+          "element_id": "elem_7a59a21be3df",
+          "type": "text",
+          "page": 10,
+          "bbox": {
+            "l": 201.907,
+            "t": 719.7306526,
+            "r": 410.09545219999956,
+            "b": 711.1787743929203
+          },
+          "section_path": [
+            "5.4 Results of explainability"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": null,
+          "figure_id": null
+        }
+      ],
+      "previous_chunk_id": "chunk_4846e9f1fa42c625",
+      "next_chunk_id": "chunk_5dcf1a974f19366e"
+    },
+    {
+      "chunk_id": "chunk_5dcf1a974f19366e",
+      "document_id": "doc_d34c8b40ce9b",
+      "source_file": "2605.23953v1.pdf",
+      "chunk_index": 36,
+      "chunk_type": "semantic",
+      "text": "In this paper, we proposed a novel model for accurate stock price forecasting by capturing market dynamics and complex entity relationships. The model incorporates a wavelet transform module with a hierarchical attention mechanism to precisely identify fluctuation patterns and trend patterns in stock volume-price time series and enhance stock temporal representations. Furthermore, by introducing game theory equilibrium and constructing a well-designed heterogeneous graph structure, the model effectively captures complex interactions among different entities in the real stock market, while fully accounting for capital competition and strategic interactions among various investors over individual stocks, thereby significantly strengthening heterogeneous relation modeling. Extensive experiments conducted on Chinese A-share market data demonstrate that our proposed model outperforms stateof-the-art methods in both prediction performance and portfolio stability. Additionally, ablation studies and detailed analyses validate the effectiveness of the proposed components. In future works, we will focus on improving the model's robustness, particularly during periods of market instability, to maintain consistent reliability under various market conditions.",
+      "retrieval_text": "In this paper, we proposed a novel model for accurate stock price forecasting by capturing market dynamics and complex entity relationships. The model incorporates a wavelet transform module with a hierarchical attention mechanism to precisely identify fluctuation patterns and trend patterns in stock volume-price time series and enhance stock temporal representations. Furthermore, by introducing game theory equilibrium and constructing a well-designed heterogeneous graph structure, the model effectively captures complex interactions among different entities in the real stock market, while fully accounting for capital competition and strategic interactions among various investors over individual stocks, thereby significantly strengthening heterogeneous relation modeling. Extensive experiments conducted on Chinese A-share market data demonstrate that our proposed model outperforms stateof-the-art methods in both prediction performance and portfolio stability. Additionally, ablation studies and detailed analyses validate the effectiveness of the proposed components. In future works, we will focus on improving the model's robustness, particularly during periods of market instability, to maintain consistent reliability under various market conditions.",
+      "token_count": 205,
+      "char_count": 1266,
+      "section_path": [
+        "6 Conclusion"
+      ],
+      "pages": [
+        10
+      ],
+      "element_ids": [
+        "elem_af5878af407c"
+      ],
+      "content_types": [
+        "text"
+      ],
+      "figure_ids": [],
+      "table_ids": [],
+      "formula_ids": [],
+      "image_paths": [],
+      "evidence": [
+        {
+          "element_id": "elem_af5878af407c",
+          "type": "text",
+          "page": 10,
+          "bbox": {
+            "l": 107.641,
+            "t": 435.0556526,
+            "r": 505.6559336749994,
+            "b": 295.5947743929203
+          },
+          "section_path": [
+            "6 Conclusion"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": null,
+          "figure_id": null
+        }
+      ],
+      "previous_chunk_id": "chunk_533e27078314c1f6",
+      "next_chunk_id": "chunk_dda7339ed7e873a7"
+    },
+    {
+      "chunk_id": "chunk_dda7339ed7e873a7",
+      "document_id": "doc_d34c8b40ce9b",
+      "source_file": "2605.23953v1.pdf",
+      "chunk_index": 37,
+      "chunk_type": "semantic",
+      "text": "This work was supported by research grants to be acknowledged in the final version.",
+      "retrieval_text": "This work was supported by research grants to be acknowledged in the final version.",
+      "token_count": 17,
+      "char_count": 83,
+      "section_path": [
+        "Acknowledgments and Disclosure of Funding"
+      ],
+      "pages": [
+        10
+      ],
+      "element_ids": [
+        "elem_833098de5a8d"
+      ],
+      "content_types": [
+        "text"
+      ],
+      "figure_ids": [],
+      "table_ids": [],
+      "formula_ids": [],
+      "image_paths": [],
+      "evidence": [
+        {
+          "element_id": "elem_833098de5a8d",
+          "type": "text",
+          "page": 10,
+          "bbox": {
+            "l": 107.691,
+            "t": 251.5086526,
+            "r": 444.0981141999997,
+            "b": 242.95677439292035
+          },
+          "section_path": [
+            "Acknowledgments and Disclosure of Funding"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": null,
+          "figure_id": null
+        }
+      ],
+      "previous_chunk_id": "chunk_5dcf1a974f19366e",
+      "next_chunk_id": "chunk_a4390be9174e1cc5"
+    },
+    {
+      "chunk_id": "chunk_a4390be9174e1cc5",
+      "document_id": "doc_d34c8b40ce9b",
+      "source_file": "2605.23953v1.pdf",
+      "chunk_index": 38,
+      "chunk_type": "semantic",
+      "text": "Konstantin Baltz. Behavioral game theory. experiments in strategic interaction, 2004.",
+      "retrieval_text": "Konstantin Baltz. Behavioral game theory. experiments in strategic interaction, 2004.",
+      "token_count": 17,
+      "char_count": 85,
+      "section_path": [
+        "References"
+      ],
+      "pages": [
+        10
+      ],
+      "element_ids": [
+        "elem_ad558b322a86"
+      ],
+      "content_types": [
+        "text"
+      ],
+      "figure_ids": [],
+      "table_ids": [],
+      "formula_ids": [],
+      "image_paths": [],
+      "evidence": [
+        {
+          "element_id": "elem_ad558b322a86",
+          "type": "text",
+          "page": 10,
+          "bbox": {
+            "l": 108.0,
+            "t": 78.48565259999998,
+            "r": 448.17297699999966,
+            "b": 69.93377439292033
+          },
+          "section_path": [
+            "References"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": null,
+          "figure_id": null
+        }
+      ],
+      "previous_chunk_id": "chunk_dda7339ed7e873a7",
+      "next_chunk_id": "chunk_24dbbe8bc108cb32"
+    },
+    {
+      "chunk_id": "chunk_24dbbe8bc108cb32",
+      "document_id": "doc_d34c8b40ce9b",
+      "source_file": "2605.23953v1.pdf",
+      "chunk_index": 39,
+      "chunk_type": "figure_evidence",
+      "text": "Figure 1: Overview of our GameStock architecture.",
+      "retrieval_text": "Figure 1: Overview of our GameStock architecture.",
+      "token_count": 12,
+      "char_count": 49,
+      "section_path": [
+        "3.1 Preliminary"
+      ],
+      "pages": [
+        4
+      ],
+      "element_ids": [
+        "elem_8cf8d0fd81bb"
+      ],
+      "content_types": [
+        "figure"
+      ],
+      "figure_ids": [
+        "elem_8cf8d0fd81bb"
+      ],
+      "table_ids": [],
+      "formula_ids": [],
+      "image_paths": [
+        "images\\doc_d34c8b40ce9b\\figure_0001.png"
+      ],
+      "evidence": [
+        {
+          "element_id": "elem_8cf8d0fd81bb",
+          "type": "figure",
+          "page": 4,
+          "bbox": {
+            "l": 133.9825439453125,
+            "t": 715.7373962402344,
+            "r": 480.4701843261719,
+            "b": 548.6238098144531
+          },
+          "section_path": [
+            "3.1 Preliminary"
+          ],
+          "caption": "Figure 1: Overview of our GameStock architecture.",
+          "image_path": "images\\doc_d34c8b40ce9b\\figure_0001.png",
+          "formula_id": null,
+          "figure_id": "figure_0001"
+        }
+      ],
+      "previous_chunk_id": "chunk_a4390be9174e1cc5",
+      "next_chunk_id": "chunk_fe92b48db0a6c260"
+    },
+    {
+      "chunk_id": "chunk_fe92b48db0a6c260",
+      "document_id": "doc_d34c8b40ce9b",
+      "source_file": "2605.23953v1.pdf",
+      "chunk_index": 40,
+      "chunk_type": "formula_evidence",
+      "text": "ˆy T+1 S = f(X T-(L-1):T S , G; Θ), (1)",
+      "retrieval_text": "ˆy T+1 S = f(X T-(L-1):T S , G; Θ), (1)",
+      "token_count": 30,
+      "char_count": 39,
+      "section_path": [
+        "3.2 Problem formulation"
+      ],
+      "pages": [
+        4
+      ],
+      "element_ids": [
+        "elem_5015312127b0"
+      ],
+      "content_types": [
+        "formula"
+      ],
+      "figure_ids": [],
+      "table_ids": [],
+      "formula_ids": [
+        "elem_5015312127b0"
+      ],
+      "image_paths": [],
+      "evidence": [
+        {
+          "element_id": "elem_5015312127b0",
+          "type": "formula",
+          "page": 4,
+          "bbox": {
+            "l": 241.75000000000003,
+            "t": 263.87910539999996,
+            "r": 504.66261060000005,
+            "b": 249.68152673256486
+          },
+          "section_path": [
+            "3.2 Problem formulation"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": "formula_0001",
+          "figure_id": null
+        }
+      ],
+      "previous_chunk_id": "chunk_24dbbe8bc108cb32",
+      "next_chunk_id": "chunk_85ee706228d0c159"
+    },
+    {
+      "chunk_id": "chunk_85ee706228d0c159",
+      "document_id": "doc_d34c8b40ce9b",
+      "source_file": "2605.23953v1.pdf",
+      "chunk_index": 41,
+      "chunk_type": "formula_evidence",
+      "text": "{cAj,l , cDj,k} = DW T (X T -(L-1):T si , l), k ∈ [1, 2, . . . , l] (2)",
+      "retrieval_text": "{cAj,l , cDj,k} = DW T (X T -(L-1):T si , l), k ∈ [1, 2, . . . , l] (2)",
+      "token_count": 49,
+      "char_count": 71,
+      "section_path": [
+        "4.1 Multi-level DiscreteWavelet TransformModule (M-DWT)"
+      ],
+      "pages": [
+        5
+      ],
+      "element_ids": [
+        "elem_66c5a214d746"
+      ],
+      "content_types": [
+        "formula"
+      ],
+      "figure_ids": [],
+      "table_ids": [],
+      "formula_ids": [
+        "elem_66c5a214d746"
+      ],
+      "image_paths": [],
+      "evidence": [
+        {
+          "element_id": "elem_66c5a214d746",
+          "type": "formula",
+          "page": 5,
+          "bbox": {
+            "l": 187.855,
+            "t": 599.2911054,
+            "r": 504.66425619999995,
+            "b": 586.0049449386167
+          },
+          "section_path": [
+            "4.1 Multi-level DiscreteWavelet TransformModule (M-DWT)"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": "formula_0002",
+          "figure_id": null
+        }
+      ],
+      "previous_chunk_id": "chunk_fe92b48db0a6c260",
+      "next_chunk_id": "chunk_e4f256f02a0910d8"
+    },
+    {
+      "chunk_id": "chunk_e4f256f02a0910d8",
+      "document_id": "doc_d34c8b40ce9b",
+      "source_file": "2605.23953v1.pdf",
+      "chunk_index": 42,
+      "chunk_type": "formula_evidence",
+      "text": "hk = Linear(||Dj=1MaxPool(cDj,k)) (3)",
+      "retrieval_text": "hk = Linear(||Dj=1MaxPool(cDj,k)) (3)",
+      "token_count": 23,
+      "char_count": 37,
+      "section_path": [
+        "4.1 Multi-level DiscreteWavelet TransformModule (M-DWT)"
+      ],
+      "pages": [
+        5
+      ],
+      "element_ids": [
+        "elem_c067d83dbdfd"
+      ],
+      "content_types": [
+        "formula"
+      ],
+      "figure_ids": [],
+      "table_ids": [],
+      "formula_ids": [
+        "elem_c067d83dbdfd"
+      ],
+      "image_paths": [],
+      "evidence": [
+        {
+          "element_id": "elem_c067d83dbdfd",
+          "type": "formula",
+          "page": 5,
+          "bbox": {
+            "l": 228.23600000000002,
+            "t": 439.3191054,
+            "r": 504.6700238800001,
+            "b": 426.64852673256485
+          },
+          "section_path": [
+            "4.1 Multi-level DiscreteWavelet TransformModule (M-DWT)"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": "formula_0003",
+          "figure_id": null
+        }
+      ],
+      "previous_chunk_id": "chunk_85ee706228d0c159",
+      "next_chunk_id": "chunk_9e4a21078322629d"
+    },
+    {
+      "chunk_id": "chunk_9e4a21078322629d",
+      "document_id": "doc_d34c8b40ce9b",
+      "source_file": "2605.23953v1.pdf",
+      "chunk_index": 43,
+      "chunk_type": "formula_evidence",
+      "text": "ζ(H) = ∑ k αkhk, αk = exp(ek) ∑k exp(ek) , ek =W2 · σ(W1hk + b1) + b2 (4)",
+      "retrieval_text": "ζ(H) = ∑ k αkhk, αk = exp(ek) ∑k exp(ek) , ek =W2 · σ(W1hk + b1) + b2 (4)",
+      "token_count": 48,
+      "char_count": 73,
+      "section_path": [
+        "4.1 Multi-level DiscreteWavelet TransformModule (M-DWT)"
+      ],
+      "pages": [
+        5
+      ],
+      "element_ids": [
+        "elem_bf212b9df6eb"
+      ],
+      "content_types": [
+        "formula"
+      ],
+      "figure_ids": [],
+      "table_ids": [],
+      "formula_ids": [
+        "elem_bf212b9df6eb"
+      ],
+      "image_paths": [],
+      "evidence": [
+        {
+          "element_id": "elem_bf212b9df6eb",
+          "type": "formula",
+          "page": 5,
+          "bbox": {
+            "l": 164.30200000000005,
+            "t": 416.55545580000006,
+            "r": 504.6673916,
+            "b": 385.8515267325648
+          },
+          "section_path": [
+            "4.1 Multi-level DiscreteWavelet TransformModule (M-DWT)"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": "formula_0004",
+          "figure_id": null
+        }
+      ],
+      "previous_chunk_id": "chunk_e4f256f02a0910d8",
+      "next_chunk_id": "chunk_348a05391b918d1e"
+    },
+    {
+      "chunk_id": "chunk_348a05391b918d1e",
+      "document_id": "doc_d34c8b40ce9b",
+      "source_file": "2605.23953v1.pdf",
+      "chunk_index": 44,
+      "chunk_type": "formula_evidence",
+      "text": "htrend = Linear(||Dj=1AvgP ool(cAj,l)) (5)",
+      "retrieval_text": "htrend = Linear(||Dj=1AvgP ool(cAj,l)) (5)",
+      "token_count": 27,
+      "char_count": 42,
+      "section_path": [
+        "4.1 Multi-level DiscreteWavelet TransformModule (M-DWT)"
+      ],
+      "pages": [
+        5
+      ],
+      "element_ids": [
+        "elem_ea72b7803112"
+      ],
+      "content_types": [
+        "formula"
+      ],
+      "figure_ids": [],
+      "table_ids": [],
+      "formula_ids": [
+        "elem_ea72b7803112"
+      ],
+      "image_paths": [],
+      "evidence": [
+        {
+          "element_id": "elem_ea72b7803112",
+          "type": "formula",
+          "page": 5,
+          "bbox": {
+            "l": 223.832,
+            "t": 243.11910539999997,
+            "r": 504.67055468,
+            "b": 230.4485267325648
+          },
+          "section_path": [
+            "4.1 Multi-level DiscreteWavelet TransformModule (M-DWT)"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": "formula_0005",
+          "figure_id": null
+        }
+      ],
+      "previous_chunk_id": "chunk_9e4a21078322629d",
+      "next_chunk_id": "chunk_1f7c29ef7c72b653"
+    },
+    {
+      "chunk_id": "chunk_1f7c29ef7c72b653",
+      "document_id": "doc_d34c8b40ce9b",
+      "source_file": "2605.23953v1.pdf",
+      "chunk_index": 45,
+      "chunk_type": "formula_evidence",
+      "text": "λ = Sigmoid(Linear(htrend) (6)",
+      "retrieval_text": "λ = Sigmoid(Linear(htrend) (6)",
+      "token_count": 17,
+      "char_count": 30,
+      "section_path": [
+        "4.1 Multi-level DiscreteWavelet TransformModule (M-DWT)"
+      ],
+      "pages": [
+        5
+      ],
+      "element_ids": [
+        "elem_9fc613c5d104"
+      ],
+      "content_types": [
+        "formula"
+      ],
+      "figure_ids": [],
+      "table_ids": [],
+      "formula_ids": [
+        "elem_9fc613c5d104"
+      ],
+      "image_paths": [],
+      "evidence": [
+        {
+          "element_id": "elem_9fc613c5d104",
+          "type": "formula",
+          "page": 5,
+          "bbox": {
+            "l": 243.48999999999998,
+            "t": 223.05845580000005,
+            "r": 504.66830934,
+            "b": 213.42852673256482
+          },
+          "section_path": [
+            "4.1 Multi-level DiscreteWavelet TransformModule (M-DWT)"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": "formula_0006",
+          "figure_id": null
+        }
+      ],
+      "previous_chunk_id": "chunk_348a05391b918d1e",
+      "next_chunk_id": "chunk_764c62aafa419990"
+    },
+    {
+      "chunk_id": "chunk_764c62aafa419990",
+      "document_id": "doc_d34c8b40ce9b",
+      "source_file": "2605.23953v1.pdf",
+      "chunk_index": 46,
+      "chunk_type": "formula_evidence",
+      "text": "zsi = htrend + λ · ζ(H) (7)",
+      "retrieval_text": "zsi = htrend + λ · ζ(H) (7)",
+      "token_count": 18,
+      "char_count": 27,
+      "section_path": [
+        "4.1 Multi-level DiscreteWavelet TransformModule (M-DWT)"
+      ],
+      "pages": [
+        5
+      ],
+      "element_ids": [
+        "elem_43690903ac53"
+      ],
+      "content_types": [
+        "formula"
+      ],
+      "figure_ids": [],
+      "table_ids": [],
+      "formula_ids": [
+        "elem_43690903ac53"
+      ],
+      "image_paths": [],
+      "evidence": [
+        {
+          "element_id": "elem_43690903ac53",
+          "type": "formula",
+          "page": 5,
+          "bbox": {
+            "l": 256.77,
+            "t": 206.44745579999994,
+            "r": 504.66345689999997,
+            "b": 196.20094493861666
+          },
+          "section_path": [
+            "4.1 Multi-level DiscreteWavelet TransformModule (M-DWT)"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": "formula_0007",
+          "figure_id": null
+        }
+      ],
+      "previous_chunk_id": "chunk_1f7c29ef7c72b653",
+      "next_chunk_id": "chunk_4c6fd886c0762032"
+    },
+    {
+      "chunk_id": "chunk_4c6fd886c0762032",
+      "document_id": "doc_d34c8b40ce9b",
+      "source_file": "2605.23953v1.pdf",
+      "chunk_index": 47,
+      "chunk_type": "formula_evidence",
+      "text": "m(vi, vj ) = { 1, (vi, vj) ∈ e 0, (vi, vj) /∈ e (8)",
+      "retrieval_text": "m(vi, vj ) = { 1, (vi, vj) ∈ e 0, (vi, vj) /∈ e (8)",
+      "token_count": 35,
+      "char_count": 51,
+      "section_path": [
+        "4.2 Heterogeneous graph convolutional networkModule (HGCN)"
+      ],
+      "pages": [
+        6
+      ],
+      "element_ids": [
+        "elem_df210e560c3e"
+      ],
+      "content_types": [
+        "formula"
+      ],
+      "figure_ids": [],
+      "table_ids": [],
+      "formula_ids": [
+        "elem_df210e560c3e"
+      ],
+      "image_paths": [],
+      "evidence": [
+        {
+          "element_id": "elem_df210e560c3e",
+          "type": "formula",
+          "page": 6,
+          "bbox": {
+            "l": 234.07500000000005,
+            "t": 488.55050400000005,
+            "r": 504.6673916,
+            "b": 466.13352673256486
+          },
+          "section_path": [
+            "4.2 Heterogeneous graph convolutional networkModule (HGCN)"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": "formula_0008",
+          "figure_id": null
+        }
+      ],
+      "previous_chunk_id": "chunk_764c62aafa419990",
+      "next_chunk_id": "chunk_1533d4a5962d65c7"
+    },
+    {
+      "chunk_id": "chunk_1533d4a5962d65c7",
+      "document_id": "doc_d34c8b40ce9b",
+      "source_file": "2605.23953v1.pdf",
+      "chunk_index": 48,
+      "chunk_type": "formula_evidence",
+      "text": "h(l+1) vi = σ ∑ e∈E ∑ vj ∈N e vi 1 cvi ,e W (l) r h(l) vj +W (l) 0 h(l) vi  , (9)",
+      "retrieval_text": "h(l+1) vi = σ ∑ e∈E ∑ vj ∈N e vi 1 cvi ,e W (l) r h(l) vj +W (l) 0 h(l) vi  , (9)",
+      "token_count": 53,
+      "char_count": 85,
+      "section_path": [
+        "4.2 Heterogeneous graph convolutional networkModule (HGCN)"
+      ],
+      "pages": [
+        6
+      ],
+      "element_ids": [
+        "elem_1fe73bc54a20"
+      ],
+      "content_types": [
+        "formula"
+      ],
+      "figure_ids": [],
+      "table_ids": [],
+      "formula_ids": [
+        "elem_1fe73bc54a20"
+      ],
+      "image_paths": [],
+      "evidence": [
+        {
+          "element_id": "elem_1fe73bc54a20",
+          "type": "formula",
+          "page": 6,
+          "bbox": {
+            "l": 198.3,
+            "t": 408.4595039999999,
+            "r": 504.6691108799999,
+            "b": 371.58294493861666
+          },
+          "section_path": [
+            "4.2 Heterogeneous graph convolutional networkModule (HGCN)"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": "formula_0009",
+          "figure_id": null
+        }
+      ],
+      "previous_chunk_id": "chunk_4c6fd886c0762032",
+      "next_chunk_id": "chunk_94714e79d6334d80"
+    },
+    {
+      "chunk_id": "chunk_94714e79d6334d80",
+      "document_id": "doc_d34c8b40ce9b",
+      "source_file": "2605.23953v1.pdf",
+      "chunk_index": 49,
+      "chunk_type": "formula_evidence",
+      "text": "α(dj ,sdj ,si ) = ωdj ∑(dj ,sdj ,si )∈Esi ω′ , ωdj = e-α·(t-dj) (10)",
+      "retrieval_text": "α(dj ,sdj ,si ) = ωdj ∑(dj ,sdj ,si )∈Esi ω′ , ωdj = e-α·(t-dj) (10)",
+      "token_count": 46,
+      "char_count": 68,
+      "section_path": [
+        "4.3 Game-theoretic relation enhancement Module (GRE)"
+      ],
+      "pages": [
+        6
+      ],
+      "element_ids": [
+        "elem_d9d272ffe742"
+      ],
+      "content_types": [
+        "formula"
+      ],
+      "figure_ids": [],
+      "table_ids": [],
+      "formula_ids": [
+        "elem_d9d272ffe742"
+      ],
+      "image_paths": [],
+      "evidence": [
+        {
+          "element_id": "elem_d9d272ffe742",
+          "type": "formula",
+          "page": 6,
+          "bbox": {
+            "l": 195.489,
+            "t": 94.62045579999995,
+            "r": 504.66769159999984,
+            "b": 67.0359449386167
+          },
+          "section_path": [
+            "4.3 Game-theoretic relation enhancement Module (GRE)"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": "formula_0010",
+          "figure_id": null
+        }
+      ],
+      "previous_chunk_id": "chunk_1533d4a5962d65c7",
+      "next_chunk_id": "chunk_8750d2f49cd1cd12"
+    },
+    {
+      "chunk_id": "chunk_8750d2f49cd1cd12",
+      "document_id": "doc_d34c8b40ce9b",
+      "source_file": "2605.23953v1.pdf",
+      "chunk_index": 50,
+      "chunk_type": "formula_evidence",
+      "text": "vsi = MLP ([pos_emb(dj ); sdj ,si ]) (11)",
+      "retrieval_text": "vsi = MLP ([pos_emb(dj ); sdj ,si ]) (11)",
+      "token_count": 27,
+      "char_count": 41,
+      "section_path": [
+        "4.3 Game-theoretic relation enhancement Module (GRE)"
+      ],
+      "pages": [
+        7
+      ],
+      "element_ids": [
+        "elem_652c4d826bf0"
+      ],
+      "content_types": [
+        "formula"
+      ],
+      "figure_ids": [],
+      "table_ids": [],
+      "formula_ids": [
+        "elem_652c4d826bf0"
+      ],
+      "image_paths": [],
+      "evidence": [
+        {
+          "element_id": "elem_652c4d826bf0",
+          "type": "formula",
+          "page": 7,
+          "bbox": {
+            "l": 233.293,
+            "t": 718.5055040000001,
+            "r": 504.6676916,
+            "b": 706.5959449386168
+          },
+          "section_path": [
+            "4.3 Game-theoretic relation enhancement Module (GRE)"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": "formula_0011",
+          "figure_id": null
+        }
+      ],
+      "previous_chunk_id": "chunk_94714e79d6334d80",
+      "next_chunk_id": "chunk_994205e26354eb9f"
+    },
+    {
+      "chunk_id": "chunk_994205e26354eb9f",
+      "document_id": "doc_d34c8b40ce9b",
+      "source_file": "2605.23953v1.pdf",
+      "chunk_index": 51,
+      "chunk_type": "formula_evidence",
+      "text": "gsi = ∑ (dj ,sdj ,si )∈Esi α(dj,sdj,si ) · vsi (12)",
+      "retrieval_text": "gsi = ∑ (dj ,sdj ,si )∈Esi α(dj,sdj,si ) · vsi (12)",
+      "token_count": 32,
+      "char_count": 51,
+      "section_path": [
+        "4.3 Game-theoretic relation enhancement Module (GRE)"
+      ],
+      "pages": [
+        7
+      ],
+      "element_ids": [
+        "elem_18bb75b26f3a"
+      ],
+      "content_types": [
+        "formula"
+      ],
+      "figure_ids": [],
+      "table_ids": [],
+      "formula_ids": [
+        "elem_18bb75b26f3a"
+      ],
+      "image_paths": [],
+      "evidence": [
+        {
+          "element_id": "elem_18bb75b26f3a",
+          "type": "formula",
+          "page": 7,
+          "bbox": {
+            "l": 233.28100000000006,
+            "t": 698.9385040000001,
+            "r": 504.6676915999999,
+            "b": 673.0929449386167
+          },
+          "section_path": [
+            "4.3 Game-theoretic relation enhancement Module (GRE)"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": "formula_0012",
+          "figure_id": null
+        }
+      ],
+      "previous_chunk_id": "chunk_8750d2f49cd1cd12",
+      "next_chunk_id": "chunk_41031739cb4ff61d"
+    },
+    {
+      "chunk_id": "chunk_41031739cb4ff61d",
+      "document_id": "doc_d34c8b40ce9b",
+      "source_file": "2605.23953v1.pdf",
+      "chunk_index": 52,
+      "chunk_type": "formula_evidence",
+      "text": "H(L) s = z ⊙h(L) s + (1- z) ⊙ g, z = σ(Wz · [h(L) s ; g] + bz) (13)",
+      "retrieval_text": "H(L) s = z ⊙h(L) s + (1- z) ⊙ g, z = σ(Wz · [h(L) s ; g] + bz) (13)",
+      "token_count": 46,
+      "char_count": 67,
+      "section_path": [
+        "4.3 Game-theoretic relation enhancement Module (GRE)"
+      ],
+      "pages": [
+        7
+      ],
+      "element_ids": [
+        "elem_835a6002ae9d"
+      ],
+      "content_types": [
+        "formula"
+      ],
+      "figure_ids": [],
+      "table_ids": [],
+      "formula_ids": [
+        "elem_835a6002ae9d"
+      ],
+      "image_paths": [],
+      "evidence": [
+        {
+          "element_id": "elem_835a6002ae9d",
+          "type": "formula",
+          "page": 7,
+          "bbox": {
+            "l": 180.51699999999994,
+            "t": 664.5971053999998,
+            "r": 504.6687147399998,
+            "b": 651.9265267325646
+          },
+          "section_path": [
+            "4.3 Game-theoretic relation enhancement Module (GRE)"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": "formula_0013",
+          "figure_id": null
+        }
+      ],
+      "previous_chunk_id": "chunk_994205e26354eb9f",
+      "next_chunk_id": "chunk_0a939176af7e9c0e"
+    },
+    {
+      "chunk_id": "chunk_0a939176af7e9c0e",
+      "document_id": "doc_d34c8b40ce9b",
+      "source_file": "2605.23953v1.pdf",
+      "chunk_index": 53,
+      "chunk_type": "formula_evidence",
+      "text": "up(ap, a-p, r) = ap · r + λ · ap · ∑ q̸=p βp,q · aq (14)",
+      "retrieval_text": "up(ap, a-p, r) = ap · r + λ · ap · ∑ q̸=p βp,q · aq (14)",
+      "token_count": 35,
+      "char_count": 56,
+      "section_path": [
+        "4.3 Game-theoretic relation enhancement Module (GRE)"
+      ],
+      "pages": [
+        7
+      ],
+      "element_ids": [
+        "elem_7a66431de2a2"
+      ],
+      "content_types": [
+        "formula"
+      ],
+      "figure_ids": [],
+      "table_ids": [],
+      "formula_ids": [
+        "elem_7a66431de2a2"
+      ],
+      "image_paths": [],
+      "evidence": [
+        {
+          "element_id": "elem_7a66431de2a2",
+          "type": "formula",
+          "page": 7,
+          "bbox": {
+            "l": 213.77800000000002,
+            "t": 464.721504,
+            "r": 504.66769159999996,
+            "b": 441.5435267325648
+          },
+          "section_path": [
+            "4.3 Game-theoretic relation enhancement Module (GRE)"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": "formula_0014",
+          "figure_id": null
+        }
+      ],
+      "previous_chunk_id": "chunk_41031739cb4ff61d",
+      "next_chunk_id": "chunk_e0643b93a6662298"
+    },
+    {
+      "chunk_id": "chunk_e0643b93a6662298",
+      "document_id": "doc_d34c8b40ce9b",
+      "source_file": "2605.23953v1.pdf",
+      "chunk_index": 54,
+      "chunk_type": "formula_evidence",
+      "text": "upins (x∗ , y∗ , z∗ , r) ≥ upins (x′ , y∗ , z∗ , r), ∀x′ ∈ {-1, 0, 1} (15)",
+      "retrieval_text": "upins (x∗ , y∗ , z∗ , r) ≥ upins (x′ , y∗ , z∗ , r), ∀x′ ∈ {-1, 0, 1} (15)",
+      "token_count": 46,
+      "char_count": 74,
+      "section_path": [
+        "4.3 Game-theoretic relation enhancement Module (GRE)"
+      ],
+      "pages": [
+        7
+      ],
+      "element_ids": [
+        "elem_b6bd2779515c"
+      ],
+      "content_types": [
+        "formula"
+      ],
+      "figure_ids": [],
+      "table_ids": [],
+      "formula_ids": [
+        "elem_b6bd2779515c"
+      ],
+      "image_paths": [],
+      "evidence": [
+        {
+          "element_id": "elem_b6bd2779515c",
+          "type": "formula",
+          "page": 7,
+          "bbox": {
+            "l": 181.961,
+            "t": 431.7481054,
+            "r": 504.66868145999985,
+            "b": 417.8249449386167
+          },
+          "section_path": [
+            "4.3 Game-theoretic relation enhancement Module (GRE)"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": "formula_0015",
+          "figure_id": null
+        }
+      ],
+      "previous_chunk_id": "chunk_0a939176af7e9c0e",
+      "next_chunk_id": "chunk_d1b15bc146c528eb"
+    },
+    {
+      "chunk_id": "chunk_d1b15bc146c528eb",
+      "document_id": "doc_d34c8b40ce9b",
+      "source_file": "2605.23953v1.pdf",
+      "chunk_index": 55,
+      "chunk_type": "formula_evidence",
+      "text": "uphot (x∗ , y∗ , z∗ , r) ≥ uphot (x∗ , y′ , z∗ , r), ∀y′ ∈ {-1, 0, 1} (16)",
+      "retrieval_text": "uphot (x∗ , y∗ , z∗ , r) ≥ uphot (x∗ , y′ , z∗ , r), ∀y′ ∈ {-1, 0, 1} (16)",
+      "token_count": 46,
+      "char_count": 74,
+      "section_path": [
+        "4.3 Game-theoretic relation enhancement Module (GRE)"
+      ],
+      "pages": [
+        7
+      ],
+      "element_ids": [
+        "elem_630efa396524"
+      ],
+      "content_types": [
+        "formula"
+      ],
+      "figure_ids": [],
+      "table_ids": [],
+      "formula_ids": [
+        "elem_630efa396524"
+      ],
+      "image_paths": [],
+      "evidence": [
+        {
+          "element_id": "elem_630efa396524",
+          "type": "formula",
+          "page": 7,
+          "bbox": {
+            "l": 182.14000000000001,
+            "t": 398.43210539999984,
+            "r": 504.6690082599998,
+            "b": 384.3699449386166
+          },
+          "section_path": [
+            "4.3 Game-theoretic relation enhancement Module (GRE)"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": "formula_0016",
+          "figure_id": null
+        }
+      ],
+      "previous_chunk_id": "chunk_e0643b93a6662298",
+      "next_chunk_id": "chunk_412ca141cb9f53b6"
+    },
+    {
+      "chunk_id": "chunk_412ca141cb9f53b6",
+      "document_id": "doc_d34c8b40ce9b",
+      "source_file": "2605.23953v1.pdf",
+      "chunk_index": 56,
+      "chunk_type": "formula_evidence",
+      "text": "upret (x∗ , y∗ , z∗ , r) ≥ upret (x∗ , y∗ , z′ , r), ∀z′ ∈ {-1, 0, 1} (17)",
+      "retrieval_text": "upret (x∗ , y∗ , z∗ , r) ≥ upret (x∗ , y∗ , z′ , r), ∀z′ ∈ {-1, 0, 1} (17)",
+      "token_count": 46,
+      "char_count": 74,
+      "section_path": [
+        "4.3 Game-theoretic relation enhancement Module (GRE)"
+      ],
+      "pages": [
+        7
+      ],
+      "element_ids": [
+        "elem_5fddbcb63126"
+      ],
+      "content_types": [
+        "formula"
+      ],
+      "figure_ids": [],
+      "table_ids": [],
+      "formula_ids": [
+        "elem_5fddbcb63126"
+      ],
+      "image_paths": [],
+      "evidence": [
+        {
+          "element_id": "elem_5fddbcb63126",
+          "type": "formula",
+          "page": 7,
+          "bbox": {
+            "l": 182.95900000000006,
+            "t": 365.1161053999998,
+            "r": 504.66694146,
+            "b": 351.44994493861657
+          },
+          "section_path": [
+            "4.3 Game-theoretic relation enhancement Module (GRE)"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": "formula_0017",
+          "figure_id": null
+        }
+      ],
+      "previous_chunk_id": "chunk_d1b15bc146c528eb",
+      "next_chunk_id": "chunk_dd0086c9e925b267"
+    },
+    {
+      "chunk_id": "chunk_dd0086c9e925b267",
+      "document_id": "doc_d34c8b40ce9b",
+      "source_file": "2605.23953v1.pdf",
+      "chunk_index": 57,
+      "chunk_type": "formula_evidence",
+      "text": "Leq = 1 Ns Ns∑ i=1 ∑ p ∥∥apred p -a∗p∥∥2 (18)",
+      "retrieval_text": "Leq = 1 Ns Ns∑ i=1 ∑ p ∥∥apred p -a∗p∥∥2 (18)",
+      "token_count": 20,
+      "char_count": 45,
+      "section_path": [
+        "4.3 Game-theoretic relation enhancement Module (GRE)"
+      ],
+      "pages": [
+        7
+      ],
+      "element_ids": [
+        "elem_fd07315d1163"
+      ],
+      "content_types": [
+        "formula"
+      ],
+      "figure_ids": [],
+      "table_ids": [],
+      "formula_ids": [
+        "elem_fd07315d1163"
+      ],
+      "image_paths": [],
+      "evidence": [
+        {
+          "element_id": "elem_fd07315d1163",
+          "type": "formula",
+          "page": 7,
+          "bbox": {
+            "l": 238.19800000000015,
+            "t": 331.8381054,
+            "r": 504.6676916,
+            "b": 301.4245267325648
+          },
+          "section_path": [
+            "4.3 Game-theoretic relation enhancement Module (GRE)"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": "formula_0018",
+          "figure_id": null
+        }
+      ],
+      "previous_chunk_id": "chunk_412ca141cb9f53b6",
+      "next_chunk_id": "chunk_8e65bdd1a87e6d01"
+    },
+    {
+      "chunk_id": "chunk_8e65bdd1a87e6d01",
+      "document_id": "doc_d34c8b40ce9b",
+      "source_file": "2605.23953v1.pdf",
+      "chunk_index": 58,
+      "chunk_type": "formula_evidence",
+      "text": "ˆ y = σ(LayerNorm(H(L) s )), (19)",
+      "retrieval_text": "ˆ y = σ(LayerNorm(H(L) s )), (19)",
+      "token_count": 22,
+      "char_count": 33,
+      "section_path": [
+        "4.4 Loss Function"
+      ],
+      "pages": [
+        7
+      ],
+      "element_ids": [
+        "elem_26c8db3dd0f0"
+      ],
+      "content_types": [
+        "formula"
+      ],
+      "figure_ids": [],
+      "table_ids": [],
+      "formula_ids": [
+        "elem_26c8db3dd0f0"
+      ],
+      "image_paths": [],
+      "evidence": [
+        {
+          "element_id": "elem_26c8db3dd0f0",
+          "type": "formula",
+          "page": 7,
+          "bbox": {
+            "l": 246.86658060000002,
+            "t": 170.43410540000002,
+            "r": 504.66569616,
+            "b": 157.76352673256486
+          },
+          "section_path": [
+            "4.4 Loss Function"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": "formula_0019",
+          "figure_id": null
+        }
+      ],
+      "previous_chunk_id": "chunk_dd0086c9e925b267",
+      "next_chunk_id": "chunk_d45b37a355482fcd"
+    },
+    {
+      "chunk_id": "chunk_d45b37a355482fcd",
+      "document_id": "doc_d34c8b40ce9b",
+      "source_file": "2605.23953v1.pdf",
+      "chunk_index": 59,
+      "chunk_type": "formula_evidence",
+      "text": "Lpred = 1 Ns Ns∑ i=1 ∥ˆ yi - yi∥2 (20)",
+      "retrieval_text": "Lpred = 1 Ns Ns∑ i=1 ∥ˆ yi - yi∥2 (20)",
+      "token_count": 18,
+      "char_count": 38,
+      "section_path": [
+        "4.4 Loss Function"
+      ],
+      "pages": [
+        7
+      ],
+      "element_ids": [
+        "elem_3f7ae5c1fc65"
+      ],
+      "content_types": [
+        "formula"
+      ],
+      "figure_ids": [],
+      "table_ids": [],
+      "formula_ids": [
+        "elem_3f7ae5c1fc65"
+      ],
+      "image_paths": [],
+      "evidence": [
+        {
+          "element_id": "elem_3f7ae5c1fc65",
+          "type": "formula",
+          "page": 7,
+          "bbox": {
+            "l": 250.257,
+            "t": 116.01110540000002,
+            "r": 504.6676916,
+            "b": 85.5975267325648
+          },
+          "section_path": [
+            "4.4 Loss Function"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": "formula_0020",
+          "figure_id": null
+        }
+      ],
+      "previous_chunk_id": "chunk_8e65bdd1a87e6d01",
+      "next_chunk_id": "chunk_d9a0820727e5072f"
+    },
+    {
+      "chunk_id": "chunk_d9a0820727e5072f",
+      "document_id": "doc_d34c8b40ce9b",
+      "source_file": "2605.23953v1.pdf",
+      "chunk_index": 60,
+      "chunk_type": "formula_evidence",
+      "text": "Ltotal = Lpred + λ · Leq (21)",
+      "retrieval_text": "Ltotal = Lpred + λ · Leq (21)",
+      "token_count": 16,
+      "char_count": 29,
+      "section_path": [
+        "4.4 Loss Function"
+      ],
+      "pages": [
+        7
+      ],
+      "element_ids": [
+        "elem_20aa00464a4a"
+      ],
+      "content_types": [
+        "formula"
+      ],
+      "figure_ids": [],
+      "table_ids": [],
+      "formula_ids": [
+        "elem_20aa00464a4a"
+      ],
+      "image_paths": [],
+      "evidence": [
+        {
+          "element_id": "elem_20aa00464a4a",
+          "type": "formula",
+          "page": 7,
+          "bbox": {
+            "l": 255.48100000000005,
+            "t": 78.80445580000003,
+            "r": 504.6676916,
+            "b": 69.1745267325648
+          },
+          "section_path": [
+            "4.4 Loss Function"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": "formula_0021",
+          "figure_id": null
+        }
+      ],
+      "previous_chunk_id": "chunk_d45b37a355482fcd",
+      "next_chunk_id": "chunk_566e425b2445a3a3"
+    },
+    {
+      "chunk_id": "chunk_566e425b2445a3a3",
+      "document_id": "doc_d34c8b40ce9b",
+      "source_file": "2605.23953v1.pdf",
+      "chunk_index": 61,
+      "chunk_type": "table_evidence",
+      "text": "Table 1: Statistics of datasets. Table 1: Statistics of datasets. | Datasets | Stocks | Train Days | Valid Days | Test Days | |------------|----------|--------------------|-------------------|-------------------| | CSI300 | 218 | 01/03-08/05 (1360) | 08/08-03/14 (389) | 03/15-12/31 (194) | | CSI500 | 342 | 01/03-08/05 (1360) | 08/08-03/14 (389) | 03/15-12/31 (194) | | CSI1000I | 735 | 01/03-08/05 (1360) | 08/08-03/14 (389) | 03/15-12/31 (194) |",
+      "retrieval_text": "Table 1: Statistics of datasets. Table 1: Statistics of datasets. | Datasets | Stocks | Train Days | Valid Days | Test Days | |------------|----------|--------------------|-------------------|-------------------| | CSI300 | 218 | 01/03-08/05 (1360) | 08/08-03/14 (389) | 03/15-12/31 (194) | | CSI500 | 342 | 01/03-08/05 (1360) | 08/08-03/14 (389) | 03/15-12/31 (194) | | CSI1000I | 735 | 01/03-08/05 (1360) | 08/08-03/14 (389) | 03/15-12/31 (194) |",
+      "token_count": 250,
+      "char_count": 448,
+      "section_path": [
+        "5.1 Experimental setup"
+      ],
+      "pages": [
+        8
+      ],
+      "element_ids": [
+        "elem_5d837aaeaa67"
+      ],
+      "content_types": [
+        "table"
+      ],
+      "figure_ids": [],
+      "table_ids": [
+        "elem_5d837aaeaa67"
+      ],
+      "formula_ids": [],
+      "image_paths": [],
+      "evidence": [
+        {
+          "element_id": "elem_5d837aaeaa67",
+          "type": "table",
+          "page": 8,
+          "bbox": {
+            "l": 131.02261352539062,
+            "t": 415.56170654296875,
+            "r": 480.61602783203125,
+            "b": 360.1014404296875
+          },
+          "section_path": [
+            "5.1 Experimental setup"
+          ],
+          "caption": "Table 1: Statistics of datasets.",
+          "image_path": null,
+          "formula_id": null,
+          "figure_id": null
+        }
+      ],
+      "previous_chunk_id": "chunk_d9a0820727e5072f",
+      "next_chunk_id": "chunk_9d8485730f733161"
+    },
+    {
+      "chunk_id": "chunk_9d8485730f733161",
+      "document_id": "doc_d34c8b40ce9b",
+      "source_file": "2605.23953v1.pdf",
+      "chunk_index": 62,
+      "chunk_type": "table_evidence",
+      "text": "Table 2: Main results of GTHGAT and baselines for stock price forecasting task on different datasets. The best results are in bold and the second-best results are underlined (p<0.01). Table 2: Main results of GTHGAT and baselines for stock price forecasting task on different datasets. The best results are in bold and the second-best results are underlined (p&lt;0.01). | Model | CSI300 - IC | CSI300 - RankIC | CSI300 - ICIR | CSI300 - RankICIR | CSI500 - IC | CSI500 - RankIC | CSI500 - ICIR | CSI500 - RankICIR | |-----------|---------------|-------------------|-----------------|---------------------|---------------|-------------------|-----------------|---------------------| | LSTM | 0.0233 | 0.0224 | 0.1346 | 0.0968 | 0.0274 | 0.0262 | 0.1350 | 0.1086 | | DA-RNN | 0.0227 | 0.0236 | 0.1301 | 0.0844 | 0.0249 | 0.0230 | 0.1308 | 0.0869 | | Adv-ALSTM | 0.0245 | 0.0257 | 0.1362 | 0.1088 | 0.0287 | 0.0275 | 0.1395 | 0.1103 | | FEDformer | 0.0310 | 0.0232 | 0.1456 | 0.1234 | 0.0325 | 0.0255 | 0.1482 | 0.1246 | | HIST | 0.0283 | 0.0227 | 0.1369 | 0.1106 | 0.0314 | 0.0268 | 0.1397 | 0.1135 | | SFM | 0.0295 | 0.0197 | 0.1588 | 0.1276 | 0.0306 | 0.0199 | 0.1579 | 0.1268 | | MASTER | 0.0312 | 0.0275 | 0.1428 | 0.1125 | 0.0334 | 0.0280 | 0.1436 | 0.1142 | | Ours | 0.0325 | 0.0251 | 0.1432 | 0.1187 | 0.0345 | 0.0276 | 0.1435 | 0.1214 |",
+      "retrieval_text": "Table 2: Main results of GTHGAT and baselines for stock price forecasting task on different datasets. The best results are in bold and the second-best results are underlined (p<0.01). Table 2: Main results of GTHGAT and baselines for stock price forecasting task on different datasets. The best results are in bold and the second-best results are underlined (p&lt;0.01). | Model | CSI300 - IC | CSI300 - RankIC | CSI300 - ICIR | CSI300 - RankICIR | CSI500 - IC | CSI500 - RankIC | CSI500 - ICIR | CSI500 - RankICIR | |-----------|---------------|-------------------|-----------------|---------------------|---------------|-------------------|-----------------|---------------------| | LSTM | 0.0233 | 0.0224 | 0.1346 | 0.0968 | 0.0274 | 0.0262 | 0.1350 | 0.1086 | | DA-RNN | 0.0227 | 0.0236 | 0.1301 | 0.0844 | 0.0249 | 0.0230 | 0.1308 | 0.0869 | | Adv-ALSTM | 0.0245 | 0.0257 | 0.1362 | 0.1088 | 0.0287 | 0.0275 | 0.1395 | 0.1103 | | FEDformer | 0.0310 | 0.0232 | 0.1456 | 0.1234 | 0.0325 | 0.0255 | 0.1482 | 0.1246 | | HIST | 0.0283 | 0.0227 | 0.1369 | 0.1106 | 0.0314 | 0.0268 | 0.1397 | 0.1135 | | SFM | 0.0295 | 0.0197 | 0.1588 | 0.1276 | 0.0306 | 0.0199 | 0.1579 | 0.1268 | | MASTER | 0.0312 | 0.0275 | 0.1428 | 0.1125 | 0.0334 | 0.0280 | 0.1436 | 0.1142 | | Ours | 0.0325 | 0.0251 | 0.1432 | 0.1187 | 0.0345 | 0.0276 | 0.1435 | 0.1214 |",
+      "token_count": 686,
+      "char_count": 1343,
+      "section_path": [
+        "5.1 Experimental setup"
+      ],
+      "pages": [
+        9
+      ],
+      "element_ids": [
+        "elem_03738e39a310"
+      ],
+      "content_types": [
+        "table"
+      ],
+      "figure_ids": [],
+      "table_ids": [
+        "elem_03738e39a310"
+      ],
+      "formula_ids": [],
+      "image_paths": [],
+      "evidence": [
+        {
+          "element_id": "elem_03738e39a310",
+          "type": "table",
+          "page": 9,
+          "bbox": {
+            "l": 107.23149108886719,
+            "t": 692.7859420776367,
+            "r": 501.72979736328125,
+            "b": 577.3817138671875
+          },
+          "section_path": [
+            "5.1 Experimental setup"
+          ],
+          "caption": "Table 2: Main results of GTHGAT and baselines for stock price forecasting task on different datasets. The best results are in bold and the second-best results are underlined (p<0.01).",
+          "image_path": null,
+          "formula_id": null,
+          "figure_id": null
+        }
+      ],
+      "previous_chunk_id": "chunk_566e425b2445a3a3",
+      "next_chunk_id": "chunk_6ec68b6dff41e095"
+    },
+    {
+      "chunk_id": "chunk_6ec68b6dff41e095",
+      "document_id": "doc_d34c8b40ce9b",
+      "source_file": "2605.23953v1.pdf",
+      "chunk_index": 63,
+      "chunk_type": "table_evidence",
+      "text": "Table 3: Ablation study results on different datasets. Table 3: Ablation study results on different datasets. | Ablation Variants | CSI300 - IC | CSI300 - RankIC | CSI300 - ICIR | CSI300 - RankICIR | CSI500 - IC | CSI500 - RankIC | CSI500 - ICIR | CSI500 - RankICIR | |---------------------|---------------|-------------------|-----------------|---------------------|---------------|-------------------|-----------------|---------------------| | LSTM | 0.0233 | 0.0224 | 0.1346 | 0.0968 | 0.0274 | 0.0262 | 0.1350 | 0.1086 | | w.o.M-DWT | 0.0306 | 0.0237 | 0.1411 | 0.1165 | 0.0320 | 0.0274 | 0.1426 | 0.1195 | | w.o.GRE | 0.0287 | 0.0229 | 0.1385 | 0.1126 | 0.0307 | 0.0269 | 0.1408 | 0.1169 | | w.o.HGCN+GRE | 0.0256 | 0.0226 | 0.1357 | 0.1079 | 0.0283 | 0.0264 | 0.1365 | 0.1137 | | Ours | 0.0325 | 0.0251 | 0.1432 | 0.1187 | 0.0345 | 0.0276 | 0.1435 | 0.1214 |",
+      "retrieval_text": "Table 3: Ablation study results on different datasets. Table 3: Ablation study results on different datasets. | Ablation Variants | CSI300 - IC | CSI300 - RankIC | CSI300 - ICIR | CSI300 - RankICIR | CSI500 - IC | CSI500 - RankIC | CSI500 - ICIR | CSI500 - RankICIR | |---------------------|---------------|-------------------|-----------------|---------------------|---------------|-------------------|-----------------|---------------------| | LSTM | 0.0233 | 0.0224 | 0.1346 | 0.0968 | 0.0274 | 0.0262 | 0.1350 | 0.1086 | | w.o.M-DWT | 0.0306 | 0.0237 | 0.1411 | 0.1165 | 0.0320 | 0.0274 | 0.1426 | 0.1195 | | w.o.GRE | 0.0287 | 0.0229 | 0.1385 | 0.1126 | 0.0307 | 0.0269 | 0.1408 | 0.1169 | | w.o.HGCN+GRE | 0.0256 | 0.0226 | 0.1357 | 0.1079 | 0.0283 | 0.0264 | 0.1365 | 0.1137 | | Ours | 0.0325 | 0.0251 | 0.1432 | 0.1187 | 0.0345 | 0.0276 | 0.1435 | 0.1214 |",
+      "token_count": 507,
+      "char_count": 864,
+      "section_path": [
+        "5.4 Results of explainability"
+      ],
+      "pages": [
+        10
+      ],
+      "element_ids": [
+        "elem_76636728cb2e"
+      ],
+      "content_types": [
+        "table"
+      ],
+      "figure_ids": [],
+      "table_ids": [
+        "elem_76636728cb2e"
+      ],
+      "formula_ids": [],
+      "image_paths": [],
+      "evidence": [
+        {
+          "element_id": "elem_76636728cb2e",
+          "type": "table",
+          "page": 10,
+          "bbox": {
+            "l": 107.5816421508789,
+            "t": 703.536750793457,
+            "r": 501.7594909667969,
+            "b": 621.291748046875
+          },
+          "section_path": [
+            "5.4 Results of explainability"
+          ],
+          "caption": "Table 3: Ablation study results on different datasets.",
+          "image_path": null,
+          "formula_id": null,
+          "figure_id": null
+        }
+      ],
+      "previous_chunk_id": "chunk_9d8485730f733161",
+      "next_chunk_id": null
+    }
+  ],
+  "validation": {
+    "chunk_count": 64,
+    "duplicate_chunk_ids": 0,
+    "empty_chunks": 0,
+    "over_hard_token_limit": 1,
+    "source_elements": 159,
+    "covered_elements": 80,
+    "uncovered_elements": 79,
+    "multimodal_elements": 25,
+    "multimodal_covered": 25,
+    "all_valid": false
+  }
+}

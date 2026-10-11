@@ -1,0 +1,200 @@
+[
+  {
+    "document_id": "doc_127ff1e6f5f2",
+    "source_file": "ssrn-5231379.pdf",
+    "chunk_count": 211,
+    "validation": {
+      "chunk_count": 211,
+      "duplicate_chunk_ids": 0,
+      "empty_chunks": 6,
+      "over_hard_token_limit": 0,
+      "source_elements": 375,
+      "covered_elements": 300,
+      "uncovered_elements": 75,
+      "multimodal_elements": 100,
+      "multimodal_covered": 100,
+      "all_valid": false
+    },
+    "output": "c:\\Users\\MD RAJA\\Quant_Research_Intelligence_System\\data\\chunks\\doc_127ff1e6f5f2_chunks.json"
+  },
+  {
+    "document_id": "doc_1a26eba6c592",
+    "source_file": "2605.28853v1.pdf",
+    "chunk_count": 79,
+    "validation": {
+      "chunk_count": 79,
+      "duplicate_chunk_ids": 0,
+      "empty_chunks": 1,
+      "over_hard_token_limit": 1,
+      "source_elements": 184,
+      "covered_elements": 101,
+      "uncovered_elements": 83,
+      "multimodal_elements": 26,
+      "multimodal_covered": 26,
+      "all_valid": false
+    },
+    "output": "c:\\Users\\MD RAJA\\Quant_Research_Intelligence_System\\data\\chunks\\doc_1a26eba6c592_chunks.json"
+  },
+  {
+    "document_id": "doc_538d7233661b",
+    "source_file": "2605.21504v1.pdf",
+    "chunk_count": 36,
+    "validation": {
+      "chunk_count": 36,
+      "duplicate_chunk_ids": 0,
+      "empty_chunks": 0,
+      "over_hard_token_limit": 2,
+      "source_elements": 112,
+      "covered_elements": 56,
+      "uncovered_elements": 56,
+      "multimodal_elements": 6,
+      "multimodal_covered": 6,
+      "all_valid": false
+    },
+    "output": "c:\\Users\\MD RAJA\\Quant_Research_Intelligence_System\\data\\chunks\\doc_538d7233661b_chunks.json"
+  },
+  {
+    "document_id": "doc_6a8ad8a50fb1",
+    "source_file": "2605.27848v1.pdf",
+    "chunk_count": 69,
+    "validation": {
+      "chunk_count": 69,
+      "duplicate_chunk_ids": 0,
+      "empty_chunks": 0,
+      "over_hard_token_limit": 0,
+      "source_elements": 145,
+      "covered_elements": 100,
+      "uncovered_elements": 45,
+      "multimodal_elements": 22,
+      "multimodal_covered": 22,
+      "all_valid": true
+    },
+    "output": "c:\\Users\\MD RAJA\\Quant_Research_Intelligence_System\\data\\chunks\\doc_6a8ad8a50fb1_chunks.json"
+  },
+  {
+    "document_id": "doc_83ca7df91b16",
+    "source_file": "2605.27945v1.pdf",
+    "chunk_count": 153,
+    "validation": {
+      "chunk_count": 153,
+      "duplicate_chunk_ids": 0,
+      "empty_chunks": 0,
+      "over_hard_token_limit": 0,
+      "source_elements": 271,
+      "covered_elements": 209,
+      "uncovered_elements": 62,
+      "multimodal_elements": 64,
+      "multimodal_covered": 64,
+      "all_valid": true
+    },
+    "output": "c:\\Users\\MD RAJA\\Quant_Research_Intelligence_System\\data\\chunks\\doc_83ca7df91b16_chunks.json"
+  },
+  {
+    "document_id": "doc_9499a9575556",
+    "source_file": "2605.23959v1.pdf",
+    "chunk_count": 112,
+    "validation": {
+      "chunk_count": 112,
+      "duplicate_chunk_ids": 0,
+      "empty_chunks": 0,
+      "over_hard_token_limit": 7,
+      "source_elements": 246,
+      "covered_elements": 174,
+      "uncovered_elements": 72,
+      "multimodal_elements": 41,
+      "multimodal_covered": 41,
+      "all_valid": false
+    },
+    "output": "c:\\Users\\MD RAJA\\Quant_Research_Intelligence_System\\data\\chunks\\doc_9499a9575556_chunks.json"
+  },
+  {
+    "document_id": "doc_ac6daafe7996",
+    "source_file": "2605.25894v1.pdf",
+    "chunk_count": 34,
+    "validation": {
+      "chunk_count": 34,
+      "duplicate_chunk_ids": 0,
+      "empty_chunks": 1,
+      "over_hard_token_limit": 0,
+      "source_elements": 100,
+      "covered_elements": 63,
+      "uncovered_elements": 37,
+      "multimodal_elements": 7,
+      "multimodal_covered": 7,
+      "all_valid": false
+    },
+    "output": "c:\\Users\\MD RAJA\\Quant_Research_Intelligence_System\\data\\chunks\\doc_ac6daafe7996_chunks.json"
+  },
+  {
+    "document_id": "doc_b3b3e5754724",
+    "source_file": "2605.29413v1.pdf",
+    "chunk_count": 100,
+    "validation": {
+      "chunk_count": 100,
+      "duplicate_chunk_ids": 0,
+      "empty_chunks": 0,
+      "over_hard_token_limit": 4,
+      "source_elements": 190,
+      "covered_elements": 135,
+      "uncovered_elements": 55,
+      "multimodal_elements": 28,
+      "multimodal_covered": 28,
+      "all_valid": false
+    },
+    "output": "c:\\Users\\MD RAJA\\Quant_Research_Intelligence_System\\data\\chunks\\doc_b3b3e5754724_chunks.json"
+  },
+  {
+    "document_id": "doc_c46fe4f241a4",
+    "source_file": "2605.27977v1.pdf",
+    "chunk_count": 92,
+    "validation": {
+      "chunk_count": 92,
+      "duplicate_chunk_ids": 0,
+      "empty_chunks": 0,
+      "over_hard_token_limit": 0,
+      "source_elements": 177,
+      "covered_elements": 119,
+      "uncovered_elements": 58,
+      "multimodal_elements": 32,
+      "multimodal_covered": 32,
+      "all_valid": true
+    },
+    "output": "c:\\Users\\MD RAJA\\Quant_Research_Intelligence_System\\data\\chunks\\doc_c46fe4f241a4_chunks.json"
+  },
+  {
+    "document_id": "doc_d34c8b40ce9b",
+    "source_file": "2605.23953v1.pdf",
+    "chunk_count": 64,
+    "validation": {
+      "chunk_count": 64,
+      "duplicate_chunk_ids": 0,
+      "empty_chunks": 0,
+      "over_hard_token_limit": 1,
+      "source_elements": 159,
+      "covered_elements": 80,
+      "uncovered_elements": 79,
+      "multimodal_elements": 25,
+      "multimodal_covered": 25,
+      "all_valid": false
+    },
+    "output": "c:\\Users\\MD RAJA\\Quant_Research_Intelligence_System\\data\\chunks\\doc_d34c8b40ce9b_chunks.json"
+  },
+  {
+    "document_id": "doc_e37d68152c78",
+    "source_file": "2508.15237v2 (1).pdf",
+    "chunk_count": 191,
+    "validation": {
+      "chunk_count": 191,
+      "duplicate_chunk_ids": 0,
+      "empty_chunks": 0,
+      "over_hard_token_limit": 2,
+      "source_elements": 291,
+      "covered_elements": 245,
+      "uncovered_elements": 46,
+      "multimodal_elements": 95,
+      "multimodal_covered": 95,
+      "all_valid": false
+    },
+    "output": "c:\\Users\\MD RAJA\\Quant_Research_Intelligence_System\\data\\chunks\\doc_e37d68152c78_chunks.json"
+  }
+]

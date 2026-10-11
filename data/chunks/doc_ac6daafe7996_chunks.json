@@ -1,0 +1,2260 @@
+{
+  "document_id": "doc_ac6daafe7996",
+  "chunks": [
+    {
+      "chunk_id": "chunk_7b1f9d3a57023ce9",
+      "document_id": "doc_ac6daafe7996",
+      "source_file": "2605.25894v1.pdf",
+      "chunk_index": 0,
+      "chunk_type": "semantic",
+      "text": "Manuel Noseda Nathan Soldati Marco Paina ETH Z¨urich ETH Z¨urich ETH Z¨urich mnoseda@ethz.ch nsoldati@ethz.ch mpaina@ethz.ch",
+      "retrieval_text": "Manuel Noseda Nathan Soldati Marco Paina ETH Z¨urich ETH Z¨urich ETH Z¨urich mnoseda@ethz.ch nsoldati@ethz.ch mpaina@ethz.ch",
+      "token_count": 55,
+      "char_count": 124,
+      "section_path": [
+        "Predicting Stock Price Direction on Earnings Announcement Days using Multi-modal Deep Learning"
+      ],
+      "pages": [
+        1
+      ],
+      "element_ids": [
+        "elem_82729b1b9acf",
+        "elem_1a4f4ac70659"
+      ],
+      "content_types": [
+        "text"
+      ],
+      "figure_ids": [],
+      "table_ids": [],
+      "formula_ids": [],
+      "image_paths": [],
+      "evidence": [
+        {
+          "element_id": "elem_82729b1b9acf",
+          "type": "text",
+          "page": 1,
+          "bbox": {
+            "l": 159.139,
+            "t": 609.6028352000001,
+            "r": 433.33151200000003,
+            "b": 587.7987743929203
+          },
+          "section_path": [
+            "Predicting Stock Price Direction on Earnings Announcement Days using Multi-modal Deep Learning"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": null,
+          "figure_id": null
+        },
+        {
+          "element_id": "elem_1a4f4ac70659",
+          "type": "text",
+          "page": 1,
+          "bbox": {
+            "l": 151.989,
+            "t": 583.4591682,
+            "r": 444.8894399999997,
+            "b": 576.60483563936
+          },
+          "section_path": [
+            "Predicting Stock Price Direction on Earnings Announcement Days using Multi-modal Deep Learning"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": null,
+          "figure_id": null
+        }
+      ],
+      "previous_chunk_id": null,
+      "next_chunk_id": "chunk_971fdfc7a1cb1c48"
+    },
+    {
+      "chunk_id": "chunk_971fdfc7a1cb1c48",
+      "document_id": "doc_ac6daafe7996",
+      "source_file": "2605.25894v1.pdf",
+      "chunk_index": 1,
+      "chunk_type": "semantic",
+      "text": "Predicting stock price movements during Earnings Announcements (EAs) is a significant challenge due to market noise and high-impact price discontinuities. In this study, we evaluate whether pre-announcement news sentiment, firm fundamentals, and recent market dynamics jointly predict the directional price movement of equities on EA days. We construct a multi-modal feature space combining 15 fundamental metrics, 3 pricebased technical indicators and sentiment scores derived from financial news articles processed using FinBERT. We compare a Long Short-Term Memory (LSTM) network and a Transformerbased architecture against a logistic regression baseline, and further assess all models with and without sentiment features to quantify their incremental value. Our results indicate that while the LSTM demonstrates higher precision through a conservative safe-bet strategy, the Transformer model exhibits superior sensitivity in identifying volatile movements, achieving a higher macro F1-score, with ablation experiments showing a consistent benefit from incorporating news sentiment.",
+      "retrieval_text": "Predicting stock price movements during Earnings Announcements (EAs) is a significant challenge due to market noise and high-impact price discontinuities. In this study, we evaluate whether pre-announcement news sentiment, firm fundamentals, and recent market dynamics jointly predict the directional price movement of equities on EA days. We construct a multi-modal feature space combining 15 fundamental metrics, 3 pricebased technical indicators and sentiment scores derived from financial news articles processed using FinBERT. We compare a Long Short-Term Memory (LSTM) network and a Transformerbased architecture against a logistic regression baseline, and further assess all models with and without sentiment features to quantify their incremental value. Our results indicate that while the LSTM demonstrates higher precision through a conservative safe-bet strategy, the Transformer model exhibits superior sensitivity in identifying volatile movements, achieving a higher macro F1-score, with ablation experiments showing a consistent benefit from incorporating news sentiment.",
+      "token_count": 200,
+      "char_count": 1086,
+      "section_path": [
+        "Abstract"
+      ],
+      "pages": [
+        1
+      ],
+      "element_ids": [
+        "elem_d00ae186a3da"
+      ],
+      "content_types": [
+        "text"
+      ],
+      "figure_ids": [],
+      "table_ids": [],
+      "formula_ids": [],
+      "image_paths": [],
+      "evidence": [
+        {
+          "element_id": "elem_d00ae186a3da",
+          "type": "text",
+          "page": 1,
+          "bbox": {
+            "l": 75.007,
+            "t": 537.7066526,
+            "r": 271.1706039626001,
+            "b": 254.1857743929204
+          },
+          "section_path": [
+            "Abstract"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": null,
+          "figure_id": null
+        }
+      ],
+      "previous_chunk_id": "chunk_7b1f9d3a57023ce9",
+      "next_chunk_id": "chunk_6463419979fd27e8"
+    },
+    {
+      "chunk_id": "chunk_6463419979fd27e8",
+      "document_id": "doc_ac6daafe7996",
+      "source_file": "2605.25894v1.pdf",
+      "chunk_index": 2,
+      "chunk_type": "semantic",
+      "text": "Earnings Announcements (EAs) are associated with some of the most dramatic price changes in the stock market. Since the early work of Ball & Brown (1968), researchers have long known that accounting data can help predict how stock prices react to these events. Later, Bernard & Thomas (1989) showed that prices often continue to move for days after the announcement, a trend known as post-earnings announcement drift, indicating that the initial market reaction may be incomplete. Recently, researchers have started looking beyond numbers. Tetlock (2007) showed that news sentiment can capture information not present in financial reports. Early deep learning approaches explicitly targeting event-driven stock movements demonstrated that textual event representations can improve return prediction (Ding et al., 2015). With the rise of modern language models, architectures such as FinBERT (Araci, 2019) allow us to measure this sentiment more accurately than ever before, as shown by recent work (Li et al., 2023). However, most existing stock prediction models focus on day-to-day trading or very high-frequency movements. There is comparatively less research specifically focused on EAs, even though these moments are crucial for investors. Recent work has begun to address this gap by showing that the textual content of earnings press releases (\"soft information\") can predict EA-day returns and is competitive with traditional \"hard information\" such as earnings surprises (Wu et al., 2025).",
+      "retrieval_text": "Earnings Announcements (EAs) are associated with some of the most dramatic price changes in the stock market. Since the early work of Ball & Brown (1968), researchers have long known that accounting data can help predict how stock prices react to these events. Later, Bernard & Thomas (1989) showed that prices often continue to move for days after the announcement, a trend known as post-earnings announcement drift, indicating that the initial market reaction may be incomplete. Recently, researchers have started looking beyond numbers. Tetlock (2007) showed that news sentiment can capture information not present in financial reports. Early deep learning approaches explicitly targeting event-driven stock movements demonstrated that textual event representations can improve return prediction (Ding et al., 2015). With the rise of modern language models, architectures such as FinBERT (Araci, 2019) allow us to measure this sentiment more accurately than ever before, as shown by recent work (Li et al., 2023). However, most existing stock prediction models focus on day-to-day trading or very high-frequency movements. There is comparatively less research specifically focused on EAs, even though these moments are crucial for investors. Recent work has begun to address this gap by showing that the textual content of earnings press releases (\"soft information\") can predict EA-day returns and is competitive with traditional \"hard information\" such as earnings surprises (Wu et al., 2025).",
+      "token_count": 293,
+      "char_count": 1498,
+      "section_path": [
+        "1. Introduction"
+      ],
+      "pages": [
+        1
+      ],
+      "element_ids": [
+        "elem_451fe2c0cd30",
+        "elem_c36d6aafa776",
+        "elem_be16308fcbb5"
+      ],
+      "content_types": [
+        "text"
+      ],
+      "figure_ids": [],
+      "table_ids": [],
+      "formula_ids": [],
+      "image_paths": [],
+      "evidence": [
+        {
+          "element_id": "elem_451fe2c0cd30",
+          "type": "text",
+          "page": 1,
+          "bbox": {
+            "l": 55.112,
+            "t": 208.95465260000003,
+            "r": 291.18480454799993,
+            "b": 104.76077439292033
+          },
+          "section_path": [
+            "1. Introduction"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": null,
+          "figure_id": null
+        },
+        {
+          "element_id": "elem_c36d6aafa776",
+          "type": "text",
+          "page": 1,
+          "bbox": {
+            "l": 55.131,
+            "t": 95.37965259999999,
+            "r": 291.18101876000003,
+            "b": 74.87277439292029
+          },
+          "section_path": [
+            "1. Introduction"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": null,
+          "figure_id": null
+        },
+        {
+          "element_id": "elem_be16308fcbb5",
+          "type": "text",
+          "page": 1,
+          "bbox": {
+            "l": 307.112,
+            "t": 451.22665259999997,
+            "r": 543.1848045479993,
+            "b": 347.03377439292035
+          },
+          "section_path": [
+            "1. Introduction"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": null,
+          "figure_id": null
+        }
+      ],
+      "previous_chunk_id": "chunk_971fdfc7a1cb1c48",
+      "next_chunk_id": "chunk_1331a88ae45fe506"
+    },
+    {
+      "chunk_id": "chunk_1331a88ae45fe506",
+      "document_id": "doc_ac6daafe7996",
+      "source_file": "2605.25894v1.pdf",
+      "chunk_index": 3,
+      "chunk_type": "semantic",
+      "text": "Our project differs from prior work in that we combine three different types of data: firm fundamentals, market prices and news sentiment from FinBERT. We compare a standard logistic regression baseline against LSTM and Transformer models, and perform an ablation study in which sentiment features are removed to assess their marginal contribution. The Transformer's attention mechanism is intended to identify which days in the 30-day period before an announcement are the most important. To handle the fact that stock prices are usually stable (neutral class dominates), we use a specialized loss function to focus on the rare, sharp moves (up/down classes). This approach aims to provide a more reliable tool for decision-making during these highvolatility events.",
+      "retrieval_text": "Our project differs from prior work in that we combine three different types of data: firm fundamentals, market prices and news sentiment from FinBERT. We compare a standard logistic regression baseline against LSTM and Transformer models, and perform an ablation study in which sentiment features are removed to assess their marginal contribution. The Transformer's attention mechanism is intended to identify which days in the 30-day period before an announcement are the most important. To handle the fact that stock prices are usually stable (neutral class dominates), we use a specialized loss function to focus on the rare, sharp moves (up/down classes). This approach aims to provide a more reliable tool for decision-making during these highvolatility events.",
+      "token_count": 151,
+      "char_count": 767,
+      "section_path": [
+        "1. Introduction"
+      ],
+      "pages": [
+        1
+      ],
+      "element_ids": [
+        "elem_7302c8914d53"
+      ],
+      "content_types": [
+        "text"
+      ],
+      "figure_ids": [],
+      "table_ids": [],
+      "formula_ids": [],
+      "image_paths": [],
+      "evidence": [
+        {
+          "element_id": "elem_7302c8914d53",
+          "type": "text",
+          "page": 1,
+          "bbox": {
+            "l": 307.082,
+            "t": 337.65265259999995,
+            "r": 543.0933478799991,
+            "b": 173.68377439292033
+          },
+          "section_path": [
+            "1. Introduction"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": null,
+          "figure_id": null
+        }
+      ],
+      "previous_chunk_id": "chunk_6463419979fd27e8",
+      "next_chunk_id": "chunk_08b5de6b212df48f"
+    },
+    {
+      "chunk_id": "chunk_08b5de6b212df48f",
+      "document_id": "doc_ac6daafe7996",
+      "source_file": "2605.25894v1.pdf",
+      "chunk_index": 4,
+      "chunk_type": "semantic",
+      "text": "We define our task as Event-Driven Price Movement Prediction. Given a multi-modal temporal sequence X = [x1, x2, ..., xT ] representing states on the 30 days (T = 30) prior to an Earnings Announcement (EA), the goal is to predict the price direction y after the EA, where y ∈ {0 (UP), 1 (DOWN), 2 (NEUTRAL)}.",
+      "retrieval_text": "We define our task as Event-Driven Price Movement Prediction. Given a multi-modal temporal sequence X = [x1, x2, ..., xT ] representing states on the 30 days (T = 30) prior to an Earnings Announcement (EA), the goal is to predict the price direction y after the EA, where y ∈ {0 (UP), 1 (DOWN), 2 (NEUTRAL)}.",
+      "token_count": 91,
+      "char_count": 308,
+      "section_path": [
+        "2.1. Problem Formulation"
+      ],
+      "pages": [
+        1,
+        2
+      ],
+      "element_ids": [
+        "elem_0249d94e3b31",
+        "elem_3454a3034ed5"
+      ],
+      "content_types": [
+        "text"
+      ],
+      "figure_ids": [],
+      "table_ids": [],
+      "formula_ids": [],
+      "image_paths": [],
+      "evidence": [
+        {
+          "element_id": "elem_0249d94e3b31",
+          "type": "text",
+          "page": 1,
+          "bbox": {
+            "l": 306.972,
+            "t": 115.64565259999995,
+            "r": 543.0927930719994,
+            "b": 82.42352673256482
+          },
+          "section_path": [
+            "2.1. Problem Formulation"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": null,
+          "figure_id": null
+        },
+        {
+          "element_id": "elem_3454a3034ed5",
+          "type": "text",
+          "page": 2,
+          "bbox": {
+            "l": 55.191,
+            "t": 721.7814558,
+            "r": 289.44017532,
+            "b": 688.9997743929204
+          },
+          "section_path": [
+            "2.1. Problem Formulation"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": null,
+          "figure_id": null
+        }
+      ],
+      "previous_chunk_id": "chunk_1331a88ae45fe506",
+      "next_chunk_id": "chunk_f3133a7feb51d6cd"
+    },
+    {
+      "chunk_id": "chunk_f3133a7feb51d6cd",
+      "document_id": "doc_ac6daafe7996",
+      "source_file": "2605.25894v1.pdf",
+      "chunk_index": 5,
+      "chunk_type": "semantic",
+      "text": "The data extraction pipeline constructs the raw dataset by integrating financial news and firm-level fundamentals over a fixed ten-month window. News articles are sourced from a pre-downloaded Markets API feed spanning multiple periods and company batches, which are merged to recover the full firm cross-section and ensure continuous temporal coverage. Article timestamps are parsed, duplicates removed, and items sorted chronologically at the ticker level. Firm fundamentals are retrieved from FactSet using a configuration-driven interface. The firm universe consists of the top 500 U.S. companies by market capitalization at the start of the sample period. For each firm, variables are queried and temporally aligned, and standard accounting ratios (e.g., margins, profitability, leverage) are computed following predefined specifications for data frequency, lags, and forward-filling. All components are merged into a unified firm-indexed dataset containing price series, earnings dates, fundamental variables, derived ratios, and associated news articles. The resulting dataset is serialized and used as input for subsequent preprocessing, labeling, and modeling stages.",
+      "retrieval_text": "The data extraction pipeline constructs the raw dataset by integrating financial news and firm-level fundamentals over a fixed ten-month window. News articles are sourced from a pre-downloaded Markets API feed spanning multiple periods and company batches, which are merged to recover the full firm cross-section and ensure continuous temporal coverage. Article timestamps are parsed, duplicates removed, and items sorted chronologically at the ticker level. Firm fundamentals are retrieved from FactSet using a configuration-driven interface. The firm universe consists of the top 500 U.S. companies by market capitalization at the start of the sample period. For each firm, variables are queried and temporally aligned, and standard accounting ratios (e.g., margins, profitability, leverage) are computed following predefined specifications for data frequency, lags, and forward-filling. All components are merged into a unified firm-indexed dataset containing price series, earnings dates, fundamental variables, derived ratios, and associated news articles. The resulting dataset is serialized and used as input for subsequent preprocessing, labeling, and modeling stages.",
+      "token_count": 233,
+      "char_count": 1176,
+      "section_path": [
+        "2.2. Data Extraction"
+      ],
+      "pages": [
+        2
+      ],
+      "element_ids": [
+        "elem_da626029e69b",
+        "elem_1bd656d9f218",
+        "elem_249074bc7503"
+      ],
+      "content_types": [
+        "text"
+      ],
+      "figure_ids": [],
+      "table_ids": [],
+      "formula_ids": [],
+      "image_paths": [],
+      "evidence": [
+        {
+          "element_id": "elem_da626029e69b",
+          "type": "text",
+          "page": 2,
+          "bbox": {
+            "l": 55.131,
+            "t": 653.7666525999999,
+            "r": 291.0979306759999,
+            "b": 561.5287743929204
+          },
+          "section_path": [
+            "2.2. Data Extraction"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": null,
+          "figure_id": null
+        },
+        {
+          "element_id": "elem_1bd656d9f218",
+          "type": "text",
+          "page": 2,
+          "bbox": {
+            "l": 55.44,
+            "t": 552.1476526,
+            "r": 290.68886632000005,
+            "b": 459.9097743929203
+          },
+          "section_path": [
+            "2.2. Data Extraction"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": null,
+          "figure_id": null
+        },
+        {
+          "element_id": "elem_249074bc7503",
+          "type": "text",
+          "page": 2,
+          "bbox": {
+            "l": 55.082,
+            "t": 450.5286526,
+            "r": 291.09334788,
+            "b": 394.1557743929203
+          },
+          "section_path": [
+            "2.2. Data Extraction"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": null,
+          "figure_id": null
+        }
+      ],
+      "previous_chunk_id": "chunk_08b5de6b212df48f",
+      "next_chunk_id": "chunk_73917bf8af9937f0"
+    },
+    {
+      "chunk_id": "chunk_73917bf8af9937f0",
+      "document_id": "doc_ac6daafe7996",
+      "source_file": "2605.25894v1.pdf",
+      "chunk_index": 6,
+      "chunk_type": "semantic",
+      "text": "To capture the multi-faceted nature of equity markets, we construct a heterogeneous feature space with three modalities: firm fundamentals, market dynamics, and news sentiment. For each ticker, we build a daily time series where each observation xt ∈ Rd represents the market state on day t. The final feature vector has dimensionality d = df + dm + dn = 21, composed of:",
+      "retrieval_text": "To capture the multi-faceted nature of equity markets, we construct a heterogeneous feature space with three modalities: firm fundamentals, market dynamics, and news sentiment. For each ticker, we build a daily time series where each observation xt ∈ Rd represents the market state on day t. The final feature vector has dimensionality d = df + dm + dn = 21, composed of:",
+      "token_count": 89,
+      "char_count": 371,
+      "section_path": [
+        "2.3. Feature Engineering and Data Representation"
+      ],
+      "pages": [
+        2
+      ],
+      "element_ids": [
+        "elem_f747af39c9f9",
+        "elem_1a1838421631"
+      ],
+      "content_types": [
+        "text"
+      ],
+      "figure_ids": [],
+      "table_ids": [],
+      "formula_ids": [],
+      "image_paths": [],
+      "evidence": [
+        {
+          "element_id": "elem_f747af39c9f9",
+          "type": "text",
+          "page": 2,
+          "bbox": {
+            "l": 55.131,
+            "t": 358.9226526,
+            "r": 291.09611748279997,
+            "b": 314.50477439292035
+          },
+          "section_path": [
+            "2.3. Feature Engineering and Data Representation"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": null,
+          "figure_id": null
+        },
+        {
+          "element_id": "elem_1a1838421631",
+          "type": "text",
+          "page": 2,
+          "bbox": {
+            "l": 55.131,
+            "t": 305.12365259999996,
+            "r": 291.37291028000004,
+            "b": 259.9475267325648
+          },
+          "section_path": [
+            "2.3. Feature Engineering and Data Representation"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": null,
+          "figure_id": null
+        }
+      ],
+      "previous_chunk_id": "chunk_f3133a7feb51d6cd",
+      "next_chunk_id": "chunk_22c3eca8f31a462d"
+    },
+    {
+      "chunk_id": "chunk_22c3eca8f31a462d",
+      "document_id": "doc_ac6daafe7996",
+      "source_file": "2605.25894v1.pdf",
+      "chunk_index": 7,
+      "chunk_type": "semantic",
+      "text": "multiple articles are published on the same day for a firm, their sentiment vectors are averaged to obtain a single daily representation. Textual information has been shown to contain predictive signals beyond standard firm characteristics (Ke et al., 2020). To assess the impact of sentiment, we also train all models using only fundamental and market-based features.",
+      "retrieval_text": "multiple articles are published on the same day for a firm, their sentiment vectors are averaged to obtain a single daily representation. Textual information has been shown to contain predictive signals beyond standard firm characteristics (Ke et al., 2020). To assess the impact of sentiment, we also train all models using only fundamental and market-based features.",
+      "token_count": 70,
+      "char_count": 368,
+      "section_path": [
+        "2.3. Feature Engineering and Data Representation"
+      ],
+      "pages": [
+        2
+      ],
+      "element_ids": [
+        "elem_887959719c42",
+        "elem_f3263d9f3adc"
+      ],
+      "content_types": [
+        "text"
+      ],
+      "figure_ids": [],
+      "table_ids": [],
+      "formula_ids": [],
+      "image_paths": [],
+      "evidence": [
+        {
+          "element_id": "elem_887959719c42",
+          "type": "text",
+          "page": 2,
+          "bbox": {
+            "l": 327.366,
+            "t": 721.4626526,
+            "r": 543.0934504980003,
+            "b": 665.0897743929203
+          },
+          "section_path": [
+            "2.3. Feature Engineering and Data Representation"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": null,
+          "figure_id": null
+        },
+        {
+          "element_id": "elem_f3263d9f3adc",
+          "type": "text",
+          "page": 2,
+          "bbox": {
+            "l": 307.131,
+            "t": 649.0516526,
+            "r": 541.4441191524008,
+            "b": 628.5447743929203
+          },
+          "section_path": [
+            "2.3. Feature Engineering and Data Representation"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": null,
+          "figure_id": null
+        }
+      ],
+      "previous_chunk_id": "chunk_73917bf8af9937f0",
+      "next_chunk_id": "chunk_96426fe1d77df6ca"
+    },
+    {
+      "chunk_id": "chunk_96426fe1d77df6ca",
+      "document_id": "doc_ac6daafe7996",
+      "source_file": "2605.25894v1.pdf",
+      "chunk_index": 8,
+      "chunk_type": "semantic",
+      "text": "Financial data sparsity and scaling variances are addressed via a three-stage pipeline:",
+      "retrieval_text": "Financial data sparsity and scaling variances are addressed via a three-stage pipeline:",
+      "token_count": 20,
+      "char_count": 87,
+      "section_path": [
+        "2.4. Data Preprocessing and Imputation"
+      ],
+      "pages": [
+        2
+      ],
+      "element_ids": [
+        "elem_43fd457a72c5"
+      ],
+      "content_types": [
+        "text"
+      ],
+      "figure_ids": [],
+      "table_ids": [],
+      "formula_ids": [],
+      "image_paths": [],
+      "evidence": [
+        {
+          "element_id": "elem_43fd457a72c5",
+          "type": "text",
+          "page": 2,
+          "bbox": {
+            "l": 307.191,
+            "t": 593.3116526,
+            "r": 541.4403732132004,
+            "b": 572.8047743929203
+          },
+          "section_path": [
+            "2.4. Data Preprocessing and Imputation"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": null,
+          "figure_id": null
+        }
+      ],
+      "previous_chunk_id": "chunk_22c3eca8f31a462d",
+      "next_chunk_id": "chunk_0a64400e655567e1"
+    },
+    {
+      "chunk_id": "chunk_0a64400e655567e1",
+      "document_id": "doc_ac6daafe7996",
+      "source_file": "2605.25894v1.pdf",
+      "chunk_index": 9,
+      "chunk_type": "semantic",
+      "text": "The target variable y is derived from the security's adjusted closing price on the earnings announcement day (or the following trading day if the announcement occurs after market close), denoted PEA, relative to the preceding trading day price PEA-1. To filter short-term noise and isolate significant volatility, we define the daily return R = (PEA - PEA-1)/PEA-1 and apply a classification threshold τ = 3%, yielding the three-class target y ∈ {0, 1, 2} as defined in (1).",
+      "retrieval_text": "The target variable y is derived from the security's adjusted closing price on the earnings announcement day (or the following trading day if the announcement occurs after market close), denoted PEA, relative to the preceding trading day price PEA-1. To filter short-term noise and isolate significant volatility, we define the daily return R = (PEA - PEA-1)/PEA-1 and apply a classification threshold τ = 3%, yielding the three-class target y ∈ {0, 1, 2} as defined in (1).",
+      "token_count": 113,
+      "char_count": 474,
+      "section_path": [
+        "2.5. Target Definition and Imbalance"
+      ],
+      "pages": [
+        2
+      ],
+      "element_ids": [
+        "elem_f361d965cc28"
+      ],
+      "content_types": [
+        "text"
+      ],
+      "figure_ids": [],
+      "table_ids": [],
+      "formula_ids": [],
+      "image_paths": [],
+      "evidence": [
+        {
+          "element_id": "elem_f361d965cc28",
+          "type": "text",
+          "page": 2,
+          "bbox": {
+            "l": 307.112,
+            "t": 343.79945580000003,
+            "r": 543.0978195639997,
+            "b": 239.28777439292037
+          },
+          "section_path": [
+            "2.5. Target Definition and Imbalance"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": null,
+          "figure_id": null
+        }
+      ],
+      "previous_chunk_id": "chunk_96426fe1d77df6ca",
+      "next_chunk_id": "chunk_ecc26d115ddb7e5f"
+    },
+    {
+      "chunk_id": "chunk_ecc26d115ddb7e5f",
+      "document_id": "doc_ac6daafe7996",
+      "source_file": "2605.25894v1.pdf",
+      "chunk_index": 10,
+      "chunk_type": "semantic",
+      "text": "The resulting labels are highly imbalanced, with the NEUTRAL class accounting for approximately 67% of observations. To mitigate this, we employ a weighted cross-entropy loss that assigns higher weights wk to minority classes, penalizing costly directional errors (e.g., DOWN vs. UP) more strongly. The loss is defined as L = - ∑2k=0 wk yk log(ˆ yk), with weights chosen such that w0, w1 ≥ w2.",
+      "retrieval_text": "The resulting labels are highly imbalanced, with the NEUTRAL class accounting for approximately 67% of observations. To mitigate this, we employ a weighted cross-entropy loss that assigns higher weights wk to minority classes, penalizing costly directional errors (e.g., DOWN vs. UP) more strongly. The loss is defined as L = - ∑2k=0 wk yk log(ˆ yk), with weights chosen such that w0, w1 ≥ w2.",
+      "token_count": 101,
+      "char_count": 393,
+      "section_path": [
+        "2.5. Target Definition and Imbalance"
+      ],
+      "pages": [
+        2
+      ],
+      "element_ids": [
+        "elem_6c48fd8cff50"
+      ],
+      "content_types": [
+        "text"
+      ],
+      "figure_ids": [],
+      "table_ids": [],
+      "formula_ids": [],
+      "image_paths": [],
+      "evidence": [
+        {
+          "element_id": "elem_6c48fd8cff50",
+          "type": "text",
+          "page": 2,
+          "bbox": {
+            "l": 307.131,
+            "t": 167.11065259999998,
+            "r": 543.0956426959993,
+            "b": 74.11352673256488
+          },
+          "section_path": [
+            "2.5. Target Definition and Imbalance"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": null,
+          "figure_id": null
+        }
+      ],
+      "previous_chunk_id": "chunk_0a64400e655567e1",
+      "next_chunk_id": "chunk_79ba6ab3b15a44c4"
+    },
+    {
+      "chunk_id": "chunk_79ba6ab3b15a44c4",
+      "document_id": "doc_ac6daafe7996",
+      "source_file": "2605.25894v1.pdf",
+      "chunk_index": 11,
+      "chunk_type": "semantic",
+      "text": "We evaluate two deep learning models for capturing temporal dependencies in the 21-dimensional feature space, a recurrent LSTM and a self-attention-based Transformer, and compare them to a logistic regression baseline.",
+      "retrieval_text": "We evaluate two deep learning models for capturing temporal dependencies in the 21-dimensional feature space, a recurrent LSTM and a self-attention-based Transformer, and compare them to a logistic regression baseline.",
+      "token_count": 47,
+      "char_count": 218,
+      "section_path": [
+        "2.6. Model Architectures"
+      ],
+      "pages": [
+        3
+      ],
+      "element_ids": [
+        "elem_b2be2aa764fa"
+      ],
+      "content_types": [
+        "text"
+      ],
+      "figure_ids": [],
+      "table_ids": [],
+      "formula_ids": [],
+      "image_paths": [],
+      "evidence": [
+        {
+          "element_id": "elem_b2be2aa764fa",
+          "type": "text",
+          "page": 3,
+          "bbox": {
+            "l": 54.972,
+            "t": 702.8096525999999,
+            "r": 291.092793072,
+            "b": 658.3927743929203
+          },
+          "section_path": [
+            "2.6. Model Architectures"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": null,
+          "figure_id": null
+        }
+      ],
+      "previous_chunk_id": "chunk_ecc26d115ddb7e5f",
+      "next_chunk_id": "chunk_293ff171e79f11a6"
+    },
+    {
+      "chunk_id": "chunk_293ff171e79f11a6",
+      "document_id": "doc_ac6daafe7996",
+      "source_file": "2605.25894v1.pdf",
+      "chunk_index": 12,
+      "chunk_type": "semantic",
+      "text": "As a non-temporal baseline, we use a multinomial logistic regression classifier. Each 30-day input window is flattened by concatenating daily observations into a fixed-length vector of size 30 × d. The model is trained with the lbfgs solver and class-balanced weights to partially address label imbalance, providing a linear reference for assessing the benefit of explicit temporal modeling.",
+      "retrieval_text": "As a non-temporal baseline, we use a multinomial logistic regression classifier. Each 30-day input window is flattened by concatenating daily observations into a fixed-length vector of size 30 × d. The model is trained with the lbfgs solver and class-balanced weights to partially address label imbalance, providing a linear reference for assessing the benefit of explicit temporal modeling.",
+      "token_count": 85,
+      "char_count": 391,
+      "section_path": [
+        "BASELINE"
+      ],
+      "pages": [
+        3
+      ],
+      "element_ids": [
+        "elem_f5a48e8ea6a5"
+      ],
+      "content_types": [
+        "text"
+      ],
+      "figure_ids": [],
+      "table_ids": [],
+      "formula_ids": [],
+      "image_paths": [],
+      "evidence": [
+        {
+          "element_id": "elem_f5a48e8ea6a5",
+          "type": "text",
+          "page": 3,
+          "bbox": {
+            "l": 55.082,
+            "t": 624.5996526,
+            "r": 291.09712370539995,
+            "b": 544.3167743929204
+          },
+          "section_path": [
+            "BASELINE"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": null,
+          "figure_id": null
+        }
+      ],
+      "previous_chunk_id": "chunk_79ba6ab3b15a44c4",
+      "next_chunk_id": "chunk_21220650a8348232"
+    },
+    {
+      "chunk_id": "chunk_21220650a8348232",
+      "document_id": "doc_ac6daafe7996",
+      "source_file": "2605.25894v1.pdf",
+      "chunk_index": 13,
+      "chunk_type": "semantic",
+      "text": "We implement a 2-layer stacked LSTM with hidden dimension 64 and dropout rate 0.5. Daily feature vectors xt ∈ Rd are processed sequentially, and the final hidden state is passed to a fully connected softmax layer to produce class probabilities.",
+      "retrieval_text": "We implement a 2-layer stacked LSTM with hidden dimension 64 and dropout rate 0.5. Daily feature vectors xt ∈ Rd are processed sequentially, and the final hidden state is passed to a fully connected softmax layer to produce class probabilities.",
+      "token_count": 57,
+      "char_count": 244,
+      "section_path": [
+        "LSTM"
+      ],
+      "pages": [
+        3
+      ],
+      "element_ids": [
+        "elem_7f246b8659c6"
+      ],
+      "content_types": [
+        "text"
+      ],
+      "figure_ids": [],
+      "table_ids": [],
+      "formula_ids": [],
+      "image_paths": [],
+      "evidence": [
+        {
+          "element_id": "elem_7f246b8659c6",
+          "type": "text",
+          "page": 3,
+          "bbox": {
+            "l": 54.972,
+            "t": 510.8414558,
+            "r": 291.0931511919999,
+            "b": 454.1507743929203
+          },
+          "section_path": [
+            "LSTM"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": null,
+          "figure_id": null
+        }
+      ],
+      "previous_chunk_id": "chunk_293ff171e79f11a6",
+      "next_chunk_id": "chunk_63923e9b0d1d920a"
+    },
+    {
+      "chunk_id": "chunk_63923e9b0d1d920a",
+      "document_id": "doc_ac6daafe7996",
+      "source_file": "2605.25894v1.pdf",
+      "chunk_index": 14,
+      "chunk_type": "semantic",
+      "text": "To relax the inductive bias of strictly sequential processing, we implement a Transformer encoder architecture. Following observations by Li et al. (2023), we evaluate selfattention not as a guaranteed improvement over recurrent models, but for its ability to capture global temporal patterns. The model uses multi-head self-attention to capture dependencies across the entire 30-day pre-announcement window. Temporal order is preserved via sinusoidal positional encodings added to the input embeddings. Our configuration consists of 2 encoder layers with 4 attention heads and a feed-forward dimension of 256. After the final encoder block, global average pooling is applied over the temporal dimension, followed by a fully connected classification head. This architecture enables joint modeling of fundamental, market, and sentiment features while remaining compact and suitable for limited data.",
+      "retrieval_text": "To relax the inductive bias of strictly sequential processing, we implement a Transformer encoder architecture. Following observations by Li et al. (2023), we evaluate selfattention not as a guaranteed improvement over recurrent models, but for its ability to capture global temporal patterns. The model uses multi-head self-attention to capture dependencies across the entire 30-day pre-announcement window. Temporal order is preserved via sinusoidal positional encodings added to the input embeddings. Our configuration consists of 2 encoder layers with 4 attention heads and a feed-forward dimension of 256. After the final encoder block, global average pooling is applied over the temporal dimension, followed by a fully connected classification head. This architecture enables joint modeling of fundamental, market, and sentiment features while remaining compact and suitable for limited data.",
+      "token_count": 178,
+      "char_count": 898,
+      "section_path": [
+        "TRANSFORMER WITH SELF-ATTENTION"
+      ],
+      "pages": [
+        3
+      ],
+      "element_ids": [
+        "elem_d8ab8f7f39c6",
+        "elem_4c62598f051e",
+        "elem_243526f510d1"
+      ],
+      "content_types": [
+        "text"
+      ],
+      "figure_ids": [],
+      "table_ids": [],
+      "formula_ids": [],
+      "image_paths": [],
+      "evidence": [
+        {
+          "element_id": "elem_d8ab8f7f39c6",
+          "type": "text",
+          "page": 3,
+          "bbox": {
+            "l": 55.082,
+            "t": 420.35665259999996,
+            "r": 291.09334787999995,
+            "b": 352.02977439292033
+          },
+          "section_path": [
+            "TRANSFORMER WITH SELF-ATTENTION"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": null,
+          "figure_id": null
+        },
+        {
+          "element_id": "elem_4c62598f051e",
+          "type": "text",
+          "page": 3,
+          "bbox": {
+            "l": 55.131,
+            "t": 342.6486526,
+            "r": 291.184728932,
+            "b": 298.23077439292035
+          },
+          "section_path": [
+            "TRANSFORMER WITH SELF-ATTENTION"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": null,
+          "figure_id": null
+        },
+        {
+          "element_id": "elem_243526f510d1",
+          "type": "text",
+          "page": 3,
+          "bbox": {
+            "l": 55.44,
+            "t": 289.16945580000004,
+            "r": 291.09475385999997,
+            "b": 208.56777439292034
+          },
+          "section_path": [
+            "TRANSFORMER WITH SELF-ATTENTION"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": null,
+          "figure_id": null
+        }
+      ],
+      "previous_chunk_id": "chunk_21220650a8348232",
+      "next_chunk_id": "chunk_5c66e39d99b921b9"
+    },
+    {
+      "chunk_id": "chunk_5c66e39d99b921b9",
+      "document_id": "doc_ac6daafe7996",
+      "source_file": "2605.25894v1.pdf",
+      "chunk_index": 15,
+      "chunk_type": "semantic",
+      "text": "The models were implemented in PyTorch and trained on the ETH Student Cluster. All models were optimized using the Adam optimizer with a learning rate of 5 · 10-5 and a batch size of 8. Regularization was applied through a fixed training duration of 15 epochs and a dropout rate of 0.5 for both the LSTM and Transformer architectures. Model performance is evaluated using metrics aligned with financial decision-making rather than raw accuracy. Since the majority class (NEUTRAL) corresponds to a no-action state, directional errors are substantially more costly than missed opportunities. We therefore report Precision to assess the reliability of actionable (UP/DOWN) signals, and the Macro-averaged F1-score to ensure balanced performance across imbalanced classes. Macro-F1 is computed by first evaluating the F1-score independently for each class and then averaging these scores across all classes, giving equal importance to UP, DOWN, and NEUTRAL outcomes regardless of their frequency. In addition, we introduce a custom cost metric to explicitly encode asymmetric financial risk. Correct predictions incur zero cost; UP↔DOWN misclassifications incur a cost of 3, while all other errors incur a cost of 1. The cost is averaged across samples, yielding an expected per-observation loss that complements Macro-F1 by reflecting domain-specific risk preferences. It is not optimized directly, but used as an evaluation proxy. To ensure reproducibility, the complete implementation, including preprocessing scripts, model architectures, and training logs, is available at our GitHub repository (https: //github.com/Marc0-Pol0/dl-project).",
+      "retrieval_text": "The models were implemented in PyTorch and trained on the ETH Student Cluster. All models were optimized using the Adam optimizer with a learning rate of 5 · 10-5 and a batch size of 8. Regularization was applied through a fixed training duration of 15 epochs and a dropout rate of 0.5 for both the LSTM and Transformer architectures. Model performance is evaluated using metrics aligned with financial decision-making rather than raw accuracy. Since the majority class (NEUTRAL) corresponds to a no-action state, directional errors are substantially more costly than missed opportunities. We therefore report Precision to assess the reliability of actionable (UP/DOWN) signals, and the Macro-averaged F1-score to ensure balanced performance across imbalanced classes. Macro-F1 is computed by first evaluating the F1-score independently for each class and then averaging these scores across all classes, giving equal importance to UP, DOWN, and NEUTRAL outcomes regardless of their frequency. In addition, we introduce a custom cost metric to explicitly encode asymmetric financial risk. Correct predictions incur zero cost; UP↔DOWN misclassifications incur a cost of 3, while all other errors incur a cost of 1. The cost is averaged across samples, yielding an expected per-observation loss that complements Macro-F1 by reflecting domain-specific risk preferences. It is not optimized directly, but used as an evaluation proxy. To ensure reproducibility, the complete implementation, including preprocessing scripts, model architectures, and training logs, is available at our GitHub repository (https: //github.com/Marc0-Pol0/dl-project).",
+      "token_count": 353,
+      "char_count": 1640,
+      "section_path": [
+        "2.7. Experimental Setup"
+      ],
+      "pages": [
+        3
+      ],
+      "element_ids": [
+        "elem_4f211756d610",
+        "elem_a68c44ad375d",
+        "elem_4782f01e9207",
+        "elem_0eac54a83d0f"
+      ],
+      "content_types": [
+        "text"
+      ],
+      "figure_ids": [],
+      "table_ids": [],
+      "formula_ids": [],
+      "image_paths": [],
+      "evidence": [
+        {
+          "element_id": "elem_4f211756d610",
+          "type": "text",
+          "page": 3,
+          "bbox": {
+            "l": 55.131,
+            "t": 173.33365260000005,
+            "r": 289.6099260336,
+            "b": 105.00577439292033
+          },
+          "section_path": [
+            "2.7. Experimental Setup"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": null,
+          "figure_id": null
+        },
+        {
+          "element_id": "elem_a68c44ad375d",
+          "type": "text",
+          "page": 3,
+          "bbox": {
+            "l": 55.44,
+            "t": 95.62465259999999,
+            "r": 289.44043298879984,
+            "b": 75.11777439292041
+          },
+          "section_path": [
+            "2.7. Experimental Setup"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": null,
+          "figure_id": null
+        },
+        {
+          "element_id": "elem_4782f01e9207",
+          "type": "text",
+          "page": 3,
+          "bbox": {
+            "l": 307.082,
+            "t": 596.321194,
+            "r": 542.68532765,
+            "b": 503.69477439292035
+          },
+          "section_path": [
+            "2.7. Experimental Setup"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": null,
+          "figure_id": null
+        },
+        {
+          "element_id": "elem_0eac54a83d0f",
+          "type": "text",
+          "page": 3,
+          "bbox": {
+            "l": 306.843,
+            "t": 494.31365259999995,
+            "r": 544.4293600000002,
+            "b": 449.89677439292035
+          },
+          "section_path": [
+            "2.7. Experimental Setup"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": null,
+          "figure_id": null
+        }
+      ],
+      "previous_chunk_id": "chunk_63923e9b0d1d920a",
+      "next_chunk_id": "chunk_d0d6ea069dec119f"
+    },
+    {
+      "chunk_id": "chunk_d0d6ea069dec119f",
+      "document_id": "doc_ac6daafe7996",
+      "source_file": "2605.25894v1.pdf",
+      "chunk_index": 16,
+      "chunk_type": "semantic",
+      "text": "Figure 1 presents the confusion matrices for the three models trained with sentiment features. For completeness, larger confusion matrices for all six model variants (with and without sentiment) are reported in Appendix A.",
+      "retrieval_text": "Figure 1 presents the confusion matrices for the three models trained with sentiment features. For completeness, larger confusion matrices for all six model variants (with and without sentiment) are reported in Appendix A.",
+      "token_count": 41,
+      "char_count": 222,
+      "section_path": [
+        "3.1. Confusion Matrices and Error Analysis"
+      ],
+      "pages": [
+        3
+      ],
+      "element_ids": [
+        "elem_c3f3cb9aaf96"
+      ],
+      "content_types": [
+        "text"
+      ],
+      "figure_ids": [],
+      "table_ids": [],
+      "formula_ids": [],
+      "image_paths": [],
+      "evidence": [
+        {
+          "element_id": "elem_c3f3cb9aaf96",
+          "type": "text",
+          "page": 3,
+          "bbox": {
+            "l": 307.44,
+            "t": 391.85865259999997,
+            "r": 543.0979306759997,
+            "b": 347.44077439292033
+          },
+          "section_path": [
+            "3.1. Confusion Matrices and Error Analysis"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": null,
+          "figure_id": null
+        }
+      ],
+      "previous_chunk_id": "chunk_5c66e39d99b921b9",
+      "next_chunk_id": "chunk_abe2f9452cdc88f4"
+    },
+    {
+      "chunk_id": "chunk_abe2f9452cdc88f4",
+      "document_id": "doc_ac6daafe7996",
+      "source_file": "2605.25894v1.pdf",
+      "chunk_index": 17,
+      "chunk_type": "semantic",
+      "text": "(a) Baseline (b) LSTM",
+      "retrieval_text": "(a) Baseline (b) LSTM",
+      "token_count": 12,
+      "char_count": 21,
+      "section_path": [
+        "3.1. Confusion Matrices and Error Analysis"
+      ],
+      "pages": [
+        3
+      ],
+      "element_ids": [
+        "elem_b7514dd7a2ba",
+        "elem_84bf2fac7d67"
+      ],
+      "content_types": [
+        "text"
+      ],
+      "figure_ids": [],
+      "table_ids": [],
+      "formula_ids": [],
+      "image_paths": [],
+      "evidence": [
+        {
+          "element_id": "elem_b7514dd7a2ba",
+          "type": "text",
+          "page": 3,
+          "bbox": {
+            "l": 343.086,
+            "t": 226.7071264,
+            "r": 386.16058559999993,
+            "b": 219.01038450973454
+          },
+          "section_path": [
+            "3.1. Confusion Matrices and Error Analysis"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": null,
+          "figure_id": null
+        },
+        {
+          "element_id": "elem_84bf2fac7d67",
+          "type": "text",
+          "page": 3,
+          "bbox": {
+            "l": 465.657,
+            "t": 226.7071264,
+            "r": 502.26681119999995,
+            "b": 219.01038450973454
+          },
+          "section_path": [
+            "3.1. Confusion Matrices and Error Analysis"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": null,
+          "figure_id": null
+        }
+      ],
+      "previous_chunk_id": "chunk_d0d6ea069dec119f",
+      "next_chunk_id": "chunk_aac1f34554c77903"
+    },
+    {
+      "chunk_id": "chunk_aac1f34554c77903",
+      "document_id": "doc_ac6daafe7996",
+      "source_file": "2605.25894v1.pdf",
+      "chunk_index": 18,
+      "chunk_type": "semantic",
+      "text": "Figure 1. Confusion matrices for the evaluated models. The logistic regression baseline shows an unstable decision profile, with a strong bias toward predicting UP movements. This results in a large number of costly UP↔DOWN swaps, limiting its practical usefulness despite a Macro-F1 comparable to the deep models. The LSTM adopts a highly conservative strategy, predicting NEUTRAL in most cases. This substantially reduces directional swaps and leads to the lowest custom cost, but also limits sensitivity to volatile events, yielding a lower Macro-F1 score. The Attention model distributes predictions more evenly across classes. It identifies more UP and DOWN events than the LSTM, improving sensitivity, but at the expense of increased directional errors and higher financial risk.",
+      "retrieval_text": "Figure 1. Confusion matrices for the evaluated models. The logistic regression baseline shows an unstable decision profile, with a strong bias toward predicting UP movements. This results in a large number of costly UP↔DOWN swaps, limiting its practical usefulness despite a Macro-F1 comparable to the deep models. The LSTM adopts a highly conservative strategy, predicting NEUTRAL in most cases. This substantially reduces directional swaps and leads to the lowest custom cost, but also limits sensitivity to volatile events, yielding a lower Macro-F1 score. The Attention model distributes predictions more evenly across classes. It identifies more UP and DOWN events than the LSTM, improving sensitivity, but at the expense of increased directional errors and higher financial risk.",
+      "token_count": 149,
+      "char_count": 785,
+      "section_path": [
+        "3.1. Confusion Matrices and Error Analysis"
+      ],
+      "pages": [
+        3,
+        4
+      ],
+      "element_ids": [
+        "elem_67b415480aa0",
+        "elem_9620b2afec9a",
+        "elem_9014b131ad29",
+        "elem_708358b21934"
+      ],
+      "content_types": [
+        "text"
+      ],
+      "figure_ids": [],
+      "table_ids": [],
+      "formula_ids": [],
+      "image_paths": [],
+      "evidence": [
+        {
+          "element_id": "elem_67b415480aa0",
+          "type": "text",
+          "page": 3,
+          "bbox": {
+            "l": 325.5,
+            "t": 84.71712639999998,
+            "r": 523.3794816,
+            "b": 77.02038450973453
+          },
+          "section_path": [
+            "3.1. Confusion Matrices and Error Analysis"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": null,
+          "figure_id": null
+        },
+        {
+          "element_id": "elem_9620b2afec9a",
+          "type": "text",
+          "page": 4,
+          "bbox": {
+            "l": 55.131,
+            "t": 721.4626526,
+            "r": 291.18580080799995,
+            "b": 665.0897743929203
+          },
+          "section_path": [
+            "3.1. Confusion Matrices and Error Analysis"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": null,
+          "figure_id": null
+        },
+        {
+          "element_id": "elem_9014b131ad29",
+          "type": "text",
+          "page": 4,
+          "bbox": {
+            "l": 55.131,
+            "t": 655.7086525999999,
+            "r": 291.08920343999995,
+            "b": 599.3367743929203
+          },
+          "section_path": [
+            "3.1. Confusion Matrices and Error Analysis"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": null,
+          "figure_id": null
+        },
+        {
+          "element_id": "elem_708358b21934",
+          "type": "text",
+          "page": 4,
+          "bbox": {
+            "l": 55.131,
+            "t": 589.9556526,
+            "r": 289.7884863839999,
+            "b": 545.5377743929204
+          },
+          "section_path": [
+            "3.1. Confusion Matrices and Error Analysis"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": null,
+          "figure_id": null
+        }
+      ],
+      "previous_chunk_id": "chunk_abe2f9452cdc88f4",
+      "next_chunk_id": "chunk_ece24f2278c9db14"
+    },
+    {
+      "chunk_id": "chunk_ece24f2278c9db14",
+      "document_id": "doc_ac6daafe7996",
+      "source_file": "2605.25894v1.pdf",
+      "chunk_index": 19,
+      "chunk_type": "semantic",
+      "text": "Table 1 summarizes performance across all models. The Attention model achieves the highest Macro-F1 score, reflecting superior sensitivity to earnings-related volatility. In contrast, the LSTMminimizes financial risk, attaining the lowest custom cost through conservative predictions. Logistic regression consistently incurs the highest cost due to frequent directional misclassifications. Removing sentiment features degrades performance for all models, increasing custom cost and reducing Macro-F1. This effect is most pronounced for the LSTM, indicating that sentiment information plays a stabilizing role in deep sequential models.",
+      "retrieval_text": "Table 1 summarizes performance across all models. The Attention model achieves the highest Macro-F1 score, reflecting superior sensitivity to earnings-related volatility. In contrast, the LSTMminimizes financial risk, attaining the lowest custom cost through conservative predictions. Logistic regression consistently incurs the highest cost due to frequent directional misclassifications. Removing sentiment features degrades performance for all models, increasing custom cost and reducing Macro-F1. This effect is most pronounced for the LSTM, indicating that sentiment information plays a stabilizing role in deep sequential models.",
+      "token_count": 121,
+      "char_count": 635,
+      "section_path": [
+        "3.2. Performance Comparison"
+      ],
+      "pages": [
+        4
+      ],
+      "element_ids": [
+        "elem_e0917d5305e0",
+        "elem_ac53f2655915"
+      ],
+      "content_types": [
+        "text"
+      ],
+      "figure_ids": [],
+      "table_ids": [],
+      "formula_ids": [],
+      "image_paths": [],
+      "evidence": [
+        {
+          "element_id": "elem_e0917d5305e0",
+          "type": "text",
+          "page": 4,
+          "bbox": {
+            "l": 55.082,
+            "t": 510.3046526,
+            "r": 291.09334787999995,
+            "b": 430.02177439292035
+          },
+          "section_path": [
+            "3.2. Performance Comparison"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": null,
+          "figure_id": null
+        },
+        {
+          "element_id": "elem_ac53f2655915",
+          "type": "text",
+          "page": 4,
+          "bbox": {
+            "l": 55.131,
+            "t": 420.64065259999995,
+            "r": 291.18480454799993,
+            "b": 364.26777439292033
+          },
+          "section_path": [
+            "3.2. Performance Comparison"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": null,
+          "figure_id": null
+        }
+      ],
+      "previous_chunk_id": "chunk_aac1f34554c77903",
+      "next_chunk_id": "chunk_ce3e03446010dc9a"
+    },
+    {
+      "chunk_id": "chunk_ce3e03446010dc9a",
+      "document_id": "doc_ac6daafe7996",
+      "source_file": "2605.25894v1.pdf",
+      "chunk_index": 20,
+      "chunk_type": "semantic",
+      "text": "Table 1. Model Performance Comparison. Overall, the results reveal a clear trade-off between sensitivity and risk control. The LSTM prioritizes stability and cost minimization, while self-attention improves detection of volatile price movements at the expense of higher directional risk.",
+      "retrieval_text": "Table 1. Model Performance Comparison. Overall, the results reveal a clear trade-off between sensitivity and risk control. The LSTM prioritizes stability and cost minimization, while self-attention improves detection of volatile price movements at the expense of higher directional risk.",
+      "token_count": 57,
+      "char_count": 287,
+      "section_path": [
+        "3.2. Performance Comparison"
+      ],
+      "pages": [
+        4
+      ],
+      "element_ids": [
+        "elem_9ba2e43780e2",
+        "elem_11366eac716b"
+      ],
+      "content_types": [
+        "text"
+      ],
+      "figure_ids": [],
+      "table_ids": [],
+      "formula_ids": [],
+      "image_paths": [],
+      "evidence": [
+        {
+          "element_id": "elem_9ba2e43780e2",
+          "type": "text",
+          "page": 4,
+          "bbox": {
+            "l": 96.673,
+            "t": 265.5491264,
+            "r": 248.20516000000018,
+            "b": 257.8523845097345
+          },
+          "section_path": [
+            "3.2. Performance Comparison"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": null,
+          "figure_id": null
+        },
+        {
+          "element_id": "elem_11366eac716b",
+          "type": "text",
+          "page": 4,
+          "bbox": {
+            "l": 55.44,
+            "t": 238.95965260000003,
+            "r": 291.09334787999995,
+            "b": 182.58677439292035
+          },
+          "section_path": [
+            "3.2. Performance Comparison"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": null,
+          "figure_id": null
+        }
+      ],
+      "previous_chunk_id": "chunk_ece24f2278c9db14",
+      "next_chunk_id": "chunk_6790dd783f245bda"
+    },
+    {
+      "chunk_id": "chunk_6790dd783f245bda",
+      "document_id": "doc_ac6daafe7996",
+      "source_file": "2605.25894v1.pdf",
+      "chunk_index": 21,
+      "chunk_type": "semantic",
+      "text": "Our results highlight a clear trade-off between conservative and sensitivity-oriented modeling strategies for earnings announcement prediction. The LSTM exhibits a strong bias toward the NEUTRAL class, resulting in higher precision and fewer critical directional errors, but at the cost of missing a large fraction of volatile events. In contrast, the Transformer-based model is more responsive to preannouncement signals and captures more price movements, albeit with a higher false positive rate and increased directional risk. The logistic regression baseline lacks a stable decision strategy, producing frequent high-cost directional errors despite achieving a Macro-F1 comparable to the deep models. This confirms that linear models are insufficient for capturing the complex temporal and cross-modal interactions present in earnings-related data. The ablation study further shows that removing sentiment features degrades performance across all models, particularly increasing directional errors. This indicates that news sentiment provides complementary information that stabilizes predictions beyond fundamentals and price dynamics alone. The fact that removing sentiment degrades performance is consistent with empirical evidence that aggregated news sentiment contains predictive information about stock returns beyond fundamentals and prices, particularly when considered over longer horizons and around earnings events (Heston & Sinha, 2016). Overall, model choice should depend on the target application: risk-averse strategies may favor the LSTM, while volatility-seeking strategies may benefit from the Transformer's higher sensitivity. Both approaches, however, remain constrained by limited data and the intrinsic noise of financial markets.",
+      "retrieval_text": "Our results highlight a clear trade-off between conservative and sensitivity-oriented modeling strategies for earnings announcement prediction. The LSTM exhibits a strong bias toward the NEUTRAL class, resulting in higher precision and fewer critical directional errors, but at the cost of missing a large fraction of volatile events. In contrast, the Transformer-based model is more responsive to preannouncement signals and captures more price movements, albeit with a higher false positive rate and increased directional risk. The logistic regression baseline lacks a stable decision strategy, producing frequent high-cost directional errors despite achieving a Macro-F1 comparable to the deep models. This confirms that linear models are insufficient for capturing the complex temporal and cross-modal interactions present in earnings-related data. The ablation study further shows that removing sentiment features degrades performance across all models, particularly increasing directional errors. This indicates that news sentiment provides complementary information that stabilizes predictions beyond fundamentals and price dynamics alone. The fact that removing sentiment degrades performance is consistent with empirical evidence that aggregated news sentiment contains predictive information about stock returns beyond fundamentals and prices, particularly when considered over longer horizons and around earnings events (Heston & Sinha, 2016). Overall, model choice should depend on the target application: risk-averse strategies may favor the LSTM, while volatility-seeking strategies may benefit from the Transformer's higher sensitivity. Both approaches, however, remain constrained by limited data and the intrinsic noise of financial markets.",
+      "token_count": 305,
+      "char_count": 1758,
+      "section_path": [
+        "4. Discussion"
+      ],
+      "pages": [
+        4
+      ],
+      "element_ids": [
+        "elem_93a879f7cf00",
+        "elem_e114f059b759",
+        "elem_b8f8e300dd91",
+        "elem_364704ce15b4"
+      ],
+      "content_types": [
+        "text"
+      ],
+      "figure_ids": [],
+      "table_ids": [],
+      "formula_ids": [],
+      "image_paths": [],
+      "evidence": [
+        {
+          "element_id": "elem_93a879f7cf00",
+          "type": "text",
+          "page": 4,
+          "bbox": {
+            "l": 55.44,
+            "t": 143.2006526,
+            "r": 291.0933478799998,
+            "b": 74.87277439292029
+          },
+          "section_path": [
+            "4. Discussion"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": null,
+          "figure_id": null
+        },
+        {
+          "element_id": "elem_e114f059b759",
+          "type": "text",
+          "page": 4,
+          "bbox": {
+            "l": 307.131,
+            "t": 667.6636526,
+            "r": 543.0937663108001,
+            "b": 599.3367743929203
+          },
+          "section_path": [
+            "4. Discussion"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": null,
+          "figure_id": null
+        },
+        {
+          "element_id": "elem_b8f8e300dd91",
+          "type": "text",
+          "page": 4,
+          "bbox": {
+            "l": 307.112,
+            "t": 589.9556526,
+            "r": 543.0958086421997,
+            "b": 461.85177439292033
+          },
+          "section_path": [
+            "4. Discussion"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": null,
+          "figure_id": null
+        },
+        {
+          "element_id": "elem_364704ce15b4",
+          "type": "text",
+          "page": 4,
+          "bbox": {
+            "l": 307.191,
+            "t": 452.4706526,
+            "r": 543.0983941799992,
+            "b": 384.1437743929203
+          },
+          "section_path": [
+            "4. Discussion"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": null,
+          "figure_id": null
+        }
+      ],
+      "previous_chunk_id": "chunk_ce3e03446010dc9a",
+      "next_chunk_id": "chunk_637d8db0f372e591"
+    },
+    {
+      "chunk_id": "chunk_637d8db0f372e591",
+      "document_id": "doc_ac6daafe7996",
+      "source_file": "2605.25894v1.pdf",
+      "chunk_index": 22,
+      "chunk_type": "semantic",
+      "text": "In this work, we studied the problem of predicting directional stock price movements on earnings announcement days using a multi-modal feature set combining firm fundamentals, market dynamics, and news-based sentiment. We compared a logistic regression baseline with LSTM and Transformer architectures designed to model temporal dependencies in the pre-announcement window. Our results show that the LSTM achieves lower financial risk through conservative predictions, while the Transformer captures more volatile movements and attains a higher MacroF1 score. The baseline performs poorly in terms of risk control, and sentiment features consistently improve stability and performance across models. These findings underscore the inherent trade-offs between sensitivity and risk management when applying deep learning models to noisy, imbalanced financial prediction tasks.",
+      "retrieval_text": "In this work, we studied the problem of predicting directional stock price movements on earnings announcement days using a multi-modal feature set combining firm fundamentals, market dynamics, and news-based sentiment. We compared a logistic regression baseline with LSTM and Transformer architectures designed to model temporal dependencies in the pre-announcement window. Our results show that the LSTM achieves lower financial risk through conservative predictions, while the Transformer captures more volatile movements and attains a higher MacroF1 score. The baseline performs poorly in terms of risk control, and sentiment features consistently improve stability and performance across models. These findings underscore the inherent trade-offs between sensitivity and risk management when applying deep learning models to noisy, imbalanced financial prediction tasks.",
+      "token_count": 157,
+      "char_count": 873,
+      "section_path": [
+        "5. Summary"
+      ],
+      "pages": [
+        4
+      ],
+      "element_ids": [
+        "elem_d695cee8983a",
+        "elem_9550bcc62eb3"
+      ],
+      "content_types": [
+        "text"
+      ],
+      "figure_ids": [],
+      "table_ids": [],
+      "formula_ids": [],
+      "image_paths": [],
+      "evidence": [
+        {
+          "element_id": "elem_d695cee8983a",
+          "type": "text",
+          "page": 4,
+          "bbox": {
+            "l": 306.972,
+            "t": 344.7576526,
+            "r": 543.1848045479993,
+            "b": 264.4747743929204
+          },
+          "section_path": [
+            "5. Summary"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": null,
+          "figure_id": null
+        },
+        {
+          "element_id": "elem_9550bcc62eb3",
+          "type": "text",
+          "page": 4,
+          "bbox": {
+            "l": 307.44,
+            "t": 255.09365260000004,
+            "r": 543.0979306759999,
+            "b": 150.89977439292034
+          },
+          "section_path": [
+            "5. Summary"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": null,
+          "figure_id": null
+        }
+      ],
+      "previous_chunk_id": "chunk_6790dd783f245bda",
+      "next_chunk_id": "chunk_3c3f049f47e5809c"
+    },
+    {
+      "chunk_id": "chunk_3c3f049f47e5809c",
+      "document_id": "doc_ac6daafe7996",
+      "source_file": "2605.25894v1.pdf",
+      "chunk_index": 23,
+      "chunk_type": "semantic",
+      "text": "We thank the teaching team of the ETH Z¨urich Deep Learning course (HS2025) for their guidance and feedback throughout the project.",
+      "retrieval_text": "We thank the teaching team of the ETH Z¨urich Deep Learning course (HS2025) for their guidance and feedback throughout the project.",
+      "token_count": 32,
+      "char_count": 131,
+      "section_path": [
+        "Acknowledgments"
+      ],
+      "pages": [
+        4
+      ],
+      "element_ids": [
+        "elem_4ffe0445699a"
+      ],
+      "content_types": [
+        "text"
+      ],
+      "figure_ids": [],
+      "table_ids": [],
+      "formula_ids": [],
+      "image_paths": [],
+      "evidence": [
+        {
+          "element_id": "elem_4ffe0445699a",
+          "type": "text",
+          "page": 4,
+          "bbox": {
+            "l": 306.972,
+            "t": 111.56365259999995,
+            "r": 541.6930845247998,
+            "b": 79.05177439292038
+          },
+          "section_path": [
+            "Acknowledgments"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": null,
+          "figure_id": null
+        }
+      ],
+      "previous_chunk_id": "chunk_637d8db0f372e591",
+      "next_chunk_id": "chunk_378902511c456006"
+    },
+    {
+      "chunk_id": "chunk_378902511c456006",
+      "document_id": "doc_ac6daafe7996",
+      "source_file": "2605.25894v1.pdf",
+      "chunk_index": 24,
+      "chunk_type": "semantic",
+      "text": "(a) With sentiment (b) Without sentiment Figure 2. Logistic Regression confusion matrices.",
+      "retrieval_text": "(a) With sentiment (b) Without sentiment Figure 2. Logistic Regression confusion matrices.",
+      "token_count": 21,
+      "char_count": 90,
+      "section_path": [
+        "A. Extended Confusion Matrices"
+      ],
+      "pages": [
+        5
+      ],
+      "element_ids": [
+        "elem_4ad9662431c4",
+        "elem_fef7fddb7ed5",
+        "elem_2812f6b312f2"
+      ],
+      "content_types": [
+        "text"
+      ],
+      "figure_ids": [],
+      "table_ids": [],
+      "formula_ids": [],
+      "image_paths": [],
+      "evidence": [
+        {
+          "element_id": "elem_4ad9662431c4",
+          "type": "text",
+          "page": 5,
+          "bbox": {
+            "l": 140.924,
+            "t": 147.7211264,
+            "r": 207.80437760000004,
+            "b": 140.02438450973455
+          },
+          "section_path": [
+            "A. Extended Confusion Matrices"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": null,
+          "figure_id": null
+        },
+        {
+          "element_id": "elem_fef7fddb7ed5",
+          "type": "text",
+          "page": 5,
+          "bbox": {
+            "l": 382.801,
+            "t": 147.7211264,
+            "r": 461.64255519999995,
+            "b": 140.02438450973455
+          },
+          "section_path": [
+            "A. Extended Confusion Matrices"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": null,
+          "figure_id": null
+        },
+        {
+          "element_id": "elem_2812f6b312f2",
+          "type": "text",
+          "page": 5,
+          "bbox": {
+            "l": 208.802,
+            "t": 127.65912639999999,
+            "r": 388.0762015999998,
+            "b": 119.96238450973453
+          },
+          "section_path": [
+            "A. Extended Confusion Matrices"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": null,
+          "figure_id": null
+        }
+      ],
+      "previous_chunk_id": "chunk_3c3f049f47e5809c",
+      "next_chunk_id": "chunk_8793a47b22825a54"
+    },
+    {
+      "chunk_id": "chunk_8793a47b22825a54",
+      "document_id": "doc_ac6daafe7996",
+      "source_file": "2605.25894v1.pdf",
+      "chunk_index": 25,
+      "chunk_type": "semantic",
+      "text": "(a) With sentiment (b) Without sentiment",
+      "retrieval_text": "(a) With sentiment (b) Without sentiment",
+      "token_count": 12,
+      "char_count": 40,
+      "section_path": [
+        "A. Extended Confusion Matrices"
+      ],
+      "pages": [
+        6
+      ],
+      "element_ids": [
+        "elem_734b36950fe4",
+        "elem_1d1a669fef6e"
+      ],
+      "content_types": [
+        "text"
+      ],
+      "figure_ids": [],
+      "table_ids": [],
+      "formula_ids": [],
+      "image_paths": [],
+      "evidence": [
+        {
+          "element_id": "elem_734b36950fe4",
+          "type": "text",
+          "page": 6,
+          "bbox": {
+            "l": 140.924,
+            "t": 470.6691264,
+            "r": 207.80437760000004,
+            "b": 462.9723845097345
+          },
+          "section_path": [
+            "A. Extended Confusion Matrices"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": null,
+          "figure_id": null
+        },
+        {
+          "element_id": "elem_1d1a669fef6e",
+          "type": "text",
+          "page": 6,
+          "bbox": {
+            "l": 382.801,
+            "t": 470.6691264,
+            "r": 461.64255519999995,
+            "b": 462.9723845097345
+          },
+          "section_path": [
+            "A. Extended Confusion Matrices"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": null,
+          "figure_id": null
+        }
+      ],
+      "previous_chunk_id": "chunk_378902511c456006",
+      "next_chunk_id": "chunk_a39746a813658398"
+    },
+    {
+      "chunk_id": "chunk_a39746a813658398",
+      "document_id": "doc_ac6daafe7996",
+      "source_file": "2605.25894v1.pdf",
+      "chunk_index": 26,
+      "chunk_type": "semantic",
+      "text": "Figure 3. LSTM confusion matrices. (a) With sentiment (b) Without sentiment Figure 4. Transformer confusion matrices.",
+      "retrieval_text": "Figure 3. LSTM confusion matrices. (a) With sentiment (b) Without sentiment Figure 4. Transformer confusion matrices.",
+      "token_count": 29,
+      "char_count": 117,
+      "section_path": [
+        "A. Extended Confusion Matrices"
+      ],
+      "pages": [
+        6
+      ],
+      "element_ids": [
+        "elem_ea1d5d1d1454",
+        "elem_e37b9a183aa6",
+        "elem_e8328593ca10",
+        "elem_db5e7aa7a7b2"
+      ],
+      "content_types": [
+        "text"
+      ],
+      "figure_ids": [],
+      "table_ids": [],
+      "formula_ids": [],
+      "image_paths": [],
+      "evidence": [
+        {
+          "element_id": "elem_ea1d5d1d1454",
+          "type": "text",
+          "page": 6,
+          "bbox": {
+            "l": 232.518,
+            "t": 450.6061264,
+            "r": 364.3599455999999,
+            "b": 442.90938450973454
+          },
+          "section_path": [
+            "A. Extended Confusion Matrices"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": null,
+          "figure_id": null
+        },
+        {
+          "element_id": "elem_e37b9a183aa6",
+          "type": "text",
+          "page": 6,
+          "bbox": {
+            "l": 140.924,
+            "t": 151.78512639999997,
+            "r": 207.80437760000004,
+            "b": 144.0883845097345
+          },
+          "section_path": [
+            "A. Extended Confusion Matrices"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": null,
+          "figure_id": null
+        },
+        {
+          "element_id": "elem_e8328593ca10",
+          "type": "text",
+          "page": 6,
+          "bbox": {
+            "l": 382.801,
+            "t": 151.78512639999997,
+            "r": 461.64255519999995,
+            "b": 144.0883845097345
+          },
+          "section_path": [
+            "A. Extended Confusion Matrices"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": null,
+          "figure_id": null
+        },
+        {
+          "element_id": "elem_db5e7aa7a7b2",
+          "type": "text",
+          "page": 6,
+          "bbox": {
+            "l": 222.225,
+            "t": 131.72212639999998,
+            "r": 374.65379999999993,
+            "b": 124.02538450973452
+          },
+          "section_path": [
+            "A. Extended Confusion Matrices"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": null,
+          "figure_id": null
+        }
+      ],
+      "previous_chunk_id": "chunk_8793a47b22825a54",
+      "next_chunk_id": "chunk_c7c409ac3ce4ef8d"
+    },
+    {
+      "chunk_id": "chunk_c7c409ac3ce4ef8d",
+      "document_id": "doc_ac6daafe7996",
+      "source_file": "2605.25894v1.pdf",
+      "chunk_index": 27,
+      "chunk_type": "formula_evidence",
+      "text": "y =  0 (UP), if R ≥ τ 1 (DOWN), if R ≤ -τ 2 (NEUTRAL), otherwise (1)",
+      "retrieval_text": "y =  0 (UP), if R ≥ τ 1 (DOWN), if R ≤ -τ 2 (NEUTRAL), otherwise (1)",
+      "token_count": 32,
+      "char_count": 73,
+      "section_path": [
+        "2.5. Target Definition and Imbalance"
+      ],
+      "pages": [
+        2
+      ],
+      "element_ids": [
+        "elem_4ee27f5b922a"
+      ],
+      "content_types": [
+        "formula"
+      ],
+      "figure_ids": [],
+      "table_ids": [],
+      "formula_ids": [
+        "elem_4ee27f5b922a"
+      ],
+      "image_paths": [],
+      "evidence": [
+        {
+          "element_id": "elem_4ee27f5b922a",
+          "type": "formula",
+          "page": 2,
+          "bbox": {
+            "l": 352.124,
+            "t": 222.225504,
+            "r": 542.1073915999999,
+            "b": 181.62377439292038
+          },
+          "section_path": [
+            "2.5. Target Definition and Imbalance"
+          ],
+          "caption": "",
+          "image_path": null,
+          "formula_id": "formula_0001",
+          "figure_id": null
+        }
+      ],
+      "previous_chunk_id": "chunk_a39746a813658398",
+      "next_chunk_id": "chunk_81ccbc1254ea9024"
+    },
+    {
+      "chunk_id": "chunk_81ccbc1254ea9024",
+      "document_id": "doc_ac6daafe7996",
+      "source_file": "2605.25894v1.pdf",
+      "chunk_index": 28,
+      "chunk_type": "figure_evidence",
+      "text": "Figure 1 presents the confusion matrices for the three models trained with sentiment features. For completeness, larger confusion matrices for all six model variants (with and without sentiment) are reported in Appendix A.",
+      "retrieval_text": "Figure 1 presents the confusion matrices for the three models trained with sentiment features. For completeness, larger confusion matrices for all six model variants (with and without sentiment) are reported in Appendix A.",
+      "token_count": 41,
+      "char_count": 222,
+      "section_path": [
+        "3.1. Confusion Matrices and Error Analysis"
+      ],
+      "pages": [
+        3
+      ],
+      "element_ids": [
+        "elem_8aa8d2496b28"
+      ],
+      "content_types": [
+        "figure"
+      ],
+      "figure_ids": [
+        "elem_8aa8d2496b28"
+      ],
+      "table_ids": [],
+      "formula_ids": [],
+      "image_paths": [
+        "images\\doc_ac6daafe7996\\figure_0001.png"
+      ],
+      "evidence": [
+        {
+          "element_id": "elem_8aa8d2496b28",
+          "type": "figure",
+          "page": 3,
+          "bbox": {
+            "l": 307.7806091308594,
+            "t": 330.9229431152344,
+            "r": 540.5260009765625,
+            "b": 235.85357666015625
+          },
+          "section_path": [
+            "3.1. Confusion Matrices and Error Analysis"
+          ],
+          "caption": "Figure 1 presents the confusion matrices for the three models trained with sentiment features. For completeness, larger confusion matrices for all six model variants (with and without sentiment) are reported in Appendix A.",
+          "image_path": "images\\doc_ac6daafe7996\\figure_0001.png",
+          "formula_id": null,
+          "figure_id": "figure_0001"
+        }
+      ],
+      "previous_chunk_id": "chunk_c7c409ac3ce4ef8d",
+      "next_chunk_id": "chunk_67d420377c40533e"
+    },
+    {
+      "chunk_id": "chunk_67d420377c40533e",
+      "document_id": "doc_ac6daafe7996",
+      "source_file": "2605.25894v1.pdf",
+      "chunk_index": 29,
+      "chunk_type": "figure_evidence",
+      "text": "Figure 1. Confusion matrices for the evaluated models.",
+      "retrieval_text": "Figure 1. Confusion matrices for the evaluated models.",
+      "token_count": 12,
+      "char_count": 54,
+      "section_path": [
+        "3.1. Confusion Matrices and Error Analysis"
+      ],
+      "pages": [
+        3
+      ],
+      "element_ids": [
+        "elem_1fa704288614"
+      ],
+      "content_types": [
+        "figure"
+      ],
+      "figure_ids": [
+        "elem_1fa704288614"
+      ],
+      "table_ids": [],
+      "formula_ids": [],
+      "image_paths": [
+        "images\\doc_ac6daafe7996\\figure_0002.png"
+      ],
+      "evidence": [
+        {
+          "element_id": "elem_1fa704288614",
+          "type": "figure",
+          "page": 3,
+          "bbox": {
+            "l": 366.6365966796875,
+            "t": 210.88641357421875,
+            "r": 481.9532470703125,
+            "b": 97.88812255859375
+          },
+          "section_path": [
+            "3.1. Confusion Matrices and Error Analysis"
+          ],
+          "caption": "Figure 1. Confusion matrices for the evaluated models.",
+          "image_path": "images\\doc_ac6daafe7996\\figure_0002.png",
+          "formula_id": null,
+          "figure_id": "figure_0002"
+        }
+      ],
+      "previous_chunk_id": "chunk_81ccbc1254ea9024",
+      "next_chunk_id": "chunk_b3956f8f0fcbb2a2"
+    },
+    {
+      "chunk_id": "chunk_b3956f8f0fcbb2a2",
+      "document_id": "doc_ac6daafe7996",
+      "source_file": "2605.25894v1.pdf",
+      "chunk_index": 30,
+      "chunk_type": "table_evidence",
+      "text": "Table 1 summarizes performance across all models. The Attention model achieves the highest Macro-F1 score, reflecting superior sensitivity to earnings-related volatility. In contrast, the LSTMminimizes financial risk, attaining the lowest custom cost through conservative predictions. Logistic regression consistently incurs the highest cost due to frequent directional misclassifications. Table 1. Model Performance Comparison. | Model | Sent. | Acc. (%) | Macro-F1 | Prec. (UP) | Prec. (DOWN) | CustomCost | |-----------|---------|------------|------------|--------------|----------------|--------------| | Log reg | | 38.816 | 0.367 | 0.354 | 0.242 | 1.020 | | LSTM | � | 44.079 | 0.325 | 0.556 | 0.353 | 0.651 | | Attention | � � | 43.421 | 0.390 | 0.432 | 0.296 | 0.803 | | Log reg | χ | 37.500 | 0.370 | 0.339 | 0.240 | 1.138 | | LSTM | χ | 38.816 | 0.292 | 0.000 | 0.274 | 0.914 | | Attention | χ | 39.474 | 0.359 | 0.385 | 0.261 | 0.921 |",
+      "retrieval_text": "Table 1 summarizes performance across all models. The Attention model achieves the highest Macro-F1 score, reflecting superior sensitivity to earnings-related volatility. In contrast, the LSTMminimizes financial risk, attaining the lowest custom cost through conservative predictions. Logistic regression consistently incurs the highest cost due to frequent directional misclassifications. Table 1. Model Performance Comparison. | Model | Sent. | Acc. (%) | Macro-F1 | Prec. (UP) | Prec. (DOWN) | CustomCost | |-----------|---------|------------|------------|--------------|----------------|--------------| | Log reg | | 38.816 | 0.367 | 0.354 | 0.242 | 1.020 | | LSTM | � | 44.079 | 0.325 | 0.556 | 0.353 | 0.651 | | Attention | � � | 43.421 | 0.390 | 0.432 | 0.296 | 0.803 | | Log reg | χ | 37.500 | 0.370 | 0.339 | 0.240 | 1.138 | | LSTM | χ | 38.816 | 0.292 | 0.000 | 0.274 | 0.914 | | Attention | χ | 39.474 | 0.359 | 0.385 | 0.261 | 0.921 |",
+      "token_count": 379,
+      "char_count": 946,
+      "section_path": [
+        "3.2. Performance Comparison"
+      ],
+      "pages": [
+        4
+      ],
+      "element_ids": [
+        "elem_e4151b69f360"
+      ],
+      "content_types": [
+        "table"
+      ],
+      "figure_ids": [],
+      "table_ids": [
+        "elem_e4151b69f360"
+      ],
+      "formula_ids": [],
+      "image_paths": [],
+      "evidence": [
+        {
+          "element_id": "elem_e4151b69f360",
+          "type": "table",
+          "page": 4,
+          "bbox": {
+            "l": 55.9233283996582,
+            "t": 349.1186218261719,
+            "r": 288.50213623046875,
+            "b": 276.80511474609375
+          },
+          "section_path": [
+            "3.2. Performance Comparison"
+          ],
+          "caption": "Table 1 summarizes performance across all models. The Attention model achieves the highest Macro-F1 score, reflecting superior sensitivity to earnings-related volatility. In contrast, the LSTMminimizes financial risk, attaining the lowest custom cost through conservative predictions. Logistic regression consistently incurs the highest cost due to frequent directional misclassifications.",
+          "image_path": null,
+          "formula_id": null,
+          "figure_id": null
+        }
+      ],
+      "previous_chunk_id": "chunk_67d420377c40533e",
+      "next_chunk_id": "chunk_722c36f346f6a599"
+    },
+    {
+      "chunk_id": "chunk_722c36f346f6a599",
+      "document_id": "doc_ac6daafe7996",
+      "source_file": "2605.25894v1.pdf",
+      "chunk_index": 31,
+      "chunk_type": "figure_evidence",
+      "text": "Figure 2. Logistic Regression confusion matrices.",
+      "retrieval_text": "Figure 2. Logistic Regression confusion matrices.",
+      "token_count": 11,
+      "char_count": 49,
+      "section_path": [
+        "A. Extended Confusion Matrices"
+      ],
+      "pages": [
+        5
+      ],
+      "element_ids": [
+        "elem_ffe165a0e790"
+      ],
+      "content_types": [
+        "figure"
+      ],
+      "figure_ids": [
+        "elem_ffe165a0e790"
+      ],
+      "table_ids": [],
+      "formula_ids": [],
+      "image_paths": [
+        "images\\doc_ac6daafe7996\\figure_0003.png"
+      ],
+      "evidence": [
+        {
+          "element_id": "elem_ffe165a0e790",
+          "type": "figure",
+          "page": 5,
+          "bbox": {
+            "l": 56.56916427612305,
+            "t": 352.6853332519531,
+            "r": 537.8496704101562,
+            "b": 153.6568603515625
+          },
+          "section_path": [
+            "A. Extended Confusion Matrices"
+          ],
+          "caption": "Figure 2. Logistic Regression confusion matrices.",
+          "image_path": "images\\doc_ac6daafe7996\\figure_0003.png",
+          "formula_id": null,
+          "figure_id": "figure_0003"
+        }
+      ],
+      "previous_chunk_id": "chunk_b3956f8f0fcbb2a2",
+      "next_chunk_id": "chunk_319371eecc6b9d8c"
+    },
+    {
+      "chunk_id": "chunk_319371eecc6b9d8c",
+      "document_id": "doc_ac6daafe7996",
+      "source_file": "2605.25894v1.pdf",
+      "chunk_index": 32,
+      "chunk_type": "figure_evidence",
+      "text": "",
+      "retrieval_text": "",
+      "token_count": 0,
+      "char_count": 0,
+      "section_path": [
+        "A. Extended Confusion Matrices"
+      ],
+      "pages": [
+        6
+      ],
+      "element_ids": [
+        "elem_0e15a685980a"
+      ],
+      "content_types": [
+        "figure"
+      ],
+      "figure_ids": [
+        "elem_0e15a685980a"
+      ],
+      "table_ids": [],
+      "formula_ids": [],
+      "image_paths": [
+        "images\\doc_ac6daafe7996\\figure_0004.png"
+      ],
+      "evidence": [
+        {
+          "element_id": "elem_0e15a685980a",
+          "type": "figure",
+          "page": 6,
+          "bbox": {
+            "l": 67.953125,
+            "t": 675.0250854492188,
+            "r": 537.8695068359375,
+            "b": 476.5094909667969
+          },
+          "section_path": [
+            "A. Extended Confusion Matrices"
+          ],
+          "caption": "",
+          "image_path": "images\\doc_ac6daafe7996\\figure_0004.png",
+          "formula_id": null,
+          "figure_id": "figure_0004"
+        }
+      ],
+      "previous_chunk_id": "chunk_722c36f346f6a599",
+      "next_chunk_id": "chunk_679b6d71d4891bbf"
+    },
+    {
+      "chunk_id": "chunk_679b6d71d4891bbf",
+      "document_id": "doc_ac6daafe7996",
+      "source_file": "2605.25894v1.pdf",
+      "chunk_index": 33,
+      "chunk_type": "figure_evidence",
+      "text": "Figure 3. LSTM confusion matrices.",
+      "retrieval_text": "Figure 3. LSTM confusion matrices.",
+      "token_count": 11,
+      "char_count": 34,
+      "section_path": [
+        "A. Extended Confusion Matrices"
+      ],
+      "pages": [
+        6
+      ],
+      "element_ids": [
+        "elem_89039f9fc812"
+      ],
+      "content_types": [
+        "figure"
+      ],
+      "figure_ids": [
+        "elem_89039f9fc812"
+      ],
+      "table_ids": [],
+      "formula_ids": [],
+      "image_paths": [
+        "images\\doc_ac6daafe7996\\figure_0005.png"
+      ],
+      "evidence": [
+        {
+          "element_id": "elem_89039f9fc812",
+          "type": "figure",
+          "page": 6,
+          "bbox": {
+            "l": 68.13677215576172,
+            "t": 338.5646057128906,
+            "r": 528.1995239257812,
+            "b": 160.3145751953125
+          },
+          "section_path": [
+            "A. Extended Confusion Matrices"
+          ],
+          "caption": "Figure 3. LSTM confusion matrices.",
+          "image_path": "images\\doc_ac6daafe7996\\figure_0005.png",
+          "formula_id": null,
+          "figure_id": "figure_0005"
+        }
+      ],
+      "previous_chunk_id": "chunk_319371eecc6b9d8c",
+      "next_chunk_id": null
+    }
+  ],
+  "validation": {
+    "chunk_count": 34,
+    "duplicate_chunk_ids": 0,
+    "empty_chunks": 1,
+    "over_hard_token_limit": 0,
+    "source_elements": 100,
+    "covered_elements": 63,
+    "uncovered_elements": 37,
+    "multimodal_elements": 7,
+    "multimodal_covered": 7,
+    "all_valid": false
+  }
+}

@@ -1,0 +1,786 @@
+[
+  {
+    "vector_id": 0,
+    "chunk_id": "chunk_634b3e042dffad81",
+    "document_id": "doc_127ff1e6f5f2",
+    "source_file": "ssrn-5231379.pdf",
+    "chunk_index": 0,
+    "chunk_type": "semantic",
+    "text": "NIHAD ALIYEV AND XINYI DENG University of Technology Sydney Abstract. We study the impact of quantitative trading strategies (quants) on price efficiency by developing a model that incorporates two defining features of quants: superior information processing capacity and limited strategic awareness. These forces have opposing effects on trading aggressiveness-better information pro- cessing increases it, while limited strategic awareness decreases it. As a result, an increase in quant participation deteriorates price efficiency when their information quality is low, improves it when information quality is high, and produces a non-monotonic effect in between. JEL Classification: D40, D82, G14, G20 Keywords: Investment management, quantitative trading, market efficiency Date: April 26, 2025. (\u2217 ) Nihad Aliyev (nihad.aliyev@uts.edu.au) and Xinyi Deng (xinyi.deng@student.uts.edu.au).",
+    "retrieval_text": "NIHAD ALIYEV AND XINYI DENG University of Technology Sydney Abstract. We study the impact of quantitative trading strategies (quants) on price efficiency by developing a model that incorporates two defining features of quants: superior information processing capacity and limited strategic awareness. These forces have opposing effects on trading aggressiveness-better information pro- cessing increases it, while limited strategic awareness decreases it. As a result, an increase in quant participation deteriorates price efficiency when their information quality is low, improves it when information quality is high, and produces a non-monotonic effect in between. JEL Classification: D40, D82, G14, G20 Keywords: Investment management, quantitative trading, market efficiency Date: April 26, 2025. (\u2217 ) Nihad Aliyev (nihad.aliyev@uts.edu.au) and Xinyi Deng (xinyi.deng@student.uts.edu.au).",
+    "token_count": 201,
+    "section_path": [
+      "QUANTS AND MARKET EFFICIENCY"
+    ],
+    "pages": [
+      1
+    ],
+    "element_ids": [
+      "elem_4148118adc39",
+      "elem_6f56418e940d",
+      "elem_dde7aeef45c7",
+      "elem_ecbb3330407a",
+      "elem_25627d1b6995",
+      "elem_0ae6f69d9ccb",
+      "elem_7c0e7ba3ecf6",
+      "elem_6aafb2380aa9",
+      "elem_1848289bb2c9",
+      "elem_72d6970d56ab",
+      "elem_c0738958fc0a",
+      "elem_c4018a6ee2db",
+      "elem_79cd29e8e821",
+      "elem_b790b43e1ff8"
+    ],
+    "content_types": [
+      "text"
+    ],
+    "figure_ids": [],
+    "table_ids": [],
+    "formula_ids": [],
+    "image_paths": [],
+    "evidence": [
+      {
+        "element_id": "elem_4148118adc39",
+        "type": "text",
+        "page": 1,
+        "bbox": {
+          "l": 224.062,
+          "t": 621.9974692,
+          "r": 387.93680739999996,
+          "b": 617.5939999999999
+        },
+        "section_path": [
+          "QUANTS AND MARKET EFFICIENCY"
+        ],
+        "caption": "",
+        "image_path": null,
+        "formula_id": null,
+        "figure_id": null
+      },
+      {
+        "element_id": "elem_6f56418e940d",
+        "type": "text",
+        "page": 1,
+        "bbox": {
+          "l": 226.217,
+          "t": 602.0418222,
+          "r": 385.7844057000002,
+          "b": 597.2199999999999
+        },
+        "section_path": [
+          "QUANTS AND MARKET EFFICIENCY"
+        ],
+        "caption": "",
+        "image_path": null,
+        "formula_id": null,
+        "figure_id": null
+      },
+      {
+        "element_id": "elem_dde7aeef45c7",
+        "type": "text",
+        "page": 1,
+        "bbox": {
+          "l": 107.86600000000001,
+          "t": 536.8338222,
+          "r": 504.1338365,
+          "b": 532.012
+        },
+        "section_path": [
+          "QUANTS AND MARKET EFFICIENCY"
+        ],
+        "caption": "",
+        "image_path": null,
+        "formula_id": null,
+        "figure_id": null
+      },
+      {
+        "element_id": "elem_ecbb3330407a",
+        "type": "text",
+        "page": 1,
+        "bbox": {
+          "l": 107.86600000000001,
+          "t": 515.3998221999999,
+          "r": 504.13905750000026,
+          "b": 510.5779999999999
+        },
+        "section_path": [
+          "QUANTS AND MARKET EFFICIENCY"
+        ],
+        "caption": "",
+        "image_path": null,
+        "formula_id": null,
+        "figure_id": null
+      },
+      {
+        "element_id": "elem_25627d1b6995",
+        "type": "text",
+        "page": 1,
+        "bbox": {
+          "l": 107.86600000000001,
+          "t": 493.9648221999999,
+          "r": 504.1390575,
+          "b": 489.1429999999999
+        },
+        "section_path": [
+          "QUANTS AND MARKET EFFICIENCY"
+        ],
+        "caption": "",
+        "image_path": null,
+        "formula_id": null,
+        "figure_id": null
+      },
+      {
+        "element_id": "elem_0ae6f69d9ccb",
+        "type": "text",
+        "page": 1,
+        "bbox": {
+          "l": 107.86600000000001,
+          "t": 472.5308221999999,
+          "r": 504.13905750000015,
+          "b": 467.7089999999999
+        },
+        "section_path": [
+          "QUANTS AND MARKET EFFICIENCY"
+        ],
+        "caption": "",
+        "image_path": null,
+        "formula_id": null,
+        "figure_id": null
+      },
+      {
+        "element_id": "elem_7c0e7ba3ecf6",
+        "type": "text",
+        "page": 1,
+        "bbox": {
+          "l": 107.86600000000001,
+          "t": 451.0958221999999,
+          "r": 504.1390575000003,
+          "b": 446.2739999999999
+        },
+        "section_path": [
+          "QUANTS AND MARKET EFFICIENCY"
+        ],
+        "caption": "",
+        "image_path": null,
+        "formula_id": null,
+        "figure_id": null
+      },
+      {
+        "element_id": "elem_6aafb2380aa9",
+        "type": "text",
+        "page": 1,
+        "bbox": {
+          "l": 107.86600000000001,
+          "t": 429.66082219999987,
+          "r": 504.13905750000026,
+          "b": 424.8389999999999
+        },
+        "section_path": [
+          "QUANTS AND MARKET EFFICIENCY"
+        ],
+        "caption": "",
+        "image_path": null,
+        "formula_id": null,
+        "figure_id": null
+      },
+      {
+        "element_id": "elem_1848289bb2c9",
+        "type": "text",
+        "page": 1,
+        "bbox": {
+          "l": 107.86600000000001,
+          "t": 408.22682219999984,
+          "r": 504.13905750000026,
+          "b": 403.40499999999986
+        },
+        "section_path": [
+          "QUANTS AND MARKET EFFICIENCY"
+        ],
+        "caption": "",
+        "image_path": null,
+        "formula_id": null,
+        "figure_id": null
+      },
+      {
+        "element_id": "elem_72d6970d56ab",
+        "type": "text",
+        "page": 1,
+        "bbox": {
+          "l": 107.86600000000001,
+          "t": 386.79182219999984,
+          "r": 267.9243152,
+          "b": 381.96999999999986
+        },
+        "section_path": [
+          "QUANTS AND MARKET EFFICIENCY"
+        ],
+        "caption": "",
+        "image_path": null,
+        "formula_id": null,
+        "figure_id": null
+      },
+      {
+        "element_id": "elem_c0738958fc0a",
+        "type": "text",
+        "page": 1,
+        "bbox": {
+          "l": 107.86600000000001,
+          "t": 346.4210060999999,
+          "r": 295.3056287,
+          "b": 336.41531500331024
+        },
+        "section_path": [
+          "QUANTS AND MARKET EFFICIENCY"
+        ],
+        "caption": "",
+        "image_path": null,
+        "formula_id": null,
+        "figure_id": null
+      },
+      {
+        "element_id": "elem_c4018a6ee2db",
+        "type": "text",
+        "page": 1,
+        "bbox": {
+          "l": 107.866,
+          "t": 324.9860060999999,
+          "r": 472.42535260000005,
+          "b": 314.98031500331024
+        },
+        "section_path": [
+          "QUANTS AND MARKET EFFICIENCY"
+        ],
+        "caption": "",
+        "image_path": null,
+        "formula_id": null,
+        "figure_id": null
+      },
+      {
+        "element_id": "elem_79cd29e8e821",
+        "type": "text",
+        "page": 1,
+        "bbox": {
+          "l": 72.0,
+          "t": 90.47056799999996,
+          "r": 159.5617352,
+          "b": 81.14165468852457
+        },
+        "section_path": [
+          "QUANTS AND MARKET EFFICIENCY"
+        ],
+        "caption": "",
+        "image_path": null,
+        "formula_id": null,
+        "figure_id": null
+      },
+      {
+        "element_id": "elem_b790b43e1ff8",
+        "type": "text",
+        "page": 1,
+        "bbox": {
+          "l": 72.0,
+          "t": 80.37810539999998,
+          "r": 488.8324424000003,
+          "b": 72.0
+        },
+        "section_path": [
+          "QUANTS AND MARKET EFFICIENCY"
+        ],
+        "caption": "",
+        "image_path": null,
+        "formula_id": null,
+        "figure_id": null
+      }
+    ],
+    "selection_reason": "reranked"
+  },
+  {
+    "vector_id": 1,
+    "chunk_id": "chunk_e9dbc9860c200c4a",
+    "document_id": "doc_127ff1e6f5f2",
+    "source_file": "ssrn-5231379.pdf",
+    "chunk_index": 1,
+    "chunk_type": "semantic",
+    "text": "Advances in artificial intelligence (AI), along with the availability of big data and computing power, have changed how investment decisions are made. These developments have enabled a new generation of investors, commonly known as quants, who use quantitative models and algorithms to identify trading opportunities, construct portfolios, and execute trades at scale. While quantitative investing was once limited to a niche subset of hedge funds, it has become increasingly mainstream over the past two decades. Today, it is widely accessible, even to retail investors, through quantitative trading platforms and mutual funds (e.g., Beggs and Hill-Kleespie 2025). As quants take up a larger share of trading activity, concerns have emerged about how their collective behavior might affect market stability. 1 Episodes of extreme price dislocations such as the August 2007 Quant Meltdown and the May 2010 Flash Crash have raised questions about whether these strategies can, at times, contribute to market stress. While they are often praised for their discipline and ability to eliminate behavioral biases, an emerging body of evidence suggests that quants trading on similar signals and models may react simultaneously to the same events, resulting in crowded trades, fire sales, and feedback loops that can destabilize markets (e.g., Khandani and Lo 2011; Cai et al. 2019; Falato et al. 2021).",
+    "retrieval_text": "Advances in artificial intelligence (AI), along with the availability of big data and computing power, have changed how investment decisions are made. These developments have enabled a new generation of investors, commonly known as quants, who use quantitative models and algorithms to identify trading opportunities, construct portfolios, and execute trades at scale. While quantitative investing was once limited to a niche subset of hedge funds, it has become increasingly mainstream over the past two decades. Today, it is widely accessible, even to retail investors, through quantitative trading platforms and mutual funds (e.g., Beggs and Hill-Kleespie 2025). As quants take up a larger share of trading activity, concerns have emerged about how their collective behavior might affect market stability. 1 Episodes of extreme price dislocations such as the August 2007 Quant Meltdown and the May 2010 Flash Crash have raised questions about whether these strategies can, at times, contribute to market stress. While they are often praised for their discipline and ability to eliminate behavioral biases, an emerging body of evidence suggests that quants trading on similar signals and models may react simultaneously to the same events, resulting in crowded trades, fire sales, and feedback loops that can destabilize markets (e.g., Khandani and Lo 2011; Cai et al. 2019; Falato et al. 2021).",
+    "token_count": 280,
+    "section_path": [
+      "1. Introduction"
+    ],
+    "pages": [
+      2
+    ],
+    "element_ids": [
+      "elem_70cbfd2a20c7",
+      "elem_f5e945bfafb3"
+    ],
+    "content_types": [
+      "text"
+    ],
+    "figure_ids": [],
+    "table_ids": [],
+    "formula_ids": [],
+    "image_paths": [],
+    "evidence": [
+      {
+        "element_id": "elem_70cbfd2a20c7",
+        "type": "text",
+        "page": 2,
+        "bbox": {
+          "l": 71.99999999999999,
+          "t": 685.2641984,
+          "r": 539.9982592000003,
+          "b": 518.3960000000003
+        },
+        "section_path": [
+          "1. Introduction"
+        ],
+        "caption": "",
+        "image_path": null,
+        "formula_id": null,
+        "figure_id": null
+      },
+      {
+        "element_id": "elem_f5e945bfafb3",
+        "type": "text",
+        "page": 2,
+        "bbox": {
+          "l": 72.0,
+          "t": 500.5971984000003,
+          "r": 539.9982592000003,
+          "b": 310.64500000000027
+        },
+        "section_path": [
+          "1. Introduction"
+        ],
+        "caption": "",
+        "image_path": null,
+        "formula_id": null,
+        "figure_id": null
+      }
+    ],
+    "selection_reason": "reranked"
+  },
+  {
+    "vector_id": 2,
+    "chunk_id": "chunk_f0d41995c19a42f8",
+    "document_id": "doc_127ff1e6f5f2",
+    "source_file": "ssrn-5231379.pdf",
+    "chunk_index": 2,
+    "chunk_type": "semantic",
+    "text": "The growing presence of quants raises important questions about how they influence other investors and the functioning of markets. Unlike traditional discretionary investors who rely on human judgment, quants tend to process information differently and trade based on systematic strategies. As more quants enter the market, the strategic environment in which prices are formed changes. Yet we know little about how differences in information processing and strategic awareness between quants and discretionary investors influence markets. This paper addresses two key questions: What strategic forces influence investor behavior and price formation as quants and discretionary investors compete? And how does the growing participation of quants impact market efficiency? 1 According to the Tabb Group, quantitative hedge funds accounted for 31% of all U.S. stock trades in 2019. See, \"The Making of the World's Greatest Investor,\" The Wall Street Journal, November 2, 2019. To address these questions, we develop a theoretical model in the tradition of Kyle (1985) that incorporates both quants and discretionary investors. The model captures key differences between these two trader types. While quants possess superior information processing capabilities, they lack the strategic sophistication of discretionary investors (e.g., Abis 2022; Kirilenko and Lo 2013). This reflects a common feature of many algorithmic strategies, which are often built to exploit signal-driven patterns without accounting for second-order strategic feedback. In the model, there are two investment firms (firm A and B), noise traders, and competitive market makers. In the baseline model, we assume firm A is fully discretionary, and firm B consists of a quant and a discretionary department. Before trading begins, nature determines whether the quant or discretionary department of firm B is active. The probability that the quant department is active captures the quantitative investing level in the economy.",
+    "retrieval_text": "The growing presence of quants raises important questions about how they influence other investors and the functioning of markets. Unlike traditional discretionary investors who rely on human judgment, quants tend to process information differently and trade based on systematic strategies. As more quants enter the market, the strategic environment in which prices are formed changes. Yet we know little about how differences in information processing and strategic awareness between quants and discretionary investors influence markets. This paper addresses two key questions: What strategic forces influence investor behavior and price formation as quants and discretionary investors compete? And how does the growing participation of quants impact market efficiency? 1 According to the Tabb Group, quantitative hedge funds accounted for 31% of all U.S. stock trades in 2019. See, \"The Making of the World's Greatest Investor,\" The Wall Street Journal, November 2, 2019. To address these questions, we develop a theoretical model in the tradition of Kyle (1985) that incorporates both quants and discretionary investors. The model captures key differences between these two trader types. While quants possess superior information processing capabilities, they lack the strategic sophistication of discretionary investors (e.g., Abis 2022; Kirilenko and Lo 2013). This reflects a common feature of many algorithmic strategies, which are often built to exploit signal-driven patterns without accounting for second-order strategic feedback. In the model, there are two investment firms (firm A and B), noise traders, and competitive market makers. In the baseline model, we assume firm A is fully discretionary, and firm B consists of a quant and a discretionary department. Before trading begins, nature determines whether the quant or discretionary department of firm B is active. The probability that the quant department is active captures the quantitative investing level in the economy.",
+    "token_count": 376,
+    "section_path": [
+      "1. Introduction"
+    ],
+    "pages": [
+      2,
+      3
+    ],
+    "element_ids": [
+      "elem_27667c4fd9be",
+      "elem_1a8991ca2785",
+      "elem_8045e86b8f03",
+      "elem_a50754dca5c7"
+    ],
+    "content_types": [
+      "text"
+    ],
+    "figure_ids": [],
+    "table_ids": [],
+    "formula_ids": [],
+    "image_paths": [],
+    "evidence": [
+      {
+        "element_id": "elem_27667c4fd9be",
+        "type": "text",
+        "page": 2,
+        "bbox": {
+          "l": 72.0,
+          "t": 292.8461984000002,
+          "r": 539.9982592000005,
+          "b": 102.89500000000021
+        },
+        "section_path": [
+          "1. Introduction"
+        ],
+        "caption": "",
+        "image_path": null,
+        "formula_id": null,
+        "figure_id": null
+      },
+      {
+        "element_id": "elem_1a8991ca2785",
+        "type": "text",
+        "page": 2,
+        "bbox": {
+          "l": 72.0,
+          "t": 87.89041959999997,
+          "r": 540.0013720000003,
+          "b": 68.827
+        },
+        "section_path": [
+          "1. Introduction"
+        ],
+        "caption": "",
+        "image_path": null,
+        "formula_id": null,
+        "figure_id": null
+      },
+      {
+        "element_id": "elem_8045e86b8f03",
+        "type": "text",
+        "page": 3,
+        "bbox": {
+          "l": 72.00000000000004,
+          "t": 715.3211984000001,
+          "r": 539.9982592000003,
+          "b": 571.5370000000003
+        },
+        "section_path": [
+          "1. Introduction"
+        ],
+        "caption": "",
+        "image_path": null,
+        "formula_id": null,
+        "figure_id": null
+      },
+      {
+        "element_id": "elem_a50754dca5c7",
+        "type": "text",
+        "page": 3,
+        "bbox": {
+          "l": 71.99999999999999,
+          "t": 556.6184016000003,
+          "r": 540.0055616000001,
+          "b": 433.03600000000034
+        },
+        "section_path": [
+          "1. Introduction"
+        ],
+        "caption": "",
+        "image_path": null,
+        "formula_id": null,
+        "figure_id": null
+      }
+    ],
+    "selection_reason": "reranked"
+  },
+  {
+    "vector_id": 3,
+    "chunk_id": "chunk_09712835319a6dd6",
+    "document_id": "doc_127ff1e6f5f2",
+    "source_file": "ssrn-5231379.pdf",
+    "chunk_index": 3,
+    "chunk_type": "semantic",
+    "text": "The quant department has superior information processing capacity: it observes both the public signal v1 and a noisy signal \u03b82 about a second component of the asset's value, v = v1 + v2. In contrast, the discretionary department observes only v1. Despite the informational advantage, the quant is strategically weaker. It optimises trades based on signals but incorrectly perceives that firmA does not adjust its strategy in response, i.e., it is strategically myopic. In the baseline model, we assume complete strategic myopia, but later relax this assumption to allow for partial responsiveness. We show that the strategic interactions between quants and discretionary investors give rise to three key effects. First, as the quantitative investing level increases, firmB becomes more effective at extracting information from the additional signal \u03b82 and increases its trading aggressiveness on it, which we refer to as the processing capacity effect. Second, firm B reduces its aggressiveness on v1 due to its inability to account for how its trades influence firm A's behavior-this reflects the strategic myopia of quants. Third, the fully discretionary firm A responds by trading more aggressively on the public signal v1 to exploit firm B's strategic weakness, which we term the internalising effect. The net effect on overall trading aggressiveness depends on the relative strength of these effects and varies with quants' additional signal quality (q) and quantitative investing level (\u03b3). We show that the processing capacity effect increases linearly with q. Furthermore, the strategic myopia and internalising effects are both independent of q but vary with \u03b3. As \u03b3 increases, the myopia effect decays faster than the internalising effect, implying the greatest reduction in trading aggressiveness at low levels of \u03b3.",
+    "retrieval_text": "The quant department has superior information processing capacity: it observes both the public signal v1 and a noisy signal \u03b82 about a second component of the asset's value, v = v1 + v2. In contrast, the discretionary department observes only v1. Despite the informational advantage, the quant is strategically weaker. It optimises trades based on signals but incorrectly perceives that firmA does not adjust its strategy in response, i.e., it is strategically myopic. In the baseline model, we assume complete strategic myopia, but later relax this assumption to allow for partial responsiveness. We show that the strategic interactions between quants and discretionary investors give rise to three key effects. First, as the quantitative investing level increases, firmB becomes more effective at extracting information from the additional signal \u03b82 and increases its trading aggressiveness on it, which we refer to as the processing capacity effect. Second, firm B reduces its aggressiveness on v1 due to its inability to account for how its trades influence firm A's behavior-this reflects the strategic myopia of quants. Third, the fully discretionary firm A responds by trading more aggressively on the public signal v1 to exploit firm B's strategic weakness, which we term the internalising effect. The net effect on overall trading aggressiveness depends on the relative strength of these effects and varies with quants' additional signal quality (q) and quantitative investing level (\u03b3). We show that the processing capacity effect increases linearly with q. Furthermore, the strategic myopia and internalising effects are both independent of q but vary with \u03b3. As \u03b3 increases, the myopia effect decays faster than the internalising effect, implying the greatest reduction in trading aggressiveness at low levels of \u03b3.",
+    "token_count": 370,
+    "section_path": [
+      "1. Introduction"
+    ],
+    "pages": [
+      3,
+      4
+    ],
+    "element_ids": [
+      "elem_fad0647a4c01",
+      "elem_a8a6b63dc22d",
+      "elem_7c235b17d797"
+    ],
+    "content_types": [
+      "text"
+    ],
+    "figure_ids": [],
+    "table_ids": [],
+    "formula_ids": [],
+    "image_paths": [],
+    "evidence": [
+      {
+        "element_id": "elem_fad0647a4c01",
+        "type": "text",
+        "page": 3,
+        "bbox": {
+          "l": 71.99999999999997,
+          "t": 415.2371984000003,
+          "r": 539.9987712,
+          "b": 271.4520000000002
+        },
+        "section_path": [
+          "1. Introduction"
+        ],
+        "caption": "",
+        "image_path": null,
+        "formula_id": null,
+        "figure_id": null
+      },
+      {
+        "element_id": "elem_a8a6b63dc22d",
+        "type": "text",
+        "page": 3,
+        "bbox": {
+          "l": 72.00000000000006,
+          "t": 253.6531984000003,
+          "r": 540.0051056000002,
+          "b": 83.71976511475441
+        },
+        "section_path": [
+          "1. Introduction"
+        ],
+        "caption": "",
+        "image_path": null,
+        "formula_id": null,
+        "figure_id": null
+      },
+      {
+        "element_id": "elem_7c235b17d797",
+        "type": "text",
+        "page": 4,
+        "bbox": {
+          "l": 71.99999999999983,
+          "t": 715.3211984000001,
+          "r": 540.0039023999999,
+          "b": 592.3374525786746
+        },
+        "section_path": [
+          "1. Introduction"
+        ],
+        "caption": "",
+        "image_path": null,
+        "formula_id": null,
+        "figure_id": null
+      }
+    ],
+    "selection_reason": "reranked"
+  },
+  {
+    "vector_id": 4,
+    "chunk_id": "chunk_d9600aaaec5dcae2",
+    "document_id": "doc_127ff1e6f5f2",
+    "source_file": "ssrn-5231379.pdf",
+    "chunk_index": 4,
+    "chunk_type": "semantic",
+    "text": "These mechanisms have non-monotonic effects on overall trading aggressiveness of traders. When q is low, the strategic myopia effect dominates at all levels of \u03b3, leading to a decrease in overall aggressiveness. When q is high, the positive effects dominate and trading aggressiveness increases with \u03b3. At intermediate values of q, the relationship is Ushaped: overall aggressiveness first decreases, and then increases. This result shows that the impact of growing quant participation in markets hinges on both their informational advantage and their ability to account for strategic feedback. Since prices are determined by order flow in our model, changes in trading behavior naturally affect price efficiency. Following Kyle (1985) and related work (e.g., Subrahmanyam 1991; Holden and Subrahmanyam 1992), we define price efficiency as the inverse of the conditional variance of the asset's value given the price. We show that, similar to trading aggressiveness, when q is low, increasing \u03b3 always harms price efficiency. When q is high, it always improves it. At moderate q, the relationship is again U-shaped: price efficiency first decreases, and then increases once the quantitative investing level \u03b3 exceeds a threshold. This U-shaped pattern implies that whether quants improve or harm price efficiency depends not just on how much information they process, but also on how well they account for strategic feedback. We extend the model in two directions. First, we consider a model where both firms have a quant and a discretionary department. This introduces a fourth effect, which we term the competition effect. As the quantitative investing level of firm B increases, it competes more aggressively on the additional signal \u03b82, leading firm A's quant department to reduce its aggressiveness on \u03b82. Therefore, the impact of increasing quantitative investing of one firm depends critically on the composition of the other firm.",
+    "retrieval_text": "These mechanisms have non-monotonic effects on overall trading aggressiveness of traders. When q is low, the strategic myopia effect dominates at all levels of \u03b3, leading to a decrease in overall aggressiveness. When q is high, the positive effects dominate and trading aggressiveness increases with \u03b3. At intermediate values of q, the relationship is Ushaped: overall aggressiveness first decreases, and then increases. This result shows that the impact of growing quant participation in markets hinges on both their informational advantage and their ability to account for strategic feedback. Since prices are determined by order flow in our model, changes in trading behavior naturally affect price efficiency. Following Kyle (1985) and related work (e.g., Subrahmanyam 1991; Holden and Subrahmanyam 1992), we define price efficiency as the inverse of the conditional variance of the asset's value given the price. We show that, similar to trading aggressiveness, when q is low, increasing \u03b3 always harms price efficiency. When q is high, it always improves it. At moderate q, the relationship is again U-shaped: price efficiency first decreases, and then increases once the quantitative investing level \u03b3 exceeds a threshold. This U-shaped pattern implies that whether quants improve or harm price efficiency depends not just on how much information they process, but also on how well they account for strategic feedback. We extend the model in two directions. First, we consider a model where both firms have a quant and a discretionary department. This introduces a fourth effect, which we term the competition effect. As the quantitative investing level of firm B increases, it competes more aggressively on the additional signal \u03b82, leading firm A's quant department to reduce its aggressiveness on \u03b82. Therefore, the impact of increasing quantitative investing of one firm depends critically on the composition of the other firm.",
+    "token_count": 382,
+    "section_path": [
+      "1. Introduction"
+    ],
+    "pages": [
+      4
+    ],
+    "element_ids": [
+      "elem_3e254e679d36",
+      "elem_96ebd5c6da80",
+      "elem_934bce019ccc"
+    ],
+    "content_types": [
+      "text"
+    ],
+    "figure_ids": [],
+    "table_ids": [],
+    "formula_ids": [],
+    "image_paths": [],
+    "evidence": [
+      {
+        "element_id": "elem_3e254e679d36",
+        "type": "text",
+        "page": 4,
+        "bbox": {
+          "l": 71.99999999999982,
+          "t": 576.8211984000003,
+          "r": 540.0047328000002,
+          "b": 433.03600000000034
+        },
+        "section_path": [
+          "1. Introduction"
+        ],
+        "caption": "",
+        "image_path": null,
+        "formula_id": null,
+        "figure_id": null
+      },
+      {
+        "element_id": "elem_96ebd5c6da80",
+        "type": "text",
+        "page": 4,
+        "bbox": {
+          "l": 71.99999999999977,
+          "t": 415.2371984000003,
+          "r": 540.0060319999999,
+          "b": 202.20200000000023
+        },
+        "section_path": [
+          "1. Introduction"
+        ],
+        "caption": "",
+        "image_path": null,
+        "formula_id": null,
+        "figure_id": null
+      },
+      {
+        "element_id": "elem_934bce019ccc",
+        "type": "text",
+        "page": 4,
+        "bbox": {
+          "l": 71.99999999999983,
+          "t": 184.4031984000003,
+          "r": 540.0062224000001,
+          "b": 63.702000000000226
+        },
+        "section_path": [
+          "1. Introduction"
+        ],
+        "caption": "",
+        "image_path": null,
+        "formula_id": null,
+        "figure_id": null
+      }
+    ],
+    "selection_reason": "reranked"
+  },
+  {
+    "vector_id": 5,
+    "chunk_id": "chunk_f1c8dbdb6d16fb1b",
+    "document_id": "doc_127ff1e6f5f2",
+    "source_file": "ssrn-5231379.pdf",
+    "chunk_index": 5,
+    "chunk_type": "semantic",
+    "text": "In the special case when firm A is already fully quant, increasing the quantitative investing level of firmB still improves its ability to extract information from \u03b82, but this comes with more strategic myopia and more competition for the signal. Moreover, because firm A no longer has a discretionary department, it cannot respond strategically to exploit firm B's myopia, weakening the internalising effect. Under these conditions, we show that an increase in firm B's quantitative investing level harms price efficiency, even when the signal quality is high. This suggests that the more quant-driven the rest of the market is, the more likely it is that further increases in quantitative investing by an individual firm harm price efficiency. Second, we relax the assumption of complete strategic myopia in the baseline model by allowing firm B's quant department to be partially myopic, parameterised by h \u2208 (0, 1] which represents the degree of strategic myopia; h = 1 corresponds to the baseline (fully myopic) model and h = 0 corresponds to a fully strategic quant. As h decreases, both the strategic myopia and internalising effects weaken and vanish as h approaches zero, but the processing capacity effect is independent of h. Consequently, the impact of increasing the quantitative investing level \u03b3 on trading aggressiveness and price efficiency increases when h is low or q is high, and decreases when h is high or q is low. Therefore, the direction of the effect is driven by the ratio q/h.",
+    "retrieval_text": "In the special case when firm A is already fully quant, increasing the quantitative investing level of firmB still improves its ability to extract information from \u03b82, but this comes with more strategic myopia and more competition for the signal. Moreover, because firm A no longer has a discretionary department, it cannot respond strategically to exploit firm B's myopia, weakening the internalising effect. Under these conditions, we show that an increase in firm B's quantitative investing level harms price efficiency, even when the signal quality is high. This suggests that the more quant-driven the rest of the market is, the more likely it is that further increases in quantitative investing by an individual firm harm price efficiency. Second, we relax the assumption of complete strategic myopia in the baseline model by allowing firm B's quant department to be partially myopic, parameterised by h \u2208 (0, 1] which represents the degree of strategic myopia; h = 1 corresponds to the baseline (fully myopic) model and h = 0 corresponds to a fully strategic quant. As h decreases, both the strategic myopia and internalising effects weaken and vanish as h approaches zero, but the processing capacity effect is independent of h. Consequently, the impact of increasing the quantitative investing level \u03b3 on trading aggressiveness and price efficiency increases when h is low or q is high, and decreases when h is high or q is low. Therefore, the direction of the effect is driven by the ratio q/h.",
+    "token_count": 313,
+    "section_path": [
+      "1. Introduction"
+    ],
+    "pages": [
+      5
+    ],
+    "element_ids": [
+      "elem_7c31a71c1ef6",
+      "elem_5f149f1e37cd"
+    ],
+    "content_types": [
+      "text"
+    ],
+    "figure_ids": [],
+    "table_ids": [],
+    "formula_ids": [],
+    "image_paths": [],
+    "evidence": [
+      {
+        "element_id": "elem_7c31a71c1ef6",
+        "type": "text",
+        "page": 5,
+        "bbox": {
+          "l": 72.0,
+          "t": 718.2024016,
+          "r": 540.0053712,
+          "b": 525.3700000000003
+        },
+        "section_path": [
+          "1. Introduction"
+        ],
+        "caption": "",
+        "image_path": null,
+        "formula_id": null,
+        "figure_id": null
+      },
+      {
+        "element_id": "elem_5f149f1e37cd",
+        "type": "text",
+        "page": 5,
+        "bbox": {
+          "l": 72.0,
+          "t": 507.57119840000036,
+          "r": 540.0054736000002,
+          "b": 315.33645257867465
+        },
+        "section_path": [
+          "1. Introduction"
+        ],
+        "caption": "",
+        "image_path": null,
+        "formula_id": null,
+        "figure_id": null
+      }
+    ],
+    "selection_reason": "graph_neighbor",
+    "related_to": "chunk_09712835319a6dd6",
+    "graph_relations": [
+      "same_section"
+    ]
+  },
+  {
+    "vector_id": 6,
+    "chunk_id": "chunk_424b6cfa3bb0365e",
+    "document_id": "doc_127ff1e6f5f2",
+    "source_file": "ssrn-5231379.pdf",
+    "chunk_index": 6,
+    "chunk_type": "semantic",
+    "text": "1.1. Related literature. Our paper contributes to the emerging literature on the interaction between machines and humans in financial markets (e.g., Abis 2022; Malikov and Pasquariello 2025; Beggs and Hill-Kleespie 2025; Barbopoulos et al. 2024; Coleman, Merkley and Pacelli 2022; Cao et al. 2024). We develop a model that isolates four effects arising from the strategic interaction between machine-based quants and human discretionaries: the processing capacity effect, driven by quants' superior ability to extract information; the strategic myopia effect, reflecting their limited awareness of how their trades influence others; the internalising effect, capturing the strategic response of discretionary investors to quants; and the competition effect, which emerges when multiple quants compete for the same signals. Our analysis builds on and complements recent work by Abis (2022) and Malikov and Pasquariello (2025). Abis (2022) documents that quantitative and discretionary mutual funds differ in their investment styles. Quants focus on stock picking and process more information, while discretionaries have superior macro-timing ability and portfolio flexibility. This reflects a trade-off between processing capacity and strategic flexibility. Our model formalizes this trade-off in a strategic setting by showing how quants' information advantage can be offset by their inability to anticipate and respond to other investors' behavior.",
+    "retrieval_text": "1.1. Related literature. Our paper contributes to the emerging literature on the interaction between machines and humans in financial markets (e.g., Abis 2022; Malikov and Pasquariello 2025; Beggs and Hill-Kleespie 2025; Barbopoulos et al. 2024; Coleman, Merkley and Pacelli 2022; Cao et al. 2024). We develop a model that isolates four effects arising from the strategic interaction between machine-based quants and human discretionaries: the processing capacity effect, driven by quants' superior ability to extract information; the strategic myopia effect, reflecting their limited awareness of how their trades influence others; the internalising effect, capturing the strategic response of discretionary investors to quants; and the competition effect, which emerges when multiple quants compete for the same signals. Our analysis builds on and complements recent work by Abis (2022) and Malikov and Pasquariello (2025). Abis (2022) documents that quantitative and discretionary mutual funds differ in their investment styles. Quants focus on stock picking and process more information, while discretionaries have superior macro-timing ability and portfolio flexibility. This reflects a trade-off between processing capacity and strategic flexibility. Our model formalizes this trade-off in a strategic setting by showing how quants' information advantage can be offset by their inability to anticipate and respond to other investors' behavior.",
+    "token_count": 303,
+    "section_path": [
+      "1. Introduction"
+    ],
+    "pages": [
+      5,
+      6
+    ],
+    "element_ids": [
+      "elem_f4a66f28cf84",
+      "elem_4b1d65707ccc"
+    ],
+    "content_types": [
+      "text"
+    ],
+    "figure_ids": [],
+    "table_ids": [],
+    "formula_ids": [],
+    "image_paths": [],
+    "evidence": [
+      {
+        "element_id": "elem_f4a66f28cf84",
+        "type": "text",
+        "page": 5,
+        "bbox": {
+          "l": 72.00000000000006,
+          "t": 287.77293920000034,
+          "r": 540.0021280000003,
+          "b": 72.00000000000034
+        },
+        "section_path": [
+          "1. Introduction"
+        ],
+        "caption": "",
+        "image_path": null,
+        "formula_id": null,
+        "figure_id": null
+      },
+      {
+        "element_id": "elem_4b1d65707ccc",
+        "type": "text",
+        "page": 6,
+        "bbox": {
+          "l": 72.0,
+          "t": 715.3211984000001,
+          "r": 539.9982592000002,
+          "b": 548.4530000000003
+        },
+        "section_path": [
+          "1. Introduction"
+        ],
+        "caption": "",
+        "image_path": null,
+        "formula_id": null,
+        "figure_id": null
+      }
+    ],
+    "selection_reason": "graph_neighbor",
+    "related_to": "chunk_d9600aaaec5dcae2",
+    "graph_relations": [
+      "same_section"
+    ]
+  }
+]

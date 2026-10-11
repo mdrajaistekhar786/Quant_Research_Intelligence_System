@@ -1,0 +1,239 @@
+[
+  {
+    "query_id": "SEM01",
+    "category": "semantic_factual",
+    "query": "What developments have enabled the rise of quantitative investors (quants), and how do they differ from traditional discretionary investors?",
+    "gold_answer": "",
+    "gold_source_chunks": [
+      "chunk_e9dbc9860c200c4a"
+    ]
+  },
+  {
+    "query_id": "SEM02",
+    "category": "semantic_factual",
+    "query": "What additional information does the quant department observe compared with the discretionary departments, and what strategic weakness does the model assume for the quant department?",
+    "gold_answer": "",
+    "gold_source_chunks": [
+      "chunk_71a297291e0e40cb"
+    ]
+  },
+  {
+    "query_id": "SEM03",
+    "category": "semantic_factual",
+    "query": "What two opposing effects arise when the level of quantitative investing increases, and how does each affect the firm's trading behavior?",
+    "gold_answer": "",
+    "gold_source_chunks": [
+      "chunk_f33702e73a268ec7"
+    ]
+  },
+  {
+    "query_id": "SEM04",
+    "category": "semantic_factual",
+    "query": "When both firms have quant departments, how does an increase in firm B's quantitative investing level affect the trading behavior of firms A and B?",
+    "gold_answer": "",
+    "gold_source_chunks": [
+      "chunk_dcdf81ef54fd467b"
+    ]
+  },
+  {
+    "query_id": "SEM05",
+    "category": "semantic_factual",
+    "query": "What are the four key effects identified by the paper from the interaction between quantitative and discretionary investors?",
+    "gold_answer": "",
+    "gold_source_chunks": [
+      "chunk_fa626fbec884d89e"
+    ]
+  },
+  {
+    "query_id": "SEM06",
+    "category": "semantic_factual",
+    "query": "How does Figure 3 examine the relationship between quantitative investing by firm B and price efficiency, and what signal quality levels are considered?",
+    "gold_answer": "",
+    "gold_source_chunks": [
+      "chunk_fc5ea3eb883909f7"
+    ]
+  },
+  {
+    "query_id": "SEM07",
+    "category": "semantic_factual",
+    "query": "What does the market maker observe when making the pricing decision, and how is the price determined?",
+    "gold_answer": "",
+    "gold_source_chunks": [
+      "chunk_d999f7a55de8e7df"
+    ]
+  },
+  {
+    "query_id": "SEM08",
+    "category": "semantic_factual",
+    "query": "What are the effects of an increase in firm B's quantitative investing level on the trading aggressiveness of firms A and B?",
+    "gold_answer": "",
+    "gold_source_chunks": [
+      "chunk_64235aefea9e8332"
+    ]
+  },
+  {
+    "query_id": "SEM09",
+    "category": "semantic_factual",
+    "query": "When firm A is fully quantitative, how does price efficiency change as firm B's quantitative investing level increases?",
+    "gold_answer": "",
+    "gold_source_chunks": [
+      "chunk_619fd7f425e79c91"
+    ]
+  },
+  {
+    "query_id": "SEM10",
+    "category": "semantic_factual",
+    "query": "What is the sign of the second-order cross partial derivative of price efficiency with respect to the quantitative investing levels of firms A and B?",
+    "gold_answer": "",
+    "gold_source_chunks": [
+      "chunk_cd9633135f3f56eb"
+    ]
+  },
+  {
+    "query_id": "FOR01",
+    "category": "formula_quantitative",
+    "query": "In the Fama-French five-factor model, what are the five factors used to explain the expected excess return of a portfolio?",
+    "gold_answer": "",
+    "gold_source_chunks": [
+      "chunk_e84b4507f8883b42"
+    ]
+  },
+  {
+    "query_id": "FOR02",
+    "category": "formula_quantitative",
+    "query": "What stochastic differential equations define the Heston model for the asset price and its variance process, and how are the two Brownian motions related?",
+    "gold_answer": "",
+    "gold_source_chunks": [
+      "chunk_051d89881d9549bc"
+    ]
+  },
+  {
+    "query_id": "FOR03",
+    "category": "formula_quantitative",
+    "query": "How is the annualized Sharpe ratio defined in the paper, and what do the numerator and denominator represent?",
+    "gold_answer": "",
+    "gold_source_chunks": [
+      "chunk_1621d81f48974935"
+    ]
+  },
+  {
+    "query_id": "FOR04",
+    "category": "formula_quantitative",
+    "query": "How is the Sharpe ratio defined in the paper's out-of-sample performance evaluation, and what do its numerator and denominator represent?",
+    "gold_answer": "",
+    "gold_source_chunks": [
+      "chunk_dfee88de7f75dc05"
+    ]
+  },
+  {
+    "query_id": "FOR05",
+    "category": "formula_quantitative",
+    "query": "How are the weights used in fractional differencing defined, and what role does the differencing parameter d play in the formula?",
+    "gold_answer": "",
+    "gold_source_chunks": [
+      "chunk_b05e365c91d6aa88"
+    ]
+  },
+  {
+    "query_id": "FOR06",
+    "category": "formula_quantitative",
+    "query": "How does the Heterogeneous Graph Convolutional Network (HGCN) update the representation of a node at layer l+1?",
+    "gold_answer": "",
+    "gold_source_chunks": [
+      "chunk_1533d4a5962d65c7"
+    ]
+  },
+  {
+    "query_id": "TAB01",
+    "category": "table_based",
+    "query": "Among Rotation (Top-1), Rotation (60/40), Equal-Weight (Monthly), and Buy & Hold SPY, which strategy has the highest Sharpe ratio, and what are its volatility and maximum drawdown?",
+    "gold_answer": "",
+    "gold_source_chunks": [
+      "chunk_e7a1ed3ee6f42ca4"
+    ]
+  },
+  {
+    "query_id": "TAB02",
+    "category": "table_based",
+    "query": "According to the pricing metrics table, how do the Lewis and Carr-Madan methods compare in terms of MSE and MAE?",
+    "gold_answer": "",
+    "gold_source_chunks": [
+      "chunk_3c3dd89c78646243"
+    ]
+  },
+  {
+    "query_id": "TAB03",
+    "category": "table_based",
+    "query": "In the 30% out-of-sample test window, how does the RL optimal policy compare with the rotation benchmarks and Buy & Hold SPY in terms of annualized return and Sharpe ratio?",
+    "gold_answer": "",
+    "gold_source_chunks": [
+      "chunk_1c4c2e0a4c014fd6"
+    ]
+  },
+  {
+    "query_id": "TAB04",
+    "category": "table_based",
+    "query": "For the fractionally differenced level series at d = 0.4, how do the ADF test results differ between the constant specification and the constant-plus-trend specification at the 5% significance level?",
+    "gold_answer": "",
+    "gold_source_chunks": [
+      "chunk_193c182ea80c08d3"
+    ]
+  },
+  {
+    "query_id": "TAB05",
+    "category": "table_based",
+    "query": "According to the main stock-price forecasting results, how does the Ours model compare with MASTER on the CSI300 and CSI500 datasets in terms of IC and RankIC?",
+    "gold_answer": "",
+    "gold_source_chunks": [
+      "chunk_9d8485730f733161"
+    ]
+  },
+  {
+    "query_id": "TAB06",
+    "category": "table_based",
+    "query": "For the OU and mGBM volatility processes, how do the approximation errors change as the truncation level increases from N = 1 to N = 5, particularly for the ITM SDE results?",
+    "gold_answer": "",
+    "gold_source_chunks": [
+      "chunk_1cbaabd50217e75b"
+    ]
+  },
+  {
+    "query_id": "FIG01",
+    "category": "figure_based",
+    "query": "For the plot showing trading aggressiveness as a function of firm B's quantitative investing level, how do the two plotted measures change as γ increases, and how does their relationship differ between q = 0.04 and q = 0.09?",
+    "gold_answer": "",
+    "gold_source_chunks": [
+      "chunk_f64d07c7962ba53f"
+    ]
+  },
+  {
+    "query_id": "FIG02",
+    "category": "figure_based",
+    "query": "In the market-versus-model pricing comparison between the Lewis and Carr-Madan methods, what does the distribution of pricing errors indicate about the typical error, spread, and outliers, and how do these observations compare with the reported MSE and MAE values?",
+    "gold_answer": "",
+    "gold_source_chunks": [
+      "chunk_68993e8fc7c968bc",
+      "chunk_3c3dd89c78646243"
+    ]
+  },
+  {
+    "query_id": "MULTI01",
+    "category": "multi_chunk_reasoning",
+    "query": "How do the processing capacity, strategic myopia, and internalising effects interact as quantitative investing increases, and why does this produce different patterns of overall trading aggressiveness for low, intermediate, and high values of q?",
+    "gold_answer": "",
+    "gold_source_chunks": [
+      "chunk_09712835319a6dd6",
+      "chunk_d9600aaaec5dcae2"
+    ]
+  },
+  {
+    "query_id": "MULTIDOC01",
+    "category": "cross_document",
+    "query": "How is risk-adjusted performance treated differently in the two studies: how does the first study use the Sharpe ratio during model selection, and how does the second study use Sharpe ratio to characterize the performance of its RL-based portfolio allocation strategy?",
+    "gold_answer": "",
+    "gold_source_chunks": [
+      "chunk_3adaa213317c460b",
+      "chunk_e1d74bb73b0157c9"
+    ]
+  }
+]

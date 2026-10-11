@@ -1,0 +1,81 @@
+{
+  "evaluation_type": "RAG system evaluation only",
+  "reference_type": "Gemini-generated from gold source chunks",
+  "total_questions": 26,
+  "evaluated_questions": 26,
+  "failed_questions": 0,
+  "llm_model": "gemini-3.5-flash-lite",
+  "score_scale": "0-5",
+  "overall_metrics": {
+    "correctness": {
+      "mean_0_to_5": 4.5,
+      "mean_percent": 90.0
+    },
+    "completeness": {
+      "mean_0_to_5": 4.3462,
+      "mean_percent": 86.92
+    },
+    "faithfulness": {
+      "mean_0_to_5": 4.9231,
+      "mean_percent": 98.46
+    },
+    "citation_accuracy": {
+      "mean_0_to_5": 4.5769,
+      "mean_percent": 91.54
+    },
+    "overall_score": {
+      "mean_0_to_5": 4.575,
+      "mean_percent": 91.5
+    }
+  },
+  "category_metrics": {
+    "cross_document": {
+      "correctness": 5.0,
+      "completeness": 5.0,
+      "faithfulness": 5.0,
+      "citation_accuracy": 5.0,
+      "overall_score": 5.0
+    },
+    "figure_based": {
+      "correctness": 5.0,
+      "completeness": 5.0,
+      "faithfulness": 5.0,
+      "citation_accuracy": 5.0,
+      "overall_score": 5.0
+    },
+    "formula_quantitative": {
+      "correctness": 3.5,
+      "completeness": 3.167,
+      "faithfulness": 4.667,
+      "citation_accuracy": 4.0,
+      "overall_score": 3.758
+    },
+    "multi_chunk_reasoning": {
+      "correctness": 5.0,
+      "completeness": 5.0,
+      "faithfulness": 5.0,
+      "citation_accuracy": 5.0,
+      "overall_score": 5.0
+    },
+    "semantic_factual": {
+      "correctness": 4.6,
+      "completeness": 4.4,
+      "faithfulness": 5.0,
+      "citation_accuracy": 4.5,
+      "overall_score": 4.64
+    },
+    "table_based": {
+      "correctness": 5.0,
+      "completeness": 5.0,
+      "faithfulness": 5.0,
+      "citation_accuracy": 5.0,
+      "overall_score": 5.0
+    }
+  },
+  "overall_score_weights": {
+    "correctness": 0.4,
+    "completeness": 0.25,
+    "faithfulness": 0.25,
+    "citation_accuracy": 0.1
+  }
+}

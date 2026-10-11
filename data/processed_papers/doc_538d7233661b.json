@@ -1,0 +1,3896 @@
+{
+  "document_id": "doc_538d7233661b",
+  "source_file": "2605.21504v1.pdf",
+  "source_path": "..\\data\\raw_papers\\2605.21504v1.pdf",
+  "source_sha256": "6cfb7d6e3e3f299fe19ae09ecc121f6abbbf5c7efc0aaf9564d0573da753dcf8",
+  "parser": "Docling",
+  "docling_version": "2.132.0",
+  "page_count": 10,
+  "title_candidate": "Abstract",
+  "element_counts": {
+    "section": 17,
+    "text": 50,
+    "list_item": 39,
+    "table": 3,
+    "figure": 3
+  },
+  "elements": [
+    {
+      "element_id": "elem_6ef587c329cc",
+      "document_id": "doc_538d7233661b",
+      "order": 1,
+      "type": "section",
+      "raw_type": "SectionHeaderItem",
+      "page": 1,
+      "bbox": {
+        "l": 64.80000000000001,
+        "t": 565.933878,
+        "r": 125.27497148000003,
+        "b": 553.2518372000001
+      },
+      "section_path": [
+        "Abstract"
+      ],
+      "text": "Abstract",
+      "raw": "Abstract",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_88e1384561f9",
+      "document_id": "doc_538d7233661b",
+      "order": 2,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 1,
+      "bbox": {
+        "l": 64.441,
+        "t": 537.0952314,
+        "r": 304.4846265975999,
+        "b": 241.37425559999997
+      },
+      "section_path": [
+        "Abstract"
+      ],
+      "text": "Using Chronos-2, an open-source time-series foundation model, we evaluate pretrained time-series models for economic and financial forecasting with an emphasis on whether multivariate (MV) inputs improve accuracy relative to univariate (UV) baselines. The study covers two panels-the Magnificent-7 equities and U.S. Treasury interest rates-as well as a combined panel, using rolling monthly evaluations from 2000-2025. We vary input window lengths and forecast horizons and report RMSE and MAPE. Across datasets, MV forecasts consistently outperform UV forecasts, with especially strong gains for interest rates and meaningful improvements for equities. Series-level comparisons showMV improvements in every case, and error dispersion is generally lower under MV inputs. We also provide parameter-heatmap and time-series visualizations. However, mixing time series across equity and interest rate markets reduces forecast accuracy, indicating that adding noisy context degrades model performance. Overall, the results indicate that foundation models can leverage cross-series information to improve forecast accuracy in finance, and that the benefits are strongest when related series are modeled jointly under disciplined rolling protocols. Other than using an open-source foundation model, this paper also showcases how AI may be used for financial research.",
+      "raw": "Using Chronos-2, an open-source time-series foundation model, we evaluate pretrained time-series models for economic and financial forecasting with an emphasis on whether multivariate (MV) inputs improve accuracy relative to univariate (UV) baselines. The study covers two panels-the Magnificent-7 equities and U.S. Treasury interest rates-as well as a combined panel, using rolling monthly evaluations from 2000-2025. We vary input window lengths and forecast horizons and report RMSE and MAPE. Across datasets, MV forecasts consistently outperform UV forecasts, with especially strong gains for interest rates and meaningful improvements for equities. Series-level comparisons showMV improvements in every case, and error dispersion is generally lower under MV inputs. We also provide parameter-heatmap and time-series visualizations. However, mixing time series across equity and interest rate markets reduces forecast accuracy, indicating that adding noisy context degrades model performance. Overall, the results indicate that foundation models can leverage cross-series information to improve forecast accuracy in finance, and that the benefits are strongest when related series are modeled jointly under disciplined rolling protocols. Other than using an open-source foundation model, this paper also showcases how AI may be used for financial research.",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_06c7d8088cf5",
+      "document_id": "doc_538d7233661b",
+      "order": 3,
+      "type": "section",
+      "raw_type": "SectionHeaderItem",
+      "page": 1,
+      "bbox": {
+        "l": 64.8,
+        "t": 216.27887799999996,
+        "r": 175.17392432000005,
+        "b": 203.59683719999998
+      },
+      "section_path": [
+        "1 Introduction"
+      ],
+      "text": "1 Introduction",
+      "raw": "1 Introduction",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_d6ca5d9d1c37",
+      "document_id": "doc_538d7233661b",
+      "order": 4,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 1,
+      "bbox": {
+        "l": 64.441,
+        "t": 187.44023140000002,
+        "r": 304.48411023643985,
+        "b": 94.95725560000005
+      },
+      "section_path": [
+        "1 Introduction"
+      ],
+      "text": "Time-series forecasting in finance remains a contested area for modern machine learning. While deep learning has transformed natural language processing and computer vision, its advantage in economic and financial forecasting is far less clear. Recent comparative studies of U.S. Treasury yield curve forecasting report that classical econometric baselines and simple benchmarks can outperform many modern machine-learning models",
+      "raw": "Time-series forecasting in finance remains a contested area for modern machine learning. While deep learning has transformed natural language processing and computer vision, its advantage in economic and financial forecasting is far less clear. Recent comparative studies of U.S. Treasury yield curve forecasting report that classical econometric baselines and simple benchmarks can outperform many modern machine-learning models",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_8a600beb73fe",
+      "document_id": "doc_538d7233661b",
+      "order": 5,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 1,
+      "bbox": {
+        "l": 64.8,
+        "t": 84.95956160000003,
+        "r": 302.8214987084,
+        "b": 58.886800600000015
+      },
+      "section_path": [
+        "1 Introduction"
+      ],
+      "text": "∗ Das is a professor of Finance and Data Science, and Goyal and Yadav are graduate students in the Leavey School of Business at Santa Clara University.",
+      "raw": "∗ Das is a professor of Finance and Data Science, and Goyal and Yadav are graduate students in the Leavey School of Business at Santa Clara University.",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_acce088444d6",
+      "document_id": "doc_538d7233661b",
+      "order": 6,
+      "type": "section",
+      "raw_type": "SectionHeaderItem",
+      "page": 1,
+      "bbox": {
+        "l": 150.931,
+        "t": 707.1614106,
+        "r": 464.67305729999987,
+        "b": 670.0422123999999
+      },
+      "section_path": [
+        "Multivariate Financial Forecasting using the Chronos Time Series Foundation Models ∗"
+      ],
+      "text": "Multivariate Financial Forecasting using the Chronos Time Series Foundation Models ∗",
+      "raw": "Multivariate Financial Forecasting using the Chronos Time Series Foundation Models ∗",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_6bafc782d1e1",
+      "document_id": "doc_538d7233661b",
+      "order": 7,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 1,
+      "bbox": {
+        "l": 194.43900000000002,
+        "t": 652.7311328000001,
+        "r": 421.1574128,
+        "b": 628.2266912
+      },
+      "section_path": [
+        "Multivariate Financial Forecasting using the Chronos Time Series Foundation Models ∗"
+      ],
+      "text": "Sanjiv R. Das, Tarang Goyal, Mohini Yadav Santa Clara University",
+      "raw": "Sanjiv R. Das, Tarang Goyal, Mohini Yadav Santa Clara University",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_785f518ad43b",
+      "document_id": "doc_538d7233661b",
+      "order": 8,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 1,
+      "bbox": {
+        "l": 169.41500000000002,
+        "t": 623.9036272000001,
+        "r": 446.1838576,
+        "b": 613.9449456000001
+      },
+      "section_path": [
+        "Multivariate Financial Forecasting using the Chronos Time Series Foundation Models ∗"
+      ],
+      "text": "srdas@scu.edu; tgoyal@scu.edu; myadav@scu.edu",
+      "raw": "srdas@scu.edu; tgoyal@scu.edu; myadav@scu.edu",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_3723f26f5488",
+      "document_id": "doc_538d7233661b",
+      "order": 9,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 1,
+      "bbox": {
+        "l": 273.651,
+        "t": 601.4611328000001,
+        "r": 342.23917792000003,
+        "b": 590.9046912
+      },
+      "section_path": [
+        "Multivariate Financial Forecasting using the Chronos Time Series Foundation Models ∗"
+      ],
+      "text": "May 22, 2026",
+      "raw": "May 22, 2026",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_68c2b781e310",
+      "document_id": "doc_538d7233661b",
+      "order": 10,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 1,
+      "bbox": {
+        "l": 312.781,
+        "t": 562.8992314,
+        "r": 552.1789903419991,
+        "b": 470.4152556
+      },
+      "section_path": [
+        "Multivariate Financial Forecasting using the Chronos Time Series Foundation Models ∗"
+      ],
+      "text": "across long spans of daily data, with only a few learning approaches delivering competitive gains. These findings underscore an open question for practitioners: when, and under what conditions, do multivariate forecasting methods provide reliable improvements over univariate forecasting? Adding data for a forecast brings up the standard question of whether it introduces signal or noise.",
+      "raw": "across long spans of daily data, with only a few learning approaches delivering competitive gains. These findings underscore an open question for practitioners: when, and under what conditions, do multivariate forecasting methods provide reliable improvements over univariate forecasting? Adding data for a forecast brings up the standard question of whether it introduces signal or noise.",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_b61a482222d3",
+      "document_id": "doc_538d7233661b",
+      "order": 11,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 1,
+      "bbox": {
+        "l": 312.781,
+        "t": 463.2722314,
+        "r": 552.4587615711995,
+        "b": 334.9232556
+      },
+      "section_path": [
+        "Multivariate Financial Forecasting using the Chronos Time Series Foundation Models ∗"
+      ],
+      "text": "The emergence of foundation models-large, selfsupervised models trained on broad data and adapted to downstream tasks-has begun to reshape time-series forecasting. The promise of these models is not only scale, but also transfer: a single model can exploit shared structure across diverse series and potentially improve predictive accuracy in domains where data are limited or noisy. Yet evidence from forecasting competitions and applied finance (Singh et al., 2025) suggests that pure deep-learning solutions often struggle unless they are hybridized or carefully engineered.",
+      "raw": "The emergence of foundation models-large, selfsupervised models trained on broad data and adapted to downstream tasks-has begun to reshape time-series forecasting. The promise of these models is not only scale, but also transfer: a single model can exploit shared structure across diverse series and potentially improve predictive accuracy in domains where data are limited or noisy. Yet evidence from forecasting competitions and applied finance (Singh et al., 2025) suggests that pure deep-learning solutions often struggle unless they are hybridized or carefully engineered.",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_a10222207aec",
+      "document_id": "doc_538d7233661b",
+      "order": 12,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 1,
+      "bbox": {
+        "l": 312.781,
+        "t": 327.7802314,
+        "r": 552.466311726,
+        "b": 127.70125559999997
+      },
+      "section_path": [
+        "Multivariate Financial Forecasting using the Chronos Time Series Foundation Models ∗"
+      ],
+      "text": "This paper evaluates whether foundation-model forecasting can deliver practical improvements in economic and financial settings, focusing on Chronos-2, an opensource time-series foundation model (GitHub: https:// github.com/amazon-science/chronos-forecasting). Just as large language models generate a sequence of words, Chronos-2 Chronos-2 is trained on thousands of time series, and generates forward sequences of data based on multivariate histories. Our central hypothesis is that multivariate (MV) inputs, when properly chosen, aligned, and modeled, can help the model extract crossseries information and outperform univariate (UV) baselines. We test this hypothesis across two economically meaningful panels: the Magnificent-7 equities and a set of U.S. Treasury interest rates, and we also study a combined panel to assess whether joint modeling improves results.",
+      "raw": "This paper evaluates whether foundation-model forecasting can deliver practical improvements in economic and financial settings, focusing on Chronos-2, an opensource time-series foundation model (GitHub: https:// github.com/amazon-science/chronos-forecasting). Just as large language models generate a sequence of words, Chronos-2 Chronos-2 is trained on thousands of time series, and generates forward sequences of data based on multivariate histories. Our central hypothesis is that multivariate (MV) inputs, when properly chosen, aligned, and modeled, can help the model extract crossseries information and outperform univariate (UV) baselines. We test this hypothesis across two economically meaningful panels: the Magnificent-7 equities and a set of U.S. Treasury interest rates, and we also study a combined panel to assess whether joint modeling improves results.",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_b470a117c7e5",
+      "document_id": "doc_538d7233661b",
+      "order": 13,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 1,
+      "bbox": {
+        "l": 312.781,
+        "t": 120.55723139999998,
+        "r": 552.461430052,
+        "b": 51.98425559999998
+      },
+      "section_path": [
+        "Multivariate Financial Forecasting using the Chronos Time Series Foundation Models ∗"
+      ],
+      "text": "The contribution of the paper is fourfold. First, we provide a systematic comparison of MV versus UV forecasting across equities and rates with a consistent rolling evaluation protocol. We find that the MV approach beats the UV one. Second, we examine whether MV gains differ by asset class and whether joint stock and interest rates modeling improves accuracy. In this case, we find that adding a different class of time series does not improve forecasting, highlighting that expanding the basis set for modeling does not always improve forecast accuracy. Indeed, there is a signal to noise tradeoff that applies here. Third, we offer large-scale outputserror metrics, forecasts with uncertainty quantiles, and visualization-ready artifacts-to support robust evaluation and downstream use. Fourth, we provide in Appendix A the process by which AI was not only the subject of the paper, but was also used to produce the paper. Collectively, these results clarify the conditions under which foundation models add value relative to standard forecasting practice in finance.",
+      "raw": "The contribution of the paper is fourfold. First, we provide a systematic comparison of MV versus UV forecasting across equities and rates with a consistent rolling evaluation protocol. We find that the MV approach beats the UV one. Second, we examine whether MV gains differ by asset class and whether joint stock and interest rates modeling improves accuracy. In this case, we find that adding a different class of time series does not improve forecasting, highlighting that expanding the basis set for modeling does not always improve forecast accuracy. Indeed, there is a signal to noise tradeoff that applies here. Third, we offer large-scale outputserror metrics, forecasts with uncertainty quantiles, and visualization-ready artifacts-to support robust evaluation and downstream use. Fourth, we provide in Appendix A the process by which AI was not only the subject of the paper, but was also used to produce the paper. Collectively, these results clarify the conditions under which foundation models add value relative to standard forecasting practice in finance.",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_ddb53fdc4940",
+      "document_id": "doc_538d7233661b",
+      "order": 14,
+      "type": "section",
+      "raw_type": "SectionHeaderItem",
+      "page": 2,
+      "bbox": {
+        "l": 64.8,
+        "t": 548.1370880000001,
+        "r": 235.79283456000002,
+        "b": 537.5686912
+      },
+      "section_path": [
+        "1.1 Brief Literature Review"
+      ],
+      "text": "1.1 Brief Literature Review",
+      "raw": "1.1 Brief Literature Review",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_7796ec52ad7b",
+      "document_id": "doc_538d7233661b",
+      "order": 15,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 2,
+      "bbox": {
+        "l": 64.441,
+        "t": 524.3792314,
+        "r": 304.7464437255999,
+        "b": 312.34525560000003
+      },
+      "section_path": [
+        "1.1 Brief Literature Review"
+      ],
+      "text": "The literature on financial time-series forecasting spans classical econometrics, machine learning, and recent deep-learning approaches. Standard time-series tools and statistical benchmarks remain central in practice and are documented in foundational texts (Shumway and Stoffer, 2025). In fixed-income applications, yield curve forecasting has been studied using no-arbitrage and factor-augmented approaches (Moench, 2006) as well as forecast combinations (Caldeira et al., 2013). Machine-learning methods have been applied to yield curves with mixed results, including statistical ML approaches (Sambasivan and Das, 2017) and more recent comparative studies that find strong performance for classical econometric baselines relative to many ML and deep-learning models (Singh et al., 2025). Related work on bond risk premia also highlights the potential and limitations of ML for term-structure prediction (Bianchi et al., 2020; Hoogteijling et al., 2021).",
+      "raw": "The literature on financial time-series forecasting spans classical econometrics, machine learning, and recent deep-learning approaches. Standard time-series tools and statistical benchmarks remain central in practice and are documented in foundational texts (Shumway and Stoffer, 2025). In fixed-income applications, yield curve forecasting has been studied using no-arbitrage and factor-augmented approaches (Moench, 2006) as well as forecast combinations (Caldeira et al., 2013). Machine-learning methods have been applied to yield curves with mixed results, including statistical ML approaches (Sambasivan and Das, 2017) and more recent comparative studies that find strong performance for classical econometric baselines relative to many ML and deep-learning models (Singh et al., 2025). Related work on bond risk premia also highlights the potential and limitations of ML for term-structure prediction (Bianchi et al., 2020; Hoogteijling et al., 2021).",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_f6e081e50044",
+      "document_id": "doc_538d7233661b",
+      "order": 16,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 2,
+      "bbox": {
+        "l": 64.441,
+        "t": 305.2012314,
+        "r": 304.75116569951996,
+        "b": 152.94225559999995
+      },
+      "section_path": [
+        "1.1 Brief Literature Review"
+      ],
+      "text": "For equities and broader financial markets, surveys emphasize the breadth of deep-learning adoption but also the variability of performance across datasets and tasks (Sezer et al., 2019). Empirical studies comparing ARIMA, LSTM, and Prophet illustrate that model choice can be highly data-dependent, with traditional statistical methods remaining competitive in many settings (Sunki et al., 2024). The broader financial machinelearning literature argues for careful feature engineering, rigorous validation, and robust benchmarks to avoid overfitting and spurious gains (López de Prado, 2018). These themes motivate careful UV baselines and out-ofsample evaluation in this paper.",
+      "raw": "For equities and broader financial markets, surveys emphasize the breadth of deep-learning adoption but also the variability of performance across datasets and tasks (Sezer et al., 2019). Empirical studies comparing ARIMA, LSTM, and Prophet illustrate that model choice can be highly data-dependent, with traditional statistical methods remaining competitive in many settings (Sunki et al., 2024). The broader financial machinelearning literature argues for careful feature engineering, rigorous validation, and robust benchmarks to avoid overfitting and spurious gains (López de Prado, 2018). These themes motivate careful UV baselines and out-ofsample evaluation in this paper.",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_61d0c9212dd8",
+      "document_id": "doc_538d7233661b",
+      "order": 17,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 2,
+      "bbox": {
+        "l": 63.634,
+        "t": 145.79923140000005,
+        "r": 304.4853117259998,
+        "b": 53.31625559999998
+      },
+      "section_path": [
+        "1.1 Brief Literature Review"
+      ],
+      "text": "Recent advances in deep-learning forecasting include specialized architectures such as NHITS (Challu et al., 2023) and, more recently, foundation models for time series. A recent review is available in Zhang and Zhang (2026). Chronos is a large, self-supervised forecasting model trained on diverse datasets and designed for transfer across domains (Ansari et al., 2024). This paper contributes to the growing evidence on foundation models by testing whether MV inputs can systematically improve forecasting accuracy in economically important panels of equities and rates, and by reporting results using consistent rolling protocols and multiple error metrics. In this paper we focus on the newest generation in this class of models, namely Chronos-2 (Ansari et al., 2025).",
+      "raw": "Recent advances in deep-learning forecasting include specialized architectures such as NHITS (Challu et al., 2023) and, more recently, foundation models for time series. A recent review is available in Zhang and Zhang (2026). Chronos is a large, self-supervised forecasting model trained on diverse datasets and designed for transfer across domains (Ansari et al., 2024). This paper contributes to the growing evidence on foundation models by testing whether MV inputs can systematically improve forecasting accuracy in economically important panels of equities and rates, and by reporting results using consistent rolling protocols and multiple error metrics. In this paper we focus on the newest generation in this class of models, namely Chronos-2 (Ansari et al., 2025).",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_a409bb8988be",
+      "document_id": "doc_538d7233661b",
+      "order": 18,
+      "type": "section",
+      "raw_type": "SectionHeaderItem",
+      "page": 2,
+      "bbox": {
+        "l": 312.781,
+        "t": 628.415878,
+        "r": 426.94949421999985,
+        "b": 615.7338372
+      },
+      "section_path": [
+        "2 Methodology"
+      ],
+      "text": "2 Methodology",
+      "raw": "2 Methodology",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_ed307053ec11",
+      "document_id": "doc_538d7233661b",
+      "order": 19,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 2,
+      "bbox": {
+        "l": 312.422,
+        "t": 599.5782314,
+        "r": 552.4649368872002,
+        "b": 542.9602556
+      },
+      "section_path": [
+        "2 Methodology"
+      ],
+      "text": "This section develops the research questions and the experimental framework including the Chronos-2 forecasting pipeline. We describe the data scope, model inputs and horizons, rolling evaluation design, and the artifacts produced for analysis and downstream use.",
+      "raw": "This section develops the research questions and the experimental framework including the Chronos-2 forecasting pipeline. We describe the data scope, model inputs and horizons, rolling evaluation design, and the artifacts produced for analysis and downstream use.",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_9b8fa05c062c",
+      "document_id": "doc_538d7233661b",
+      "order": 20,
+      "type": "section",
+      "raw_type": "SectionHeaderItem",
+      "page": 2,
+      "bbox": {
+        "l": 312.781,
+        "t": 521.272088,
+        "r": 458.0581993599999,
+        "b": 510.70369120000004
+      },
+      "section_path": [
+        "2.1 Research Questions"
+      ],
+      "text": "2.1 Research Questions",
+      "raw": "2.1 Research Questions",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_1a942ff4c584",
+      "document_id": "doc_538d7233661b",
+      "order": 21,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 2,
+      "bbox": {
+        "l": 312.422,
+        "t": 497.51423139999997,
+        "r": 552.1878580522598,
+        "b": 381.1212556
+      },
+      "section_path": [
+        "2.1 Research Questions"
+      ],
+      "text": "The study addresses three related questions. First, we test whether multivariate (MV) forecasting yields more accurate predictions than univariate (UV) methods. By restricting attention within a single model, Chronos-2, we are able to focus specifically on this effect in the class of foundation models. Second, we examine whether MV gains differ across asset classes by comparing stocks to interest rates. Third, we evaluate whether forecasting stocks and rates jointly improves accuracy relative to modeling each group separately.",
+      "raw": "The study addresses three related questions. First, we test whether multivariate (MV) forecasting yields more accurate predictions than univariate (UV) methods. By restricting attention within a single model, Chronos-2, we are able to focus specifically on this effect in the class of foundation models. Second, we examine whether MV gains differ across asset classes by comparing stocks to interest rates. Third, we evaluate whether forecasting stocks and rates jointly improves accuracy relative to modeling each group separately.",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_0eca4e943fc8",
+      "document_id": "doc_538d7233661b",
+      "order": 22,
+      "type": "section",
+      "raw_type": "SectionHeaderItem",
+      "page": 2,
+      "bbox": {
+        "l": 312.781,
+        "t": 359.43208799999996,
+        "r": 541.86893344,
+        "b": 348.8636912
+      },
+      "section_path": [
+        "2.2 Overview of the Chronos-2 model"
+      ],
+      "text": "2.2 Overview of the Chronos-2 model",
+      "raw": "2.2 Overview of the Chronos-2 model",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_e73ea01bd455",
+      "document_id": "doc_538d7233661b",
+      "order": 23,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 2,
+      "bbox": {
+        "l": 312.422,
+        "t": 335.6752314,
+        "r": 552.4633827216,
+        "b": 207.32625559999997
+      },
+      "section_path": [
+        "2.2 Overview of the Chronos-2 model"
+      ],
+      "text": "Chronos-2 (Ansari et al., 2025) extends the foundationmodel approach to time-series forecasting by moving beyond purely univariate inputs toward a universal, zeroshot framework that can handle multivariate groups and covariate-informed tasks. The motivation is pragmatic: real forecasting problems often involve co-evolving series or external drivers, yet most pretrained models are limited to single-series histories. Chronos-2 addresses this gap by enabling joint inference across related series without task-specific retraining, simplifying deployment and improving transfer to new domains.",
+      "raw": "Chronos-2 (Ansari et al., 2025) extends the foundationmodel approach to time-series forecasting by moving beyond purely univariate inputs toward a universal, zeroshot framework that can handle multivariate groups and covariate-informed tasks. The motivation is pragmatic: real forecasting problems often involve co-evolving series or external drivers, yet most pretrained models are limited to single-series histories. Chronos-2 addresses this gap by enabling joint inference across related series without task-specific retraining, simplifying deployment and improving transfer to new domains.",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_ad611eabc3d5",
+      "document_id": "doc_538d7233661b",
+      "order": 24,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 2,
+      "bbox": {
+        "l": 312.781,
+        "t": 200.18323139999995,
+        "r": 552.4663117259998,
+        "b": 107.69925560000001
+      },
+      "section_path": [
+        "2.2 Overview of the Chronos-2 model"
+      ],
+      "text": "Architecturally, Chronos-2 introduces a groupattention mechanism that supports in-context learning across sets of series. A \"group\" can represent variates of a multivariate series, multiple related targets, or targets plus covariates. The attention design enables efficient information sharing and allows the model to learn crossseries structure at inference time, which is crucial for multivariate forecasting and covariate conditioning.",
+      "raw": "Architecturally, Chronos-2 introduces a groupattention mechanism that supports in-context learning across sets of series. A \"group\" can represent variates of a multivariate series, multiple related targets, or targets plus covariates. The attention design enables efficient information sharing and allows the model to learn crossseries structure at inference time, which is crucial for multivariate forecasting and covariate conditioning.",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_44929f2e5532",
+      "document_id": "doc_538d7233661b",
+      "order": 25,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 2,
+      "bbox": {
+        "l": 312.781,
+        "t": 100.5562314,
+        "r": 552.46599690784,
+        "b": 55.89425559999995
+      },
+      "section_path": [
+        "2.2 Overview of the Chronos-2 model"
+      ],
+      "text": "To train these capabilities, Chronos-2 is built on synthetic multivariate constructions derived from univariate time series, enforcing diverse dependence structures during pretraining. Evaluation is reported on multivariate and covariate-aware benchmarks such as fev-bench, GIFT-Eval, and Chronos Benchmark II, where Chronos2 attains state-of-the-art performance, particularly on covariate-conditioned tasks. These design choices align with our use case: leveraging joint structure across equities and rates and assessing whether MV inputs yield systematic gains over UV baselines.",
+      "raw": "To train these capabilities, Chronos-2 is built on synthetic multivariate constructions derived from univariate time series, enforcing diverse dependence structures during pretraining. Evaluation is reported on multivariate and covariate-aware benchmarks such as fev-bench, GIFT-Eval, and Chronos Benchmark II, where Chronos2 attains state-of-the-art performance, particularly on covariate-conditioned tasks. These design choices align with our use case: leveraging joint structure across equities and rates and assessing whether MV inputs yield systematic gains over UV baselines.",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_72601575a59d",
+      "document_id": "doc_538d7233661b",
+      "order": 26,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 3,
+      "bbox": {
+        "l": 64.8,
+        "t": 646.3682314,
+        "r": 304.4865869387999,
+        "b": 529.9752556
+      },
+      "section_path": [
+        "2.2 Overview of the Chronos-2 model"
+      ],
+      "text": "The methodology behind Chronos-2 centers on transforming time series forecasting into a universal, zeroshot task through a specialized transformer architecture and innovative training strategies. Unlike its predecessor model, which was primarily univariate, Chronos-2 leverages in-context learning (ICL) to handle multivariate data and covariates without needing task-specific fine-tuning. Many specific techniques are deployed in pre-training this model (see Figure 1 in the Chronos-2 technical report).",
+      "raw": "The methodology behind Chronos-2 centers on transforming time series forecasting into a universal, zeroshot task through a specialized transformer architecture and innovative training strategies. Unlike its predecessor model, which was primarily univariate, Chronos-2 leverages in-context learning (ICL) to handle multivariate data and covariates without needing task-specific fine-tuning. Many specific techniques are deployed in pre-training this model (see Figure 1 in the Chronos-2 technical report).",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_f4fbc8287375",
+      "document_id": "doc_538d7233661b",
+      "order": 27,
+      "type": "list_item",
+      "raw_type": "ListItem",
+      "page": 3,
+      "bbox": {
+        "l": 71.997,
+        "t": 513.5192314000001,
+        "r": 303.0869405167998,
+        "b": 385.1702556
+      },
+      "section_path": [
+        "2.2 Overview of the Chronos-2 model"
+      ],
+      "text": "Tokenization and Robust Scaling. The pipeline begins by normalizing input data using a robust scaling scheme. This involves standardizing the series and applying a sinh-1 transformation to stabilize variance and reduce the impact of extreme outliers. Categorical covariates are converted to real-valued representations using target or ordinal encoding. After scaling, the data is augmented with meta features, including a relative time index and a binary mask that indicates observed versus missing values.",
+      "raw": "Tokenization and Robust Scaling. The pipeline begins by normalizing input data using a robust scaling scheme. This involves standardizing the series and applying a sinh-1 transformation to stabilize variance and reduce the impact of extreme outliers. Categorical covariates are converted to real-valued representations using target or ordinal encoding. After scaling, the data is augmented with meta features, including a relative time index and a binary mask that indicates observed versus missing values.",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_3345f6d98046",
+      "document_id": "doc_538d7233661b",
+      "order": 28,
+      "type": "list_item",
+      "raw_type": "ListItem",
+      "page": 3,
+      "bbox": {
+        "l": 71.997,
+        "t": 374.3022314,
+        "r": 304.7518105279998,
+        "b": 281.8192556
+      },
+      "section_path": [
+        "2.2 Overview of the Chronos-2 model"
+      ],
+      "text": "Patch-Based Representation. To process the data efficiently, Chronos-2 uses patching, where the continuous time series and its meta features are divided into non-overlapping segments of length P. These patches are mapped into high-dimensional embeddings via a residual network. A unique REG token is inserted between historical context and future patches to serve as an attention sink and separator.",
+      "raw": "Patch-Based Representation. To process the data efficiently, Chronos-2 uses patching, where the continuous time series and its meta features are divided into non-overlapping segments of length P. These patches are mapped into high-dimensional embeddings via a residual network. A unique REG token is inserted between historical context and future patches to serve as an attention sink and separator.",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_590e30109e9b",
+      "document_id": "doc_538d7233661b",
+      "order": 29,
+      "type": "list_item",
+      "raw_type": "ListItem",
+      "page": 3,
+      "bbox": {
+        "l": 71.997,
+        "t": 270.9502314,
+        "r": 304.48296976700004,
+        "b": 118.69125559999998
+      },
+      "section_path": [
+        "2.2 Overview of the Chronos-2 model"
+      ],
+      "text": "Core Architecture: Time and Group Attention The model is an encoder-only transformer that alternates between two critical attention layers: (a) Time Attention: This layer aggregates information across temporal patches within a single time series, utilizing Rotary Position Embeddings (RoPE) to maintain temporal order. (b) Group Attention: This is the core innovation of Chronos-2. It allows the model to share information across different time series within a \"group\" at each patch index. A group can flexibly represent variates of a multivariate series, a target with its covariates, or even a collection of related univariate series for cross-learning.",
+      "raw": "Core Architecture: Time and Group Attention The model is an encoder-only transformer that alternates between two critical attention layers: (a) Time Attention: This layer aggregates information across temporal patches within a single time series, utilizing Rotary Position Embeddings (RoPE) to maintain temporal order. (b) Group Attention: This is the core innovation of Chronos-2. It allows the model to share information across different time series within a \"group\" at each patch index. A group can flexibly represent variates of a multivariate series, a target with its covariates, or even a collection of related univariate series for cross-learning.",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_4da7313be0da",
+      "document_id": "doc_538d7233661b",
+      "order": 30,
+      "type": "list_item",
+      "raw_type": "ListItem",
+      "page": 3,
+      "bbox": {
+        "l": 71.997,
+        "t": 107.82323139999994,
+        "r": 304.4811466111999,
+        "b": 51.20525559999999
+      },
+      "section_path": [
+        "2.2 Overview of the Chronos-2 model"
+      ],
+      "text": "Multivariate and Covariate Integration. Chronos-2 manages different task types-univariate, multivariate, and covariate-informed-within a unified framework by assigning Group IDs. For multivariate tasks, all related variates share an ID, enabling",
+      "raw": "Multivariate and Covariate Integration. Chronos-2 manages different task types-univariate, multivariate, and covariate-informed-within a unified framework by assigning Group IDs. For multivariate tasks, all related variates share an ID, enabling",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_8b47e37a524d",
+      "document_id": "doc_538d7233661b",
+      "order": 31,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 3,
+      "bbox": {
+        "l": 332.706,
+        "t": 734.0402314,
+        "r": 552.4590980556003,
+        "b": 677.4222556
+      },
+      "section_path": [
+        "2.2 Overview of the Chronos-2 model"
+      ],
+      "text": "the group attention layer to model their dependencies. When covariates are present, they are included in the group, and known future values are provided in the future input matrix W, allowing the model to condition its forecasts on them.",
+      "raw": "the group attention layer to model their dependencies. When covariates are present, they are included in the group, and known future values are provided in the future input matrix W, allowing the model to condition its forecasts on them.",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_9f756f73286c",
+      "document_id": "doc_538d7233661b",
+      "order": 32,
+      "type": "list_item",
+      "raw_type": "ListItem",
+      "page": 3,
+      "bbox": {
+        "l": 319.978,
+        "t": 667.0492314,
+        "r": 552.458440524,
+        "b": 550.6552555999999
+      },
+      "section_path": [
+        "2.2 Overview of the Chronos-2 model"
+      ],
+      "text": "Training and Quantile Forecasting. The model is trained in two stages to handle varying context lengths, starting at 2048 steps and extending to 8192. It uses a quantile regression objective to produce probabilistic forecasts across 21 quantiles (from 0.01 to 0.99), providing a comprehensive view of uncertainty and rare event risks. Remarkably, its advanced ICL capabilities are largely learned from synthetic datasets that impose complex multivariate structures on univariate base series.",
+      "raw": "Training and Quantile Forecasting. The model is trained in two stages to handle varying context lengths, starting at 2048 steps and extending to 8192. It uses a quantile regression objective to produce probabilistic forecasts across 21 quantiles (from 0.01 to 0.99), providing a comprehensive view of uncertainty and rare event risks. Remarkably, its advanced ICL capabilities are largely learned from synthetic datasets that impose complex multivariate structures on univariate base series.",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_2f3184e84d61",
+      "document_id": "doc_538d7233661b",
+      "order": 33,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 3,
+      "bbox": {
+        "l": 312.781,
+        "t": 535.4362314,
+        "r": 552.4614898275993,
+        "b": 466.86425560000004
+      },
+      "section_path": [
+        "2.2 Overview of the Chronos-2 model"
+      ],
+      "text": "In sum, the methodology of Chronos-2 involves an encoder-only transformer architecture that utilizes a novel group attention mechanism and robust scaling to perform zero-shot univariate, multivariate, and covariate-informed forecasting by sharing information across related time series in-context.",
+      "raw": "In sum, the methodology of Chronos-2 involves an encoder-only transformer architecture that utilizes a novel group attention mechanism and robust scaling to perform zero-shot univariate, multivariate, and covariate-informed forecasting by sharing information across related time series in-context.",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_cab8961ffe7c",
+      "document_id": "doc_538d7233661b",
+      "order": 34,
+      "type": "section",
+      "raw_type": "SectionHeaderItem",
+      "page": 3,
+      "bbox": {
+        "l": 312.781,
+        "t": 445.500088,
+        "r": 436.31647264000003,
+        "b": 434.93169120000005
+      },
+      "section_path": [
+        "2.3 Implementation"
+      ],
+      "text": "2.3 Implementation",
+      "raw": "2.3 Implementation",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_767d1634f059",
+      "document_id": "doc_538d7233661b",
+      "order": 35,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 3,
+      "bbox": {
+        "l": 311.616,
+        "t": 421.7422314,
+        "r": 552.1841509687999,
+        "b": 353.1702556
+      },
+      "section_path": [
+        "2.3 Implementation"
+      ],
+      "text": "The data consist of three panels: the Magnificent-7 stocks (AAPL, AMZN, GOOGL, MSFT, NFLX, NVDA, TSLA) (K = 7), Treasury interest rates for ten different maturities (K = 10), and a combined panel of all series (K = 17). This design supports both within-group and cross-group forecasting comparisons.",
+      "raw": "The data consist of three panels: the Magnificent-7 stocks (AAPL, AMZN, GOOGL, MSFT, NFLX, NVDA, TSLA) (K = 7), Treasury interest rates for ten different maturities (K = 10), and a combined panel of all series (K = 17). This design supports both within-group and cross-group forecasting comparisons.",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_92926dd833c5",
+      "document_id": "doc_538d7233661b",
+      "order": 36,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 3,
+      "bbox": {
+        "l": 312.522,
+        "t": 346.0262314,
+        "r": 552.4640569879999,
+        "b": 289.4092556
+      },
+      "section_path": [
+        "2.3 Implementation"
+      ],
+      "text": "We use input window lengths n ∈ {126, 252, 504, 756} rading days, and forecast horizons m ∈ {21, 63} trading days to cover short to medium histories (0.5 to 3 years) and near- to mid-term prediction horizons (1 to 3 months).",
+      "raw": "We use input window lengths n ∈ {126, 252, 504, 756} rading days, and forecast horizons m ∈ {21, 63} trading days to cover short to medium histories (0.5 to 3 years) and near- to mid-term prediction horizons (1 to 3 months).",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_e678e154b622",
+      "document_id": "doc_538d7233661b",
+      "order": 37,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 3,
+      "bbox": {
+        "l": 311.616,
+        "t": 282.2652314,
+        "r": 552.46457678232,
+        "b": 213.69325560000004
+      },
+      "section_path": [
+        "2.3 Implementation"
+      ],
+      "text": "The evaluation period spans 2000-2025 with monthly rolling forecasts to reflect realistic re-estimation and deployment cadence. Forecast accuracy is measured using RMSE (root mean squared error) and MAPE (mean absolute percentage error) to capture both scaledependent and scale-free error behavior.",
+      "raw": "The evaluation period spans 2000-2025 with monthly rolling forecasts to reflect realistic re-estimation and deployment cadence. Forecast accuracy is measured using RMSE (root mean squared error) and MAPE (mean absolute percentage error) to capture both scaledependent and scale-free error behavior.",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_ca3ea48e6467",
+      "document_id": "doc_538d7233661b",
+      "order": 38,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 3,
+      "bbox": {
+        "l": 312.781,
+        "t": 206.54923140000005,
+        "r": 552.4607939415994,
+        "b": 149.93225559999996
+      },
+      "section_path": [
+        "2.3 Implementation"
+      ],
+      "text": "To assess temporal robustness, we compare performance across pre-2023 and post-2023 regimes using a training cutoff that separates the sample. We will also argue that this is a check on information leakage in the model.",
+      "raw": "To assess temporal robustness, we compare performance across pre-2023 and post-2023 regimes using a training cutoff that separates the sample. We will also argue that this is a check on information leakage in the model.",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_5defe8e5ebe5",
+      "document_id": "doc_538d7233661b",
+      "order": 39,
+      "type": "section",
+      "raw_type": "SectionHeaderItem",
+      "page": 3,
+      "bbox": {
+        "l": 312.781,
+        "t": 125.16087800000003,
+        "r": 387.07996979999996,
+        "b": 112.47883720000004
+      },
+      "section_path": [
+        "3 Results"
+      ],
+      "text": "3 Results",
+      "raw": "3 Results",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_d6c2ee010555",
+      "document_id": "doc_538d7233661b",
+      "order": 40,
+      "type": "section",
+      "raw_type": "SectionHeaderItem",
+      "page": 3,
+      "bbox": {
+        "l": 312.781,
+        "t": 95.71508800000004,
+        "r": 515.0390735999998,
+        "b": 85.14669119999996
+      },
+      "section_path": [
+        "3.1 Forecasts within asset classes"
+      ],
+      "text": "3.1 Forecasts within asset classes",
+      "raw": "3.1 Forecasts within asset classes",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_8007a674a3ef",
+      "document_id": "doc_538d7233661b",
+      "order": 41,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 3,
+      "bbox": {
+        "l": 312.781,
+        "t": 71.95723139999996,
+        "r": 551.0729195760202,
+        "b": 51.20525559999999
+      },
+      "section_path": [
+        "3.1 Forecasts within asset classes"
+      ],
+      "text": "One of the goals of the paper is to examine the extent of improvement when multivariate forecasting (MV) is used instead of univariate forecasting (UV). Table 1 summarizes average performance by dataset and mode. Results are aggregated across all tickers, and in-sample and out-sample combinations. MV forecasts outperform UV for both rates and stocks, with large MAPE and RMSE reductions in rates and lesser gains in stocks. The standard deviation of the forecast error is also smaller for MV versus UV forecasts. Overall, the results suggest that multivariate models are easily implemented in Chronos-2 and provide robust forecasts.",
+      "raw": "One of the goals of the paper is to examine the extent of improvement when multivariate forecasting (MV) is used instead of univariate forecasting (UV). Table 1 summarizes average performance by dataset and mode. Results are aggregated across all tickers, and in-sample and out-sample combinations. MV forecasts outperform UV for both rates and stocks, with large MAPE and RMSE reductions in rates and lesser gains in stocks. The standard deviation of the forecast error is also smaller for MV versus UV forecasts. Overall, the results suggest that multivariate models are easily implemented in Chronos-2 and provide robust forecasts.",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_d88077534830",
+      "document_id": "doc_538d7233661b",
+      "order": 42,
+      "type": "table",
+      "raw_type": "TableItem",
+      "page": 4,
+      "bbox": {
+        "l": 63.96138381958008,
+        "t": 530.4374694824219,
+        "r": 300.79248046875,
+        "b": 450.1568908691406
+      },
+      "section_path": [
+        "3.1 Forecasts within asset classes"
+      ],
+      "text": "",
+      "raw": "",
+      "image_path": null,
+      "caption": "Table 1: Average performance by dataset and mode. Lower mean error across all experiments (for values of input length n = {126, 252, 504, 756}, and forecast period m = {21, 63}) measured by MAPE and RMSE is better. Data for the rolling periods is from 2000 through 2025. Predictions periods begin 3 years after the start of the dataset.",
+      "surrounding_text": "Table 2 reports UV vs. MV results by series. MV improves both MAPE and RMSE for every rate and stock. This is a clear win for the MV forecasting model, suggesting that the information from additional related time series adds value when used in the realm of a pre-trained foundation time series model.\nFigure 1 shows the breakdown of errors by the length n of the input time series, and the length m of the forecast series. For both rates and stocks, the forecast error is smaller for the MV approach than for the UV approach. As expected the forecast error is greater for the 63 day forecast than for the 21 day one. But the input series length n does not seem to matter, accuracy levels are not that different across input length, which varies from half a year to three years.",
+      "related_element_ids": [
+        "elem_bbfc5d0b7724",
+        "elem_3bb147693318",
+        "elem_42393be9227f"
+      ],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": "table_0001",
+      "formula_id": null,
+      "table_markdown": "Table 1: Average performance by dataset and mode. Lower mean error across all experiments (for values of input length n = {126, 252, 504, 756}, and forecast period m = {21, 63}) measured by MAPE and RMSE is better. Data for the rolling periods is from 2000 through 2025. Predictions periods begin 3 years after the start of the dataset.\n\n| Dataset   | Mode   |   MAPE - mean |   MAPE - std |   RMSE - mean |   RMSE - std |\n|-----------|--------|---------------|--------------|---------------|--------------|\n| Rates     | MV     |        0.0497 |       0.1673 |        0.0418 |       0.0445 |\n| Rates     | UV     |        0.1233 |       0.2213 |        0.1865 |       0.1783 |\n| Stocks    | MV     |        0.0706 |       0.0728 |        3.9619 |       9.0440 |\n| Stocks    | UV     |        0.0844 |       0.0834 |        5.0395 |      11.5710 |",
+      "table_data": {
+        "columns": [
+          "Dataset.",
+          "Mode.",
+          "MAPE.mean",
+          "MAPE.std",
+          "RMSE.mean",
+          "RMSE.std"
+        ],
+        "rows": [
+          {
+            "Dataset.": "Rates",
+            "Mode.": "MV",
+            "MAPE.mean": "0.0497",
+            "MAPE.std": "0.1673",
+            "RMSE.mean": "0.0418",
+            "RMSE.std": "0.0445"
+          },
+          {
+            "Dataset.": "Rates",
+            "Mode.": "UV",
+            "MAPE.mean": "0.1233",
+            "MAPE.std": "0.2213",
+            "RMSE.mean": "0.1865",
+            "RMSE.std": "0.1783"
+          },
+          {
+            "Dataset.": "Stocks",
+            "Mode.": "MV",
+            "MAPE.mean": "0.0706",
+            "MAPE.std": "0.0728",
+            "RMSE.mean": "3.9619",
+            "RMSE.std": "9.0440"
+          },
+          {
+            "Dataset.": "Stocks",
+            "Mode.": "UV",
+            "MAPE.mean": "0.0844",
+            "MAPE.std": "0.0834",
+            "RMSE.mean": "5.0395",
+            "RMSE.std": "11.5710"
+          }
+        ],
+        "has_duplicate_columns": false
+      }
+    },
+    {
+      "element_id": "elem_bbfc5d0b7724",
+      "document_id": "doc_538d7233661b",
+      "order": 43,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 4,
+      "bbox": {
+        "l": 64.441,
+        "t": 594.7312314,
+        "r": 303.89613506816,
+        "b": 531.3325184
+      },
+      "section_path": [
+        "3.1 Forecasts within asset classes"
+      ],
+      "text": "Table 1: Average performance by dataset and mode. Lower mean error across all experiments (for values of input length n = {126, 252, 504, 756}, and forecast period m = {21, 63}) measured by MAPE and RMSE is better. Data for the rolling periods is from 2000 through 2025. Predictions periods begin 3 years after the start of the dataset.",
+      "raw": "Table 1: Average performance by dataset and mode. Lower mean error across all experiments (for values of input length n = {126, 252, 504, 756}, and forecast period m = {21, 63}) measured by MAPE and RMSE is better. Data for the rolling periods is from 2000 through 2025. Predictions periods begin 3 years after the start of the dataset.",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [
+        "elem_d88077534830"
+      ],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_3bb147693318",
+      "document_id": "doc_538d7233661b",
+      "order": 44,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 4,
+      "bbox": {
+        "l": 64.8,
+        "t": 430.0342314,
+        "r": 304.2002219643999,
+        "b": 361.4612556
+      },
+      "section_path": [
+        "3.1 Forecasts within asset classes"
+      ],
+      "text": "Table 2 reports UV vs. MV results by series. MV improves both MAPE and RMSE for every rate and stock. This is a clear win for the MV forecasting model, suggesting that the information from additional related time series adds value when used in the realm of a pre-trained foundation time series model.",
+      "raw": "Table 2 reports UV vs. MV results by series. MV improves both MAPE and RMSE for every rate and stock. This is a clear win for the MV forecasting model, suggesting that the information from additional related time series adds value when used in the realm of a pre-trained foundation time series model.",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [
+        "elem_d88077534830"
+      ],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_42393be9227f",
+      "document_id": "doc_538d7233661b",
+      "order": 45,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 4,
+      "bbox": {
+        "l": 64.541,
+        "t": 354.3182314,
+        "r": 303.19377321338004,
+        "b": 249.87925560000008
+      },
+      "section_path": [
+        "3.1 Forecasts within asset classes"
+      ],
+      "text": "Figure 1 shows the breakdown of errors by the length n of the input time series, and the length m of the forecast series. For both rates and stocks, the forecast error is smaller for the MV approach than for the UV approach. As expected the forecast error is greater for the 63 day forecast than for the 21 day one. But the input series length n does not seem to matter, accuracy levels are not that different across input length, which varies from half a year to three years.",
+      "raw": "Figure 1 shows the breakdown of errors by the length n of the input time series, and the length m of the forecast series. For both rates and stocks, the forecast error is smaller for the MV approach than for the UV approach. As expected the forecast error is greater for the 63 day forecast than for the 21 day one. But the input series length n does not seem to matter, accuracy levels are not that different across input length, which varies from half a year to three years.",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [
+        "elem_d88077534830"
+      ],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_e8fd9c856177",
+      "document_id": "doc_538d7233661b",
+      "order": 46,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 4,
+      "bbox": {
+        "l": 64.8,
+        "t": 242.73623139999995,
+        "r": 303.8162434351999,
+        "b": 138.29825559999995
+      },
+      "section_path": [
+        "3.1 Forecasts within asset classes"
+      ],
+      "text": "The time series of MAPE UV and MV errors is shown in Figure 2. Across all experimental conditions, It is clear that the errors are greater for the UV series for both rates and stocks, with this being more pronounced for interest rates. In both series the errors seem to be higher when the rates or stocks are at higher levels, even though these are percentage errors. Overall, Figures 1 and 2 show that the MV forecasts are more accurate than the UV ones.",
+      "raw": "The time series of MAPE UV and MV errors is shown in Figure 2. Across all experimental conditions, It is clear that the errors are greater for the UV series for both rates and stocks, with this being more pronounced for interest rates. In both series the errors seem to be higher when the rates or stocks are at higher levels, even though these are percentage errors. Overall, Figures 1 and 2 show that the MV forecasts are more accurate than the UV ones.",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_241399cbaabd",
+      "document_id": "doc_538d7233661b",
+      "order": 47,
+      "type": "section",
+      "raw_type": "SectionHeaderItem",
+      "page": 4,
+      "bbox": {
+        "l": 64.8,
+        "t": 116.61008800000002,
+        "r": 303.1837961088001,
+        "b": 92.09369119999997
+      },
+      "section_path": [
+        "3.2 Forecasts with combined asset classes"
+      ],
+      "text": "3.2 Forecasts with combined asset classes",
+      "raw": "3.2 Forecasts with combined asset classes",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_b106d2464018",
+      "document_id": "doc_538d7233661b",
+      "order": 48,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 4,
+      "bbox": {
+        "l": 64.8,
+        "t": 78.90423139999996,
+        "r": 302.8169946552,
+        "b": 58.15225559999999
+      },
+      "section_path": [
+        "3.2 Forecasts with combined asset classes"
+      ],
+      "text": "In this section we consider forecasts using data from both the Rates and Stocks datasets combined. This so-called small \"world\" model is assessed to see how cross-domain information may be used to improved forecasts. To be more specific, each rate and stock times series is now forecast using the combined information of rates and stock data. This assesses whether there is additional information that may be exploited across the two families of time series.",
+      "raw": "In this section we consider forecasts using data from both the Rates and Stocks datasets combined. This so-called small \"world\" model is assessed to see how cross-domain information may be used to improved forecasts. To be more specific, each rate and stock times series is now forecast using the combined information of rates and stock data. This assesses whether there is additional information that may be exploited across the two families of time series.",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_ef3ea05f6ec1",
+      "document_id": "doc_538d7233661b",
+      "order": 49,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 4,
+      "bbox": {
+        "l": 312.422,
+        "t": 646.3682314,
+        "r": 551.1739831791996,
+        "b": 506.0652556
+      },
+      "section_path": [
+        "3.2 Forecasts with combined asset classes"
+      ],
+      "text": "The combination of both datasets is only undertaken for the period July 2010 through December 2025, as all stock series are not consistently available through this entire period. Results are shown in Table 3. A comparison of the top half of the table with the bottom half shows that the additional data series from another market does not improve forecasts. If anything, this seems to slightly degrade the forecast quality, possibly adding noise instead of additional signal. In the realm of foundation models we can think of this as adding context that distracts the model from the domain in which the forecast is being made.",
+      "raw": "The combination of both datasets is only undertaken for the period July 2010 through December 2025, as all stock series are not consistently available through this entire period. Results are shown in Table 3. A comparison of the top half of the table with the bottom half shows that the additional data series from another market does not improve forecasts. If anything, this seems to slightly degrade the forecast quality, possibly adding noise instead of additional signal. In the realm of foundation models we can think of this as adding context that distracts the model from the domain in which the forecast is being made.",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_974b3d7ef235",
+      "document_id": "doc_538d7233661b",
+      "order": 50,
+      "type": "section",
+      "raw_type": "SectionHeaderItem",
+      "page": 4,
+      "bbox": {
+        "l": 312.781,
+        "t": 484.376088,
+        "r": 389.9016041599999,
+        "b": 473.8076912
+      },
+      "section_path": [
+        "3.3 Leakage"
+      ],
+      "text": "3.3 Leakage",
+      "raw": "3.3 Leakage",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_5d3236ecdbda",
+      "document_id": "doc_538d7233661b",
+      "order": 51,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 4,
+      "bbox": {
+        "l": 311.616,
+        "t": 460.6192314,
+        "r": 552.4675869387992,
+        "b": 117.07725559999994
+      },
+      "section_path": [
+        "3.3 Leakage"
+      ],
+      "text": "The approach taken in this analysis is susceptible to leakage critcisms, i.e., that the forecasts are already in the pre-training data for the model. One reason for using the Chronos class of models is that they were not trained on stock market and interest rate datasets. The development of Chronos-2 (Ansari et al., 2025) emphasizes that for generalist pretrained models, the quality and diversity of training data are often more influential than the specific model architecture. While existing large-scale datasets provide a foundation, they are frequently limited to univariate series. To address this and foster robust in-context learning, Chronos-2 integrates established corpora like GIFT-Eval with a heavy reliance on synthetic data. This is achieved through two distinct methods: the TSI approach (Bahrpeyma et al., 2021), which blends randomized trend, seasonality, and noise components, and the TCM approach (Runge et al., 2023), which uses temporal causal models and autoregression to generate complex, graph-based data patterns. The original Chronos univariate forecasting model (Ansari et al., 2024) uses a large number of datasets, including some macroeconomic data from FRED (Godahewa et al., 2021) and some financial data in the datasets used in the Makridakis competition (Makridakis et al., 2020). However, the datasets do not explicitly include any of the series we use for forecasting in this paper. And most certainly, the training data was not post-2023, so the results from that period do not suffer from leakage.",
+      "raw": "The approach taken in this analysis is susceptible to leakage critcisms, i.e., that the forecasts are already in the pre-training data for the model. One reason for using the Chronos class of models is that they were not trained on stock market and interest rate datasets. The development of Chronos-2 (Ansari et al., 2025) emphasizes that for generalist pretrained models, the quality and diversity of training data are often more influential than the specific model architecture. While existing large-scale datasets provide a foundation, they are frequently limited to univariate series. To address this and foster robust in-context learning, Chronos-2 integrates established corpora like GIFT-Eval with a heavy reliance on synthetic data. This is achieved through two distinct methods: the TSI approach (Bahrpeyma et al., 2021), which blends randomized trend, seasonality, and noise components, and the TCM approach (Runge et al., 2023), which uses temporal causal models and autoregression to generate complex, graph-based data patterns. The original Chronos univariate forecasting model (Ansari et al., 2024) uses a large number of datasets, including some macroeconomic data from FRED (Godahewa et al., 2021) and some financial data in the datasets used in the Makridakis competition (Makridakis et al., 2020). However, the datasets do not explicitly include any of the series we use for forecasting in this paper. And most certainly, the training data was not post-2023, so the results from that period do not suffer from leakage.",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_93d0caebacbd",
+      "document_id": "doc_538d7233661b",
+      "order": 52,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 4,
+      "bbox": {
+        "l": 312.422,
+        "t": 109.93423140000004,
+        "r": 552.1798755206199,
+        "b": 53.31625559999998
+      },
+      "section_path": [
+        "3.3 Leakage"
+      ],
+      "text": "Nevertheless, if there were large amounts of leakage, because of training on time series that are in this paper or correlated to the ones used in this paper, then (i) we should see little difference between the MV and UV forecasts, and (ii) the pre-2023 forecasts should in fact be more accurate that the post-2023 ones, where the data is not likely to be correlated to or included in the pre-training dataset. First, we see that there is a great difference in the MV and UV forecasts. This is apparent in Tables 1, 2, and 3. With leakage there should be no material difference. Second, we look at the forecast accuracy pre-2023 and post-2023. Contrary to what we would expect with leakage, the post-2023 forecasts are more accurate, even though data from this period could not possibly be in the training data. This is shown for both rates and stocks in Figure 3. This effect is more pronounced for rates than for stocks, where there is no clear difference. These results are unsupported if the model was contaminated by leakage from pre-training data. We conclude that the results are not impacted by leakage and that foundation models of this type do better when using multivariate series that come from the same contextual domain as the series that is being forecasted.",
+      "raw": "Nevertheless, if there were large amounts of leakage, because of training on time series that are in this paper or correlated to the ones used in this paper, then (i) we should see little difference between the MV and UV forecasts, and (ii) the pre-2023 forecasts should in fact be more accurate that the post-2023 ones, where the data is not likely to be correlated to or included in the pre-training dataset. First, we see that there is a great difference in the MV and UV forecasts. This is apparent in Tables 1, 2, and 3. With leakage there should be no material difference. Second, we look at the forecast accuracy pre-2023 and post-2023. Contrary to what we would expect with leakage, the post-2023 forecasts are more accurate, even though data from this period could not possibly be in the training data. This is shown for both rates and stocks in Figure 3. This effect is more pronounced for rates than for stocks, where there is no clear difference. These results are unsupported if the model was contaminated by leakage from pre-training data. We conclude that the results are not impacted by leakage and that foundation models of this type do better when using multivariate series that come from the same contextual domain as the series that is being forecasted.",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_e4a987ea1452",
+      "document_id": "doc_538d7233661b",
+      "order": 53,
+      "type": "table",
+      "raw_type": "TableItem",
+      "page": 5,
+      "bbox": {
+        "l": 63.862091064453125,
+        "t": 696.1634368896484,
+        "r": 548.7028198242188,
+        "b": 468.6496276855469
+      },
+      "section_path": [
+        "3.3 Leakage"
+      ],
+      "text": "",
+      "raw": "",
+      "image_path": null,
+      "caption": "Table 2: UV vs. MV comparison by series (lower is better). Improvements are mean UV error minus mean MV error. Results are averaged across values of input length n = {126, 252, 504, 756}, and forecast period m= {21, 63}. Data for the rolling periods is from 2000 through 2025. Predictions periods begin 3 years after the start of the dataset.",
+      "surrounding_text": "This paper evaluates Chronos-2 as a foundation-model approach to economic and financial forecasting, with a specific focus on whether multivariate inputs improve accuracy relative to univariate baselines. Across equities and U.S. Treasury rates, MV forecasts consistently outperform UV forecasts, with especially strong gains in the rates panel and meaningful improvements in equity forecasts, using MAPE and RMSE metrics. The results indicate that cross-series information from the same domain is valuable and that foundation models can capitalize on it when inputs are properly structured.",
+      "related_element_ids": [
+        "elem_75d755c6261a",
+        "elem_0d86044fa272"
+      ],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": "table_0002",
+      "formula_id": null,
+      "table_markdown": "Table 2: UV vs. MV comparison by series (lower is better). Improvements are mean UV error minus mean MV error. Results are averaged across values of input length n = {126, 252, 504, 756}, and forecast period m= {21, 63}. Data for the rolling periods is from 2000 through 2025. Predictions periods begin 3 years after the start of the dataset.\n\n| Dataset   | Series   |   MAPE(MV) |   MAPE(UV) |   RMSE(MV) |   RMSE(UV) |   MAPEImp. |   RMSEImp. |\n|-----------|----------|------------|------------|------------|------------|------------|------------|\n| Rates     | DGS3MO   |     0.2355 |     0.3186 |     0.0618 |     0.1227 |     0.0831 |     0.0609 |\n| Rates     | DGS6MO   |     0.0833 |     0.1770 |     0.0455 |     0.1257 |     0.0937 |     0.0802 |\n| Rates     | DGS1     |     0.0572 |     0.1326 |     0.0454 |     0.1424 |     0.0754 |     0.0970 |\n| Rates     | DGS2     |     0.0334 |     0.1270 |     0.0413 |     0.1845 |     0.0936 |     0.1432 |\n| Rates     | DGS3     |     0.0243 |     0.1181 |     0.0388 |     0.2068 |     0.0938 |     0.1680 |\n| Rates     | DGS5     |     0.0171 |     0.0972 |     0.0359 |     0.2232 |     0.0801 |     0.1873 |\n| Rates     | DGS7     |     0.0134 |     0.0827 |     0.0345 |     0.2278 |     0.0693 |     0.1933 |\n| Rates     | DGS10    |     0.0114 |     0.0703 |     0.0344 |     0.2184 |     0.0589 |     0.1840 |\n| Rates     | DGS20    |     0.0099 |     0.0572 |     0.0364 |     0.2120 |     0.0473 |     0.1756 |\n| Rates     | DGS30    |     0.0113 |     0.0520 |     0.0442 |     0.2012 |     0.0407 |     0.1570 |\n| Stocks    | AAPL     |     0.0599 |     0.0720 |     3.3016 |     4.1563 |     0.0121 |     0.8547 |\n| Stocks    | AMZN     |     0.0567 |     0.0707 |     3.0825 |     4.0517 |     0.0140 |     0.9692 |\n| Stocks    | GOOGL    |     0.0478 |     0.0635 |     3.1803 |     4.0070 |     0.0157 |     0.8267 |\n| Stocks    | MSFT     |     0.0368 |     0.0466 |     4.2003 |     6.1519 |     0.0098 |     1.9516 |\n| Stocks    | NFLX     |     0.1040 |     0.1145 |     1.7871 |     2.0192 |     0.0105 |     0.2321 |\n| Stocks    | NVDA     |     0.0906 |     0.1107 |     1.5994 |     1.8420 |     0.0201 |     0.2426 |\n| Stocks    | TSLA     |     0.1098 |     0.1242 |    13.6796 |    16.7870 |     0.0144 |     3.1074 |",
+      "table_data": {
+        "columns": [
+          "Dataset",
+          "Series",
+          "MAPE(MV)",
+          "MAPE(UV)",
+          "RMSE(MV)",
+          "RMSE(UV)",
+          "MAPEImp.",
+          "RMSEImp."
+        ],
+        "rows": [
+          {
+            "Dataset": "Rates",
+            "Series": "DGS3MO",
+            "MAPE(MV)": "0.2355",
+            "MAPE(UV)": "0.3186",
+            "RMSE(MV)": "0.0618",
+            "RMSE(UV)": "0.1227",
+            "MAPEImp.": "0.0831",
+            "RMSEImp.": "0.0609"
+          },
+          {
+            "Dataset": "Rates",
+            "Series": "DGS6MO",
+            "MAPE(MV)": "0.0833",
+            "MAPE(UV)": "0.1770",
+            "RMSE(MV)": "0.0455",
+            "RMSE(UV)": "0.1257",
+            "MAPEImp.": "0.0937",
+            "RMSEImp.": "0.0802"
+          },
+          {
+            "Dataset": "Rates",
+            "Series": "DGS1",
+            "MAPE(MV)": "0.0572",
+            "MAPE(UV)": "0.1326",
+            "RMSE(MV)": "0.0454",
+            "RMSE(UV)": "0.1424",
+            "MAPEImp.": "0.0754",
+            "RMSEImp.": "0.0970"
+          },
+          {
+            "Dataset": "Rates",
+            "Series": "DGS2",
+            "MAPE(MV)": "0.0334",
+            "MAPE(UV)": "0.1270",
+            "RMSE(MV)": "0.0413",
+            "RMSE(UV)": "0.1845",
+            "MAPEImp.": "0.0936",
+            "RMSEImp.": "0.1432"
+          },
+          {
+            "Dataset": "Rates",
+            "Series": "DGS3",
+            "MAPE(MV)": "0.0243",
+            "MAPE(UV)": "0.1181",
+            "RMSE(MV)": "0.0388",
+            "RMSE(UV)": "0.2068",
+            "MAPEImp.": "0.0938",
+            "RMSEImp.": "0.1680"
+          },
+          {
+            "Dataset": "Rates",
+            "Series": "DGS5",
+            "MAPE(MV)": "0.0171",
+            "MAPE(UV)": "0.0972",
+            "RMSE(MV)": "0.0359",
+            "RMSE(UV)": "0.2232",
+            "MAPEImp.": "0.0801",
+            "RMSEImp.": "0.1873"
+          },
+          {
+            "Dataset": "Rates",
+            "Series": "DGS7",
+            "MAPE(MV)": "0.0134",
+            "MAPE(UV)": "0.0827",
+            "RMSE(MV)": "0.0345",
+            "RMSE(UV)": "0.2278",
+            "MAPEImp.": "0.0693",
+            "RMSEImp.": "0.1933"
+          },
+          {
+            "Dataset": "Rates",
+            "Series": "DGS10",
+            "MAPE(MV)": "0.0114",
+            "MAPE(UV)": "0.0703",
+            "RMSE(MV)": "0.0344",
+            "RMSE(UV)": "0.2184",
+            "MAPEImp.": "0.0589",
+            "RMSEImp.": "0.1840"
+          },
+          {
+            "Dataset": "Rates",
+            "Series": "DGS20",
+            "MAPE(MV)": "0.0099",
+            "MAPE(UV)": "0.0572",
+            "RMSE(MV)": "0.0364",
+            "RMSE(UV)": "0.2120",
+            "MAPEImp.": "0.0473",
+            "RMSEImp.": "0.1756"
+          },
+          {
+            "Dataset": "Rates",
+            "Series": "DGS30",
+            "MAPE(MV)": "0.0113",
+            "MAPE(UV)": "0.0520",
+            "RMSE(MV)": "0.0442",
+            "RMSE(UV)": "0.2012",
+            "MAPEImp.": "0.0407",
+            "RMSEImp.": "0.1570"
+          },
+          {
+            "Dataset": "Stocks",
+            "Series": "AAPL",
+            "MAPE(MV)": "0.0599",
+            "MAPE(UV)": "0.0720",
+            "RMSE(MV)": "3.3016",
+            "RMSE(UV)": "4.1563",
+            "MAPEImp.": "0.0121",
+            "RMSEImp.": "0.8547"
+          },
+          {
+            "Dataset": "Stocks",
+            "Series": "AMZN",
+            "MAPE(MV)": "0.0567",
+            "MAPE(UV)": "0.0707",
+            "RMSE(MV)": "3.0825",
+            "RMSE(UV)": "4.0517",
+            "MAPEImp.": "0.0140",
+            "RMSEImp.": "0.9692"
+          },
+          {
+            "Dataset": "Stocks",
+            "Series": "GOOGL",
+            "MAPE(MV)": "0.0478",
+            "MAPE(UV)": "0.0635",
+            "RMSE(MV)": "3.1803",
+            "RMSE(UV)": "4.0070",
+            "MAPEImp.": "0.0157",
+            "RMSEImp.": "0.8267"
+          },
+          {
+            "Dataset": "Stocks",
+            "Series": "MSFT",
+            "MAPE(MV)": "0.0368",
+            "MAPE(UV)": "0.0466",
+            "RMSE(MV)": "4.2003",
+            "RMSE(UV)": "6.1519",
+            "MAPEImp.": "0.0098",
+            "RMSEImp.": "1.9516"
+          },
+          {
+            "Dataset": "Stocks",
+            "Series": "NFLX",
+            "MAPE(MV)": "0.1040",
+            "MAPE(UV)": "0.1145",
+            "RMSE(MV)": "1.7871",
+            "RMSE(UV)": "2.0192",
+            "MAPEImp.": "0.0105",
+            "RMSEImp.": "0.2321"
+          },
+          {
+            "Dataset": "Stocks",
+            "Series": "NVDA",
+            "MAPE(MV)": "0.0906",
+            "MAPE(UV)": "0.1107",
+            "RMSE(MV)": "1.5994",
+            "RMSE(UV)": "1.8420",
+            "MAPEImp.": "0.0201",
+            "RMSEImp.": "0.2426"
+          },
+          {
+            "Dataset": "Stocks",
+            "Series": "TSLA",
+            "MAPE(MV)": "0.1098",
+            "MAPE(UV)": "0.1242",
+            "RMSE(MV)": "13.6796",
+            "RMSE(UV)": "16.7870",
+            "MAPEImp.": "0.0144",
+            "RMSEImp.": "3.1074"
+          }
+        ],
+        "has_duplicate_columns": false
+      }
+    },
+    {
+      "element_id": "elem_75d755c6261a",
+      "document_id": "doc_538d7233661b",
+      "order": 54,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 5,
+      "bbox": {
+        "l": 64.441,
+        "t": 727.1782314,
+        "r": 552.5914120589197,
+        "b": 696.6565184
+      },
+      "section_path": [
+        "3.3 Leakage"
+      ],
+      "text": "Table 2: UV vs. MV comparison by series (lower is better). Improvements are mean UV error minus mean MV error. Results are averaged across values of input length n = {126, 252, 504, 756}, and forecast period m= {21, 63}. Data for the rolling periods is from 2000 through 2025. Predictions periods begin 3 years after the start of the dataset.",
+      "raw": "Table 2: UV vs. MV comparison by series (lower is better). Improvements are mean UV error minus mean MV error. Results are averaged across values of input length n = {126, 252, 504, 756}, and forecast period m= {21, 63}. Data for the rolling periods is from 2000 through 2025. Predictions periods begin 3 years after the start of the dataset.",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [
+        "elem_e4a987ea1452"
+      ],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_c3100ec8747e",
+      "document_id": "doc_538d7233661b",
+      "order": 55,
+      "type": "section",
+      "raw_type": "SectionHeaderItem",
+      "page": 5,
+      "bbox": {
+        "l": 64.8,
+        "t": 197.21187800000007,
+        "r": 243.6928101400001,
+        "b": 184.52983719999997
+      },
+      "section_path": [
+        "4 Concluding Discussion"
+      ],
+      "text": "4 Concluding Discussion",
+      "raw": "4 Concluding Discussion",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_0d86044fa272",
+      "document_id": "doc_538d7233661b",
+      "order": 56,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 5,
+      "bbox": {
+        "l": 64.441,
+        "t": 168.3732314,
+        "r": 304.4791448765999,
+        "b": 51.980255599999964
+      },
+      "section_path": [
+        "4 Concluding Discussion"
+      ],
+      "text": "This paper evaluates Chronos-2 as a foundation-model approach to economic and financial forecasting, with a specific focus on whether multivariate inputs improve accuracy relative to univariate baselines. Across equities and U.S. Treasury rates, MV forecasts consistently outperform UV forecasts, with especially strong gains in the rates panel and meaningful improvements in equity forecasts, using MAPE and RMSE metrics. The results indicate that cross-series information from the same domain is valuable and that foundation models can capitalize on it when inputs are properly structured.",
+      "raw": "This paper evaluates Chronos-2 as a foundation-model approach to economic and financial forecasting, with a specific focus on whether multivariate inputs improve accuracy relative to univariate baselines. Across equities and U.S. Treasury rates, MV forecasts consistently outperform UV forecasts, with especially strong gains in the rates panel and meaningful improvements in equity forecasts, using MAPE and RMSE metrics. The results indicate that cross-series information from the same domain is valuable and that foundation models can capitalize on it when inputs are properly structured.",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [
+        "elem_e4a987ea1452"
+      ],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_f9cf76c3697b",
+      "document_id": "doc_538d7233661b",
+      "order": 57,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 5,
+      "bbox": {
+        "l": 312.781,
+        "t": 430.3572314,
+        "r": 552.4682564255203,
+        "b": 278.0982556
+      },
+      "section_path": [
+        "4 Concluding Discussion"
+      ],
+      "text": "The findings also speak to the ongoing debate on the role of modern ML in financial forecasting. Consistent with prior evidence that classical benchmarks remain hard to beat, our results show that gains are not automatic; rather, they arise when models leverage multivariate structure and are evaluated with disciplined rolling protocols. This suggests that the most practical benefit of foundation models may come from their ability to transfer information across related series, rather than from raw model complexity alone. In addition, foundation models can accommodate many input series, which is difficult to do with traditional time-series econometric models.",
+      "raw": "The findings also speak to the ongoing debate on the role of modern ML in financial forecasting. Consistent with prior evidence that classical benchmarks remain hard to beat, our results show that gains are not automatic; rather, they arise when models leverage multivariate structure and are evaluated with disciplined rolling protocols. This suggests that the most practical benefit of foundation models may come from their ability to transfer information across related series, rather than from raw model complexity alone. In addition, foundation models can accommodate many input series, which is difficult to do with traditional time-series econometric models.",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_f0e446f4d0cb",
+      "document_id": "doc_538d7233661b",
+      "order": 58,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 5,
+      "bbox": {
+        "l": 312.422,
+        "t": 270.9552314,
+        "r": 552.7338274612,
+        "b": 166.51625560000002
+      },
+      "section_path": [
+        "4 Concluding Discussion"
+      ],
+      "text": "There are several limitations. First, the study focuses on a single foundation model and a specific set of assets. Second, the evaluation uses fixed window and horizon choices; alternative regimes, higher-frequency data, or different rolling cadences may alter results. Third, while we report standard error metrics, practitioners may, depending on their specific use case, undertake further examination of tail risk, directional accuracy, and economic value to add depth to their analyses.",
+      "raw": "There are several limitations. First, the study focuses on a single foundation model and a specific set of assets. Second, the evaluation uses fixed window and horizon choices; alternative regimes, higher-frequency data, or different rolling cadences may alter results. Third, while we report standard error metrics, practitioners may, depending on their specific use case, undertake further examination of tail risk, directional accuracy, and economic value to add depth to their analyses.",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_f8f2761d9fa8",
+      "document_id": "doc_538d7233661b",
+      "order": 59,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 5,
+      "bbox": {
+        "l": 312.114,
+        "t": 159.3732314,
+        "r": 552.4658150920001,
+        "b": 54.935255600000005
+      },
+      "section_path": [
+        "4 Concluding Discussion"
+      ],
+      "text": "Future work can extend the framework in three directions. One path is to broaden the universe to a larger \"world\" panel that includes macroeconomic, commodity, and international series to test transfer at scale. Another is to integrate uncertainty calibration, for example via conformal prediction, to improve the reliability of forecast intervals. Finally, hybrid designs that combine strong econometric baselines with foundation-model embeddings may offer robust performance while preserving interpretability.",
+      "raw": "Future work can extend the framework in three directions. One path is to broaden the universe to a larger \"world\" panel that includes macroeconomic, commodity, and international series to test transfer at scale. Another is to integrate uncertainty calibration, for example via conformal prediction, to improve the reliability of forecast intervals. Finally, hybrid designs that combine strong econometric baselines with foundation-model embeddings may offer robust performance while preserving interpretability.",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_dac05fa177be",
+      "document_id": "doc_538d7233661b",
+      "order": 60,
+      "type": "table",
+      "raw_type": "TableItem",
+      "page": 6,
+      "bbox": {
+        "l": 63.41830062866211,
+        "t": 578.3026275634766,
+        "r": 548.8851318359375,
+        "b": 136.989990234375
+      },
+      "section_path": [
+        "4 Concluding Discussion"
+      ],
+      "text": "",
+      "raw": "",
+      "image_path": null,
+      "caption": "Table 3: Combined dataset forecasts. UV vs. MV comparison by series (lower is better). Improvements are mean UV error minus mean MV error. Results are averaged across values of input length n = {126, 252, 504, 756}, and forecast period m= {21, 63}. Data is for the period July 2010 through December 2025, the period when there is complete data for all stocks and rates. For comparison, we show the results when forecasts are based on the individual datasets for Rates and Stocks, as well as when forecasts are based on the combination of both datasets. Predictions periods begin 3 years after the start of the dataset. (As expected the UV forecast errors do not change.)",
+      "surrounding_text": null,
+      "related_element_ids": [
+        "elem_acba6a6b7069"
+      ],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": "table_0003",
+      "formula_id": null,
+      "table_markdown": "Table 3: Combined dataset forecasts. UV vs. MV comparison by series (lower is better). Improvements are mean UV error minus mean MV error. Results are averaged across values of input length n = {126, 252, 504, 756}, and forecast period m= {21, 63}. Data is for the period July 2010 through December 2025, the period when there is complete data for all stocks and rates. For comparison, we show the results when forecasts are based on the individual datasets for Rates and Stocks, as well as when forecasts are based on the combination of both datasets. Predictions periods begin 3 years after the start of the dataset. (As expected the UV forecast errors do not change.)\n\n| Dataset   | Series   | MAPE(MV)   | MAPE(UV)   | RMSE(MV)   | RMSE(UV)   | MAPEImp.   | RMSEImp.   |\n|-----------|----------|------------|------------|------------|------------|------------|------------|\n| Rates     | DGS3MO   | 0.2304     | 0.2849     | 0.0597     | 0.1052     | 0.0545     | 0.0455     |\n| Rates     | DGS6MO   | 0.0937     | 0.1714     | 0.0500     | 0.1179     | 0.0777     | 0.0679     |\n| Rates     | DGS1     | 0.0609     | 0.1289     | 0.0475     | 0.1363     | 0.0680     | 0.0888     |\n| Rates     | DGS2     | 0.0366     | 0.1216     | 0.0426     | 0.1727     | 0.0850     | 0.1301     |\n| Rates     | DGS3     | 0.0257     | 0.1111     | 0.0378     | 0.1883     | 0.0854     | 0.1505     |\n| Rates     | DGS5     | 0.0185     | 0.0959     | 0.0341     | 0.2025     | 0.0774     | 0.1684     |\n| Rates     | DGS7     | 0.0144     | 0.0843     | 0.0321     | 0.2086     | 0.0699     | 0.1765     |\n| Rates     | DGS10    | 0.0128     | 0.0759     | 0.0325     | 0.2045     | 0.0631     | 0.1720     |\n| Rates     | DGS20    | 0.0116     | 0.0628     | 0.0353     | 0.1993     | 0.0512     | 0.1640     |\n| Rates     | DGS30    | 0.0122     | 0.0573     | 0.0396     | 0.1923     | 0.0451     | 0.1527     |\n| Stocks    | AAPL     | 0.0500     | 0.0621     | 5.6015     | 7.1124     | 0.0121     | 1.5109     |\n| Stocks    | AMZN     | 0.0462     | 0.0617     | 5.2798     | 7.0294     | 0.0155     | 1.7496     |\n| Stocks    | GOOGL    | 0.0411     | 0.0545     | 4.8211     | 6.0685     | 0.0134     | 1.2474     |\n| Stocks    | MSFT     | 0.0305     | 0.0453     | 6.6967     | 10.1334    | 0.0148     | 3.4367     |\n| Stocks    | NFLX     | 0.0792     | 0.0902     | 3.0946     | 3.4715     | 0.0110     | 0.3769     |\n| Stocks    | NVDA     | 0.0743     | 0.0980     | 2.7598     | 3.3253     | 0.0237     | 0.5655     |\n| Stocks    | TSLA     | 0.1090     | 0.1258     | 16.6789    | 20.7258    | 0.0168     | 4.0469     |\n| Dataset   | Series   | MAPE(MV)   | MAPE(UV)   | RMSE(MV)   | RMSE(UV)   | MAPEImp.   | RMSEImp.   |\n| Combined  | DGS3MO   | 0.2392     | 0.2849     | 0.0655     | 0.1052     | 0.0457     | 0.0397     |\n| Combined  | DGS6MO   | 0.1002     | 0.1714     | 0.0543     | 0.1179     | 0.0712     | 0.0636     |\n| Combined  | DGS1     | 0.0671     | 0.1289     | 0.0518     | 0.1363     | 0.0618     | 0.0845     |\n| Combined  | DGS2     | 0.0392     | 0.1216     | 0.0440     | 0.1727     | 0.0824     | 0.1287     |\n| Combined  | DGS3     | 0.0256     | 0.1111     | 0.0374     | 0.1883     | 0.0855     | 0.1509     |\n| Combined  | DGS5     | 0.0189     | 0.0959     | 0.0346     | 0.2025     | 0.0770     | 0.1679     |\n| Combined  | DGS7     | 0.0145     | 0.0843     | 0.0329     | 0.2086     | 0.0698     | 0.1757     |\n| Combined  | DGS10    | 0.0126     | 0.0759     | 0.0327     | 0.2045     | 0.0633     | 0.1718     |\n| Combined  | DGS20    | 0.0121     | 0.0628     | 0.0367     | 0.1993     | 0.0507     | 0.1626     |\n| Combined  | DGS30    | 0.0129     | 0.0573     | 0.0414     | 0.1923     | 0.0444     | 0.1509     |\n| Combined  | AAPL     | 0.0519     | 0.0621     | 5.6524     | 7.1124     | 0.0102     | 1.4600     |\n| Combined  | AMZN     | 0.0470     | 0.0617     | 5.1538     | 7.0294     | 0.0147     | 1.8756     |\n| Combined  | GOOGL    | 0.0399     | 0.0545     | 4.5781     | 6.0685     | 0.0146     | 1.4904     |\n| Combined  | MSFT     | 0.0318     | 0.0453     | 6.7621     | 10.1334    | 0.0135     | 3.3713     |\n| Combined  | NFLX     | 0.0786     | 0.0902     | 3.0877     | 3.4715     | 0.0116     | 0.3838     |\n| Combined  | NVDA     | 0.0761     | 0.0980     | 2.8012     | 3.3253     | 0.0219     | 0.5241     |\n| Combined  | TSLA     | 0.1114     | 0.1258     | 16.8843    | 20.7258    | 0.0144     | 3.8415     |",
+      "table_data": {
+        "columns": [
+          "Dataset",
+          "Series",
+          "MAPE(MV)",
+          "MAPE(UV)",
+          "RMSE(MV)",
+          "RMSE(UV)",
+          "MAPEImp.",
+          "RMSEImp."
+        ],
+        "rows": [
+          {
+            "Dataset": "Rates",
+            "Series": "DGS3MO",
+            "MAPE(MV)": "0.2304",
+            "MAPE(UV)": "0.2849",
+            "RMSE(MV)": "0.0597",
+            "RMSE(UV)": "0.1052",
+            "MAPEImp.": "0.0545",
+            "RMSEImp.": "0.0455"
+          },
+          {
+            "Dataset": "Rates",
+            "Series": "DGS6MO",
+            "MAPE(MV)": "0.0937",
+            "MAPE(UV)": "0.1714",
+            "RMSE(MV)": "0.0500",
+            "RMSE(UV)": "0.1179",
+            "MAPEImp.": "0.0777",
+            "RMSEImp.": "0.0679"
+          },
+          {
+            "Dataset": "Rates",
+            "Series": "DGS1",
+            "MAPE(MV)": "0.0609",
+            "MAPE(UV)": "0.1289",
+            "RMSE(MV)": "0.0475",
+            "RMSE(UV)": "0.1363",
+            "MAPEImp.": "0.0680",
+            "RMSEImp.": "0.0888"
+          },
+          {
+            "Dataset": "Rates",
+            "Series": "DGS2",
+            "MAPE(MV)": "0.0366",
+            "MAPE(UV)": "0.1216",
+            "RMSE(MV)": "0.0426",
+            "RMSE(UV)": "0.1727",
+            "MAPEImp.": "0.0850",
+            "RMSEImp.": "0.1301"
+          },
+          {
+            "Dataset": "Rates",
+            "Series": "DGS3",
+            "MAPE(MV)": "0.0257",
+            "MAPE(UV)": "0.1111",
+            "RMSE(MV)": "0.0378",
+            "RMSE(UV)": "0.1883",
+            "MAPEImp.": "0.0854",
+            "RMSEImp.": "0.1505"
+          },
+          {
+            "Dataset": "Rates",
+            "Series": "DGS5",
+            "MAPE(MV)": "0.0185",
+            "MAPE(UV)": "0.0959",
+            "RMSE(MV)": "0.0341",
+            "RMSE(UV)": "0.2025",
+            "MAPEImp.": "0.0774",
+            "RMSEImp.": "0.1684"
+          },
+          {
+            "Dataset": "Rates",
+            "Series": "DGS7",
+            "MAPE(MV)": "0.0144",
+            "MAPE(UV)": "0.0843",
+            "RMSE(MV)": "0.0321",
+            "RMSE(UV)": "0.2086",
+            "MAPEImp.": "0.0699",
+            "RMSEImp.": "0.1765"
+          },
+          {
+            "Dataset": "Rates",
+            "Series": "DGS10",
+            "MAPE(MV)": "0.0128",
+            "MAPE(UV)": "0.0759",
+            "RMSE(MV)": "0.0325",
+            "RMSE(UV)": "0.2045",
+            "MAPEImp.": "0.0631",
+            "RMSEImp.": "0.1720"
+          },
+          {
+            "Dataset": "Rates",
+            "Series": "DGS20",
+            "MAPE(MV)": "0.0116",
+            "MAPE(UV)": "0.0628",
+            "RMSE(MV)": "0.0353",
+            "RMSE(UV)": "0.1993",
+            "MAPEImp.": "0.0512",
+            "RMSEImp.": "0.1640"
+          },
+          {
+            "Dataset": "Rates",
+            "Series": "DGS30",
+            "MAPE(MV)": "0.0122",
+            "MAPE(UV)": "0.0573",
+            "RMSE(MV)": "0.0396",
+            "RMSE(UV)": "0.1923",
+            "MAPEImp.": "0.0451",
+            "RMSEImp.": "0.1527"
+          },
+          {
+            "Dataset": "Stocks",
+            "Series": "AAPL",
+            "MAPE(MV)": "0.0500",
+            "MAPE(UV)": "0.0621",
+            "RMSE(MV)": "5.6015",
+            "RMSE(UV)": "7.1124",
+            "MAPEImp.": "0.0121",
+            "RMSEImp.": "1.5109"
+          },
+          {
+            "Dataset": "Stocks",
+            "Series": "AMZN",
+            "MAPE(MV)": "0.0462",
+            "MAPE(UV)": "0.0617",
+            "RMSE(MV)": "5.2798",
+            "RMSE(UV)": "7.0294",
+            "MAPEImp.": "0.0155",
+            "RMSEImp.": "1.7496"
+          },
+          {
+            "Dataset": "Stocks",
+            "Series": "GOOGL",
+            "MAPE(MV)": "0.0411",
+            "MAPE(UV)": "0.0545",
+            "RMSE(MV)": "4.8211",
+            "RMSE(UV)": "6.0685",
+            "MAPEImp.": "0.0134",
+            "RMSEImp.": "1.2474"
+          },
+          {
+            "Dataset": "Stocks",
+            "Series": "MSFT",
+            "MAPE(MV)": "0.0305",
+            "MAPE(UV)": "0.0453",
+            "RMSE(MV)": "6.6967",
+            "RMSE(UV)": "10.1334",
+            "MAPEImp.": "0.0148",
+            "RMSEImp.": "3.4367"
+          },
+          {
+            "Dataset": "Stocks",
+            "Series": "NFLX",
+            "MAPE(MV)": "0.0792",
+            "MAPE(UV)": "0.0902",
+            "RMSE(MV)": "3.0946",
+            "RMSE(UV)": "3.4715",
+            "MAPEImp.": "0.0110",
+            "RMSEImp.": "0.3769"
+          },
+          {
+            "Dataset": "Stocks",
+            "Series": "NVDA",
+            "MAPE(MV)": "0.0743",
+            "MAPE(UV)": "0.0980",
+            "RMSE(MV)": "2.7598",
+            "RMSE(UV)": "3.3253",
+            "MAPEImp.": "0.0237",
+            "RMSEImp.": "0.5655"
+          },
+          {
+            "Dataset": "Stocks",
+            "Series": "TSLA",
+            "MAPE(MV)": "0.1090",
+            "MAPE(UV)": "0.1258",
+            "RMSE(MV)": "16.6789",
+            "RMSE(UV)": "20.7258",
+            "MAPEImp.": "0.0168",
+            "RMSEImp.": "4.0469"
+          },
+          {
+            "Dataset": "Dataset",
+            "Series": "Series",
+            "MAPE(MV)": "MAPE(MV)",
+            "MAPE(UV)": "MAPE(UV)",
+            "RMSE(MV)": "RMSE(MV)",
+            "RMSE(UV)": "RMSE(UV)",
+            "MAPEImp.": "MAPEImp.",
+            "RMSEImp.": "RMSEImp."
+          },
+          {
+            "Dataset": "Combined",
+            "Series": "DGS3MO",
+            "MAPE(MV)": "0.2392",
+            "MAPE(UV)": "0.2849",
+            "RMSE(MV)": "0.0655",
+            "RMSE(UV)": "0.1052",
+            "MAPEImp.": "0.0457",
+            "RMSEImp.": "0.0397"
+          },
+          {
+            "Dataset": "Combined",
+            "Series": "DGS6MO",
+            "MAPE(MV)": "0.1002",
+            "MAPE(UV)": "0.1714",
+            "RMSE(MV)": "0.0543",
+            "RMSE(UV)": "0.1179",
+            "MAPEImp.": "0.0712",
+            "RMSEImp.": "0.0636"
+          },
+          {
+            "Dataset": "Combined",
+            "Series": "DGS1",
+            "MAPE(MV)": "0.0671",
+            "MAPE(UV)": "0.1289",
+            "RMSE(MV)": "0.0518",
+            "RMSE(UV)": "0.1363",
+            "MAPEImp.": "0.0618",
+            "RMSEImp.": "0.0845"
+          },
+          {
+            "Dataset": "Combined",
+            "Series": "DGS2",
+            "MAPE(MV)": "0.0392",
+            "MAPE(UV)": "0.1216",
+            "RMSE(MV)": "0.0440",
+            "RMSE(UV)": "0.1727",
+            "MAPEImp.": "0.0824",
+            "RMSEImp.": "0.1287"
+          },
+          {
+            "Dataset": "Combined",
+            "Series": "DGS3",
+            "MAPE(MV)": "0.0256",
+            "MAPE(UV)": "0.1111",
+            "RMSE(MV)": "0.0374",
+            "RMSE(UV)": "0.1883",
+            "MAPEImp.": "0.0855",
+            "RMSEImp.": "0.1509"
+          },
+          {
+            "Dataset": "Combined",
+            "Series": "DGS5",
+            "MAPE(MV)": "0.0189",
+            "MAPE(UV)": "0.0959",
+            "RMSE(MV)": "0.0346",
+            "RMSE(UV)": "0.2025",
+            "MAPEImp.": "0.0770",
+            "RMSEImp.": "0.1679"
+          },
+          {
+            "Dataset": "Combined",
+            "Series": "DGS7",
+            "MAPE(MV)": "0.0145",
+            "MAPE(UV)": "0.0843",
+            "RMSE(MV)": "0.0329",
+            "RMSE(UV)": "0.2086",
+            "MAPEImp.": "0.0698",
+            "RMSEImp.": "0.1757"
+          },
+          {
+            "Dataset": "Combined",
+            "Series": "DGS10",
+            "MAPE(MV)": "0.0126",
+            "MAPE(UV)": "0.0759",
+            "RMSE(MV)": "0.0327",
+            "RMSE(UV)": "0.2045",
+            "MAPEImp.": "0.0633",
+            "RMSEImp.": "0.1718"
+          },
+          {
+            "Dataset": "Combined",
+            "Series": "DGS20",
+            "MAPE(MV)": "0.0121",
+            "MAPE(UV)": "0.0628",
+            "RMSE(MV)": "0.0367",
+            "RMSE(UV)": "0.1993",
+            "MAPEImp.": "0.0507",
+            "RMSEImp.": "0.1626"
+          },
+          {
+            "Dataset": "Combined",
+            "Series": "DGS30",
+            "MAPE(MV)": "0.0129",
+            "MAPE(UV)": "0.0573",
+            "RMSE(MV)": "0.0414",
+            "RMSE(UV)": "0.1923",
+            "MAPEImp.": "0.0444",
+            "RMSEImp.": "0.1509"
+          },
+          {
+            "Dataset": "Combined",
+            "Series": "AAPL",
+            "MAPE(MV)": "0.0519",
+            "MAPE(UV)": "0.0621",
+            "RMSE(MV)": "5.6524",
+            "RMSE(UV)": "7.1124",
+            "MAPEImp.": "0.0102",
+            "RMSEImp.": "1.4600"
+          },
+          {
+            "Dataset": "Combined",
+            "Series": "AMZN",
+            "MAPE(MV)": "0.0470",
+            "MAPE(UV)": "0.0617",
+            "RMSE(MV)": "5.1538",
+            "RMSE(UV)": "7.0294",
+            "MAPEImp.": "0.0147",
+            "RMSEImp.": "1.8756"
+          },
+          {
+            "Dataset": "Combined",
+            "Series": "GOOGL",
+            "MAPE(MV)": "0.0399",
+            "MAPE(UV)": "0.0545",
+            "RMSE(MV)": "4.5781",
+            "RMSE(UV)": "6.0685",
+            "MAPEImp.": "0.0146",
+            "RMSEImp.": "1.4904"
+          },
+          {
+            "Dataset": "Combined",
+            "Series": "MSFT",
+            "MAPE(MV)": "0.0318",
+            "MAPE(UV)": "0.0453",
+            "RMSE(MV)": "6.7621",
+            "RMSE(UV)": "10.1334",
+            "MAPEImp.": "0.0135",
+            "RMSEImp.": "3.3713"
+          },
+          {
+            "Dataset": "Combined",
+            "Series": "NFLX",
+            "MAPE(MV)": "0.0786",
+            "MAPE(UV)": "0.0902",
+            "RMSE(MV)": "3.0877",
+            "RMSE(UV)": "3.4715",
+            "MAPEImp.": "0.0116",
+            "RMSEImp.": "0.3838"
+          },
+          {
+            "Dataset": "Combined",
+            "Series": "NVDA",
+            "MAPE(MV)": "0.0761",
+            "MAPE(UV)": "0.0980",
+            "RMSE(MV)": "2.8012",
+            "RMSE(UV)": "3.3253",
+            "MAPEImp.": "0.0219",
+            "RMSEImp.": "0.5241"
+          },
+          {
+            "Dataset": "Combined",
+            "Series": "TSLA",
+            "MAPE(MV)": "0.1114",
+            "MAPE(UV)": "0.1258",
+            "RMSE(MV)": "16.8843",
+            "RMSE(UV)": "20.7258",
+            "MAPEImp.": "0.0144",
+            "RMSEImp.": "3.8415"
+          }
+        ],
+        "has_duplicate_columns": false
+      }
+    },
+    {
+      "element_id": "elem_acba6a6b7069",
+      "document_id": "doc_538d7233661b",
+      "order": 61,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 6,
+      "bbox": {
+        "l": 64.441,
+        "t": 642.6082314,
+        "r": 551.1435540584201,
+        "b": 579.2095184
+      },
+      "section_path": [
+        "4 Concluding Discussion"
+      ],
+      "text": "Table 3: Combined dataset forecasts. UV vs. MV comparison by series (lower is better). Improvements are mean UV error minus mean MV error. Results are averaged across values of input length n = {126, 252, 504, 756}, and forecast period m= {21, 63}. Data is for the period July 2010 through December 2025, the period when there is complete data for all stocks and rates. For comparison, we show the results when forecasts are based on the individual datasets for Rates and Stocks, as well as when forecasts are based on the combination of both datasets. Predictions periods begin 3 years after the start of the dataset. (As expected the UV forecast errors do not change.)",
+      "raw": "Table 3: Combined dataset forecasts. UV vs. MV comparison by series (lower is better). Improvements are mean UV error minus mean MV error. Results are averaged across values of input length n = {126, 252, 504, 756}, and forecast period m= {21, 63}. Data is for the period July 2010 through December 2025, the period when there is complete data for all stocks and rates. For comparison, we show the results when forecasts are based on the individual datasets for Rates and Stocks, as well as when forecasts are based on the combination of both datasets. Predictions periods begin 3 years after the start of the dataset. (As expected the UV forecast errors do not change.)",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [
+        "elem_dac05fa177be"
+      ],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_3df3ba821cc5",
+      "document_id": "doc_538d7233661b",
+      "order": 62,
+      "type": "figure",
+      "raw_type": "PictureItem",
+      "page": 7,
+      "bbox": {
+        "l": 67.08257293701172,
+        "t": 739.010799407959,
+        "r": 549.910400390625,
+        "b": 349.3089599609375
+      },
+      "section_path": [
+        "4 Concluding Discussion"
+      ],
+      "text": "",
+      "raw": "",
+      "image_path": "images\\doc_538d7233661b\\figure_0001.png",
+      "caption": "Figure 1: Parameter heatmap comparing MV and UV forecasting accuracy across window lengths and horizons (based on MAPE). The upper plot is for Rates and the lower one is for Stocks. In each plot, the left side is for the 21 working day forecast (1 month forecast) and the right side is for the 63 working day forecast (3 month forecast)",
+      "surrounding_text": null,
+      "related_element_ids": [
+        "elem_46b9ba58e33e"
+      ],
+      "parent_element_id": null,
+      "figure_id": "figure_0001",
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_46b9ba58e33e",
+      "document_id": "doc_538d7233661b",
+      "order": 63,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 7,
+      "bbox": {
+        "l": 64.8,
+        "t": 334.3212314,
+        "r": 551.1442249344002,
+        "b": 303.7995184
+      },
+      "section_path": [
+        "4 Concluding Discussion"
+      ],
+      "text": "Figure 1: Parameter heatmap comparing MV and UV forecasting accuracy across window lengths and horizons (based on MAPE). The upper plot is for Rates and the lower one is for Stocks. In each plot, the left side is for the 21 working day forecast (1 month forecast) and the right side is for the 63 working day forecast (3 month forecast)",
+      "raw": "Figure 1: Parameter heatmap comparing MV and UV forecasting accuracy across window lengths and horizons (based on MAPE). The upper plot is for Rates and the lower one is for Stocks. In each plot, the left side is for the 21 working day forecast (1 month forecast) and the right side is for the 63 working day forecast (3 month forecast)",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [
+        "elem_3df3ba821cc5"
+      ],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_1791d663af11",
+      "document_id": "doc_538d7233661b",
+      "order": 64,
+      "type": "figure",
+      "raw_type": "PictureItem",
+      "page": 8,
+      "bbox": {
+        "l": 67.37590789794922,
+        "t": 705.4300231933594,
+        "r": 546.58349609375,
+        "b": 397.70135498046875
+      },
+      "section_path": [
+        "4 Concluding Discussion"
+      ],
+      "text": "",
+      "raw": "",
+      "image_path": "images\\doc_538d7233661b\\figure_0002.png",
+      "caption": "Figure 2: Time series of MV and UV MAPE errors over the evaluation period. This is for the dataset running from July 2010 through December 2025.",
+      "surrounding_text": "Figure 3: Comparison of forecast accuracy pre-2023 and post-2023. Data used is for the period July 2010 through December 2025.",
+      "related_element_ids": [
+        "elem_97fe2dd3faa7",
+        "elem_32f69194672b"
+      ],
+      "parent_element_id": null,
+      "figure_id": "figure_0002",
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_97fe2dd3faa7",
+      "document_id": "doc_538d7233661b",
+      "order": 65,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 8,
+      "bbox": {
+        "l": 64.569,
+        "t": 380.8492314,
+        "r": 551.1380122244004,
+        "b": 361.28651840000003
+      },
+      "section_path": [
+        "4 Concluding Discussion"
+      ],
+      "text": "Figure 2: Time series of MV and UV MAPE errors over the evaluation period. This is for the dataset running from July 2010 through December 2025.",
+      "raw": "Figure 2: Time series of MV and UV MAPE errors over the evaluation period. This is for the dataset running from July 2010 through December 2025.",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [
+        "elem_1791d663af11",
+        "elem_f53477da4e44"
+      ],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_f53477da4e44",
+      "document_id": "doc_538d7233661b",
+      "order": 66,
+      "type": "figure",
+      "raw_type": "PictureItem",
+      "page": 8,
+      "bbox": {
+        "l": 68.66929626464844,
+        "t": 292.1525573730469,
+        "r": 545.5121459960938,
+        "b": 116.1458740234375
+      },
+      "section_path": [
+        "4 Concluding Discussion"
+      ],
+      "text": "",
+      "raw": "",
+      "image_path": "images\\doc_538d7233661b\\figure_0003.png",
+      "caption": "Figure 2: Time series of MV and UV MAPE errors over the evaluation period. This is for the dataset running from July 2010 through December 2025.",
+      "surrounding_text": "Figure 3: Comparison of forecast accuracy pre-2023 and post-2023. Data used is for the period July 2010 through December 2025.",
+      "related_element_ids": [
+        "elem_97fe2dd3faa7",
+        "elem_32f69194672b"
+      ],
+      "parent_element_id": null,
+      "figure_id": "figure_0003",
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_32f69194672b",
+      "document_id": "doc_538d7233661b",
+      "order": 67,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 8,
+      "bbox": {
+        "l": 64.8,
+        "t": 99.25523139999996,
+        "r": 550.8005637179999,
+        "b": 79.69251840000004
+      },
+      "section_path": [
+        "4 Concluding Discussion"
+      ],
+      "text": "Figure 3: Comparison of forecast accuracy pre-2023 and post-2023. Data used is for the period July 2010 through December 2025.",
+      "raw": "Figure 3: Comparison of forecast accuracy pre-2023 and post-2023. Data used is for the period July 2010 through December 2025.",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [
+        "elem_1791d663af11",
+        "elem_f53477da4e44"
+      ],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_f0a5bcd2b484",
+      "document_id": "doc_538d7233661b",
+      "order": 68,
+      "type": "section",
+      "raw_type": "SectionHeaderItem",
+      "page": 9,
+      "bbox": {
+        "l": 64.8,
+        "t": 737.074878,
+        "r": 138.44191384000004,
+        "b": 724.3928372
+      },
+      "section_path": [
+        "References"
+      ],
+      "text": "References",
+      "raw": "References",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_e907f72598de",
+      "document_id": "doc_538d7233661b",
+      "order": 69,
+      "type": "list_item",
+      "raw_type": "ListItem",
+      "page": 9,
+      "bbox": {
+        "l": 64.8,
+        "t": 712.2212314,
+        "r": 304.75421250119985,
+        "b": 619.7382556
+      },
+      "section_path": [
+        "References"
+      ],
+      "text": "Ansari, A. F., O. Shchur, J. Küken, A. Auer, B. Han, P. Mercado, S. S. Rangapuram, H. Shen, L. Stella, X. Zhang, M. Goswami, S. Kapoor, D. C. Maddix, P. Guerron, T. Hu, J. Yin, N. Erickson, P. M. Desai, H. Wang, H. Rangwala, G. Karypis, Y. Wang, and M. Bohlke-Schneider (2025, October). Chronos-2: From Univariate to Universal Forecasting. arXiv:2510.15821 [cs].",
+      "raw": "Ansari, A. F., O. Shchur, J. Küken, A. Auer, B. Han, P. Mercado, S. S. Rangapuram, H. Shen, L. Stella, X. Zhang, M. Goswami, S. Kapoor, D. C. Maddix, P. Guerron, T. Hu, J. Yin, N. Erickson, P. M. Desai, H. Wang, H. Rangwala, G. Karypis, Y. Wang, and M. Bohlke-Schneider (2025, October). Chronos-2: From Univariate to Universal Forecasting. arXiv:2510.15821 [cs].",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_96b92afeb0cf",
+      "document_id": "doc_538d7233661b",
+      "order": 70,
+      "type": "list_item",
+      "raw_type": "ListItem",
+      "page": 9,
+      "bbox": {
+        "l": 64.8,
+        "t": 609.4312314,
+        "r": 304.7543051011998,
+        "b": 528.9032556
+      },
+      "section_path": [
+        "References"
+      ],
+      "text": "Ansari, A. F., L. Stella, C. Turkmen, X. Zhang, P. Mercado, H. Shen, O. Shchur, S. S. Rangapuram, S. P. Arango, S. Kapoor, J. Zschiegner, D. C. Maddix, H. Wang, M. W. Mahoney, K. Torkkola, A. G. Wilson, M. Bohlke-Schneider, and Y. Wang (2024). Chronos: Learning the Language of Time Series. arXiv: 2403.07815.",
+      "raw": "Ansari, A. F., L. Stella, C. Turkmen, X. Zhang, P. Mercado, H. Shen, O. Shchur, S. S. Rangapuram, S. P. Arango, S. Kapoor, J. Zschiegner, D. C. Maddix, H. Wang, M. W. Mahoney, K. Torkkola, A. G. Wilson, M. Bohlke-Schneider, and Y. Wang (2024). Chronos: Learning the Language of Time Series. arXiv: 2403.07815.",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_c1c5d788bd32",
+      "document_id": "doc_538d7233661b",
+      "order": 71,
+      "type": "list_item",
+      "raw_type": "ListItem",
+      "page": 9,
+      "bbox": {
+        "l": 64.8,
+        "t": 518.5952314,
+        "r": 304.47986242239995,
+        "b": 473.9332556
+      },
+      "section_path": [
+        "References"
+      ],
+      "text": "Bahrpeyma, F., M. Roantree, P. Cappellari, M. Scriney, and A. McCarren (2021, January). A Methodology for Validating Diversity in Synthetic Time Series Generation. MethodsX 8, 101459.",
+      "raw": "Bahrpeyma, F., M. Roantree, P. Cappellari, M. Scriney, and A. McCarren (2021, January). A Methodology for Validating Diversity in Synthetic Time Series Generation. MethodsX 8, 101459.",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_960e5b56f764",
+      "document_id": "doc_538d7233661b",
+      "order": 72,
+      "type": "list_item",
+      "raw_type": "ListItem",
+      "page": 9,
+      "bbox": {
+        "l": 64.8,
+        "t": 463.6252314,
+        "r": 303.17511894,
+        "b": 430.9182556
+      },
+      "section_path": [
+        "References"
+      ],
+      "text": "Bianchi, D., M. Büchner, and A. Tamoni (2020). Bond Risk Premiums with Machine Learning. The Review of Financial Studies 34(2), 1046-1089.",
+      "raw": "Bianchi, D., M. Büchner, and A. Tamoni (2020). Bond Risk Premiums with Machine Learning. The Review of Financial Studies 34(2), 1046-1089.",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_ba6140ae7d8c",
+      "document_id": "doc_538d7233661b",
+      "order": 73,
+      "type": "list_item",
+      "raw_type": "ListItem",
+      "page": 9,
+      "bbox": {
+        "l": 64.8,
+        "t": 420.6112314,
+        "r": 304.7473781575999,
+        "b": 387.9032556
+      },
+      "section_path": [
+        "References"
+      ],
+      "text": "Caldeira, J., G. V. Moura, and A. A. Santos (2013). Predicting the Yield Curve using Forecast Combinations. Publication Title: SSRN Electronic Journal.",
+      "raw": "Caldeira, J., G. V. Moura, and A. A. Santos (2013). Predicting the Yield Curve using Forecast Combinations. Publication Title: SSRN Electronic Journal.",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_5dcc1478a421",
+      "document_id": "doc_538d7233661b",
+      "order": 74,
+      "type": "list_item",
+      "raw_type": "ListItem",
+      "page": 9,
+      "bbox": {
+        "l": 64.8,
+        "t": 377.5962314,
+        "r": 304.7497789055998,
+        "b": 309.0232556
+      },
+      "section_path": [
+        "References"
+      ],
+      "text": "Challu, C., K. G. Olivares, B. N. Oreshkin, F. G. Ramirez, M. M. Canseco, and A. Dubrawski (2023, June). NHITS: Neural Hierarchical Interpolation for Time Series Forecasting. Proceedings of the AAAI Conference on Artificial Intelligence 37(6), 6989-6997.",
+      "raw": "Challu, C., K. G. Olivares, B. N. Oreshkin, F. G. Ramirez, M. M. Canseco, and A. Dubrawski (2023, June). NHITS: Neural Hierarchical Interpolation for Time Series Forecasting. Proceedings of the AAAI Conference on Artificial Intelligence 37(6), 6989-6997.",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_38864767a15a",
+      "document_id": "doc_538d7233661b",
+      "order": 75,
+      "type": "list_item",
+      "raw_type": "ListItem",
+      "page": 9,
+      "bbox": {
+        "l": 64.8,
+        "t": 298.71623139999997,
+        "r": 304.1982692947998,
+        "b": 266.0082556
+      },
+      "section_path": [
+        "References"
+      ],
+      "text": "Godahewa, R., C. Bergmeir, G. I. Webb, R. J. Hyndman, and P. Montero-Manso (2021, May). Monash Time Series Forecasting Archive. arXiv:2105.06643 [cs].",
+      "raw": "Godahewa, R., C. Bergmeir, G. I. Webb, R. J. Hyndman, and P. Montero-Manso (2021, May). Monash Time Series Forecasting Archive. arXiv:2105.06643 [cs].",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_784eb77d9ae6",
+      "document_id": "doc_538d7233661b",
+      "order": 76,
+      "type": "list_item",
+      "raw_type": "ListItem",
+      "page": 9,
+      "bbox": {
+        "l": 64.8,
+        "t": 255.70123139999998,
+        "r": 302.8220755812,
+        "b": 222.99425559999997
+      },
+      "section_path": [
+        "References"
+      ],
+      "text": "Hoogteijling, T., M. P. E. Martens, and M. v. d. Wel (2021, April). Forecasting Bond Risk Premia using Stationary Yield Factors.",
+      "raw": "Hoogteijling, T., M. P. E. Martens, and M. v. d. Wel (2021, April). Forecasting Bond Risk Premia using Stationary Yield Factors.",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_4e566cecd5df",
+      "document_id": "doc_538d7233661b",
+      "order": 77,
+      "type": "list_item",
+      "raw_type": "ListItem",
+      "page": 9,
+      "bbox": {
+        "l": 64.8,
+        "t": 212.6862314,
+        "r": 302.81784206,
+        "b": 191.93425560000003
+      },
+      "section_path": [
+        "References"
+      ],
+      "text": "López de Prado, M. (2018, January). Advances in Financial Machine Learning. Wiley.",
+      "raw": "López de Prado, M. (2018, January). Advances in Financial Machine Learning. Wiley.",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_69b90864e717",
+      "document_id": "doc_538d7233661b",
+      "order": 78,
+      "type": "list_item",
+      "raw_type": "ListItem",
+      "page": 9,
+      "bbox": {
+        "l": 64.8,
+        "t": 181.62723140000003,
+        "r": 302.8189603047999,
+        "b": 160.87525559999995
+      },
+      "section_path": [
+        "References"
+      ],
+      "text": "Makridakis, S., E. Spiliotis, and V. Assimakopoulos (2020). The M4 Competition: 100,000 time-series",
+      "raw": "Makridakis, S., E. Spiliotis, and V. Assimakopoulos (2020). The M4 Competition: 100,000 time-series",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_9709069d9eea",
+      "document_id": "doc_538d7233661b",
+      "order": 79,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 9,
+      "bbox": {
+        "l": 322.741,
+        "t": 734.0402314,
+        "r": 550.79981562,
+        "b": 713.2872556
+      },
+      "section_path": [
+        "References"
+      ],
+      "text": "and 61 Forecasting Methods. International Journal of Forecasting 36(1), 54-74.",
+      "raw": "and 61 Forecasting Methods. International Journal of Forecasting 36(1), 54-74.",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_85fdeed1fee3",
+      "document_id": "doc_538d7233661b",
+      "order": 80,
+      "type": "list_item",
+      "raw_type": "ListItem",
+      "page": 9,
+      "bbox": {
+        "l": 312.781,
+        "t": 702.1592314,
+        "r": 550.7982754400001,
+        "b": 657.4972555999999
+      },
+      "section_path": [
+        "References"
+      ],
+      "text": "Moench, E. (2006). Forecasting the Yield Curve in a Data-Rich Environment: A No-Arbitrage Factor-Augmented VAR Approach. SSRN Electronic Journal.",
+      "raw": "Moench, E. (2006). Forecasting the Yield Curve in a Data-Rich Environment: A No-Arbitrage Factor-Augmented VAR Approach. SSRN Electronic Journal.",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_ca16efb61311",
+      "document_id": "doc_538d7233661b",
+      "order": 81,
+      "type": "list_item",
+      "raw_type": "ListItem",
+      "page": 9,
+      "bbox": {
+        "l": 312.781,
+        "t": 649.2562314,
+        "r": 552.1839463004,
+        "b": 604.5932555999999
+      },
+      "section_path": [
+        "References"
+      ],
+      "text": "Runge, J., A. Gerhardus, G. Varando, V. Eyring, and G. Camps-Valls (2023, July). Causal inference for time series. Nature Reviews Earth and Environment 4, 487-505. ADS Bibcode: 2023NRvEE...4..487R.",
+      "raw": "Runge, J., A. Gerhardus, G. Varando, V. Eyring, and G. Camps-Valls (2023, July). Causal inference for time series. Nature Reviews Earth and Environment 4, 487-505. ADS Bibcode: 2023NRvEE...4..487R.",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_97ad095f5ae7",
+      "document_id": "doc_538d7233661b",
+      "order": 82,
+      "type": "list_item",
+      "raw_type": "ListItem",
+      "page": 9,
+      "bbox": {
+        "l": 312.781,
+        "t": 593.4652314,
+        "r": 552.7349196007603,
+        "b": 548.8032555999999
+      },
+      "section_path": [
+        "References"
+      ],
+      "text": "Sambasivan, R. and S. Das (2017). A Statistical Machine Learning Approach to Yield Curve Forecasting. In 2017 International Conference on Computational Intelligence in Data Science (ICCIDS).",
+      "raw": "Sambasivan, R. and S. Das (2017). A Statistical Machine Learning Approach to Yield Curve Forecasting. In 2017 International Conference on Computational Intelligence in Data Science (ICCIDS).",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_6b7a39567905",
+      "document_id": "doc_538d7233661b",
+      "order": 83,
+      "type": "list_item",
+      "raw_type": "ListItem",
+      "page": 9,
+      "bbox": {
+        "l": 312.781,
+        "t": 537.6742313999999,
+        "r": 552.1848745456001,
+        "b": 493.0122556
+      },
+      "section_path": [
+        "References"
+      ],
+      "text": "Sezer, O. B., M. U. Gudelek, and A. M. Ozbayoglu (2019, November). Financial Time Series Forecasting with Deep Learning : A Systematic Literature Review: 2005-2019. arXiv:1911.13288 [cs].",
+      "raw": "Sezer, O. B., M. U. Gudelek, and A. M. Ozbayoglu (2019, November). Financial Time Series Forecasting with Deep Learning : A Systematic Literature Review: 2005-2019. arXiv:1911.13288 [cs].",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_ece414ecb087",
+      "document_id": "doc_538d7233661b",
+      "order": 84,
+      "type": "list_item",
+      "raw_type": "ListItem",
+      "page": 9,
+      "bbox": {
+        "l": 312.781,
+        "t": 481.8842314,
+        "r": 552.7319463004,
+        "b": 437.2212556
+      },
+      "section_path": [
+        "References"
+      ],
+      "text": "Shumway, R. H. and D. S. Stoffer (2025). Time Series Analysis and Its Applications: With R Examples. Springer Texts in Statistics. Cham: Springer Nature Switzerland.",
+      "raw": "Shumway, R. H. and D. S. Stoffer (2025). Time Series Analysis and Its Applications: With R Examples. Springer Texts in Statistics. Cham: Springer Nature Switzerland.",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_82cef80166fe",
+      "document_id": "doc_538d7233661b",
+      "order": 85,
+      "type": "list_item",
+      "raw_type": "ListItem",
+      "page": 9,
+      "bbox": {
+        "l": 312.781,
+        "t": 426.0932314,
+        "r": 552.4598860875999,
+        "b": 381.4302556
+      },
+      "section_path": [
+        "References"
+      ],
+      "text": "Singh, A., T. Ogunfunmi, and S. Das (2025). Yield Curve Forecasting using Machine Learning and Econometrics: A Comparative Analysis. Journal of Investment Management 23(4), 37-58.",
+      "raw": "Singh, A., T. Ogunfunmi, and S. Das (2025). Yield Curve Forecasting using Machine Learning and Econometrics: A Comparative Analysis. Journal of Investment Management 23(4), 37-58.",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_69c05442f66f",
+      "document_id": "doc_538d7233661b",
+      "order": 86,
+      "type": "list_item",
+      "raw_type": "ListItem",
+      "page": 9,
+      "bbox": {
+        "l": 312.781,
+        "t": 370.3022314,
+        "r": 552.7332598315999,
+        "b": 325.6402556
+      },
+      "section_path": [
+        "References"
+      ],
+      "text": "Sunki, A., C. SatyaKumar, G. Surya Narayana, V. Koppera, and M. Hakeem (2024). Time series forecasting of stock market using ARIMA, LSTM and FB prophet. MATEC Web of Conferences 392, 01163.",
+      "raw": "Sunki, A., C. SatyaKumar, G. Surya Narayana, V. Koppera, and M. Hakeem (2024). Time series forecasting of stock market using ARIMA, LSTM and FB prophet. MATEC Web of Conferences 392, 01163.",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_f0cd1d69dccd",
+      "document_id": "doc_538d7233661b",
+      "order": 87,
+      "type": "list_item",
+      "raw_type": "ListItem",
+      "page": 9,
+      "bbox": {
+        "l": 312.781,
+        "t": 314.5112314,
+        "r": 551.7972735615994,
+        "b": 269.8492556
+      },
+      "section_path": [
+        "References"
+      ],
+      "text": "Zhang, O. and Z. Zhang (2026, April). A Review of Large Language Models for Stock Price Forecasting from a Hedge-Fund Perspective. arXiv:2605.05211 [q-fin].",
+      "raw": "Zhang, O. and Z. Zhang (2026, April). A Review of Large Language Models for Stock Price Forecasting from a Hedge-Fund Perspective. arXiv:2605.05211 [q-fin].",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_491baf10079b",
+      "document_id": "doc_538d7233661b",
+      "order": 88,
+      "type": "section",
+      "raw_type": "SectionHeaderItem",
+      "page": 9,
+      "bbox": {
+        "l": 312.781,
+        "t": 234.79087800000002,
+        "r": 553.4414133207998,
+        "b": 204.17583719999993
+      },
+      "section_path": [
+        "A Appendix: AI-Driven Workflow to Generate the Paper"
+      ],
+      "text": "A Appendix: AI-Driven Workflow to Generate the Paper",
+      "raw": "A Appendix: AI-Driven Workflow to Generate the Paper",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_8b21a7eb976e",
+      "document_id": "doc_538d7233661b",
+      "order": 89,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 9,
+      "bbox": {
+        "l": 312.422,
+        "t": 188.01923139999997,
+        "r": 550.8027889567992,
+        "b": 167.2672556
+      },
+      "section_path": [
+        "A Appendix: AI-Driven Workflow to Generate the Paper"
+      ],
+      "text": "This appendix outlines how the paper was produced with the assistance of Artificial Intelligence.",
+      "raw": "This appendix outlines how the paper was produced with the assistance of Artificial Intelligence.",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_08d1abe89ac5",
+      "document_id": "doc_538d7233661b",
+      "order": 90,
+      "type": "section",
+      "raw_type": "SectionHeaderItem",
+      "page": 10,
+      "bbox": {
+        "l": 64.8,
+        "t": 737.074878,
+        "r": 287.36551218,
+        "b": 724.3928372
+      },
+      "section_path": [
+        "Detailed Workflow Step-by-Step"
+      ],
+      "text": "Detailed Workflow Step-by-Step",
+      "raw": "Detailed Workflow Step-by-Step",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_15ab375645c4",
+      "document_id": "doc_538d7233661b",
+      "order": 91,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 10,
+      "bbox": {
+        "l": 64.441,
+        "t": 708.2362314,
+        "r": 302.8139460996,
+        "b": 687.4842556
+      },
+      "section_path": [
+        "Detailed Workflow Step-by-Step"
+      ],
+      "text": "Each step below was followed by human review, if AI was involved.",
+      "raw": "Each step below was followed by human review, if AI was involved.",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_eedd00c1a622",
+      "document_id": "doc_538d7233661b",
+      "order": 92,
+      "type": "list_item",
+      "raw_type": "ListItem",
+      "page": 10,
+      "bbox": {
+        "l": 71.997,
+        "t": 673.5781939999999,
+        "r": 302.81765143879994,
+        "b": 652.8152556
+      },
+      "section_path": [
+        "Detailed Workflow Step-by-Step"
+      ],
+      "text": "Conceptualization: Students are provided an initial outline.",
+      "raw": "Conceptualization: Students are provided an initial outline.",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_7eb791862f42",
+      "document_id": "doc_538d7233661b",
+      "order": 93,
+      "type": "list_item",
+      "raw_type": "ListItem",
+      "page": 10,
+      "bbox": {
+        "l": 71.997,
+        "t": 642.973194,
+        "r": 302.8147622847999,
+        "b": 622.2112556
+      },
+      "section_path": [
+        "Detailed Workflow Step-by-Step"
+      ],
+      "text": "Initial Coding: Students prepare a Google Colab notebook with assistance from Gemini.",
+      "raw": "Initial Coding: Students prepare a Google Colab notebook with assistance from Gemini.",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_c0ff28d1601b",
+      "document_id": "doc_538d7233661b",
+      "order": 94,
+      "type": "list_item",
+      "raw_type": "ListItem",
+      "page": 10,
+      "bbox": {
+        "l": 71.997,
+        "t": 612.368194,
+        "r": 304.20018136599987,
+        "b": 579.6512555999999
+      },
+      "section_path": [
+        "Detailed Workflow Step-by-Step"
+      ],
+      "text": "Refinement: The professor updates the notebook, modularizing the code and updating logic, also utilizing Gemini for coding assistance.",
+      "raw": "Refinement: The professor updates the notebook, modularizing the code and updating logic, also utilizing Gemini for coding assistance.",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_9e2085bb7542",
+      "document_id": "doc_538d7233661b",
+      "order": 95,
+      "type": "list_item",
+      "raw_type": "ListItem",
+      "page": 10,
+      "bbox": {
+        "l": 71.997,
+        "t": 569.808194,
+        "r": 304.2031103703999,
+        "b": 537.0912556
+      },
+      "section_path": [
+        "Detailed Workflow Step-by-Step"
+      ],
+      "text": "Data Preparation: Results are finalized in Colab, consisting of printed dataframes, plots, and textual outputs.",
+      "raw": "Data Preparation: Results are finalized in Colab, consisting of printed dataframes, plots, and textual outputs.",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_5cb6459959c3",
+      "document_id": "doc_538d7233661b",
+      "order": 96,
+      "type": "list_item",
+      "raw_type": "ListItem",
+      "page": 10,
+      "bbox": {
+        "l": 71.997,
+        "t": 527.249194,
+        "r": 304.75450042999984,
+        "b": 494.5312556
+      },
+      "section_path": [
+        "Detailed Workflow Step-by-Step"
+      ],
+      "text": "Environment Setup: A LATEX shell for the paper is established in OpenAI Prism (https://openai. com/prism/).",
+      "raw": "Environment Setup: A LATEX shell for the paper is established in OpenAI Prism (https://openai. com/prism/).",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_fbf1192f7e66",
+      "document_id": "doc_538d7233661b",
+      "order": 97,
+      "type": "list_item",
+      "raw_type": "ListItem",
+      "page": 10,
+      "bbox": {
+        "l": 71.997,
+        "t": 484.689194,
+        "r": 304.4787595722398,
+        "b": 440.0162556
+      },
+      "section_path": [
+        "Detailed Workflow Step-by-Step"
+      ],
+      "text": "Outlining: The structure is set up with blank sections: Introduction, Methodology, Results, and Concluding Discussion (including relevant subsections).",
+      "raw": "Outlining: The structure is set up with blank sections: Introduction, Methodology, Results, and Concluding Discussion (including relevant subsections).",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_91421191c1d0",
+      "document_id": "doc_538d7233661b",
+      "order": 98,
+      "type": "list_item",
+      "raw_type": "ListItem",
+      "page": 10,
+      "bbox": {
+        "l": 71.997,
+        "t": 430.174194,
+        "r": 304.48067102647985,
+        "b": 385.50125560000004
+      },
+      "section_path": [
+        "Detailed Workflow Step-by-Step"
+      ],
+      "text": "Table Conversion: Printed dataframes from Colab are fed into Gemini with prompts to convert them into LATEX tables. These are then integrated into the Results section.",
+      "raw": "Table Conversion: Printed dataframes from Colab are fed into Gemini with prompts to convert them into LATEX tables. These are then integrated into the Results section.",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_4ffb4383e41d",
+      "document_id": "doc_538d7233661b",
+      "order": 99,
+      "type": "list_item",
+      "raw_type": "ListItem",
+      "page": 10,
+      "bbox": {
+        "l": 71.997,
+        "t": 375.659194,
+        "r": 304.48549846000003,
+        "b": 342.9422556
+      },
+      "section_path": [
+        "Detailed Workflow Step-by-Step"
+      ],
+      "text": "Visuals: Figures are added to the project folder, and the corresponding LATEX code for figure inclusion is written.",
+      "raw": "Visuals: Figures are added to the project folder, and the corresponding LATEX code for figure inclusion is written.",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_ae2440e44047",
+      "document_id": "doc_538d7233661b",
+      "order": 100,
+      "type": "list_item",
+      "raw_type": "ListItem",
+      "page": 10,
+      "bbox": {
+        "l": 71.99699999999999,
+        "t": 333.099194,
+        "r": 303.98697973348,
+        "b": 276.47125559999995
+      },
+      "section_path": [
+        "Detailed Workflow Step-by-Step"
+      ],
+      "text": "Drafting Results: Prism is tasked with drafting text for the Results section to explain the tables and figures. Notably, the underlying model (GPT-5.2) inferred results directly from the tables to generate the write-up.",
+      "raw": "Drafting Results: Prism is tasked with drafting text for the Results section to explain the tables and figures. Notably, the underlying model (GPT-5.2) inferred results directly from the tables to generate the write-up.",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_0ad74e5750d1",
+      "document_id": "doc_538d7233661b",
+      "order": 101,
+      "type": "list_item",
+      "raw_type": "ListItem",
+      "page": 10,
+      "bbox": {
+        "l": 67.017,
+        "t": 266.629194,
+        "r": 304.47972694069995,
+        "b": 210.00125560000004
+      },
+      "section_path": [
+        "Detailed Workflow Step-by-Step"
+      ],
+      "text": "Methodology: The Chronos-1 and Chronos-2 papers, along with experiment descriptions from the Colab notebook, are uploaded to Gemini. Gemini generates the Methodology section, which is then moved to the draft.",
+      "raw": "Methodology: The Chronos-1 and Chronos-2 papers, along with experiment descriptions from the Colab notebook, are uploaded to Gemini. Gemini generates the Methodology section, which is then moved to the draft.",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_f83f6db1225a",
+      "document_id": "doc_538d7233661b",
+      "order": 102,
+      "type": "list_item",
+      "raw_type": "ListItem",
+      "page": 10,
+      "bbox": {
+        "l": 314.998,
+        "t": 734.050194,
+        "r": 552.4635393826802,
+        "b": 701.3322555999999
+      },
+      "section_path": [
+        "Detailed Workflow Step-by-Step"
+      ],
+      "text": "Specific Subsections: A subsection on data leakage is added; the reasoning is provided by the authors while the LLM handles the prose.",
+      "raw": "Specific Subsections: A subsection on data leakage is added; the reasoning is provided by the authors while the LLM handles the prose.",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_9e1f4f39aabe",
+      "document_id": "doc_538d7233661b",
+      "order": 103,
+      "type": "list_item",
+      "raw_type": "ListItem",
+      "page": 10,
+      "bbox": {
+        "l": 314.99800000000005,
+        "t": 690.214194,
+        "r": 551.1644781107995,
+        "b": 645.5412556
+      },
+      "section_path": [
+        "Detailed Workflow Step-by-Step"
+      ],
+      "text": "Literature Review (Part 1): A BibTEX file from Zotero is uploaded. Prism is prompted to generate a literature review based on the citations as they relate to the Methodology and Results.",
+      "raw": "Literature Review (Part 1): A BibTEX file from Zotero is uploaded. Prism is prompted to generate a literature review based on the citations as they relate to the Methodology and Results.",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_d575d6351aad",
+      "document_id": "doc_538d7233661b",
+      "order": 104,
+      "type": "list_item",
+      "raw_type": "ListItem",
+      "page": 10,
+      "bbox": {
+        "l": 314.99800000000005,
+        "t": 634.423194,
+        "r": 552.7338267132003,
+        "b": 589.7512555999999
+      },
+      "section_path": [
+        "Detailed Workflow Step-by-Step"
+      ],
+      "text": "Introduction and Literature Review (Part 2): Previously published related papers are uploaded. Prism generates the Introduction and updates the literature review for context.",
+      "raw": "Introduction and Literature Review (Part 2): Previously published related papers are uploaded. Prism generates the Introduction and updates the literature review for context.",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_26d1f7a1a4f8",
+      "document_id": "doc_538d7233661b",
+      "order": 105,
+      "type": "list_item",
+      "raw_type": "ListItem",
+      "page": 10,
+      "bbox": {
+        "l": 314.99800000000005,
+        "t": 578.6311939999999,
+        "r": 552.1826956811996,
+        "b": 557.8692556
+      },
+      "section_path": [
+        "Detailed Workflow Step-by-Step"
+      ],
+      "text": "Conclusions: Using the full paper as context, Prism generates the Concluding Discussion.",
+      "raw": "Conclusions: Using the full paper as context, Prism generates the Concluding Discussion.",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_8b0f556b5265",
+      "document_id": "doc_538d7233661b",
+      "order": 106,
+      "type": "list_item",
+      "raw_type": "ListItem",
+      "page": 10,
+      "bbox": {
+        "l": 314.99800000000005,
+        "t": 546.7511939999999,
+        "r": 550.8006110747996,
+        "b": 525.9892556
+      },
+      "section_path": [
+        "Detailed Workflow Step-by-Step"
+      ],
+      "text": "Abstract: Prism is prompted to synthesize an abstract for the completed draft.",
+      "raw": "Abstract: Prism is prompted to synthesize an abstract for the completed draft.",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_a9b405d2172b",
+      "document_id": "doc_538d7233661b",
+      "order": 107,
+      "type": "list_item",
+      "raw_type": "ListItem",
+      "page": 10,
+      "bbox": {
+        "l": 314.99800000000005,
+        "t": 514.870194,
+        "r": 551.07274049748,
+        "b": 480.0092556
+      },
+      "section_path": [
+        "Detailed Workflow Step-by-Step"
+      ],
+      "text": "Human Editing: Final human-led editing passes are performed to improve narrative flow, reformat the LATEX layout, and ensure technical accuracy.",
+      "raw": "Human Editing: Final human-led editing passes are performed to improve narrative flow, reformat the LATEX layout, and ensure technical accuracy.",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_20c61db7f349",
+      "document_id": "doc_538d7233661b",
+      "order": 108,
+      "type": "section",
+      "raw_type": "SectionHeaderItem",
+      "page": 10,
+      "bbox": {
+        "l": 312.78100000000006,
+        "t": 460.465088,
+        "r": 511.19786783999996,
+        "b": 449.8966912
+      },
+      "section_path": [
+        "Self Review and Revision Process"
+      ],
+      "text": "Self Review and Revision Process",
+      "raw": "Self Review and Revision Process",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_ffe9dc434f2b",
+      "document_id": "doc_538d7233661b",
+      "order": 109,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 10,
+      "bbox": {
+        "l": 312.781,
+        "t": 436.7072314,
+        "r": 550.8020593959994,
+        "b": 392.0442556
+      },
+      "section_path": [
+        "Self Review and Revision Process"
+      ],
+      "text": "Gemini was also utilized to generate a mock referee report (review.pdf). This report informed a response document (responses.md) created with the following prompt:",
+      "raw": "Gemini was also utilized to generate a mock referee report (review.pdf). This report informed a response document (responses.md) created with the following prompt:",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_3c42006c91a9",
+      "document_id": "doc_538d7233661b",
+      "order": 110,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 10,
+      "bbox": {
+        "l": 330.904,
+        "t": 376.9312314,
+        "r": 531.9412784408001,
+        "b": 308.3582556
+      },
+      "section_path": [
+        "Self Review and Revision Process"
+      ],
+      "text": "\"Please read the file 'review.pdf' which is a referee report on the paper 'chronos2.pdf' - then suggest changes and improvements to the paper in a document titled 'response.md' that outlines the changes in response to cited sections of 'review.pdf' as a response note to the review.\"",
+      "raw": "\"Please read the file 'review.pdf' which is a referee report on the paper 'chronos2.pdf' - then suggest changes and improvements to the paper in a document titled 'response.md' that outlines the changes in response to cited sections of 'review.pdf' as a response note to the review.\"",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_14c7dd7a0472",
+      "document_id": "doc_538d7233661b",
+      "order": 111,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 10,
+      "bbox": {
+        "l": 312.402,
+        "t": 293.24523139999997,
+        "r": 550.7967792179998,
+        "b": 272.4932556
+      },
+      "section_path": [
+        "Self Review and Revision Process"
+      ],
+      "text": "Final edits were made to the manuscript based on these AI-suggested improvements.",
+      "raw": "Final edits were made to the manuscript based on these AI-suggested improvements.",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_f1219e632563",
+      "document_id": "doc_538d7233661b",
+      "order": 112,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 10,
+      "bbox": {
+        "l": 312.781,
+        "t": 265.3502314,
+        "r": 552.2948354547993,
+        "b": 232.6422556
+      },
+      "section_path": [
+        "Self Review and Revision Process"
+      ],
+      "text": "The code and files for the paper have been made public on GitHub: https://github.com/srdas/timeseries-fm/ tree/main.",
+      "raw": "The code and files for the paper have been made public on GitHub: https://github.com/srdas/timeseries-fm/ tree/main.",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    }
+  ]
+}

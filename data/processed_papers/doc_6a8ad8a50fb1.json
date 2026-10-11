@@ -1,0 +1,4677 @@
+{
+  "document_id": "doc_6a8ad8a50fb1",
+  "source_file": "2605.27848v1.pdf",
+  "source_path": "..\\data\\raw_papers\\2605.27848v1.pdf",
+  "source_sha256": "c0d8b1258d1563f07f53672a3492306455643d9915ac6d02c380a766dcff6cac",
+  "parser": "Docling",
+  "docling_version": "2.132.0",
+  "page_count": 9,
+  "title_candidate": "Regime-Based Portfolio Allocation Using Hidden Markov Models and Reinforcement Learning",
+  "element_counts": {
+    "section": 14,
+    "text": 78,
+    "list_item": 31,
+    "figure": 11,
+    "formula": 3,
+    "table": 8
+  },
+  "elements": [
+    {
+      "element_id": "elem_75dfa128c3de",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 1,
+      "type": "section",
+      "raw_type": "SectionHeaderItem",
+      "page": 1,
+      "bbox": {
+        "l": 103.52,
+        "t": 803.085,
+        "r": 491.17393999999973,
+        "b": 766.005
+      },
+      "section_path": [
+        "Regime-Based Portfolio Allocation Using Hidden Markov Models and Reinforcement Learning"
+      ],
+      "text": "Regime-Based Portfolio Allocation Using Hidden Markov Models and Reinforcement Learning",
+      "raw": "Regime-Based Portfolio Allocation Using Hidden Markov Models and Reinforcement Learning",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_9f8bed0c8a23",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 2,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 1,
+      "bbox": {
+        "l": 162.74,
+        "t": 758.5649999999999,
+        "r": 432.07914,
+        "b": 746.535
+      },
+      "section_path": [
+        "Regime-Based Portfolio Allocation Using Hidden Markov Models and Reinforcement Learning"
+      ],
+      "text": "Ajay Kumar Verma 1 , Nunik Srikandi Putri 2 *, Neo Paul Lesupi 3",
+      "raw": "Ajay Kumar Verma 1 , Nunik Srikandi Putri 2 *, Neo Paul Lesupi 3",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_91d65286ceb4",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 3,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 1,
+      "bbox": {
+        "l": 45.66,
+        "t": 745.2,
+        "r": 549.2389199999998,
+        "b": 734.355
+      },
+      "section_path": [
+        "Regime-Based Portfolio Allocation Using Hidden Markov Models and Reinforcement Learning"
+      ],
+      "text": "1 Independent Researcher, 2 Aenimatica Tech Research and Development, Independent Researcher, 3 Independent Researcher",
+      "raw": "1 Independent Researcher, 2 Aenimatica Tech Research and Development, Independent Researcher, 3 Independent Researcher",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_d586af5013d1",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 4,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 1,
+      "bbox": {
+        "l": 198.8,
+        "t": 731.835,
+        "r": 396.05217999999985,
+        "b": 720.855
+      },
+      "section_path": [
+        "Regime-Based Portfolio Allocation Using Hidden Markov Models and Reinforcement Learning"
+      ],
+      "text": "*Corresponding Author: nunik@aenimatica.com",
+      "raw": "*Corresponding Author: nunik@aenimatica.com",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_920c27062504",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 5,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 1,
+      "bbox": {
+        "l": 252.58,
+        "t": 718.6949999999999,
+        "r": 342.3205600000001,
+        "b": 708.675
+      },
+      "section_path": [
+        "Regime-Based Portfolio Allocation Using Hidden Markov Models and Reinforcement Learning"
+      ],
+      "text": "Date: November 2025",
+      "raw": "Date: November 2025",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_1b192e1419ec",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 6,
+      "type": "section",
+      "raw_type": "SectionHeaderItem",
+      "page": 1,
+      "bbox": {
+        "l": 292.36,
+        "t": 700.195,
+        "r": 330.83392,
+        "b": 689.215
+      },
+      "section_path": [
+        "Abstract"
+      ],
+      "text": "Abstract",
+      "raw": "Abstract",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_3e6b995d64bd",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 7,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 1,
+      "bbox": {
+        "l": 35.46,
+        "t": 684.655,
+        "r": 559.31988,
+        "b": 564.775
+      },
+      "section_path": [
+        "Abstract"
+      ],
+      "text": "This study develops a regime-aware portfolio allocation framework that integrates Markov switching models with Reinforcement Learning (RL) to dynamically allocate across equities (SPY), long-term Treasuries (TLT), and gold (GLD). Using daily ETF data from 2004-2025, we first characterize market behavior through a discrete Markov chain and then estimate a three-state Gaussian Hidden Markov Model (HMM) selected by the Bayesian Information Criterion (BIC). The estimated regimes-low-volatility, transitional, and high-volatility-exhibit strong persistence and statedependent return dynamics consistent with recent findings on nonlinear market states (Ardia et al., 2024; Gupta & Pierdzioch, 2023). State-conditional analysis shows that SPY dominates in stable regimes, while TLT and GLD provide protection during stressed periods, motivating regime-conditioned allocation rules.",
+      "raw": "This study develops a regime-aware portfolio allocation framework that integrates Markov switching models with Reinforcement Learning (RL) to dynamically allocate across equities (SPY), long-term Treasuries (TLT), and gold (GLD). Using daily ETF data from 2004-2025, we first characterize market behavior through a discrete Markov chain and then estimate a three-state Gaussian Hidden Markov Model (HMM) selected by the Bayesian Information Criterion (BIC). The estimated regimes-low-volatility, transitional, and high-volatility-exhibit strong persistence and statedependent return dynamics consistent with recent findings on nonlinear market states (Ardia et al., 2024; Gupta & Pierdzioch, 2023). State-conditional analysis shows that SPY dominates in stable regimes, while TLT and GLD provide protection during stressed periods, motivating regime-conditioned allocation rules.",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_fdf0d40af1b3",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 8,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 1,
+      "bbox": {
+        "l": 35.46,
+        "t": 554.215,
+        "r": 559.31988,
+        "b": 418.775
+      },
+      "section_path": [
+        "Abstract"
+      ],
+      "text": "We evaluate rule-based rotation and RL-driven strategies using a 30% out-of-sample test window with a oneday execution lag to avoid look-ahead bias. Both HMM-based allocations outperform a passive SPY benchmark, while the RL policy achieves the highest risk-adjusted performance, delivering the strongest Sharpe ratio and materially lower drawdowns, yet remains fully interpretable through discrete regime-dependent actions. Sensitivity analysis confirms the robustness of the three-state specification relative to two-state alternatives. Overall, the results demonstrate that RL can systematically enhance HMM-based regime detection, providing a transparent, adaptive, and empirically grounded framework for tactical asset allocation. The combined HMM-RL system provides a transparent, rules-based approach to tactical allocation that improves risk-adjusted performance relative to standard benchmark strategies.",
+      "raw": "We evaluate rule-based rotation and RL-driven strategies using a 30% out-of-sample test window with a oneday execution lag to avoid look-ahead bias. Both HMM-based allocations outperform a passive SPY benchmark, while the RL policy achieves the highest risk-adjusted performance, delivering the strongest Sharpe ratio and materially lower drawdowns, yet remains fully interpretable through discrete regime-dependent actions. Sensitivity analysis confirms the robustness of the three-state specification relative to two-state alternatives. Overall, the results demonstrate that RL can systematically enhance HMM-based regime detection, providing a transparent, adaptive, and empirically grounded framework for tactical asset allocation. The combined HMM-RL system provides a transparent, rules-based approach to tactical allocation that improves risk-adjusted performance relative to standard benchmark strategies.",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_e30397b80cef",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 9,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 1,
+      "bbox": {
+        "l": 35.46,
+        "t": 408.65,
+        "r": 553.5800000000003,
+        "b": 399.65
+      },
+      "section_path": [
+        "Abstract"
+      ],
+      "text": "Keywords: Hidden Markov Models (HMM), Regime-Switching, Dynamic Asset Allocation, Reinforcement Learning, Markov Decision Process",
+      "raw": "Keywords: Hidden Markov Models (HMM), Regime-Switching, Dynamic Asset Allocation, Reinforcement Learning, Markov Decision Process",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_6d40e7bae74d",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 10,
+      "type": "section",
+      "raw_type": "SectionHeaderItem",
+      "page": 1,
+      "bbox": {
+        "l": 35.46,
+        "t": 389.495,
+        "r": 89.74512,
+        "b": 378.515
+      },
+      "section_path": [
+        "1. Objective"
+      ],
+      "text": "1. Objective",
+      "raw": "1. Objective",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_2a18162c66b0",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 11,
+      "type": "list_item",
+      "raw_type": "ListItem",
+      "page": 1,
+      "bbox": {
+        "l": 42.54,
+        "t": 367.95500000000004,
+        "r": 248.0316000000001,
+        "b": 356.975
+      },
+      "section_path": [
+        "1. Objective"
+      ],
+      "text": "Detect latent market regimes using HMMs.",
+      "raw": "Detect latent market regimes using HMMs.",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_5b4fcaf98e89",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 12,
+      "type": "list_item",
+      "raw_type": "ListItem",
+      "page": 1,
+      "bbox": {
+        "l": 42.54,
+        "t": 354.515,
+        "r": 253.38984000000013,
+        "b": 343.53499999999997
+      },
+      "section_path": [
+        "1. Objective"
+      ],
+      "text": "Map regimes to interpretable rotation rules.",
+      "raw": "Map regimes to interpretable rotation rules.",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_09ac4d1286f6",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 13,
+      "type": "list_item",
+      "raw_type": "ListItem",
+      "page": 1,
+      "bbox": {
+        "l": 42.54,
+        "t": 341.075,
+        "r": 242.57454000000016,
+        "b": 330.09499999999997
+      },
+      "section_path": [
+        "1. Objective"
+      ],
+      "text": "Extend to RL via Markov decision process.",
+      "raw": "Extend to RL via Markov decision process.",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_a65e9bb328da",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 14,
+      "type": "list_item",
+      "raw_type": "ListItem",
+      "page": 1,
+      "bbox": {
+        "l": 42.54,
+        "t": 327.635,
+        "r": 232.7474400000001,
+        "b": 316.655
+      },
+      "section_path": [
+        "1. Objective"
+      ],
+      "text": "Evaluate against benchmarks (EW, SPY).",
+      "raw": "Evaluate against benchmarks (EW, SPY).",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [
+        "elem_2426c43c1a72"
+      ],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_490abc3f26b0",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 15,
+      "type": "section",
+      "raw_type": "SectionHeaderItem",
+      "page": 1,
+      "bbox": {
+        "l": 35.46,
+        "t": 305.19500000000005,
+        "r": 124.05762000000001,
+        "b": 294.21500000000003
+      },
+      "section_path": [
+        "2. Data Preparation"
+      ],
+      "text": "2. Data Preparation",
+      "raw": "2. Data Preparation",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_d8b1ed0f306c",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 16,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 1,
+      "bbox": {
+        "l": 35.46,
+        "t": 283.6550000000001,
+        "r": 290.4918799999999,
+        "b": 232.41499999999996
+      },
+      "section_path": [
+        "2. Data Preparation"
+      ],
+      "text": "Daily closing prices for SPY, TLT, GLD and VIX are obtained from Yahoo Finance. Log-returns are used due to desirable aggregation properties (Campbell et al.; Cont).",
+      "raw": "Daily closing prices for SPY, TLT, GLD and VIX are obtained from Yahoo Finance. Log-returns are used due to desirable aggregation properties (Campbell et al.; Cont).",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [
+        "elem_2426c43c1a72"
+      ],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_2426c43c1a72",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 17,
+      "type": "figure",
+      "raw_type": "PictureItem",
+      "page": 1,
+      "bbox": {
+        "l": 35.52886778402649,
+        "t": 232.82815721960367,
+        "r": 290.6460389904048,
+        "b": 100.03566053666862
+      },
+      "section_path": [
+        "2. Data Preparation"
+      ],
+      "text": "",
+      "raw": "",
+      "image_path": "images\\doc_6a8ad8a50fb1\\figure_0001.png",
+      "caption": "Figure 1. Daily Log Returns of SPY, TLT, and GLD",
+      "surrounding_text": "Evaluate against benchmarks (EW, SPY).\nDaily closing prices for SPY, TLT, GLD and VIX are obtained from Yahoo Finance. Log-returns are used due to desirable aggregation properties (Campbell et al.; Cont).",
+      "related_element_ids": [
+        "elem_e65fdac9cd97",
+        "elem_a65e9bb328da",
+        "elem_d8b1ed0f306c"
+      ],
+      "parent_element_id": null,
+      "figure_id": "figure_0001",
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_e65fdac9cd97",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 18,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 1,
+      "bbox": {
+        "l": 77.42,
+        "t": 91.71000000000004,
+        "r": 248.59399999999994,
+        "b": 82.71000000000004
+      },
+      "section_path": [
+        "2. Data Preparation"
+      ],
+      "text": "Figure 1. Daily Log Returns of SPY, TLT, and GLD",
+      "raw": "Figure 1. Daily Log Returns of SPY, TLT, and GLD",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [
+        "elem_2426c43c1a72",
+        "elem_a7e5b14f990e"
+      ],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_c5fc247c3de4",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 19,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 1,
+      "bbox": {
+        "l": 35.46,
+        "t": 72.55499999999995,
+        "r": 290.47393999999997,
+        "b": 46.03499999999997
+      },
+      "section_path": [
+        "2. Data Preparation"
+      ],
+      "text": "This figure justifies why regime-switching is essential (vol spikes = regime changes).",
+      "raw": "This figure justifies why regime-switching is essential (vol spikes = regime changes).",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [
+        "elem_a7e5b14f990e",
+        "elem_a0c5cb823461"
+      ],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_a7e5b14f990e",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 20,
+      "type": "figure",
+      "raw_type": "PictureItem",
+      "page": 1,
+      "bbox": {
+        "l": 321.2526498535976,
+        "t": 392.05878503794906,
+        "r": 542.2357986224898,
+        "b": 275.6954828533254
+      },
+      "section_path": [
+        "2. Data Preparation"
+      ],
+      "text": "",
+      "raw": "",
+      "image_path": "images\\doc_6a8ad8a50fb1\\figure_0002.png",
+      "caption": "Figure 1. Daily Log Returns of SPY, TLT, and GLD",
+      "surrounding_text": "This figure justifies why regime-switching is essential (vol spikes = regime changes).\nFigure 2. Rolling 30-Day Volatility of SPY, TLT, and GLD",
+      "related_element_ids": [
+        "elem_e65fdac9cd97",
+        "elem_c5fc247c3de4",
+        "elem_6cb21f976756"
+      ],
+      "parent_element_id": null,
+      "figure_id": "figure_0002",
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_6cb21f976756",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 21,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 1,
+      "bbox": {
+        "l": 335.26,
+        "t": 266.27,
+        "r": 529.5329999999997,
+        "b": 257.27
+      },
+      "section_path": [
+        "2. Data Preparation"
+      ],
+      "text": "Figure 2. Rolling 30-Day Volatility of SPY, TLT, and GLD",
+      "raw": "Figure 2. Rolling 30-Day Volatility of SPY, TLT, and GLD",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [
+        "elem_a7e5b14f990e",
+        "elem_a0c5cb823461"
+      ],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_a0c5cb823461",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 22,
+      "type": "figure",
+      "raw_type": "PictureItem",
+      "page": 1,
+      "bbox": {
+        "l": 351.44378070600885,
+        "t": 248.64141293052262,
+        "r": 512.9861887600279,
+        "b": 125.87494110469868
+      },
+      "section_path": [
+        "2. Data Preparation"
+      ],
+      "text": "",
+      "raw": "",
+      "image_path": "images\\doc_6a8ad8a50fb1\\figure_0003.png",
+      "caption": "Figure 2. Rolling 30-Day Volatility of SPY, TLT, and GLD",
+      "surrounding_text": "This figure justifies why regime-switching is essential (vol spikes = regime changes).\nFigure 3. Static Correlation Matrix of ETF Log Returns",
+      "related_element_ids": [
+        "elem_6cb21f976756",
+        "elem_c5fc247c3de4",
+        "elem_94c14594e79f"
+      ],
+      "parent_element_id": null,
+      "figure_id": "figure_0003",
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_94c14594e79f",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 23,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 1,
+      "bbox": {
+        "l": 335.98,
+        "t": 115.28999999999996,
+        "r": 528.7539999999998,
+        "b": 106.28999999999996
+      },
+      "section_path": [
+        "2. Data Preparation"
+      ],
+      "text": "Figure 3. Static Correlation Matrix of ETF Log Returns",
+      "raw": "Figure 3. Static Correlation Matrix of ETF Log Returns",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [
+        "elem_a0c5cb823461"
+      ],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_58605689b400",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 24,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 1,
+      "bbox": {
+        "l": 304.84,
+        "t": 96.13499999999999,
+        "r": 559.97394,
+        "b": 38.47500000000002
+      },
+      "section_path": [
+        "2. Data Preparation"
+      ],
+      "text": "Across rolling volatility windows, correlation patterns, and stress-period dynamics, the data show strong evidence of time-varying risk, volatility clustering, and structural breaks, hallmarks of regime-dependent markets (Cont, 2005). Safe-haven assets such as GLD and TLT behave differently in stressed regimes compared to stable periods, and cross-asset correlations tighten or loosen depending on volatility conditions (Prakash et al., 2020).",
+      "raw": "Across rolling volatility windows, correlation patterns, and stress-period dynamics, the data show strong evidence of time-varying risk, volatility clustering, and structural breaks, hallmarks of regime-dependent markets (Cont, 2005). Safe-haven assets such as GLD and TLT behave differently in stressed regimes compared to stable periods, and cross-asset correlations tighten or loosen depending on volatility conditions (Prakash et al., 2020).",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_37d3d15ffb14",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 25,
+      "type": "figure",
+      "raw_type": "PictureItem",
+      "page": 2,
+      "bbox": {
+        "l": 53.69800222102428,
+        "t": 715.2216508081576,
+        "r": 271.5658739435593,
+        "b": 601.1721241278207
+      },
+      "section_path": [
+        "2. Data Preparation"
+      ],
+      "text": "",
+      "raw": "",
+      "image_path": "images\\doc_6a8ad8a50fb1\\figure_0004.png",
+      "caption": "Figure 4. SPY Volatility During Major Market Stress Events",
+      "surrounding_text": "These empirical facts motivate the adoption of Markov-switching and HMM frameworks capable of detecting changes in underlying market states, which in turn support the development of regime-aware and riskadaptive allocation strategies. Evidence of sharp volatility spikes during market crises further aligns with documented volatility spillovers and regime shifts in global markets (Enow, 2023).",
+      "related_element_ids": [
+        "elem_4eb4c62e65ba",
+        "elem_fda26e4d0393"
+      ],
+      "parent_element_id": null,
+      "figure_id": "figure_0004",
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_4eb4c62e65ba",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 26,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 2,
+      "bbox": {
+        "l": 37.74,
+        "t": 597.595,
+        "r": 288.15306000000004,
+        "b": 586.615
+      },
+      "section_path": [
+        "2. Data Preparation"
+      ],
+      "text": "Figure 4. SPY Volatility During Major Market Stress Events",
+      "raw": "Figure 4. SPY Volatility During Major Market Stress Events",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [
+        "elem_37d3d15ffb14",
+        "elem_9572e79b7460"
+      ],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_fda26e4d0393",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 27,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 2,
+      "bbox": {
+        "l": 35.46,
+        "t": 576.0550000000001,
+        "r": 290.61987999999997,
+        "b": 456.175
+      },
+      "section_path": [
+        "2. Data Preparation"
+      ],
+      "text": "These empirical facts motivate the adoption of Markov-switching and HMM frameworks capable of detecting changes in underlying market states, which in turn support the development of regime-aware and riskadaptive allocation strategies. Evidence of sharp volatility spikes during market crises further aligns with documented volatility spillovers and regime shifts in global markets (Enow, 2023).",
+      "raw": "These empirical facts motivate the adoption of Markov-switching and HMM frameworks capable of detecting changes in underlying market states, which in turn support the development of regime-aware and riskadaptive allocation strategies. Evidence of sharp volatility spikes during market crises further aligns with documented volatility spillovers and regime shifts in global markets (Enow, 2023).",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [
+        "elem_37d3d15ffb14",
+        "elem_9572e79b7460"
+      ],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_9572e79b7460",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 28,
+      "type": "figure",
+      "raw_type": "PictureItem",
+      "page": 2,
+      "bbox": {
+        "l": 49.9827177797868,
+        "t": 436.6983116602954,
+        "r": 275.9903855066492,
+        "b": 342.3619081590521
+      },
+      "section_path": [
+        "2. Data Preparation"
+      ],
+      "text": "",
+      "raw": "",
+      "image_path": "images\\doc_6a8ad8a50fb1\\figure_0005.png",
+      "caption": "Figure 4. SPY Volatility During Major Market Stress Events",
+      "surrounding_text": "These empirical facts motivate the adoption of Markov-switching and HMM frameworks capable of detecting changes in underlying market states, which in turn support the development of regime-aware and riskadaptive allocation strategies. Evidence of sharp volatility spikes during market crises further aligns with documented volatility spillovers and regime shifts in global markets (Enow, 2023).\nFigure 5. Daily Changes in VIX (ΔVIX)",
+      "related_element_ids": [
+        "elem_4eb4c62e65ba",
+        "elem_fda26e4d0393",
+        "elem_09ddd6622905"
+      ],
+      "parent_element_id": null,
+      "figure_id": "figure_0005",
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_09ddd6622905",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 29,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 2,
+      "bbox": {
+        "l": 96.8,
+        "t": 345.83,
+        "r": 229.229,
+        "b": 336.83
+      },
+      "section_path": [
+        "2. Data Preparation"
+      ],
+      "text": "Figure 5. Daily Changes in VIX (ΔVIX)",
+      "raw": "Figure 5. Daily Changes in VIX (ΔVIX)",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [
+        "elem_9572e79b7460",
+        "elem_2ae12a025ff2"
+      ],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_5011187ca8df",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 30,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 2,
+      "bbox": {
+        "l": 35.46,
+        "t": 326.67500000000007,
+        "r": 290.5022400000001,
+        "b": 284.615
+      },
+      "section_path": [
+        "2. Data Preparation"
+      ],
+      "text": "Change in daily value (∆VIX) of VIX captures volatility shocks, which are consistent with recent findings of volatility spillover (Li et al.).",
+      "raw": "Change in daily value (∆VIX) of VIX captures volatility shocks, which are consistent with recent findings of volatility spillover (Li et al.).",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [
+        "elem_2ae12a025ff2"
+      ],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_2ae12a025ff2",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 31,
+      "type": "figure",
+      "raw_type": "PictureItem",
+      "page": 2,
+      "bbox": {
+        "l": 49.48182126678877,
+        "t": 281.55570481832694,
+        "r": 275.8879634350259,
+        "b": 197.36186173173996
+      },
+      "section_path": [
+        "2. Data Preparation"
+      ],
+      "text": "",
+      "raw": "",
+      "image_path": "images\\doc_6a8ad8a50fb1\\figure_0006.png",
+      "caption": "Figure 5. Daily Changes in VIX (ΔVIX)",
+      "surrounding_text": "Change in daily value (∆VIX) of VIX captures volatility shocks, which are consistent with recent findings of volatility spillover (Li et al.).\nFigure 6. Daily Log Returns of VIX",
+      "related_element_ids": [
+        "elem_09ddd6622905",
+        "elem_5011187ca8df",
+        "elem_a3f211e7b6de"
+      ],
+      "parent_element_id": null,
+      "figure_id": "figure_0006",
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_a3f211e7b6de",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 32,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 2,
+      "bbox": {
+        "l": 102.56,
+        "t": 191.51,
+        "r": 223.43299999999994,
+        "b": 182.51
+      },
+      "section_path": [
+        "2. Data Preparation"
+      ],
+      "text": "Figure 6. Daily Log Returns of VIX",
+      "raw": "Figure 6. Daily Log Returns of VIX",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [
+        "elem_2ae12a025ff2"
+      ],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_93d7a9571fcf",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 33,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 2,
+      "bbox": {
+        "l": 35.46,
+        "t": 172.35500000000002,
+        "r": 290.3826600000001,
+        "b": 99.13499999999999
+      },
+      "section_path": [
+        "2. Data Preparation"
+      ],
+      "text": "Data are aligned in order to reduce survivorship bias adhering to best practices of financial econometrics (Bailey & López de Prado). After acquiring data on raw prices we transformed these raw prices into daily returns metrics needed for time series analysis and modeling:",
+      "raw": "Data are aligned in order to reduce survivorship bias adhering to best practices of financial econometrics (Bailey & López de Prado). After acquiring data on raw prices we transformed these raw prices into daily returns metrics needed for time series analysis and modeling:",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_89c316925188",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 34,
+      "type": "list_item",
+      "raw_type": "ListItem",
+      "page": 2,
+      "bbox": {
+        "l": 31.68,
+        "t": 94.57500000000005,
+        "r": 290.52164,
+        "b": 66.75071414634147
+      },
+      "section_path": [
+        "2. Data Preparation"
+      ],
+      "text": "Log-Returns: For the three ETFs ( TLT, GLD , and SPY ), the empirical daily log-return, rt, was calculated using",
+      "raw": "Log-Returns: For the three ETFs ( TLT, GLD , and SPY ), the empirical daily log-return, rt, was calculated using",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_518127f0be51",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 35,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 2,
+      "bbox": {
+        "l": 319.06,
+        "t": 790.34244,
+        "r": 559.9959600000001,
+        "b": 716.835
+      },
+      "section_path": [
+        "2. Data Preparation"
+      ],
+      "text": "the standard formula: rt = ln(Pt/Pt-1) where Pt is the closing price at time t. Log-returns are utilized due to their desirable properties of additivity and approximate normality. (Campbell, Lo, & MacKinlay; Tsay; Cont).",
+      "raw": "the standard formula: rt = ln(Pt/Pt-1) where Pt is the closing price at time t. Log-returns are utilized due to their desirable properties of additivity and approximate normality. (Campbell, Lo, & MacKinlay; Tsay; Cont).",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_f50b6be4bb39",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 36,
+      "type": "list_item",
+      "raw_type": "ListItem",
+      "page": 2,
+      "bbox": {
+        "l": 301.06,
+        "t": 712.195,
+        "r": 559.9766999999999,
+        "b": 653.7435605648267
+      },
+      "section_path": [
+        "2. Data Preparation"
+      ],
+      "text": "Volatility Proxy Metric: For the VIX index, which represents an index level rather than a tradable asset price, we primarily calculated the daily change (ΔVIX) to capture volatility shocks: ΔVIXt = VIXt - VIX{t - 1}",
+      "raw": "Volatility Proxy Metric: For the VIX index, which represents an index level rather than a tradable asset price, we primarily calculated the daily change (ΔVIX) to capture volatility shocks: ΔVIXt = VIXt - VIX{t - 1}",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_a1f60a317bba",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 37,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 2,
+      "bbox": {
+        "l": 304.84,
+        "t": 649.6750000000001,
+        "r": 546.5398799999999,
+        "b": 623.095
+      },
+      "section_path": [
+        "2. Data Preparation"
+      ],
+      "text": "To establish robustness, we computed a daily logreturn of VIX. (Whaley; Giot)",
+      "raw": "To establish robustness, we computed a daily logreturn of VIX. (Whaley; Giot)",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_35eb745c8c6c",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 38,
+      "type": "section",
+      "raw_type": "SectionHeaderItem",
+      "page": 2,
+      "bbox": {
+        "l": 304.84,
+        "t": 609.535,
+        "r": 505.7459799999999,
+        "b": 598.555
+      },
+      "section_path": [
+        "3. Discrete Volatility Regimes: Markov Chain"
+      ],
+      "text": "3. Discrete Volatility Regimes: Markov Chain",
+      "raw": "3. Discrete Volatility Regimes: Markov Chain",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_f171554b8b82",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 39,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 2,
+      "bbox": {
+        "l": 304.84,
+        "t": 587.995,
+        "r": 559.9693200000002,
+        "b": 530.335
+      },
+      "section_path": [
+        "3. Discrete Volatility Regimes: Markov Chain"
+      ],
+      "text": "Firstly, we construct an observable first-order Discrete Markov Chain (MC). This method is based on the Markov property, which states that the probability of the next state only depends on the current state:",
+      "raw": "Firstly, we construct an observable first-order Discrete Markov Chain (MC). This method is based on the Markov property, which states that the probability of the next state only depends on the current state:",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_3103a3345912",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 40,
+      "type": "formula",
+      "raw_type": "FormulaItem",
+      "page": 2,
+      "bbox": {
+        "l": 344.2,
+        "t": 526.77556,
+        "r": 520.6383000000001,
+        "b": 514.9635605648267
+      },
+      "section_path": [
+        "3. Discrete Volatility Regimes: Markov Chain"
+      ],
+      "text": "",
+      "raw": "P( St+1 ∣ St ) = P( St+1 ∣ St, St - 1, St - 2,… )",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": "formula_0001",
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_1a7ce75bfbfc",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 41,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 2,
+      "bbox": {
+        "l": 304.84,
+        "t": 512.215,
+        "r": 559.9638000000001,
+        "b": 305.855
+      },
+      "section_path": [
+        "3. Discrete Volatility Regimes: Markov Chain"
+      ],
+      "text": "This gives us the probability of the next state based only on the existing state. Predicting all the previous states is irrelevant to predicting the next state other than the current state. (Hamilton; Zucchini, MacDonald and Langrock). In following the maximum likelihood estimation for an observable chain (MLE), the transition probabilities are calculated in relation to the number of observed transitions, where pij ̂ = nij ∑ nik k and nij is the empiric observation of the number of transitions from state si to state sj , and the denominator is total observations from state si. The resulting matrix P is a stochastic matrix, where all pij ≥ 0 and each row sums to one. (Zucchini, MacDonald, and Langrock)",
+      "raw": "This gives us the probability of the next state based only on the existing state. Predicting all the previous states is irrelevant to predicting the next state other than the current state. (Hamilton; Zucchini, MacDonald and Langrock). In following the maximum likelihood estimation for an observable chain (MLE), the transition probabilities are calculated in relation to the number of observed transitions, where pij ̂ = nij ∑ nik k and nij is the empiric observation of the number of transitions from state si to state sj , and the denominator is total observations from state si. The resulting matrix P is a stochastic matrix, where all pij ≥ 0 and each row sums to one. (Zucchini, MacDonald, and Langrock)",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_9d8d90338868",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 42,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 2,
+      "bbox": {
+        "l": 304.84,
+        "t": 301.29499999999996,
+        "r": 559.9107,
+        "b": 228.09500000000003
+      },
+      "section_path": [
+        "3. Discrete Volatility Regimes: Markov Chain"
+      ],
+      "text": "∆VIX is quantified into 3 volatility regimes through quantile-based bins. MLE is used for estimating transition probabilities. Regimes show high persistence, comparable to current studies on volatility clustering (Brownlees et al.)",
+      "raw": "∆VIX is quantified into 3 volatility regimes through quantile-based bins. MLE is used for estimating transition probabilities. Regimes show high persistence, comparable to current studies on volatility clustering (Brownlees et al.)",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_505dc0f313b7",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 43,
+      "type": "section",
+      "raw_type": "SectionHeaderItem",
+      "page": 2,
+      "bbox": {
+        "l": 304.84,
+        "t": 217.53499999999997,
+        "r": 418.2963399999999,
+        "b": 206.55499999999995
+      },
+      "section_path": [
+        "4. Hidden Markov Model"
+      ],
+      "text": "4. Hidden Markov Model",
+      "raw": "4. Hidden Markov Model",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_799d382f71d7",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 44,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 2,
+      "bbox": {
+        "l": 304.84,
+        "t": 195.93500000000006,
+        "r": 559.9714799999999,
+        "b": 76.09500000000003
+      },
+      "section_path": [
+        "4. Hidden Markov Model"
+      ],
+      "text": "Gaussian HMMs containing 2 and 3 states are estimated using EM. Filtering uses the Hamilton (forward) algorithm; smoothing uses the RTS backward smoother. Recent refinements to those methods are focused on enhancing the inference for financial time series (Ardia et al.). We estimate the HMM parameters utilizing the Expectation-Maximization (EM) algorithm (Rabiner; Zucchini et al.).",
+      "raw": "Gaussian HMMs containing 2 and 3 states are estimated using EM. Filtering uses the Hamilton (forward) algorithm; smoothing uses the RTS backward smoother. Recent refinements to those methods are focused on enhancing the inference for financial time series (Ardia et al.). We estimate the HMM parameters utilizing the Expectation-Maximization (EM) algorithm (Rabiner; Zucchini et al.).",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_c65df5b48dfa",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 45,
+      "type": "figure",
+      "raw_type": "PictureItem",
+      "page": 3,
+      "bbox": {
+        "l": 48.85216938838063,
+        "t": 791.8126778080231,
+        "r": 276.83286801126985,
+        "b": 707.6573061024717
+      },
+      "section_path": [
+        "4. Hidden Markov Model"
+      ],
+      "text": "",
+      "raw": "",
+      "image_path": "images\\doc_6a8ad8a50fb1\\figure_0007.png",
+      "caption": "Figure 7. 3-State HMM Regime Classification (Viterbi Path)",
+      "surrounding_text": "The 3-state HMM segmented the time series into three distinct regimes. In the E-step we compute the filtered state probabilities using the forward recursion for Hamilton filter:",
+      "related_element_ids": [
+        "elem_5654e8d58ae5",
+        "elem_d870d00c2947"
+      ],
+      "parent_element_id": null,
+      "figure_id": "figure_0007",
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_5654e8d58ae5",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 46,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 3,
+      "bbox": {
+        "l": 56.88,
+        "t": 695.29,
+        "r": 269.1169999999999,
+        "b": 686.29
+      },
+      "section_path": [
+        "4. Hidden Markov Model"
+      ],
+      "text": "Figure 7. 3-State HMM Regime Classification (Viterbi Path)",
+      "raw": "Figure 7. 3-State HMM Regime Classification (Viterbi Path)",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [
+        "elem_c65df5b48dfa"
+      ],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_d870d00c2947",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 47,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 3,
+      "bbox": {
+        "l": 35.46,
+        "t": 676.135,
+        "r": 290.49907999999994,
+        "b": 618.475
+      },
+      "section_path": [
+        "4. Hidden Markov Model"
+      ],
+      "text": "The 3-state HMM segmented the time series into three distinct regimes. In the E-step we compute the filtered state probabilities using the forward recursion for Hamilton filter:",
+      "raw": "The 3-state HMM segmented the time series into three distinct regimes. In the E-step we compute the filtered state probabilities using the forward recursion for Hamilton filter:",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [
+        "elem_c65df5b48dfa"
+      ],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_bfde08ba2a9b",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 48,
+      "type": "formula",
+      "raw_type": "FormulaItem",
+      "page": 3,
+      "bbox": {
+        "l": 93.86,
+        "t": 615.45556,
+        "r": 227.85829999999999,
+        "b": 588.9435605648267
+      },
+      "section_path": [
+        "4. Hidden Markov Model"
+      ],
+      "text": "",
+      "raw": "ξt|t(i)= ξt|t - 1(i) f(yt ∣∣ St = i ) ∑ ξt|t - 1 j (j) f(yt ∣∣ St = j )",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": "formula_0002",
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_c499ca2adda9",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 49,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 3,
+      "bbox": {
+        "l": 35.46,
+        "t": 584.9350000000001,
+        "r": 230.57460000000015,
+        "b": 573.955
+      },
+      "section_path": [
+        "4. Hidden Markov Model"
+      ],
+      "text": "(Rabiner; Zucchini, MacDonald & Langrock).",
+      "raw": "(Rabiner; Zucchini, MacDonald & Langrock).",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [
+        "elem_f110653f904d"
+      ],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_b460754363eb",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 50,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 3,
+      "bbox": {
+        "l": 35.46,
+        "t": 563.335,
+        "r": 290.55903999999987,
+        "b": 474.59499999999997
+      },
+      "section_path": [
+        "4. Hidden Markov Model"
+      ],
+      "text": "In the M-step, we update the state-dependent means, variances and transition matrix to maximize the expected log-likelihood. The EM iterations run until convergence, providing maximum-likelihood estimates for all HMM parameters. (Rabiner; Hamilton; Zucchini, MacDonald & Langrock).",
+      "raw": "In the M-step, we update the state-dependent means, variances and transition matrix to maximize the expected log-likelihood. The EM iterations run until convergence, providing maximum-likelihood estimates for all HMM parameters. (Rabiner; Hamilton; Zucchini, MacDonald & Langrock).",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [
+        "elem_f110653f904d"
+      ],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_f110653f904d",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 51,
+      "type": "figure",
+      "raw_type": "PictureItem",
+      "page": 3,
+      "bbox": {
+        "l": 55.532797613463956,
+        "t": 466.72121569273304,
+        "r": 268.5809106936871,
+        "b": 406.0470493662782
+      },
+      "section_path": [
+        "4. Hidden Markov Model"
+      ],
+      "text": "",
+      "raw": "",
+      "image_path": "images\\doc_6a8ad8a50fb1\\figure_0008.png",
+      "caption": "Figure 8. Smoothed State Probabilities for the 3-State HMM",
+      "surrounding_text": "(Rabiner; Zucchini, MacDonald & Langrock).\nIn the M-step, we update the state-dependent means, variances and transition matrix to maximize the expected log-likelihood. The EM iterations run until convergence, providing maximum-likelihood estimates for all HMM parameters. (Rabiner; Hamilton; Zucchini, MacDonald & Langrock).",
+      "related_element_ids": [
+        "elem_771ad6a61138",
+        "elem_c499ca2adda9",
+        "elem_b460754363eb"
+      ],
+      "parent_element_id": null,
+      "figure_id": "figure_0008",
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_771ad6a61138",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 52,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 3,
+      "bbox": {
+        "l": 54.12,
+        "t": 396.05,
+        "r": 271.859,
+        "b": 387.05
+      },
+      "section_path": [
+        "4. Hidden Markov Model"
+      ],
+      "text": "Figure 8. Smoothed State Probabilities for the 3-State HMM",
+      "raw": "Figure 8. Smoothed State Probabilities for the 3-State HMM",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [
+        "elem_f110653f904d"
+      ],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_ab914b554b14",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 53,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 3,
+      "bbox": {
+        "l": 35.46,
+        "t": 376.89500000000004,
+        "r": 290.39364000000006,
+        "b": 350.315
+      },
+      "section_path": [
+        "4. Hidden Markov Model"
+      ],
+      "text": "This complements the Viterbi path by showing uncertainty in regime boundaries.",
+      "raw": "This complements the Viterbi path by showing uncertainty in regime boundaries.",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [
+        "elem_4b19d3a0eeb8"
+      ],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_1abc895fd210",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 54,
+      "type": "section",
+      "raw_type": "SectionHeaderItem",
+      "page": 3,
+      "bbox": {
+        "l": 35.46,
+        "t": 339.755,
+        "r": 125.91324000000003,
+        "b": 328.775
+      },
+      "section_path": [
+        "4.1 Model Selection"
+      ],
+      "text": "4.1 Model Selection",
+      "raw": "4.1 Model Selection",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_217ab32c30fa",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 55,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 3,
+      "bbox": {
+        "l": 35.46,
+        "t": 318.21500000000003,
+        "r": 234.96050000000005,
+        "b": 307.235
+      },
+      "section_path": [
+        "4.1 Model Selection"
+      ],
+      "text": "Using AIC/BIC, the 3-state HMM is preferred.",
+      "raw": "Using AIC/BIC, the 3-state HMM is preferred.",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [
+        "elem_4b19d3a0eeb8"
+      ],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_4b19d3a0eeb8",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 56,
+      "type": "table",
+      "raw_type": "TableItem",
+      "page": 3,
+      "bbox": {
+        "l": 85.26612314365055,
+        "t": 284.9561995713332,
+        "r": 240.383260858523,
+        "b": 246.56891698986783
+      },
+      "section_path": [
+        "4.1 Model Selection"
+      ],
+      "text": "",
+      "raw": "",
+      "image_path": null,
+      "caption": "Table 1. HMM Model Selection: Log-Likelihood, AIC, and BIC",
+      "surrounding_text": "This complements the Viterbi path by showing uncertainty in regime boundaries.\nUsing AIC/BIC, the 3-state HMM is preferred.",
+      "related_element_ids": [
+        "elem_2173a4b03a77",
+        "elem_ab914b554b14",
+        "elem_217ab32c30fa"
+      ],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": "table_0001",
+      "formula_id": null,
+      "table_markdown": "Table 1. HMM Model Selection: Log-Likelihood, AIC, and BIC\n\n|   𝐧𝐬𝐭𝐚𝐭𝐞𝐬 |   logL |   k |   AIC |   BIC |\n|-----------|--------|-----|-------|-------|\n|         2 |  -8975 |   7 | 17964 | 18010 |\n|         3 |  -8632 |  14 | 17293 | 17385 |",
+      "table_data": {
+        "columns": [
+          "𝐧𝐬𝐭𝐚𝐭𝐞𝐬",
+          "logL",
+          "k",
+          "AIC",
+          "BIC"
+        ],
+        "rows": [
+          {
+            "𝐧𝐬𝐭𝐚𝐭𝐞𝐬": "2",
+            "logL": "-8975",
+            "k": "7",
+            "AIC": "17964",
+            "BIC": "18010"
+          },
+          {
+            "𝐧𝐬𝐭𝐚𝐭𝐞𝐬": "3",
+            "logL": "-8632",
+            "k": "14",
+            "AIC": "17293",
+            "BIC": "17385"
+          }
+        ],
+        "has_duplicate_columns": false
+      }
+    },
+    {
+      "element_id": "elem_2173a4b03a77",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 57,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 3,
+      "bbox": {
+        "l": 53.58,
+        "t": 297.11,
+        "r": 272.44100000000003,
+        "b": 288.11
+      },
+      "section_path": [
+        "4.1 Model Selection"
+      ],
+      "text": "Table 1. HMM Model Selection: Log-Likelihood, AIC, and BIC",
+      "raw": "Table 1. HMM Model Selection: Log-Likelihood, AIC, and BIC",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [
+        "elem_4b19d3a0eeb8"
+      ],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_9feecc7672a9",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 58,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 3,
+      "bbox": {
+        "l": 35.46,
+        "t": 231.755,
+        "r": 290.60074,
+        "b": 65.23500000000001
+      },
+      "section_path": [
+        "4.1 Model Selection"
+      ],
+      "text": "Lower values for AIC and BIC indicate a better trade-off between fit and parsimony. (Akaike; Schwarz). Although AIC and BIC provide formal model-selection criteria, regime models must also be evaluated on interpretability, persistence, and stability. The 3-state HMM dominates the 2-state version because it distinguishes between calm, transitional, and crisis regimes, whereas the 2-state specification blends moderate volatility into the calm regime, masking meaningful state dynamics. Models with four or more states reduce BIC only marginally but suffer from unstable smoothed probabilities and economically ambiguous regimes, consistent with the overfitting patterns documented in the HMM literature (FrühwirthSchnatter, 2006; Zucchini, MacDonald & Langrock, 2016). The chosen 3 state structure yields high diagonal transition probabilities and clear separation in conditional means and variances, making it the best balance between statistical fit and economic interpretability.",
+      "raw": "Lower values for AIC and BIC indicate a better trade-off between fit and parsimony. (Akaike; Schwarz). Although AIC and BIC provide formal model-selection criteria, regime models must also be evaluated on interpretability, persistence, and stability. The 3-state HMM dominates the 2-state version because it distinguishes between calm, transitional, and crisis regimes, whereas the 2-state specification blends moderate volatility into the calm regime, masking meaningful state dynamics. Models with four or more states reduce BIC only marginally but suffer from unstable smoothed probabilities and economically ambiguous regimes, consistent with the overfitting patterns documented in the HMM literature (FrühwirthSchnatter, 2006; Zucchini, MacDonald & Langrock, 2016). The chosen 3 state structure yields high diagonal transition probabilities and clear separation in conditional means and variances, making it the best balance between statistical fit and economic interpretability.",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_4146dae5c24f",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 59,
+      "type": "section",
+      "raw_type": "SectionHeaderItem",
+      "page": 3,
+      "bbox": {
+        "l": 304.84,
+        "t": 675.115,
+        "r": 422.0734599999999,
+        "b": 664.135
+      },
+      "section_path": [
+        "4.2 Regime Interpretation"
+      ],
+      "text": "4.2 Regime Interpretation",
+      "raw": "4.2 Regime Interpretation",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_5f4e0e83371d",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 60,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 3,
+      "bbox": {
+        "l": 304.84,
+        "t": 653.575,
+        "r": 560.04804,
+        "b": 502.615
+      },
+      "section_path": [
+        "4.2 Regime Interpretation"
+      ],
+      "text": "The three regimes display economic patterns consistent with well-known features of financial markets. Periods of low volatility correspond to the stable, expansionary regime; episodes of gradually rising volatility align with the transitional regime; and volatility spikes match the stressed state. These shifts mirror the empirical properties of financial time series, particularly volatility clustering, persistence, and abrupt structural breaks documented in the literature (Cont, 2005; Enow & Ndlovu, 2023).",
+      "raw": "The three regimes display economic patterns consistent with well-known features of financial markets. Periods of low volatility correspond to the stable, expansionary regime; episodes of gradually rising volatility align with the transitional regime; and volatility spikes match the stressed state. These shifts mirror the empirical properties of financial time series, particularly volatility clustering, persistence, and abrupt structural breaks documented in the literature (Cont, 2005; Enow & Ndlovu, 2023).",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [
+        "elem_87715013b0d8"
+      ],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_ee4deefd7481",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 61,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 3,
+      "bbox": {
+        "l": 304.84,
+        "t": 497.995,
+        "r": 559.9921800000001,
+        "b": 393.695
+      },
+      "section_path": [
+        "4.2 Regime Interpretation"
+      ],
+      "text": "The three-state HMM produces distinct and interpretable market regimes, each characterized by different levels of volatility and return behavior across SPY, TLT, and GLD. Table 2 summarizes the estimated parameters for each regime, providing the foundation for the rule-based and reinforcement-learning allocation strategies used later in the analysis.",
+      "raw": "The three-state HMM produces distinct and interpretable market regimes, each characterized by different levels of volatility and return behavior across SPY, TLT, and GLD. Table 2 summarizes the estimated parameters for each regime, providing the foundation for the rule-based and reinforcement-learning allocation strategies used later in the analysis.",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [
+        "elem_87715013b0d8",
+        "elem_13468c99e823"
+      ],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_87715013b0d8",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 62,
+      "type": "table",
+      "raw_type": "TableItem",
+      "page": 3,
+      "bbox": {
+        "l": 328.70821459879016,
+        "t": 372.2108785235117,
+        "r": 533.2412508028787,
+        "b": 326.2155237019374
+      },
+      "section_path": [
+        "4.2 Regime Interpretation"
+      ],
+      "text": "",
+      "raw": "",
+      "image_path": null,
+      "caption": "Table 2. State-Dependent Parameters for 3-State HMM (μ, σ)",
+      "surrounding_text": "The three regimes display economic patterns consistent with well-known features of financial markets. Periods of low volatility correspond to the stable, expansionary regime; episodes of gradually rising volatility align with the transitional regime; and volatility spikes match the stressed state. These shifts mirror the empirical properties of financial time series, particularly volatility clustering, persistence, and abrupt structural breaks documented in the literature (Cont, 2005; Enow & Ndlovu, 2023).\nThe three-state HMM produces distinct and interpretable market regimes, each characterized by different levels of volatility and return behavior across SPY, TLT, and GLD. Table 2 summarizes the estimated parameters for each regime, providing the foundation for the rule-based and reinforcement-learning allocation strategies used later in the analysis.",
+      "related_element_ids": [
+        "elem_788ffccc42a9",
+        "elem_5f4e0e83371d",
+        "elem_ee4deefd7481"
+      ],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": "table_0002",
+      "formula_id": null,
+      "table_markdown": "Table 2. State-Dependent Parameters for 3-State HMM (μ, σ)\n\n| State   |   Mean (μᵢ) |   Std. Dev. (σᵢ) |\n|---------|-------------|------------------|\n| State 0 |     -0.0606 |           0.6076 |\n| State 1 |     -0.0146 |           1.7132 |\n| State 2 |      0.6120 |           5.9255 |",
+      "table_data": {
+        "columns": [
+          "State",
+          "Mean (μᵢ)",
+          "Std. Dev. (σᵢ)"
+        ],
+        "rows": [
+          {
+            "State": "State 0",
+            "Mean (μᵢ)": "-0.0606",
+            "Std. Dev. (σᵢ)": "0.6076"
+          },
+          {
+            "State": "State 1",
+            "Mean (μᵢ)": "-0.0146",
+            "Std. Dev. (σᵢ)": "1.7132"
+          },
+          {
+            "State": "State 2",
+            "Mean (μᵢ)": "0.6120",
+            "Std. Dev. (σᵢ)": "5.9255"
+          }
+        ],
+        "has_duplicate_columns": false
+      }
+    },
+    {
+      "element_id": "elem_788ffccc42a9",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 63,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 3,
+      "bbox": {
+        "l": 321.58,
+        "t": 383.57,
+        "r": 543.1949999999999,
+        "b": 374.57
+      },
+      "section_path": [
+        "4.2 Regime Interpretation"
+      ],
+      "text": "Table 2. State-Dependent Parameters for 3-State HMM (μ, σ)",
+      "raw": "Table 2. State-Dependent Parameters for 3-State HMM (μ, σ)",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [
+        "elem_87715013b0d8",
+        "elem_13468c99e823"
+      ],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_13468c99e823",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 64,
+      "type": "table",
+      "raw_type": "TableItem",
+      "page": 3,
+      "bbox": {
+        "l": 369.02288323114385,
+        "t": 294.0876561108224,
+        "r": 495.13076002082573,
+        "b": 264.9462601135689
+      },
+      "section_path": [
+        "4.2 Regime Interpretation"
+      ],
+      "text": "",
+      "raw": "",
+      "image_path": null,
+      "caption": "Table 2. State-Dependent Parameters for 3-State HMM (μ, σ)",
+      "surrounding_text": "The three-state HMM produces distinct and interpretable market regimes, each characterized by different levels of volatility and return behavior across SPY, TLT, and GLD. Table 2 summarizes the estimated parameters for each regime, providing the foundation for the rule-based and reinforcement-learning allocation strategies used later in the analysis.\nTable 2(b). Transition Matrix for 3-State HMM",
+      "related_element_ids": [
+        "elem_788ffccc42a9",
+        "elem_ee4deefd7481",
+        "elem_a8fd57c91eb1"
+      ],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": "table_0003",
+      "formula_id": null,
+      "table_markdown": "Table 2(b). Transition Matrix for 3-State HMM\n\n|                    |   0.0614 | 0.0000         |\n|--------------------|----------|----------------|\n| P = (0.9386 0.0726 |   0.9093 | 0.0181 0.8740) |\n| 0.0001             |   0.1260 |                |",
+      "table_data": {
+        "columns": [
+          "0",
+          "1",
+          "2"
+        ],
+        "rows": [
+          {
+            "0": "",
+            "1": "0.0614",
+            "2": "0.0000"
+          },
+          {
+            "0": "P = (0.9386 0.0726",
+            "1": "0.9093",
+            "2": "0.0181 0.8740)"
+          },
+          {
+            "0": "0.0001",
+            "1": "0.1260",
+            "2": ""
+          }
+        ],
+        "has_duplicate_columns": false
+      }
+    },
+    {
+      "element_id": "elem_a8fd57c91eb1",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 65,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 3,
+      "bbox": {
+        "l": 360.1,
+        "t": 312.40999999999997,
+        "r": 526.8390000000002,
+        "b": 303.40999999999997
+      },
+      "section_path": [
+        "4.2 Regime Interpretation"
+      ],
+      "text": "Table 2(b). Transition Matrix for 3-State HMM",
+      "raw": "Table 2(b). Transition Matrix for 3-State HMM",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [
+        "elem_13468c99e823"
+      ],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_3c193b950709",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 66,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 3,
+      "bbox": {
+        "l": 304.84,
+        "t": 252.755,
+        "r": 559.97988,
+        "b": 132.85500000000002
+      },
+      "section_path": [
+        "4.2 Regime Interpretation"
+      ],
+      "text": "By examining the state-conditional means and standard deviations, we can link each regime to intuitive market environments, such as low-volatility growth periods, transitional or uncertain markets, and highvolatility stress states. These regime characteristics directly motivate the rotation rules used in Section 5, where the highest-expected-return asset in each regime is selected.",
+      "raw": "By examining the state-conditional means and standard deviations, we can link each regime to intuitive market environments, such as low-volatility growth periods, transitional or uncertain markets, and highvolatility stress states. These regime characteristics directly motivate the rotation rules used in Section 5, where the highest-expected-return asset in each regime is selected.",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_4193db785800",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 67,
+      "type": "list_item",
+      "raw_type": "ListItem",
+      "page": 3,
+      "bbox": {
+        "l": 308.14,
+        "t": 128.29499999999996,
+        "r": 556.4775599999999,
+        "b": 117.31499999999994
+      },
+      "section_path": [
+        "4.2 Regime Interpretation"
+      ],
+      "text": "State 0: Low Vol (Bullish) - SPY highest mean return.",
+      "raw": "State 0: Low Vol (Bullish) - SPY highest mean return.",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_af7820420477",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 68,
+      "type": "list_item",
+      "raw_type": "ListItem",
+      "page": 3,
+      "bbox": {
+        "l": 308.14,
+        "t": 114.85500000000002,
+        "r": 559.8811799999997,
+        "b": 90.43500000000006
+      },
+      "section_path": [
+        "4.2 Regime Interpretation"
+      ],
+      "text": "State1: Moderate Vol - Balanced conditions; GLD/TLT modestly positive.",
+      "raw": "State1: Moderate Vol - Balanced conditions; GLD/TLT modestly positive.",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_1f7c4a339d70",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 69,
+      "type": "list_item",
+      "raw_type": "ListItem",
+      "page": 3,
+      "bbox": {
+        "l": 308.26,
+        "t": 88.03499999999997,
+        "r": 559.8962399999997,
+        "b": 63.61500000000001
+      },
+      "section_path": [
+        "4.2 Regime Interpretation"
+      ],
+      "text": "State 2: High Vol (Crisis) - SPY strongly negative; TLT positive (flight-to-safety); GLD mildly positive.",
+      "raw": "State 2: High Vol (Crisis) - SPY strongly negative; TLT positive (flight-to-safety); GLD mildly positive.",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_4ac54ae6905c",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 70,
+      "type": "table",
+      "raw_type": "TableItem",
+      "page": 4,
+      "bbox": {
+        "l": 99.20754271232043,
+        "t": 773.3693085485172,
+        "r": 495.8759720401637,
+        "b": 656.973279371103
+      },
+      "section_path": [
+        "4.2 Regime Interpretation"
+      ],
+      "text": "",
+      "raw": "",
+      "image_path": null,
+      "caption": "Table 3: State-Conditional Mean and Standard Deviation of ETF Returns",
+      "surrounding_text": "These findings align with post-COVID empirical studies documenting regime-dependent asset behavior (Corbet et al.; Zaremba et al.).",
+      "related_element_ids": [
+        "elem_484bfdbff9d1",
+        "elem_a3a25812ebaf"
+      ],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": "table_0004",
+      "formula_id": null,
+      "table_markdown": "Table 3: State-Conditional Mean and Standard Deviation of ETF Returns\n\n| State              | Asset   |   Mean Return |   Standard Deviation |\n|--------------------|---------|---------------|----------------------|\n| 0 (50.83% of time) | TLT     |     -0.000119 |             0.007456 |\n|                    | GLD     |      0.000458 |             0.009375 |\n|                    | SPY     |      0.001295 |             0.005511 |\n| 1 (42.98% of time) | TLT     |      0.000228 |             0.009656 |\n|                    | GLD     |      0.000335 |             0.011445 |\n|                    | SPY     |      0.000014 |             0.012092 |\n| 2 (6.18% of time)  | TLT     |      0.001673 |             0.017325 |\n|                    | GLD     |      0.000476 |             0.020023 |\n|                    | SPY     |     -0.004749 |             0.033809 |",
+      "table_data": {
+        "columns": [
+          "State",
+          "Asset",
+          "Mean Return",
+          "Standard Deviation"
+        ],
+        "rows": [
+          {
+            "State": "0 (50.83% of time)",
+            "Asset": "TLT",
+            "Mean Return": "-0.000119",
+            "Standard Deviation": "0.007456"
+          },
+          {
+            "State": "",
+            "Asset": "GLD",
+            "Mean Return": "0.000458",
+            "Standard Deviation": "0.009375"
+          },
+          {
+            "State": "",
+            "Asset": "SPY",
+            "Mean Return": "0.001295",
+            "Standard Deviation": "0.005511"
+          },
+          {
+            "State": "1 (42.98% of time)",
+            "Asset": "TLT",
+            "Mean Return": "0.000228",
+            "Standard Deviation": "0.009656"
+          },
+          {
+            "State": "",
+            "Asset": "GLD",
+            "Mean Return": "0.000335",
+            "Standard Deviation": "0.011445"
+          },
+          {
+            "State": "",
+            "Asset": "SPY",
+            "Mean Return": "0.000014",
+            "Standard Deviation": "0.012092"
+          },
+          {
+            "State": "2 (6.18% of time)",
+            "Asset": "TLT",
+            "Mean Return": "0.001673",
+            "Standard Deviation": "0.017325"
+          },
+          {
+            "State": "",
+            "Asset": "GLD",
+            "Mean Return": "0.000476",
+            "Standard Deviation": "0.020023"
+          },
+          {
+            "State": "",
+            "Asset": "SPY",
+            "Mean Return": "-0.004749",
+            "Standard Deviation": "0.033809"
+          }
+        ],
+        "has_duplicate_columns": false
+      }
+    },
+    {
+      "element_id": "elem_484bfdbff9d1",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 71,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 4,
+      "bbox": {
+        "l": 165.02,
+        "t": 787.65,
+        "r": 430.15100000000024,
+        "b": 778.65
+      },
+      "section_path": [
+        "4.2 Regime Interpretation"
+      ],
+      "text": "Table 3: State-Conditional Mean and Standard Deviation of ETF Returns",
+      "raw": "Table 3: State-Conditional Mean and Standard Deviation of ETF Returns",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [
+        "elem_4ac54ae6905c",
+        "elem_415e71536569"
+      ],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_a3a25812ebaf",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 72,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 4,
+      "bbox": {
+        "l": 35.46,
+        "t": 643.855,
+        "r": 283.4846799999999,
+        "b": 601.795
+      },
+      "section_path": [
+        "4.2 Regime Interpretation"
+      ],
+      "text": "These findings align with post-COVID empirical studies documenting regime-dependent asset behavior (Corbet et al.; Zaremba et al.).",
+      "raw": "These findings align with post-COVID empirical studies documenting regime-dependent asset behavior (Corbet et al.; Zaremba et al.).",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [
+        "elem_4ac54ae6905c",
+        "elem_415e71536569"
+      ],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_415e71536569",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 73,
+      "type": "figure",
+      "raw_type": "PictureItem",
+      "page": 4,
+      "bbox": {
+        "l": 67.56034189109035,
+        "t": 588.2269583151628,
+        "r": 249.83637606934417,
+        "b": 484.24838935616464
+      },
+      "section_path": [
+        "4.2 Regime Interpretation"
+      ],
+      "text": "",
+      "raw": "",
+      "image_path": "images\\doc_6a8ad8a50fb1\\figure_0009.png",
+      "caption": "Table 3: State-Conditional Mean and Standard Deviation of ETF Returns",
+      "surrounding_text": "These findings align with post-COVID empirical studies documenting regime-dependent asset behavior (Corbet et al.; Zaremba et al.).\nFigure 9. State-Conditional Means and Volatility of TLT, GLD, and SPY Across HMM Regimes",
+      "related_element_ids": [
+        "elem_484bfdbff9d1",
+        "elem_a3a25812ebaf",
+        "elem_e0b735d97b36"
+      ],
+      "parent_element_id": null,
+      "figure_id": "figure_0009",
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_e0b735d97b36",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 74,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 4,
+      "bbox": {
+        "l": 42.66,
+        "t": 474.97,
+        "r": 276.2869999999999,
+        "b": 453.25
+      },
+      "section_path": [
+        "4.2 Regime Interpretation"
+      ],
+      "text": "Figure 9. State-Conditional Means and Volatility of TLT, GLD, and SPY Across HMM Regimes",
+      "raw": "Figure 9. State-Conditional Means and Volatility of TLT, GLD, and SPY Across HMM Regimes",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [
+        "elem_415e71536569"
+      ],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_74974aab004b",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 75,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 4,
+      "bbox": {
+        "l": 35.46,
+        "t": 443.095,
+        "r": 283.41035999999997,
+        "b": 369.875
+      },
+      "section_path": [
+        "4.2 Regime Interpretation"
+      ],
+      "text": "The figure plots the average daily returns of TLT, GLD, and SPY within each HMM regime, along with their regime-conditional volatility ranges. The pattern aligns closely with the parameters estimated in Table 3.",
+      "raw": "The figure plots the average daily returns of TLT, GLD, and SPY within each HMM regime, along with their regime-conditional volatility ranges. The pattern aligns closely with the parameters estimated in Table 3.",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_5b9ae11e5445",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 76,
+      "type": "list_item",
+      "raw_type": "ListItem",
+      "page": 4,
+      "bbox": {
+        "l": 35.46,
+        "t": 359.315,
+        "r": 283.3344,
+        "b": 286.115
+      },
+      "section_path": [
+        "4.2 Regime Interpretation"
+      ],
+      "text": "State 0 (Low Volatility) shows modest positive returns for all assets, with SPY exhibiting the highest mean and lowest dispersion. This corresponds to a stable expansion regime in which equities typically outperform.",
+      "raw": "State 0 (Low Volatility) shows modest positive returns for all assets, with SPY exhibiting the highest mean and lowest dispersion. This corresponds to a stable expansion regime in which equities typically outperform.",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_169a35738d63",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 77,
+      "type": "list_item",
+      "raw_type": "ListItem",
+      "page": 4,
+      "bbox": {
+        "l": 35.46,
+        "t": 275.495,
+        "r": 283.49731999999995,
+        "b": 202.29499999999996
+      },
+      "section_path": [
+        "4.2 Regime Interpretation"
+      ],
+      "text": "State 1 (Transitional Regime) displays muted returns and slightly elevated volatility. No asset strongly dominates, consistent with a mixed-risk environment where cross-asset relationships shift but are not yet stressed.",
+      "raw": "State 1 (Transitional Regime) displays muted returns and slightly elevated volatility. No asset strongly dominates, consistent with a mixed-risk environment where cross-asset relationships shift but are not yet stressed.",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_6940f4d70f27",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 78,
+      "type": "list_item",
+      "raw_type": "ListItem",
+      "page": 4,
+      "bbox": {
+        "l": 35.46,
+        "t": 191.735,
+        "r": 283.27950000000004,
+        "b": 165.21500000000003
+      },
+      "section_path": [
+        "4.2 Regime Interpretation"
+      ],
+      "text": "State 2 (High Volatility) exhibits sharply diverging behavior:",
+      "raw": "State 2 (High Volatility) exhibits sharply diverging behavior:",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_4d64a29f7813",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 79,
+      "type": "list_item",
+      "raw_type": "ListItem",
+      "page": 4,
+      "bbox": {
+        "l": 52.92,
+        "t": 154.635,
+        "r": 283.30614,
+        "b": 128.115
+      },
+      "section_path": [
+        "4.2 Regime Interpretation"
+      ],
+      "text": "SPY shows large variance and negative mean returns.",
+      "raw": "SPY shows large variance and negative mean returns.",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_f0a40f394f99",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 80,
+      "type": "list_item",
+      "raw_type": "ListItem",
+      "page": 4,
+      "bbox": {
+        "l": 52.92,
+        "t": 123.495,
+        "r": 283.33907999999997,
+        "b": 96.97500000000002
+      },
+      "section_path": [
+        "4.2 Regime Interpretation"
+      ],
+      "text": "TLT displays increased dispersion but only modest positive mean.",
+      "raw": "TLT displays increased dispersion but only modest positive mean.",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_98ec5a0ea1b7",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 81,
+      "type": "list_item",
+      "raw_type": "ListItem",
+      "page": 4,
+      "bbox": {
+        "l": 322.3,
+        "t": 643.855,
+        "r": 552.7849599999997,
+        "b": 617.335
+      },
+      "section_path": [
+        "4.2 Regime Interpretation"
+      ],
+      "text": "GLD has the most favorable profile, with positive average return and relative stability.",
+      "raw": "GLD has the most favorable profile, with positive average return and relative stability.",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_b2cf5a3069b8",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 82,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 4,
+      "bbox": {
+        "l": 304.84,
+        "t": 612.775,
+        "r": 552.7785399999997,
+        "b": 586.195
+      },
+      "section_path": [
+        "4.2 Regime Interpretation"
+      ],
+      "text": "These state-conditional payoffs explain the learned RL policy:",
+      "raw": "These state-conditional payoffs explain the learned RL policy:",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_f276c75909f0",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 83,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 4,
+      "bbox": {
+        "l": 304.84,
+        "t": 575.635,
+        "r": 552.8903999999999,
+        "b": 502.435
+      },
+      "section_path": [
+        "4.2 Regime Interpretation"
+      ],
+      "text": "SPY dominates in low- and moderate-volatility environments, while GLD becomes the preferred asset during high-volatility periods. This is consistent with recent work documenting the safe-haven properties of gold during equity stress (Zaremba & Idzorek, 2023).",
+      "raw": "SPY dominates in low- and moderate-volatility environments, while GLD becomes the preferred asset during high-volatility periods. This is consistent with recent work documenting the safe-haven properties of gold during equity stress (Zaremba & Idzorek, 2023).",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_065de058730f",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 84,
+      "type": "section",
+      "raw_type": "SectionHeaderItem",
+      "page": 4,
+      "bbox": {
+        "l": 304.84,
+        "t": 491.875,
+        "r": 448.7000199999999,
+        "b": 480.895
+      },
+      "section_path": [
+        "5. Rule-Based Rotation Strategy"
+      ],
+      "text": "5. Rule-Based Rotation Strategy",
+      "raw": "5. Rule-Based Rotation Strategy",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_ff5d20c07268",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 85,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 4,
+      "bbox": {
+        "l": 304.84,
+        "t": 476.33500000000004,
+        "r": 389.8691199999998,
+        "b": 465.355
+      },
+      "section_path": [
+        "5. Rule-Based Rotation Strategy"
+      ],
+      "text": "Two decision rules:",
+      "raw": "Two decision rules:",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [
+        "elem_e3ff3f41c79c"
+      ],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_f06d049fb3c2",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 86,
+      "type": "list_item",
+      "raw_type": "ListItem",
+      "page": 4,
+      "bbox": {
+        "l": 322.84,
+        "t": 456.89500000000004,
+        "r": 552.83988,
+        "b": 432.475
+      },
+      "section_path": [
+        "5. Rule-Based Rotation Strategy"
+      ],
+      "text": "Top-1: Allocate 100% to asset with highest stateconditional mean.",
+      "raw": "Top-1: Allocate 100% to asset with highest stateconditional mean.",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [
+        "elem_e3ff3f41c79c"
+      ],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_33e55621b9ef",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 87,
+      "type": "list_item",
+      "raw_type": "ListItem",
+      "page": 4,
+      "bbox": {
+        "l": 322.84,
+        "t": 430.055,
+        "r": 552.7210599999999,
+        "b": 405.635
+      },
+      "section_path": [
+        "5. Rule-Based Rotation Strategy"
+      ],
+      "text": "60/40: Allocate 60% to the top ETF and 40% to the second-best.",
+      "raw": "60/40: Allocate 60% to the top ETF and 40% to the second-best.",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_e3ff3f41c79c",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 88,
+      "type": "table",
+      "raw_type": "TableItem",
+      "page": 4,
+      "bbox": {
+        "l": 329.3244235802977,
+        "t": 372.3846901327754,
+        "r": 527.7191160388921,
+        "b": 324.92994029282954
+      },
+      "section_path": [
+        "5. Rule-Based Rotation Strategy"
+      ],
+      "text": "",
+      "raw": "",
+      "image_path": null,
+      "caption": "Table 4. State-Allocation Mapping (Preferred 3-State HMM)",
+      "surrounding_text": "Two decision rules:\nTop-1: Allocate 100% to asset with highest stateconditional mean.",
+      "related_element_ids": [
+        "elem_6b924edb8d79",
+        "elem_ff5d20c07268",
+        "elem_f06d049fb3c2"
+      ],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": "table_0005",
+      "formula_id": null,
+      "table_markdown": "Table 4. State-Allocation Mapping (Preferred 3-State HMM)\n\n|   State | Top-1 Allocation      | 60/40 Allocation   |\n|---------|-----------------------|--------------------|\n|       0 | 100% SPY (Equities)   | 60% SPY, 40% GLD   |\n|       1 | 100% GLD (Gold)       | 60% GLD, 40% TLT   |\n|       2 | 100% TLT (Treasuries) | 60% TLT, 40% GLD   |",
+      "table_data": {
+        "columns": [
+          "State",
+          "Top-1 Allocation",
+          "60/40 Allocation"
+        ],
+        "rows": [
+          {
+            "State": "0",
+            "Top-1 Allocation": "100% SPY (Equities)",
+            "60/40 Allocation": "60% SPY, 40% GLD"
+          },
+          {
+            "State": "1",
+            "Top-1 Allocation": "100% GLD (Gold)",
+            "60/40 Allocation": "60% GLD, 40% TLT"
+          },
+          {
+            "State": "2",
+            "Top-1 Allocation": "100% TLT (Treasuries)",
+            "60/40 Allocation": "60% TLT, 40% GLD"
+          }
+        ],
+        "has_duplicate_columns": false
+      }
+    },
+    {
+      "element_id": "elem_6b924edb8d79",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 89,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 4,
+      "bbox": {
+        "l": 351.58,
+        "t": 394.61,
+        "r": 542.091,
+        "b": 374.63
+      },
+      "section_path": [
+        "5. Rule-Based Rotation Strategy"
+      ],
+      "text": "Table 4. State-Allocation Mapping (Preferred 3-State HMM)",
+      "raw": "Table 4. State-Allocation Mapping (Preferred 3-State HMM)",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [
+        "elem_e3ff3f41c79c"
+      ],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_ccad643ba4d2",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 90,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 4,
+      "bbox": {
+        "l": 304.84,
+        "t": 316.775,
+        "r": 552.8234199999998,
+        "b": 259.115
+      },
+      "section_path": [
+        "5. Rule-Based Rotation Strategy"
+      ],
+      "text": "To avoid look-ahead bias, all trades are executed with a one-day lag, consistent with standard practice in empirical asset-pricing and backtesting studies (Bailey et al.; López de Prado)",
+      "raw": "To avoid look-ahead bias, all trades are executed with a one-day lag, consistent with standard practice in empirical asset-pricing and backtesting studies (Bailey et al.; López de Prado)",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_18b487734954",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 91,
+      "type": "section",
+      "raw_type": "SectionHeaderItem",
+      "page": 4,
+      "bbox": {
+        "l": 304.84,
+        "t": 248.55499999999995,
+        "r": 479.0486799999999,
+        "b": 237.57499999999993
+      },
+      "section_path": [
+        "6. Reinforcement Learning Framework"
+      ],
+      "text": "6. Reinforcement Learning Framework",
+      "raw": "6. Reinforcement Learning Framework",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_28933afdd4f8",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 92,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 4,
+      "bbox": {
+        "l": 304.84,
+        "t": 232.95500000000004,
+        "r": 552.8429399999997,
+        "b": 113.11500000000001
+      },
+      "section_path": [
+        "6. Reinforcement Learning Framework"
+      ],
+      "text": "The RL environment uses the HMM-predicted regime as its state variable. The action space consists of seven discrete portfolio weight combinations across TLT, GLD, and SPY. A tabular policy-iteration algorithm is used to compute the optimal policy π*, consistent with recent literature applying interpretable reinforcement learning to portfolio allocation (Charpentier et al., 2021; Jiang et al., 2017).",
+      "raw": "The RL environment uses the HMM-predicted regime as its state variable. The action space consists of seven discrete portfolio weight combinations across TLT, GLD, and SPY. A tabular policy-iteration algorithm is used to compute the optimal policy π*, consistent with recent literature applying interpretable reinforcement learning to portfolio allocation (Charpentier et al., 2021; Jiang et al., 2017).",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_a5c996e9a8fd",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 93,
+      "type": "section",
+      "raw_type": "SectionHeaderItem",
+      "page": 5,
+      "bbox": {
+        "l": 35.46,
+        "t": 790.035,
+        "r": 249.71274,
+        "b": 779.055
+      },
+      "section_path": [
+        "6.1 Reinforcement Learning Allocation Strategy"
+      ],
+      "text": "6.1 Reinforcement Learning Allocation Strategy",
+      "raw": "6.1 Reinforcement Learning Allocation Strategy",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_9745d40950df",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 94,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 5,
+      "bbox": {
+        "l": 35.46,
+        "t": 774.4350000000001,
+        "r": 283.28676,
+        "b": 747.915
+      },
+      "section_path": [
+        "6.1 Reinforcement Learning Allocation Strategy"
+      ],
+      "text": "The agent evaluates each action using the Bellman optimality equation:",
+      "raw": "The agent evaluates each action using the Bellman optimality equation:",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_2681cc1b15e4",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 95,
+      "type": "formula",
+      "raw_type": "FormulaItem",
+      "page": 5,
+      "bbox": {
+        "l": 75.18,
+        "t": 740.60844,
+        "r": 243.8767,
+        "b": 714.2707141463414
+      },
+      "section_path": [
+        "6.1 Reinforcement Learning Allocation Strategy"
+      ],
+      "text": "",
+      "raw": "Q(s, a) = R(s, a) + γ∑P(s, s′ )V(s′ ) s′",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": "formula_0003",
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_a9c6d91bdd2a",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 96,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 5,
+      "bbox": {
+        "l": 35.46,
+        "t": 711.535,
+        "r": 283.5928599999999,
+        "b": 576.175
+      },
+      "section_path": [
+        "6.1 Reinforcement Learning Allocation Strategy"
+      ],
+      "text": "where R(s,a) is the expected next-period return from taking action a in regime s, P(s,s') is the HMM transition matrix, and γ is the discount factor. This formulation follows the classical dynamic-programming framework of Bellman (1957) and its reinforcement-learning interpretation in Sutton and Barto (2018). The RL agent effectively learns that equities dominate in low-vol regimes while gold provides superior protection in stress states.",
+      "raw": "where R(s,a) is the expected next-period return from taking action a in regime s, P(s,s') is the HMM transition matrix, and γ is the discount factor. This formulation follows the classical dynamic-programming framework of Bellman (1957) and its reinforcement-learning interpretation in Sutton and Barto (2018). The RL agent effectively learns that equities dominate in low-vol regimes while gold provides superior protection in stress states.",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_23bfb0a3e73b",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 97,
+      "type": "section",
+      "raw_type": "SectionHeaderItem",
+      "page": 5,
+      "bbox": {
+        "l": 35.46,
+        "t": 565.5550000000001,
+        "r": 118.11960000000002,
+        "b": 554.575
+      },
+      "section_path": [
+        "6.2 Learned Policy"
+      ],
+      "text": "6.2 Learned Policy",
+      "raw": "6.2 Learned Policy",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_22ce5393423b",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 98,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 5,
+      "bbox": {
+        "l": 35.46,
+        "t": 544.015,
+        "r": 283.53988,
+        "b": 377.495
+      },
+      "section_path": [
+        "6.2 Learned Policy"
+      ],
+      "text": "The learned RL policy mirrors the economic characteristics of the regimes identified by the HMM. In the low-volatility state, SPY offers the highest mean return and lowest volatility, making full equity allocation a rational choice consistent with established observations of market behavior during calm periods (Cont, 2005). In the transitional regime, SPY continues to deliver slightly positive returns, and the RL agent maintains equity exposure in line with evidence that moderate-volatility environments often still reward risktaking (Ardia et al., 2024).",
+      "raw": "The learned RL policy mirrors the economic characteristics of the regimes identified by the HMM. In the low-volatility state, SPY offers the highest mean return and lowest volatility, making full equity allocation a rational choice consistent with established observations of market behavior during calm periods (Cont, 2005). In the transitional regime, SPY continues to deliver slightly positive returns, and the RL agent maintains equity exposure in line with evidence that moderate-volatility environments often still reward risktaking (Ardia et al., 2024).",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_26298eaae73c",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 99,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 5,
+      "bbox": {
+        "l": 35.46,
+        "t": 372.935,
+        "r": 283.3385600000001,
+        "b": 346.355
+      },
+      "section_path": [
+        "6.2 Learned Policy"
+      ],
+      "text": "In the high-volatility regime, SPY exhibits sharply negative expected returns while GLD remains positive",
+      "raw": "In the high-volatility regime, SPY exhibits sharply negative expected returns while GLD remains positive",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [
+        "elem_e406ffc640fb"
+      ],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_2baa86b30fe7",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 100,
+      "type": "section",
+      "raw_type": "SectionHeaderItem",
+      "page": 5,
+      "bbox": {
+        "l": 35.46,
+        "t": 335.795,
+        "r": 155.27376,
+        "b": 324.81499999999994
+      },
+      "section_path": [
+        "7. Performance Evaluation"
+      ],
+      "text": "7. Performance Evaluation",
+      "raw": "7. Performance Evaluation",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_830df286367e",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 101,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 5,
+      "bbox": {
+        "l": 35.46,
+        "t": 320.255,
+        "r": 552.8998799999999,
+        "b": 262.5949999999999
+      },
+      "section_path": [
+        "7. Performance Evaluation"
+      ],
+      "text": "For model validation, the dataset is divided chronologically into a 70% training window and a 30% strictly out-ofsample test window. The HMM is estimated on the training sample, and the RL agent evaluates regime-conditioned rewards using the learned transition structure. The learned policy π* is then tested on unseen data, ensuring a realistic forward-looking evaluation and mitigating backtest overfitting concerns (Bailey et al., 2014).",
+      "raw": "For model validation, the dataset is divided chronologically into a 70% training window and a 30% strictly out-ofsample test window. The HMM is estimated on the training sample, and the RL agent evaluates regime-conditioned rewards using the learned transition structure. The learned policy π* is then tested on unseen data, ensuring a realistic forward-looking evaluation and mitigating backtest overfitting concerns (Bailey et al., 2014).",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [
+        "elem_e406ffc640fb"
+      ],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_e406ffc640fb",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 102,
+      "type": "figure",
+      "raw_type": "PictureItem",
+      "page": 5,
+      "bbox": {
+        "l": 87.70335693103357,
+        "t": 252.69852253748513,
+        "r": 496.90500903238393,
+        "b": 88.73735667031622
+      },
+      "section_path": [
+        "7. Performance Evaluation"
+      ],
+      "text": "",
+      "raw": "",
+      "image_path": "images\\doc_6a8ad8a50fb1\\figure_0010.png",
+      "caption": "Figure 10. Cumulative Performance (lag=1 day)",
+      "surrounding_text": "In the high-volatility regime, SPY exhibits sharply negative expected returns while GLD remains positive\nFor model validation, the dataset is divided chronologically into a 70% training window and a 30% strictly out-ofsample test window. The HMM is estimated on the training sample, and the RL agent evaluates regime-conditioned rewards using the learned transition structure. The learned policy π* is then tested on unseen data, ensuring a realistic forward-looking evaluation and mitigating backtest overfitting concerns (Bailey et al., 2014).",
+      "related_element_ids": [
+        "elem_105a65cfdc13",
+        "elem_26298eaae73c",
+        "elem_830df286367e"
+      ],
+      "parent_element_id": null,
+      "figure_id": "figure_0010",
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_105a65cfdc13",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 103,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 5,
+      "bbox": {
+        "l": 208.64,
+        "t": 85.23000000000002,
+        "r": 379.7139999999999,
+        "b": 76.23000000000002
+      },
+      "section_path": [
+        "7. Performance Evaluation"
+      ],
+      "text": "Figure 10. Cumulative Performance (lag=1 day)",
+      "raw": "Figure 10. Cumulative Performance (lag=1 day)",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [
+        "elem_e406ffc640fb",
+        "elem_f8f67c6d91dc"
+      ],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_9b8488261c45",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 104,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 5,
+      "bbox": {
+        "l": 35.46,
+        "t": 64.09500000000003,
+        "r": 552.7831599999995,
+        "b": 37.514999999999986
+      },
+      "section_path": [
+        "7. Performance Evaluation"
+      ],
+      "text": "The backtest is conducted at daily frequency with a one-day execution lag: the action selected at time t based on the predicted regime is implemented for returns realized at t+1. This design avoids look-ahead bias and follows",
+      "raw": "The backtest is conducted at daily frequency with a one-day execution lag: the action selected at time t based on the predicted regime is implemented for returns realized at t+1. This design avoids look-ahead bias and follows",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [
+        "elem_f8f67c6d91dc"
+      ],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_ce474e827017",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 105,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 5,
+      "bbox": {
+        "l": 304.84,
+        "t": 790.035,
+        "r": 552.8451,
+        "b": 670.135
+      },
+      "section_path": [
+        "7. Performance Evaluation"
+      ],
+      "text": "and less sensitive to market stress. The RL policy rotates fully into gold, reflecting its well-documented role as a safe-haven asset during crisis episodes (Baur & Lucey, 2010). This demonstrates that the agent internalizes regime-specific payoff structures rather than relying on purely mechanical optimization. Overall, the policy remains interpretable: it takes risk in stable markets and shifts defensively when volatility spikes.",
+      "raw": "and less sensitive to market stress. The RL policy rotates fully into gold, reflecting its well-documented role as a safe-haven asset during crisis episodes (Baur & Lucey, 2010). This demonstrates that the agent internalizes regime-specific payoff structures rather than relying on purely mechanical optimization. Overall, the policy remains interpretable: it takes risk in stable markets and shifts defensively when volatility spikes.",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [
+        "elem_f8f67c6d91dc"
+      ],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_f8f67c6d91dc",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 106,
+      "type": "table",
+      "raw_type": "TableItem",
+      "page": 5,
+      "bbox": {
+        "l": 303.2800758699763,
+        "t": 643.9195423320127,
+        "r": 553.3496907729591,
+        "b": 513.7989261639882
+      },
+      "section_path": [
+        "7. Performance Evaluation"
+      ],
+      "text": "",
+      "raw": "",
+      "image_path": null,
+      "caption": "Figure 10. Cumulative Performance (lag=1 day)",
+      "surrounding_text": "The backtest is conducted at daily frequency with a one-day execution lag: the action selected at time t based on the predicted regime is implemented for returns realized at t+1. This design avoids look-ahead bias and follows\nand less sensitive to market stress. The RL policy rotates fully into gold, reflecting its well-documented role as a safe-haven asset during crisis episodes (Baur & Lucey, 2010). This demonstrates that the agent internalizes regime-specific payoff structures rather than relying on purely mechanical optimization. Overall, the policy remains interpretable: it takes risk in stable markets and shifts defensively when volatility spikes.",
+      "related_element_ids": [
+        "elem_105a65cfdc13",
+        "elem_9b8488261c45",
+        "elem_ce474e827017"
+      ],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": "table_0006",
+      "formula_id": null,
+      "table_markdown": "Table 5. RL Optimal Policy π∗ (Training Sample)\n\n|   State |   Action ID | Portfolio Weights (TLT, GLD, SPY)   | Interpretation                                              |\n|---------|-------------|-------------------------------------|-------------------------------------------------------------|\n|       0 |           3 | (0, 0, 1.00)                        | Persistent low-volatility expansion: equities favored       |\n|       1 |           3 | (0, 0, 1.00)                        | Moderate regime with continuing momentum: equities retained |\n|       2 |           2 | (0, 1.00, 0)                        | High-volatility regime: gold as safe-haven                  |",
+      "table_data": {
+        "columns": [
+          "State",
+          "Action ID",
+          "Portfolio Weights (TLT, GLD, SPY)",
+          "Interpretation"
+        ],
+        "rows": [
+          {
+            "State": "0",
+            "Action ID": "3",
+            "Portfolio Weights (TLT, GLD, SPY)": "(0, 0, 1.00)",
+            "Interpretation": "Persistent low-volatility expansion: equities favored"
+          },
+          {
+            "State": "1",
+            "Action ID": "3",
+            "Portfolio Weights (TLT, GLD, SPY)": "(0, 0, 1.00)",
+            "Interpretation": "Moderate regime with continuing momentum: equities retained"
+          },
+          {
+            "State": "2",
+            "Action ID": "2",
+            "Portfolio Weights (TLT, GLD, SPY)": "(0, 1.00, 0)",
+            "Interpretation": "High-volatility regime: gold as safe-haven"
+          }
+        ],
+        "has_duplicate_columns": false
+      }
+    },
+    {
+      "element_id": "elem_0a34250f701b",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 107,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 5,
+      "bbox": {
+        "l": 343.48,
+        "t": 660.262,
+        "r": 514.209,
+        "b": 651.01
+      },
+      "section_path": [
+        "7. Performance Evaluation"
+      ],
+      "text": "Table 5. RL Optimal Policy π∗ (Training Sample)",
+      "raw": "Table 5. RL Optimal Policy π∗ (Training Sample)",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_ce5013447380",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 108,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 5,
+      "bbox": {
+        "l": 304.84,
+        "t": 499.075,
+        "r": 552.89256,
+        "b": 363.635
+      },
+      "section_path": [
+        "7. Performance Evaluation"
+      ],
+      "text": "Using tabular policy iteration, the RL agent learns a stable mapping from regimes to portfolio allocations. The resulting policy implies equity dominance in stable and moderately volatile regimes, while gold becomes optimal under high volatility. Notably, long-term Treasuries receive no allocation, consistent with evidence of reduced bond-hedging effectiveness in periods of rising inflation and positive stock-bond correlations (Baele et al., 2023).",
+      "raw": "Using tabular policy iteration, the RL agent learns a stable mapping from regimes to portfolio allocations. The resulting policy implies equity dominance in stable and moderately volatile regimes, while gold becomes optimal under high volatility. Notably, long-term Treasuries receive no allocation, consistent with evidence of reduced bond-hedging effectiveness in periods of rising inflation and positive stock-bond correlations (Baele et al., 2023).",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_c53d11220228",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 109,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 6,
+      "bbox": {
+        "l": 35.46,
+        "t": 790.035,
+        "r": 552.4423199999998,
+        "b": 763.455
+      },
+      "section_path": [
+        "7. Performance Evaluation"
+      ],
+      "text": "best practices for algorithmic strategy evaluation (López de Prado, 2018). Transaction costs are set to zero in this baseline specification.",
+      "raw": "best practices for algorithmic strategy evaluation (López de Prado, 2018). Transaction costs are set to zero in this baseline specification.",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [
+        "elem_33fd10c33a27",
+        "elem_46fa4aea3174"
+      ],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_33fd10c33a27",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 110,
+      "type": "table",
+      "raw_type": "TableItem",
+      "page": 6,
+      "bbox": {
+        "l": 91.45195902830804,
+        "t": 743.1748738790408,
+        "r": 504.4009329510376,
+        "b": 675.7320102051941
+      },
+      "section_path": [
+        "7. Performance Evaluation"
+      ],
+      "text": "",
+      "raw": "",
+      "image_path": null,
+      "caption": "Table 6. Performance Summary (Full Sample)",
+      "surrounding_text": "best practices for algorithmic strategy evaluation (López de Prado, 2018). Transaction costs are set to zero in this baseline specification.\nFigure 11. Cumulative Performance - RL vs Rotation Benchmarks (Daily, Test Window)",
+      "related_element_ids": [
+        "elem_51674388211f",
+        "elem_c53d11220228",
+        "elem_de33d407ae93"
+      ],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": "table_0007",
+      "formula_id": null,
+      "table_markdown": "Table 6. Performance Summary (Full Sample)\n\n| Strategy               | Cumulative Return   | Annualized Return   | Volatility   |   Sharpe | Max Drawdown   |\n|------------------------|---------------------|---------------------|--------------|----------|----------------|\n| Rotation (Top-1)       | 407.8%              | 8.1%                | 15.4%        |     0.52 | -28.3%         |\n| Rotation (60/40)       | 317.0%              | 7.1%                | 12.1%        |     0.58 | -29.3%         |\n| Equal-Weight (Monthly) | 376.1%              | 7.7%                | 9.7%         |     0.80 | -24.0%         |\n| Buy & Hold SPY         | 476.3%              | 8.7%                | 19.1%        |     0.46 | -59.6%         |",
+      "table_data": {
+        "columns": [
+          "Strategy",
+          "Cumulative Return",
+          "Annualized Return",
+          "Volatility",
+          "Sharpe",
+          "Max Drawdown"
+        ],
+        "rows": [
+          {
+            "Strategy": "Rotation (Top-1)",
+            "Cumulative Return": "407.8%",
+            "Annualized Return": "8.1%",
+            "Volatility": "15.4%",
+            "Sharpe": "0.52",
+            "Max Drawdown": "-28.3%"
+          },
+          {
+            "Strategy": "Rotation (60/40)",
+            "Cumulative Return": "317.0%",
+            "Annualized Return": "7.1%",
+            "Volatility": "12.1%",
+            "Sharpe": "0.58",
+            "Max Drawdown": "-29.3%"
+          },
+          {
+            "Strategy": "Equal-Weight (Monthly)",
+            "Cumulative Return": "376.1%",
+            "Annualized Return": "7.7%",
+            "Volatility": "9.7%",
+            "Sharpe": "0.80",
+            "Max Drawdown": "-24.0%"
+          },
+          {
+            "Strategy": "Buy & Hold SPY",
+            "Cumulative Return": "476.3%",
+            "Annualized Return": "8.7%",
+            "Volatility": "19.1%",
+            "Sharpe": "0.46",
+            "Max Drawdown": "-59.6%"
+          }
+        ],
+        "has_duplicate_columns": false
+      }
+    },
+    {
+      "element_id": "elem_51674388211f",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 111,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 6,
+      "bbox": {
+        "l": 212.12,
+        "t": 759.33,
+        "r": 376.22499999999985,
+        "b": 750.33
+      },
+      "section_path": [
+        "7. Performance Evaluation"
+      ],
+      "text": "Table 6. Performance Summary (Full Sample)",
+      "raw": "Table 6. Performance Summary (Full Sample)",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [
+        "elem_33fd10c33a27",
+        "elem_46fa4aea3174"
+      ],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_46fa4aea3174",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 112,
+      "type": "figure",
+      "raw_type": "PictureItem",
+      "page": 6,
+      "bbox": {
+        "l": 85.82654867543471,
+        "t": 743.3063005997392,
+        "r": 520.5015301964268,
+        "b": 490.7143887205871
+      },
+      "section_path": [
+        "7. Performance Evaluation"
+      ],
+      "text": "",
+      "raw": "",
+      "image_path": "images\\doc_6a8ad8a50fb1\\figure_0011.png",
+      "caption": "Table 6. Performance Summary (Full Sample)",
+      "surrounding_text": "best practices for algorithmic strategy evaluation (López de Prado, 2018). Transaction costs are set to zero in this baseline specification.\nFigure 11. Cumulative Performance - RL vs Rotation Benchmarks (Daily, Test Window)",
+      "related_element_ids": [
+        "elem_51674388211f",
+        "elem_c53d11220228",
+        "elem_de33d407ae93"
+      ],
+      "parent_element_id": null,
+      "figure_id": "figure_0011",
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_de33d407ae93",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 113,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 6,
+      "bbox": {
+        "l": 138.98,
+        "t": 481.33,
+        "r": 449.3889999999999,
+        "b": 472.33
+      },
+      "section_path": [
+        "7. Performance Evaluation"
+      ],
+      "text": "Figure 11. Cumulative Performance - RL vs Rotation Benchmarks (Daily, Test Window)",
+      "raw": "Figure 11. Cumulative Performance - RL vs Rotation Benchmarks (Daily, Test Window)",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [
+        "elem_33fd10c33a27",
+        "elem_46fa4aea3174"
+      ],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_a6c364ef1a11",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 114,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 6,
+      "bbox": {
+        "l": 35.46,
+        "t": 460.195,
+        "r": 552.7811999999998,
+        "b": 402.515
+      },
+      "section_path": [
+        "7. Performance Evaluation"
+      ],
+      "text": "The cumulative return profiles of the rotation strategies diverge meaningfully after 2020. During this period, volatility surged rapidly (as visible in the VIX panels and smoothed probabilities in Figures 6-8), causing large equity drawdowns. The SPY buy-and-hold portfolio suffers the deepest losses because equity returns turn sharply negative in the high-volatility state, consistent with the crisis-state mean return of -0.0047 shown in Table 3.",
+      "raw": "The cumulative return profiles of the rotation strategies diverge meaningfully after 2020. During this period, volatility surged rapidly (as visible in the VIX panels and smoothed probabilities in Figures 6-8), causing large equity drawdowns. The SPY buy-and-hold portfolio suffers the deepest losses because equity returns turn sharply negative in the high-volatility state, consistent with the crisis-state mean return of -0.0047 shown in Table 3.",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [
+        "elem_7f190ed09160"
+      ],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_f52a503c04ef",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 115,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 6,
+      "bbox": {
+        "l": 35.46,
+        "t": 397.95500000000004,
+        "r": 552.8242199999999,
+        "b": 340.295
+      },
+      "section_path": [
+        "7. Performance Evaluation"
+      ],
+      "text": "The Top-1 and 60/40 rotation strategies diverge because the Top-1 strategy switches entirely out of SPY during stressed regimes, while the 60/40 approach keeps partial equity exposure. This difference becomes more pronounced in crisis regimes, where small allocations to SPY amplify losses. This behavior is consistent with evidence that diversification weakens during market stress as correlations rise (Longin & Solnik, 2001).",
+      "raw": "The Top-1 and 60/40 rotation strategies diverge because the Top-1 strategy switches entirely out of SPY during stressed regimes, while the 60/40 approach keeps partial equity exposure. This difference becomes more pronounced in crisis regimes, where small allocations to SPY amplify losses. This behavior is consistent with evidence that diversification weakens during market stress as correlations rise (Longin & Solnik, 2001).",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [
+        "elem_7f190ed09160"
+      ],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_f62ded8dca2c",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 116,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 6,
+      "bbox": {
+        "l": 35.46,
+        "t": 335.735,
+        "r": 552.88608,
+        "b": 246.995
+      },
+      "section_path": [
+        "7. Performance Evaluation"
+      ],
+      "text": "In contrast, the RL strategy stabilizes performance by concentrating risk in states where expected returns are favorable and shifting defensively into GLD during stressed conditions. This aligns with the safe-haven characteristics of gold documented in empirical studies (Baur & Lucey, 2010). As a result, RL achieves a higher Sharpe ratio and smaller drawdowns in the out-of-sample test, demonstrating its ability to learn and exploit regime-dependent payoff asymmetries that static rotation rules may under-react to. The full set of out-of-sample performance metrics is reported in Table 7",
+      "raw": "In contrast, the RL strategy stabilizes performance by concentrating risk in states where expected returns are favorable and shifting defensively into GLD during stressed conditions. This aligns with the safe-haven characteristics of gold documented in empirical studies (Baur & Lucey, 2010). As a result, RL achieves a higher Sharpe ratio and smaller drawdowns in the out-of-sample test, demonstrating its ability to learn and exploit regime-dependent payoff asymmetries that static rotation rules may under-react to. The full set of out-of-sample performance metrics is reported in Table 7",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_7f190ed09160",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 117,
+      "type": "table",
+      "raw_type": "TableItem",
+      "page": 6,
+      "bbox": {
+        "l": 77.1680123128187,
+        "t": 224.01753201083727,
+        "r": 510.65739738925197,
+        "b": 154.15008640606447
+      },
+      "section_path": [
+        "7. Performance Evaluation"
+      ],
+      "text": "",
+      "raw": "",
+      "image_path": null,
+      "caption": "Table 7. Performance Comparison - RL vs. Rotation Benchmarks (Test Window, 30% OOS)",
+      "surrounding_text": "The cumulative return profiles of the rotation strategies diverge meaningfully after 2020. During this period, volatility surged rapidly (as visible in the VIX panels and smoothed probabilities in Figures 6-8), causing large equity drawdowns. The SPY buy-and-hold portfolio suffers the deepest losses because equity returns turn sharply negative in the high-volatility state, consistent with the crisis-state mean return of -0.0047 shown in Table 3.\nThe Top-1 and 60/40 rotation strategies diverge because the Top-1 strategy switches entirely out of SPY during stressed regimes, while the 60/40 approach keeps partial equity exposure. This difference becomes more pronounced in crisis regimes, where small allocations to SPY amplify losses. This behavior is consistent with evidence that diversification weakens during market stress as correlations rise (Longin & Solnik, 2001).",
+      "related_element_ids": [
+        "elem_fe789e0453b8",
+        "elem_a6c364ef1a11",
+        "elem_f52a503c04ef"
+      ],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": "table_0008",
+      "formula_id": null,
+      "table_markdown": "Table 7. Performance Comparison - RL vs. Rotation Benchmarks (Test Window, 30% OOS)\n\n| Strategy               | Cumulative Return   | Annualized Return   | Volatility   |   Sharpe | Max Drawdown   |\n|------------------------|---------------------|---------------------|--------------|----------|----------------|\n| RL π* (net)            | 131.4%              | 14.3%               | 17.3%        |     0.83 | -23.5%         |\n| Rotation (Top-1)       | 110.4%              | 12.6%               | 16.0%        |     0.79 | -21.8%         |\n| Rotation (60/40)       | 86.9%               | 10.5%               | 12.8%        |     0.82 | -29.3%         |\n| Equal-Weight (Monthly) | 72.5%               | 9.1%                | 11.0%        |     0.83 | -24.0%         |\n| Buy & Hold SPY         | 118.4%              | 13.2%               | 20.5%        |     0.65 | -35.7%         |",
+      "table_data": {
+        "columns": [
+          "Strategy",
+          "Cumulative Return",
+          "Annualized Return",
+          "Volatility",
+          "Sharpe",
+          "Max Drawdown"
+        ],
+        "rows": [
+          {
+            "Strategy": "RL π* (net)",
+            "Cumulative Return": "131.4%",
+            "Annualized Return": "14.3%",
+            "Volatility": "17.3%",
+            "Sharpe": "0.83",
+            "Max Drawdown": "-23.5%"
+          },
+          {
+            "Strategy": "Rotation (Top-1)",
+            "Cumulative Return": "110.4%",
+            "Annualized Return": "12.6%",
+            "Volatility": "16.0%",
+            "Sharpe": "0.79",
+            "Max Drawdown": "-21.8%"
+          },
+          {
+            "Strategy": "Rotation (60/40)",
+            "Cumulative Return": "86.9%",
+            "Annualized Return": "10.5%",
+            "Volatility": "12.8%",
+            "Sharpe": "0.82",
+            "Max Drawdown": "-29.3%"
+          },
+          {
+            "Strategy": "Equal-Weight (Monthly)",
+            "Cumulative Return": "72.5%",
+            "Annualized Return": "9.1%",
+            "Volatility": "11.0%",
+            "Sharpe": "0.83",
+            "Max Drawdown": "-24.0%"
+          },
+          {
+            "Strategy": "Buy & Hold SPY",
+            "Cumulative Return": "118.4%",
+            "Annualized Return": "13.2%",
+            "Volatility": "20.5%",
+            "Sharpe": "0.65",
+            "Max Drawdown": "-35.7%"
+          }
+        ],
+        "has_duplicate_columns": false
+      }
+    },
+    {
+      "element_id": "elem_fe789e0453b8",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 118,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 6,
+      "bbox": {
+        "l": 132.68,
+        "t": 242.81000000000006,
+        "r": 455.5989999999998,
+        "b": 233.81000000000006
+      },
+      "section_path": [
+        "7. Performance Evaluation"
+      ],
+      "text": "Table 7. Performance Comparison - RL vs. Rotation Benchmarks (Test Window, 30% OOS)",
+      "raw": "Table 7. Performance Comparison - RL vs. Rotation Benchmarks (Test Window, 30% OOS)",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [
+        "elem_7f190ed09160"
+      ],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_de14c2702036",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 119,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 6,
+      "bbox": {
+        "l": 35.46,
+        "t": 128.65499999999997,
+        "r": 282.24313999999987,
+        "b": 102.13499999999999
+      },
+      "section_path": [
+        "7. Performance Evaluation"
+      ],
+      "text": "Out-of-sample Risk-Adjusted performance (30% test window):",
+      "raw": "Out-of-sample Risk-Adjusted performance (30% test window):",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_3e680347d8f0",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 120,
+      "type": "list_item",
+      "raw_type": "ListItem",
+      "page": 6,
+      "bbox": {
+        "l": 53.46,
+        "t": 97.57500000000005,
+        "r": 272.69824,
+        "b": 86.59500000000003
+      },
+      "section_path": [
+        "7. Performance Evaluation"
+      ],
+      "text": "RL (π*): Sharpe 0.83, Max Drawdown - 23.5%",
+      "raw": "RL (π*): Sharpe 0.83, Max Drawdown - 23.5%",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_6c6e68b12a84",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 121,
+      "type": "list_item",
+      "raw_type": "ListItem",
+      "page": 6,
+      "bbox": {
+        "l": 53.46,
+        "t": 84.13499999999999,
+        "r": 195.38450000000006,
+        "b": 73.15499999999997
+      },
+      "section_path": [
+        "7. Performance Evaluation"
+      ],
+      "text": "Top-1 Rotation: Sharpe 0.79",
+      "raw": "Top-1 Rotation: Sharpe 0.79",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_e7b085df0f65",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 122,
+      "type": "list_item",
+      "raw_type": "ListItem",
+      "page": 6,
+      "bbox": {
+        "l": 324.1,
+        "t": 128.71500000000003,
+        "r": 467.6123799999999,
+        "b": 117.73500000000001
+      },
+      "section_path": [
+        "7. Performance Evaluation"
+      ],
+      "text": "60/40 Rotation: Sharpe 0.82",
+      "raw": "60/40 Rotation: Sharpe 0.82",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_126d8e6afec8",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 123,
+      "type": "list_item",
+      "raw_type": "ListItem",
+      "page": 6,
+      "bbox": {
+        "l": 324.1,
+        "t": 115.27499999999998,
+        "r": 507.3927399999997,
+        "b": 104.29499999999996
+      },
+      "section_path": [
+        "7. Performance Evaluation"
+      ],
+      "text": "Equal-Weight (Monthly): Sharpe 0.83",
+      "raw": "Equal-Weight (Monthly): Sharpe 0.83",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_d6f37e446b7d",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 124,
+      "type": "list_item",
+      "raw_type": "ListItem",
+      "page": 6,
+      "bbox": {
+        "l": 324.1,
+        "t": 101.83500000000004,
+        "r": 552.83988,
+        "b": 77.41499999999996
+      },
+      "section_path": [
+        "7. Performance Evaluation"
+      ],
+      "text": "Buy & Hold SPY: Sharpe 0.65, Max Drawdown - 35.7%",
+      "raw": "Buy & Hold SPY: Sharpe 0.65, Max Drawdown - 35.7%",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_8ef9dcdbbdc4",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 125,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 7,
+      "bbox": {
+        "l": 56.76,
+        "t": 797.115,
+        "r": 282.21988,
+        "b": 786.135
+      },
+      "section_path": [
+        "7. Performance Evaluation"
+      ],
+      "text": "The RL strategy delivers the strongest overall risk-",
+      "raw": "The RL strategy delivers the strongest overall risk-",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_1c2fa6cc72d4",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 126,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 7,
+      "bbox": {
+        "l": 35.46,
+        "t": 781.575,
+        "r": 282.10033999999996,
+        "b": 568.375
+      },
+      "section_path": [
+        "7. Performance Evaluation"
+      ],
+      "text": "adjusted performance while remaining fully interpretable through regime-conditioned actions. As shown in the post-2020 period, structural differences between the strategies become clear. The Top-1 rotation exhibits instability due to its concentrated exposure, which reacts poorly to rapid changes in volatility regimes (Ardia et al., 2024). The 60/40 rotation mitigates performance swings through diversification (Zaremba & Idzorek, 2023). SPY experiences the deepest drawdowns, consistent with well-documented equity downside risk during stress events (Cont, 2001; Whaley, 2009). In contrast, the RL strategy stabilizes returns by reallocating into gold during turbulent periods,",
+      "raw": "adjusted performance while remaining fully interpretable through regime-conditioned actions. As shown in the post-2020 period, structural differences between the strategies become clear. The Top-1 rotation exhibits instability due to its concentrated exposure, which reacts poorly to rapid changes in volatility regimes (Ardia et al., 2024). The 60/40 rotation mitigates performance swings through diversification (Zaremba & Idzorek, 2023). SPY experiences the deepest drawdowns, consistent with well-documented equity downside risk during stress events (Cont, 2001; Whaley, 2009). In contrast, the RL strategy stabilizes returns by reallocating into gold during turbulent periods,",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_d9404d817bb4",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 127,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 7,
+      "bbox": {
+        "l": 35.46,
+        "t": 563.755,
+        "r": 282.20396000000005,
+        "b": 506.155
+      },
+      "section_path": [
+        "7. Performance Evaluation"
+      ],
+      "text": "leveraging its established safe-haven characteristics (Baur & Lucey, 2010). This regime-aware adaptability explains its superior risk-adjusted performance in the out-of-sample window (Gupta & Pierdzioch, 2023).",
+      "raw": "leveraging its established safe-haven characteristics (Baur & Lucey, 2010). This regime-aware adaptability explains its superior risk-adjusted performance in the out-of-sample window (Gupta & Pierdzioch, 2023).",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_43c056d706fb",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 128,
+      "type": "list_item",
+      "raw_type": "ListItem",
+      "page": 7,
+      "bbox": {
+        "l": 35.46,
+        "t": 495.535,
+        "r": 96.15744000000001,
+        "b": 484.555
+      },
+      "section_path": [
+        "7. Performance Evaluation"
+      ],
+      "text": "Conclusion",
+      "raw": "Conclusion",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_db25990e3ad5",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 129,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 7,
+      "bbox": {
+        "l": 35.46,
+        "t": 473.995,
+        "r": 282.27988,
+        "b": 167.495
+      },
+      "section_path": [
+        "7. Performance Evaluation"
+      ],
+      "text": "A 3-state HMM provides a clear and stable segmentation of market conditions, consistent with the latest evidence on nonlinear regime dynamics in equities and volatility (Ardia et al.; Gupta & Pierdzioch). While rule-based rotation strategies are simple and intuitive to implement, the reinforcement-learning approach adapts more effectively to shifting market environments and consistently delivers stronger riskadjusted returns. The combined HMM-RL framework therefore offers a practical and transparent tool for dynamic asset allocation: the HMM identifies the prevailing market regime, and the RL policy selects the most reward-efficient portfolio for that environment. For investors, this hybrid model suggests a disciplined way to respond to changing volatility regimes while preserving interpretability which is an important consideration for real-money investment decisions and portfolio oversight. This makes the framework suitable for both quantitative researchers and discretionary portfolio managers.",
+      "raw": "A 3-state HMM provides a clear and stable segmentation of market conditions, consistent with the latest evidence on nonlinear regime dynamics in equities and volatility (Ardia et al.; Gupta & Pierdzioch). While rule-based rotation strategies are simple and intuitive to implement, the reinforcement-learning approach adapts more effectively to shifting market environments and consistently delivers stronger riskadjusted returns. The combined HMM-RL framework therefore offers a practical and transparent tool for dynamic asset allocation: the HMM identifies the prevailing market regime, and the RL policy selects the most reward-efficient portfolio for that environment. For investors, this hybrid model suggests a disciplined way to respond to changing volatility regimes while preserving interpretability which is an important consideration for real-money investment decisions and portfolio oversight. This makes the framework suitable for both quantitative researchers and discretionary portfolio managers.",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_f9b392bd87a2",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 130,
+      "type": "list_item",
+      "raw_type": "ListItem",
+      "page": 7,
+      "bbox": {
+        "l": 306.1,
+        "t": 797.115,
+        "r": 403.3323399999999,
+        "b": 786.135
+      },
+      "section_path": [
+        "7. Performance Evaluation"
+      ],
+      "text": "Model Limitations",
+      "raw": "Model Limitations",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_87240c7d71b4",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 131,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 7,
+      "bbox": {
+        "l": 306.1,
+        "t": 775.575,
+        "r": 552.7262399999998,
+        "b": 733.695
+      },
+      "section_path": [
+        "7. Performance Evaluation"
+      ],
+      "text": "Although the HMM-RL allocation framework performs well empirically, several methodological limitations should be acknowledged:",
+      "raw": "Although the HMM-RL allocation framework performs well empirically, several methodological limitations should be acknowledged:",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_8d09bf975320",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 132,
+      "type": "list_item",
+      "raw_type": "ListItem",
+      "page": 7,
+      "bbox": {
+        "l": 306.88,
+        "t": 723.255,
+        "r": 552.7548600000001,
+        "b": 619.555
+      },
+      "section_path": [
+        "7. Performance Evaluation"
+      ],
+      "text": "The Hidden Markov Model assumes Gaussian state-conditional emissions, which may not fully capture the heavy tails, skewness, and jump behavior commonly observed in financial return distributions (Frühwirth-Schnatter; Cont). As a result, extreme market shocks may be underrepresented in the estimated regimes.",
+      "raw": "The Hidden Markov Model assumes Gaussian state-conditional emissions, which may not fully capture the heavy tails, skewness, and jump behavior commonly observed in financial return distributions (Frühwirth-Schnatter; Cont). As a result, extreme market shocks may be underrepresented in the estimated regimes.",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_2d3c36526877",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 133,
+      "type": "list_item",
+      "raw_type": "ListItem",
+      "page": 7,
+      "bbox": {
+        "l": 306.88,
+        "t": 615.115,
+        "r": 552.7205799999994,
+        "b": 526.915
+      },
+      "section_path": [
+        "7. Performance Evaluation"
+      ],
+      "text": "The HMM imposes sharp regime boundaries, even though real-world market conditions may evolve more smoothly. Although smoothed probabilities partly address this issue, uncertainty around regime transitions remains an inherent challenge in discrete-state models (Hamilton).",
+      "raw": "The HMM imposes sharp regime boundaries, even though real-world market conditions may evolve more smoothly. Although smoothed probabilities partly address this issue, uncertainty around regime transitions remains an inherent challenge in discrete-state models (Hamilton).",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_bdb11aa92061",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 134,
+      "type": "list_item",
+      "raw_type": "ListItem",
+      "page": 7,
+      "bbox": {
+        "l": 306.88,
+        "t": 522.475,
+        "r": 552.7872000000001,
+        "b": 403.355
+      },
+      "section_path": [
+        "7. Performance Evaluation"
+      ],
+      "text": "The reinforcement learning component relies on a tabular Markov decision process, which assumes a finite and fully enumerated state-action space. While this makes the policy interpretable, it limits the agent's ability to learn more flexible nonlinear strategies compared to deep reinforcement learning approaches (Sutton and Barto; Jiang et al.).",
+      "raw": "The reinforcement learning component relies on a tabular Markov decision process, which assumes a finite and fully enumerated state-action space. While this makes the policy interpretable, it limits the agent's ability to learn more flexible nonlinear strategies compared to deep reinforcement learning approaches (Sutton and Barto; Jiang et al.).",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_807ad51e2610",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 135,
+      "type": "list_item",
+      "raw_type": "ListItem",
+      "page": 7,
+      "bbox": {
+        "l": 308.68,
+        "t": 398.915,
+        "r": 552.7798799999999,
+        "b": 295.29499999999996
+      },
+      "section_path": [
+        "7. Performance Evaluation"
+      ],
+      "text": "The model does not incorporate transaction costs, slippage, or liquidity constraints, meaning that realworld performance may be lower than the backtest suggests. Even small trading frictions can materially affect regime-switching strategies, particularly when allocation changes occur around regime boundaries (Bailey et al.).",
+      "raw": "The model does not incorporate transaction costs, slippage, or liquidity constraints, meaning that realworld performance may be lower than the backtest suggests. Even small trading frictions can materially affect regime-switching strategies, particularly when allocation changes occur around regime boundaries (Bailey et al.).",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_8053337c5fe8",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 136,
+      "type": "list_item",
+      "raw_type": "ListItem",
+      "page": 7,
+      "bbox": {
+        "l": 308.68,
+        "t": 290.79499999999996,
+        "r": 552.8240799999994,
+        "b": 187.17499999999995
+      },
+      "section_path": [
+        "7. Performance Evaluation"
+      ],
+      "text": "Both the HMM and RL components rely on the Markov property, which assumes that the current state fully summarizes all relevant information about the future. Financial markets, however, often exhibit memory effects, structural breaks, and long-range dependencies that may violate this assumption (Campbell, Lo, and MacKinlay).",
+      "raw": "Both the HMM and RL components rely on the Markov property, which assumes that the current state fully summarizes all relevant information about the future. Financial markets, however, often exhibit memory effects, structural breaks, and long-range dependencies that may violate this assumption (Campbell, Lo, and MacKinlay).",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_0dae475df1b7",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 137,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 7,
+      "bbox": {
+        "l": 306.1,
+        "t": 176.735,
+        "r": 552.7656999999996,
+        "b": 119.41499999999996
+      },
+      "section_path": [
+        "7. Performance Evaluation"
+      ],
+      "text": "Overall, these limitations do not invalidate the results, but they highlight areas where model performance could be further strengthened to improve robustness and real-world applicability.",
+      "raw": "Overall, these limitations do not invalidate the results, but they highlight areas where model performance could be further strengthened to improve robustness and real-world applicability.",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_d3538bc253f8",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 138,
+      "type": "list_item",
+      "raw_type": "ListItem",
+      "page": 8,
+      "bbox": {
+        "l": 35.46,
+        "t": 797.115,
+        "r": 125.60796000000005,
+        "b": 786.135
+      },
+      "section_path": [
+        "7. Performance Evaluation"
+      ],
+      "text": "Future Research",
+      "raw": "Future Research",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_f2f7592da01d",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 139,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 8,
+      "bbox": {
+        "l": 35.46,
+        "t": 775.635,
+        "r": 282.22023999999993,
+        "b": 521.035
+      },
+      "section_path": [
+        "7. Performance Evaluation"
+      ],
+      "text": "This study develops a transparent and interpretable framework for regime-aware asset allocation using HMMs and reinforcement learning. Several extensions could further strengthen the model and broaden its applicability. (1) Deep Reinforcement Learning (DRL). While the current approach uses tabular policy iteration for interpretability, future work could incorporate deep Q-networks (DQN), policy-gradient methods, or actor-critic architectures. These approaches may capture nonlinear decision boundaries and richer state representations, especially in higher-dimensional asset universes (Jiang et al.; Charpentier et al.). (2) Non-Gaussian Hidden Markov Models. The present model assumes Gaussian state-",
+      "raw": "This study develops a transparent and interpretable framework for regime-aware asset allocation using HMMs and reinforcement learning. Several extensions could further strengthen the model and broaden its applicability. (1) Deep Reinforcement Learning (DRL). While the current approach uses tabular policy iteration for interpretability, future work could incorporate deep Q-networks (DQN), policy-gradient methods, or actor-critic architectures. These approaches may capture nonlinear decision boundaries and richer state representations, especially in higher-dimensional asset universes (Jiang et al.; Charpentier et al.). (2) Non-Gaussian Hidden Markov Models. The present model assumes Gaussian state-",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_76ab53fafabe",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 140,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 8,
+      "bbox": {
+        "l": 49.68,
+        "t": 516.595,
+        "r": 282.2233,
+        "b": 397.475
+      },
+      "section_path": [
+        "7. Performance Evaluation"
+      ],
+      "text": "conditional emissions. However, financial returns often exhibit skewness, kurtosis, and heavy tails. Non-Gaussian HMM variants, such as Student-t, asymmetric Laplace, or nonparametric emissions, may capture these dynamics more accurately (Frühwirth-Schnatter). This could improve regime separation and robustness to outliers, especially during market crises.",
+      "raw": "conditional emissions. However, financial returns often exhibit skewness, kurtosis, and heavy tails. Non-Gaussian HMM variants, such as Student-t, asymmetric Laplace, or nonparametric emissions, may capture these dynamics more accurately (Frühwirth-Schnatter). This could improve regime separation and robustness to outliers, especially during market crises.",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_88f1f86b5af2",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 141,
+      "type": "list_item",
+      "raw_type": "ListItem",
+      "page": 8,
+      "bbox": {
+        "l": 306.88,
+        "t": 797.115,
+        "r": 473.60415999999964,
+        "b": 786.135
+      },
+      "section_path": [
+        "7. Performance Evaluation"
+      ],
+      "text": "Macro-Driven Regime Indicators.",
+      "raw": "Macro-Driven Regime Indicators.",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_7d74b6163334",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 142,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 8,
+      "bbox": {
+        "l": 306.88,
+        "t": 781.635,
+        "r": 552.85848,
+        "b": 403.475
+      },
+      "section_path": [
+        "7. Performance Evaluation"
+      ],
+      "text": "Future research could integrate macroeconomic variables such as inflation surprises, industrial production growth, yield-curve slope, or monetary policy uncertainty. Augmenting HMM states with macroeconomic covariates (Zucchini, MacDonald & Langrock) may provide additional explanatory power and lead to more stable policy recommendations. This would help bridge the gap between statistical regimes and economic cycle interpretations. (4) Transaction Costs and Portfolio Frictions. Incorporating realistic frictions, bid-ask spreads, slippage, turnover penalties, and market impact, would improve real-world applicability. Even simple proportional transaction cost models may influence the optimal RL policy, particularly in highturnover regimes. (5) Multi-Asset or International Extensions. The framework can be extended to include commodities, credit ETFs, currency data, or global indices. Regime structures often differ across regions, and RL policies may exploit cross-market information. Overall, these extensions offer promising avenues",
+      "raw": "Future research could integrate macroeconomic variables such as inflation surprises, industrial production growth, yield-curve slope, or monetary policy uncertainty. Augmenting HMM states with macroeconomic covariates (Zucchini, MacDonald & Langrock) may provide additional explanatory power and lead to more stable policy recommendations. This would help bridge the gap between statistical regimes and economic cycle interpretations. (4) Transaction Costs and Portfolio Frictions. Incorporating realistic frictions, bid-ask spreads, slippage, turnover penalties, and market impact, would improve real-world applicability. Even simple proportional transaction cost models may influence the optimal RL policy, particularly in highturnover regimes. (5) Multi-Asset or International Extensions. The framework can be extended to include commodities, credit ETFs, currency data, or global indices. Regime structures often differ across regions, and RL policies may exploit cross-market information. Overall, these extensions offer promising avenues",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_47643762463e",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 143,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 8,
+      "bbox": {
+        "l": 306.1,
+        "t": 399.035,
+        "r": 552.86868,
+        "b": 357.155
+      },
+      "section_path": [
+        "7. Performance Evaluation"
+      ],
+      "text": "to enhance predictive performance, economic interpretability, and robustness of the HMM-RL hybrid allocation system.",
+      "raw": "to enhance predictive performance, economic interpretability, and robustness of the HMM-RL hybrid allocation system.",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_90310b7679c7",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 144,
+      "type": "section",
+      "raw_type": "SectionHeaderItem",
+      "page": 9,
+      "bbox": {
+        "l": 54.0,
+        "t": 790.035,
+        "r": 103.96998,
+        "b": 779.055
+      },
+      "section_path": [
+        "References"
+      ],
+      "text": "References",
+      "raw": "References",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    },
+    {
+      "element_id": "elem_bb49cd8de7be",
+      "document_id": "doc_6a8ad8a50fb1",
+      "order": 145,
+      "type": "text",
+      "raw_type": "TextItem",
+      "page": 9,
+      "bbox": {
+        "l": 54.0,
+        "t": 771.855,
+        "r": 541.4511000000001,
+        "b": 88.875
+      },
+      "section_path": [
+        "References"
+      ],
+      "text": "Akaike, Hirotugu. \"A New Look at the Statistical Model Identification.\" IEEE Transactions on Automatic Control, vol. 19, no. 6, 1974. Ardia, David, Mauro Guidolin, and Katarzyna Petrova. \"Regime-Dependent Asset Allocation with High-Frequency Data.\" Journal of Financial Econometrics, 2024. Baele, Lieven, Geert Bekaert, and Koen Inghelbrecht. \"Why Are Stock-Bond Correlations Positive in Bad Times? Macroeconomic Shifts and Time-Varying Risk Premia.\" Journal of Finance, vol. 78, no. 4, 2023. Bailey, David H., Jonathan M. Borwein, Marcos López de Prado, and Qiji Jim Zhu. \"Pseudo-Mathematics and Financial Charlatanism: The Effects of Backtest Overfitting on Out-of-Sample Performance.\" Notices of the American Mathematical Society, vol. 61, no. 5, 2014. Baur, D., & Lucey, B. (2010). Is Gold a Safe Haven? International Evidence. The Financial Review. Bellman, Richard E. Dynamic Programming. Princeton University Press, 1957. Campbell, John Y., Andrew W. Lo, and A. Craig MacKinlay. The Econometrics of Financial Markets. Princeton University Press, 1997. Charpentier, Arthur, Mathieu Laurière, and Quentin Sabatelli. \"Reinforcement Learning for Financial Portfolios: An Overview.\" arXiv:2104.02867, 2021. Cont, Rama. \"Empirical Properties of Asset Returns: Stylized Facts and Statistical Issues.\" Quantitative Finance, vol. 1, no. 2, 2001. Corbet, Shaen, Andrew Urquhart, and Larisa Yarovaya. \"Cryptocurrency and Market Volatility: Understanding Spillovers and Regime Shifts.\" Finance Research Letters, vol. 35, 2020. Dempster, A. P., N. M. Laird, and D. B. Rubin. \"Maximum Likelihood from Incomplete Data via the EM Algorithm.\" Journal of the Royal Statistical Society: Series B, vol. 39, no. 1, 1977. Enow, S. T. Exploring Volatility Clustering Financial Markets and Its Implication. Journal of Economic and Social Development: Resilient Society, 2023 Enow, S. T., & Ndlovu, E. \"Modelling Volatility Clustering and Regime Switching in Financial Markets.\" Journal of Risk and Financial Management, vol. 16, no. 1, 2023. Frühwirth-Schnatter, Sylvia. Finite Mixture and Markov Switching Models. Springer, 2006. Giot, Pierre. \"Implied Volatility Indexes and Daily Value at Risk Models.\" The Journal of Derivatives, vol. 12, no. 4, 2005. Gupta, Rangan, and Christian Pierdzioch. \"Nonlinear Regime Switching in the Predictability of Volatility.\" Finance Research Letters, 2023. Hamilton, James D. \"A New Approach to the Economic Analysis of Nonstationary Time Series and the Business Cycle.\" Econometrica, vol. 57, no. 2, 1989. Hamilton, James D. \"Analysis of Time Series Subject to Changes in Regime.\" Journal of Econometrics, vol. 45, 1990. Howard, Ronald A. Dynamic Programming and Markov Processes. MIT Press, 1960. Jiang, Zhengyao, Dixing Xu, and Jinjun Liang. \"A Deep Reinforcement Learning Framework for the Financial Portfolio Management Problem.\" IEEE Transactions on Neural Networks and Learning Systems, vol. 28, no. 3, 2017. Li, Xiao, Wei Wei, and Yongxiang Yan. \"Volatility Spillovers and Regime Shifts in Global Financial Markets.\" Journal of International Financial Markets, Institutions & Money, vol. 89, 2024. López de Prado, Marcos. Advances in Financial Machine Learning. Wiley, 2018. Puterman, Martin L. Markov Decision Processes: Discrete Stochastic Dynamic Programming. Wiley, 1994. Rabiner, Lawrence R. \"A Tutorial on Hidden Markov Models and Selected Applications in Speech Recognition.\" Proceedings of the IEEE, vol. 77, no. 2, 1989. Schwarz, Gideon. \"Estimating the Dimension of a Model.\" Annals of Statistics, vol. 6, no. 2, 1978. Sutton, Richard S., and Andrew G. Barto. Reinforcement Learning: An Introduction. 2nd ed., MIT Press, 2018. Tsay, Ruey S. Analysis of Financial Time Series. 3rd ed., Wiley, 2010. Whaley, Robert E. \"Understanding the VIX.\" The Journal of Portfolio Management, vol. 35, no. 3, 2009. Zaremba, Adam, and Karel T. Idzorek. \"Regime-Dependent Performance of Safe-Haven Assets.\" Journal of Asset Management, vol. 24, no. 1, 2023. Zucchini, Walter, Iain L. MacDonald, and Roland Langrock. Hidden Markov Models for Time Series: An Introduction Using R. 2nd ed., CRC Press, 2016.",
+      "raw": "Akaike, Hirotugu. \"A New Look at the Statistical Model Identification.\" IEEE Transactions on Automatic Control, vol. 19, no. 6, 1974. Ardia, David, Mauro Guidolin, and Katarzyna Petrova. \"Regime-Dependent Asset Allocation with High-Frequency Data.\" Journal of Financial Econometrics, 2024. Baele, Lieven, Geert Bekaert, and Koen Inghelbrecht. \"Why Are Stock-Bond Correlations Positive in Bad Times? Macroeconomic Shifts and Time-Varying Risk Premia.\" Journal of Finance, vol. 78, no. 4, 2023. Bailey, David H., Jonathan M. Borwein, Marcos López de Prado, and Qiji Jim Zhu. \"Pseudo-Mathematics and Financial Charlatanism: The Effects of Backtest Overfitting on Out-of-Sample Performance.\" Notices of the American Mathematical Society, vol. 61, no. 5, 2014. Baur, D., & Lucey, B. (2010). Is Gold a Safe Haven? International Evidence. The Financial Review. Bellman, Richard E. Dynamic Programming. Princeton University Press, 1957. Campbell, John Y., Andrew W. Lo, and A. Craig MacKinlay. The Econometrics of Financial Markets. Princeton University Press, 1997. Charpentier, Arthur, Mathieu Laurière, and Quentin Sabatelli. \"Reinforcement Learning for Financial Portfolios: An Overview.\" arXiv:2104.02867, 2021. Cont, Rama. \"Empirical Properties of Asset Returns: Stylized Facts and Statistical Issues.\" Quantitative Finance, vol. 1, no. 2, 2001. Corbet, Shaen, Andrew Urquhart, and Larisa Yarovaya. \"Cryptocurrency and Market Volatility: Understanding Spillovers and Regime Shifts.\" Finance Research Letters, vol. 35, 2020. Dempster, A. P., N. M. Laird, and D. B. Rubin. \"Maximum Likelihood from Incomplete Data via the EM Algorithm.\" Journal of the Royal Statistical Society: Series B, vol. 39, no. 1, 1977. Enow, S. T. Exploring Volatility Clustering Financial Markets and Its Implication. Journal of Economic and Social Development: Resilient Society, 2023 Enow, S. T., & Ndlovu, E. \"Modelling Volatility Clustering and Regime Switching in Financial Markets.\" Journal of Risk and Financial Management, vol. 16, no. 1, 2023. Frühwirth-Schnatter, Sylvia. Finite Mixture and Markov Switching Models. Springer, 2006. Giot, Pierre. \"Implied Volatility Indexes and Daily Value at Risk Models.\" The Journal of Derivatives, vol. 12, no. 4, 2005. Gupta, Rangan, and Christian Pierdzioch. \"Nonlinear Regime Switching in the Predictability of Volatility.\" Finance Research Letters, 2023. Hamilton, James D. \"A New Approach to the Economic Analysis of Nonstationary Time Series and the Business Cycle.\" Econometrica, vol. 57, no. 2, 1989. Hamilton, James D. \"Analysis of Time Series Subject to Changes in Regime.\" Journal of Econometrics, vol. 45, 1990. Howard, Ronald A. Dynamic Programming and Markov Processes. MIT Press, 1960. Jiang, Zhengyao, Dixing Xu, and Jinjun Liang. \"A Deep Reinforcement Learning Framework for the Financial Portfolio Management Problem.\" IEEE Transactions on Neural Networks and Learning Systems, vol. 28, no. 3, 2017. Li, Xiao, Wei Wei, and Yongxiang Yan. \"Volatility Spillovers and Regime Shifts in Global Financial Markets.\" Journal of International Financial Markets, Institutions & Money, vol. 89, 2024. López de Prado, Marcos. Advances in Financial Machine Learning. Wiley, 2018. Puterman, Martin L. Markov Decision Processes: Discrete Stochastic Dynamic Programming. Wiley, 1994. Rabiner, Lawrence R. \"A Tutorial on Hidden Markov Models and Selected Applications in Speech Recognition.\" Proceedings of the IEEE, vol. 77, no. 2, 1989. Schwarz, Gideon. \"Estimating the Dimension of a Model.\" Annals of Statistics, vol. 6, no. 2, 1978. Sutton, Richard S., and Andrew G. Barto. Reinforcement Learning: An Introduction. 2nd ed., MIT Press, 2018. Tsay, Ruey S. Analysis of Financial Time Series. 3rd ed., Wiley, 2010. Whaley, Robert E. \"Understanding the VIX.\" The Journal of Portfolio Management, vol. 35, no. 3, 2009. Zaremba, Adam, and Karel T. Idzorek. \"Regime-Dependent Performance of Safe-Haven Assets.\" Journal of Asset Management, vol. 24, no. 1, 2023. Zucchini, Walter, Iain L. MacDonald, and Roland Langrock. Hidden Markov Models for Time Series: An Introduction Using R. 2nd ed., CRC Press, 2016.",
+      "image_path": null,
+      "caption": null,
+      "surrounding_text": null,
+      "related_element_ids": [],
+      "parent_element_id": null,
+      "figure_id": null,
+      "table_id": null,
+      "formula_id": null,
+      "table_markdown": null,
+      "table_data": null
+    }
+  ]
+}
